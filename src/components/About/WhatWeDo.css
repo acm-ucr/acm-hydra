@@ -1,0 +1,13 @@
+.WhatWeDo-header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WhatWeDo-header h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
