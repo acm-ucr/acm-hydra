@@ -1,0 +1,14 @@
+.about-Vision{
+  margin: 0px 200px 50px 200px;
+}
+
+.about-h6-margin{
+    margin: 0px 100px 50px 100px;
+}
+
+.about-Vision-header h1, h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
