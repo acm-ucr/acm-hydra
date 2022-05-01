@@ -1,14 +1,22 @@
-.about-Vision{
-  margin: 0px 200px 50px 200px;
+.about-vision-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.about-h6-margin{
-    margin: 0px 100px 50px 100px;
+.about-vision-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.about-Vision-header h1, h6 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.about-vision-header p,
+.about-vision-header h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

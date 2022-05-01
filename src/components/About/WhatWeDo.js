@@ -1,53 +1,45 @@
 import React from 'react';
 import './WhatWeDo.css'
-import {Row, Col} from "react-bootstrap"
+import { Row, Col } from "react-bootstrap"
 
 const WhatWeDo = () => {
     return (
-        <div className="about-WhatWeDo">
-            <div>
-                <div className="about-WhatWeDo-header">
+        <div className="about-whatwedo-wrapper">
+            <div className="about-whatwedo-container">
 
-                    <h1>What We Do</h1>
-                    <h6>
+                <div className="about-whatwedo-header">
+
+                    <h6>What We Do</h6>
+                    <p>
                         Every quarter, we focus on improving specific aspects of our member.
-                    </h6>
+                    </p>
                 </div>
 
-                <div className="about-WhatWeDo-grid">
-                    <Row>
-
-                        <Col lg = {4} sm={12} className="about-WhatWeDo-single-col">
-                            <h2>Workshops</h2>
-                            <ul >
-                                <li>Web/App Development</li>
-                                <li>Intro to Front-End/Back-End</li>
-                                <li>LeetCode 101</li>
-                            </ul>
+                <div className="about-whatwedo-grid">
+                    <Row className="about-whatwedo-row">
+                        <Col lg={4} sm={12} className="about-whatwedo-single-col">
+                            <h6>Workshops</h6>
+                            <p>Web/App Development</p>
+                            <p>Intro to Front-End/Back-End</p>
+                            <p>LeetCode 101</p>
                         </Col>
-
-                        <Col lg = {4} sm={12} className="about-WhatWeDo-single-col">
-                            <h2>Professional Development</h2>
-                            <ul>
-                                <li>Build all-star LinkedIns</li>
-                                <li>Develop Professional Resumes</li>
-                                <li>Apply to Jobs/Internships</li>
-                            </ul>
+                        <Col lg={4} sm={12} className="about-whatwedo-single-col">
+                            <h6>Professional Development</h6>
+                            <p>Build all-star LinkedIns</p>
+                            <p>Develop Professional Resumes</p>
+                            <p>Apply to Jobs/Internships</p>
                         </Col>
-
-                        <Col  lg = {4} sm={12} className="about-WhatWeDo-single-col">
-                            <h2>And More...</h2>
-                            <ul>
-                                <li>Offline Editing</li>
-                                <li>Source Control</li>
-                                <li>Utilizing API's</li>
-                            </ul>
+                        <Col lg={4} sm={12} className="about-whatwedo-single-col">
+                            <h6>And More...</h6>
+                            <p>Offline Editing</p>
+                            <p>Source Control</p>
+                            <p>Utipzing API's</p>
                         </Col>
-                </Row>
+                    </Row>
                 </div>
             </div>
         </div>
-        
+
     );
 }
 

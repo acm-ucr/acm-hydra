@@ -3,14 +3,16 @@ import './Vision.css'
 
 const Vision = () => {
     return (
-        <div className="about-Vision">
-            <div className="about-Vision-header">
+        <div className="about-vision-wrapper">
+            <div className="about-vision-container">
+                <div className="about-vision-header">
 
-                    <h1>Our Vision</h1>
-                    <h6 className="about-h6-margin">
+                    <h6>Our Vision</h6>
+                    <p className="about-vision-margin">
                         Our Vision is simple: To improve our members professionally, technically, and personally. We want to help our members grow throughout their college career.
-                    </h6>
+                    </p>
                 </div>
+            </div>
         </div>
     );
 }

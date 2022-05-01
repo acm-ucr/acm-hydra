@@ -1,31 +1,39 @@
-.about-WhatWeDo{
-    margin: 0px 200px 50px 200px;
+.about-whatwedo-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.about-WhatWeDo-header h1, h6 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.about-whatwedo-container {
+    width: 80%;
 }
 
-.about-WhatWeDo-grid {
-  padding-top: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.about-whatwedo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
-.about-WhatWeDo-single-col h2, li{
-  padding-top: 10px;
+.about-whatwedo-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.about-WhatWeDo-single-col h2, ul{
-  margin: 0px 50px 0px 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+.about-whatwedo-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-whatwedo-single-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
