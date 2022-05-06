@@ -6,8 +6,12 @@ const SuggestionsForm = () => {
             <form>
                 <fieldset>
                     <label>
-                        <h3>Name</h3>
+                        <h4>Name</h4>
                         <input name="name " />
+                        <h4>Email</h4>
+                        <input email="email " />
+                        <h4>Suggestion</h4>
+                        <input feedback="suggestion " />
                     </label>
                 </fieldset>
             </form>
