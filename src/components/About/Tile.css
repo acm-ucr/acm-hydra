@@ -1,0 +1,22 @@
+.about-tile-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-tile-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-tile-header p,
+.about-tile-header h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
