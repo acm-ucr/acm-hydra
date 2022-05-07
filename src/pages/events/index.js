@@ -2,10 +2,9 @@ import React, { useState } from 'react'
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
 
-import CalendarPageOne from '../../components/Events/calendarPage1';
+import CalendarPageOne from '../../components/Events/CalendarPageOne';
 
 import SuggestionsForm from '../../components/Events/SuggestionsForm';
-import { Container, Row, Col } from 'react-bootstrap';
 
 const Events = () => {
     /*
