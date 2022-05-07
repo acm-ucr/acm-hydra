@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
 
+import CalendarPageOne from '../../components/Events/calendarPage1';
+
 
 const Events = () => {
 
@@ -16,6 +18,7 @@ const Events = () => {
             <Navigation />
             <button onClick={increaseNumber}>Increase</button>
             <h1>{number}</h1>
+            <CalendarPageOne />
             <Footer />
         </div>
     )
