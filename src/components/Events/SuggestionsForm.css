@@ -1,1 +1,15 @@
-.SuggestionsForm {}
+.events-suggestionsform-wrapper {
+    display: flex;
+}
+
+.events-suggestionsform-name {
+}
+
+.events-suggestionsform-email {
+
+}
+
+.events-suggestionsform-suggestion {
+    width: 100px;
+    height: 100px;
+}

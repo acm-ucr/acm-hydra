@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
 import SuggestionsForm from '../../components/Events/SuggestionsForm';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Events = () => {
     /*
@@ -16,8 +17,6 @@ const Events = () => {
         <div>
             <Navigation />
             <SuggestionsForm />
-            {/*<button onClick={increaseNumber}>Increase</button>
-            <h1>{number}</h1>*/}
             <Footer />
         </div>
     )
