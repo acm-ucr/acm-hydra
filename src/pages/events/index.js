@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
+import { Upcoming } from '../../components/Events/Upcoming';
 
 
 const Events = () => {
@@ -13,10 +14,9 @@ const Events = () => {
 
     return (
         <div>
-            <Navigation />
-            <button onClick={increaseNumber}>Increase</button>
-            <h1>{number}</h1>
-            <Footer />
+            {/* <Navigation /> */}
+            <Upcoming />
+            {/* <Footer />  */}
         </div>
     )
 }
