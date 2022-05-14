@@ -10,7 +10,6 @@ const About = () => {
     <div>
       <Vision />
       <WhatWeDo />
-      {/* <Tile/> */}
       <Footer />
     </div>
   )
