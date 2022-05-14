@@ -1,21 +1,8 @@
 import * as React from "react";
-import { FaDiscord, FaInstagram, FaSlack, FaMedium } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaSlack, FaMedium, FaYoutube} from "react-icons/fa";
+import { SiGmail} from "react-icons/si"
 import { BsArrowRightSquare, BsArrowLeftSquare } from "react-icons/bs";
 import "./Home.css";
-
-// styles
-const columnContainer = {
-    display: "flex",
-    flexDirection: "column",
-    backgroundColor: "#00d1ff",
-    borderRadius: "20px",
-    padding: "30px",
-};
-
-const column = {
-    textAlign: "center",
-    margin: "0",
-};
 
 const workshops = [
     {
@@ -42,6 +29,16 @@ const Home = () => {
     let [workshopInd, setWorkshopInd] = React.useState(0);
     let workshop = workshops[workshopInd];
 
+    const switchWorkshop = (direction) => {
+        if (direction === "left") {
+            if (workshopInd > 0)
+                setWorkshopInd(workshopInd - 1);
+        } else if (direction === "right") {
+            if (workshopInd < workshops.length - 1)
+                setWorkshopInd(workshopInd + 1);
+        }
+    };
+
     return (
         <main>
             <title>ACM@UCR</title>
@@ -61,8 +58,8 @@ const Home = () => {
                         margin: "40px 0",
                     }}>
 
-                    <div style={columnContainer}>
-                        <h1 style={column}>Learn</h1>
+                    <div className="columnContainer">
+                        <h1 className="column">Learn</h1>
 
                         <h2>{workshop.title}</h2>
                         <p>{workshop.lead}</p>
@@ -70,13 +67,13 @@ const Home = () => {
                         <p>{workshop.location} {workshop.date} {workshop.time}</p>
 
                         <div style={{ display: "flex", gap: 5 }}>
-                            <BsArrowLeftSquare onClick={() => setWorkshopInd(workshopInd - 1)} size={30}/>
-                            <BsArrowRightSquare onClick={() => setWorkshopInd(workshopInd + 1)} size={30}/>
+                            <BsArrowLeftSquare onClick={() => switchWorkshop("left")} size={30}/>
+                            <BsArrowRightSquare onClick={() => switchWorkshop("right")} size={30}/>
                         </div>
                     </div>
 
-                    <div style={columnContainer}>
-                        <h1 style={column}>Inspire</h1>
+                    <div className="columnContainer">
+                        <h1 className="column">Inspire</h1>
                         <p>
                         The Association for Computing Machinery at the University of California,
                         Irvine is a non-profit organization that is dedicated to the advancement of
@@ -89,13 +86,15 @@ const Home = () => {
                         </p>
                     </div>
 
-                    <div style={columnContainer}>
-                        <h1 style={column}>Connect</h1>
-                        <div style={{fontSize: 50}}>
+                    <div className="columnContainer">
+                        <h1 className="column">Connect</h1>
+                        <div style={{fontSize: 1 em}}>
                             <FaDiscord/>
                             <FaInstagram/>
                             <FaSlack/>
                             <FaMedium/>
+                            <SiGmail/>
+                            <FaYoutube/>
                         </div>
                     </div>
 
