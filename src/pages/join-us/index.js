@@ -1,8 +1,14 @@
 import React from 'react'
+import {Row, Col} from 'react-bootstrap'
+import Mailinglist from "../../components/Join-Us/Mailinglist"
+// import "Style.css"
 
 const Join_Us = () => {
   return (
-    <div>JOIN US</div>
+    <div className="join-us title wrapper">
+    <Mailinglist />
+    </div>
+
   )
 }
 
