@@ -5,10 +5,10 @@ import Tile from './Tile.js';
 
 const data = [
     ["Workshop", "Description"],
-    ["LinkedIn", "Description"],
     ["Resumes", "Description"],
-
+    ["LinkedIn", "Description"]
 ]
+
 
 const WhatWeDo = () => {
     return (
