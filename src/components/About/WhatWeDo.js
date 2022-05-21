@@ -2,11 +2,17 @@ import React from 'react';
 import './WhatWeDo.css'
 import './Tile.js'
 import Tile from './Tile.js';
+import Resume from './aboutImages/resume.jpeg'
+import Workshop from './aboutImages/Workshop.jpeg'
+import LinkedIn from './aboutImages/LinkedIn.jpeg'
+import Pathways from './aboutImages/Pathways.png'
+import {Row, Col} from 'react-bootstrap'
 
 const data = [
-    ["Workshop", "Description"],
-    ["Resumes", "Description"],
-    ["LinkedIn", "Description"]
+    ["Accessible Workshops", Workshop, "description"],
+    ["Professional Resumes", Resume, "description"],
+    ["All-Star LinkedIns", LinkedIn, "description"],
+    ["Technical Pathways", Workshop, "description"]
 ]
 
 
@@ -17,13 +23,16 @@ const WhatWeDo = () => {
             <h6 className="about-whatwedo-header">What We Do?</h6>
 
 
-            <div className="about-whatwedo-tiles">
+            <Row className="about-whatwedo-tiles">
                 {
                 data.map(tile => (
-                    <Tile header = {tile[0]} description = {tile[1]} />
+                    <Col xl={6}>
+                        <Tile header = {tile[0]} image = {tile[1]} description = {tile[2]}
+                        />
+                    </Col>
                 ))
             }
-            </div>
+            </Row>
         </div>
 
     );
