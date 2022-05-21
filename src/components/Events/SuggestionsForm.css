@@ -1,15 +1,26 @@
 .events-suggestionsform-wrapper {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .events-suggestionsform-name {
+    display: flex;
+    color: blue;
 }
 
 .events-suggestionsform-email {
-
+    display: flex;
+    color: green;
 }
 
 .events-suggestionsform-suggestion {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    color: brown;
+}
+
+.events-suggestionsform-submit {
+    margin-top: 5px;
+    width: 75px;
+    height: 50px;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./SuggestionsForm.css"
 
 const SuggestionsForm = () => {
     return (
@@ -8,19 +9,23 @@ const SuggestionsForm = () => {
                     <label>
                         <div className="events-suggestionsform-name">
                             <h4>Name</h4>
-                            <input name="name " />
+                            <input type="text" id="name" name="name"/>
                         </div>
                         <div className="events-suggestionsform-email">
                             <h4>Email</h4>
-                            <input email="email " />
+                            <input type="email" id="email" email="email"/>
                         </div>
                         <div className="events-suggestionsform-suggestion">
                             <h4>Suggestion</h4>
-                            <input feedback="suggestion " />
+                            <textarea id="suggestion" suggestion="suggestion"/>
+                        </div>
+                        <div className="events-suggestionsform-submit">
+                            <button type="button">Submit</button>
                         </div>
                     </label>
                 </fieldset>
             </form>
+
         </div>
     )
 }
