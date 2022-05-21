@@ -3,27 +3,46 @@ import "./Faq.css"
 
 const Faq = () => {
 
-  const [toggle, setToggle] = useState(false);
+  const [toggle1, setToggle1] = useState(false);
 
-  const handleToggle = () => {
-    console.log(toggle);
-    setToggle(!toggle)
+  const handleToggle1 = () => {
+    console.log(toggle1);
+    setToggle1(!toggle1)
+  }
+
+  const [toggle2, setToggle2] = useState(false);
+
+  const handleToggle2 = () => {
+    console.log(toggle2);
+    setToggle2(!toggle2)
   }
 
   return (
 
     <div className="faq-wrapper">
-      <h1>Frequently Asked Questions</h1>
+      <center><h1>Frequently Asked Questions</h1></center>
       <div className="dropdown">
-        <button className="dropbtn" onClick={handleToggle} >Dropdown</button>
+        <center><button className="dropbtn" onClick={handleToggle1} >What is your name?</button></center>
 
         {
-          toggle ? <div
+          toggle1 ? <center><div
            className="dropdown-content"
            >
-           hello
-          </div> : <></>
+           please be quiet
+          </div></center> : <></>
         }
+        
+        <center><button className="dropbtn" onClick={handleToggle2} >Want a break</button></center>
+
+        {
+          toggle2 ? <center><div
+          className="dropdown-content"
+          >
+          from the ads?
+          </div></center> : <></>
+        }
+
+        
 
       </div>
     </div>
