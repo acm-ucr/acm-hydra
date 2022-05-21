@@ -1,5 +1,4 @@
 import React from 'react'
-import {Row, Container} from 'react-bootstrap'
 import Calendar from "@ericz1803/react-google-calendar";
 
 import "./calendarPageOne.css";
@@ -14,11 +13,10 @@ let calendars = [
 const CalendarPageOne = () => {
 
     return (
-      <Container>
-        <Row>
-          <Calendar apiKey={API_KEY} calendars={calendars} />
-        </Row>
-      </Container>
+
+      <div className="events-calendarpageone-calendarcontainer">
+        <Calendar apiKey={API_KEY} calendars={calendars} />
+      </div>
     );
 
 }
