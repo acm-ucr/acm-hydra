@@ -1,7 +1,9 @@
 import * as React from "react";
 import { FaDiscord, FaInstagram, FaSlack, FaMedium, FaYoutube} from "react-icons/fa";
-import { SiGmail} from "react-icons/si"
+import { SiGmail } from "react-icons/si";
 import { BsArrowRightSquare, BsArrowLeftSquare } from "react-icons/bs";
+import { Container, Row, Col } from "react-bootstrap";
+
 import "./Home.css";
 
 const workshops = [
@@ -14,9 +16,9 @@ const workshops = [
         location: "ACM Room",
     },
     {
-        title: "All about JavaScript v2",
-        lead: "Divyank",
-        description: "I love javascript so much. I would love to help others realize how astounding of a language it is",
+        title: "Why Rust > All",
+        lead: "Adil",
+        description: "????",
         date: "2020-01-01",
         time: "12:00",
         location: "ACM Room",
@@ -42,68 +44,58 @@ const Home = () => {
     return (
         <main>
             <title>ACM@UCR</title>
-            <div
-                style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    padding: "40px"
-                }}>
+            <div className="container">
                 <img src="blocks.svg" width={900}></img>
-                <div
-                    style={{
-                        display: "grid",
-                        gridTemplateColumns: "400px 400px 400px",
-                        gap: "40px",
-                        margin: "40px 0",
-                    }}>
+                {/* <Container style={{ margin: "2em" }}>
+                    <Row>
+                        <Col>
+                        Welcome
+                        </Col>
+                    </Row>
+                </Container> */}
+                <Container style={{ margin: "2em" }}>
+                    <Row className="row">
+                        <Col lg={4} sm={12}>
+                            <h1 className="heading">Learn</h1>
 
-                    <div className="columnContainer">
-                        <h1 className="column">Learn</h1>
+                            <h2>{workshop.title}</h2>
+                            <p>{workshop.lead}</p>
+                            <p>{workshop.description}</p>
+                            <p>{workshop.location} {workshop.date} {workshop.time}</p>
 
-                        <h2>{workshop.title}</h2>
-                        <p>{workshop.lead}</p>
-                        <p>{workshop.description}</p>
-                        <p>{workshop.location} {workshop.date} {workshop.time}</p>
+                            <div style={{ display: "flex", gap: 5 }}>
+                                <BsArrowLeftSquare onClick={() => switchWorkshop("left")} size={30}/>
+                                <BsArrowRightSquare onClick={() => switchWorkshop("right")} size={30}/>
+                            </div>
+                        </Col>
 
-                        <div style={{ display: "flex", gap: 5 }}>
-                            <BsArrowLeftSquare onClick={() => switchWorkshop("left")} size={30}/>
-                            <BsArrowRightSquare onClick={() => switchWorkshop("right")} size={30}/>
-                        </div>
-                    </div>
+                        <Col lg={4} sm={12}>
+                            <h1 className="heading">Inspire</h1>
+                            <p>
+                                The Association for Computing Machinery at the University of California,
+                                Irvine is a non-profit organization that is dedicated to the advancement of
+                                computing and the development of computing-related technologies.
+                            </p>
+                            <p>
+                                <a href="https://www.acm.org/">ACM@UCR</a> is a non-profit organization that is
+                                dedicated to the advancement of computing and the development of computing-related
+                                technologies.
+                            </p>
+                        </Col>
 
-                    <div className="columnContainer">
-                        <h1 className="column">Inspire</h1>
-                        <p>
-                        The Association for Computing Machinery at the University of California,
-                        Irvine is a non-profit organization that is dedicated to the advancement of
-                        computing and the development of computing-related technologies.
-                        </p>
-                        <p>
-                            <a href="https://www.acm.org/">ACM@UCR</a> is a non-profit organization that is
-                        dedicated to the advancement of computing and the development of computing-related
-                        technologies.
-                        </p>
-                    </div>
-
-                    <div className="columnContainer">
-                        <h1 className="column">Connect</h1>
-                        <div style={{fontSize: 1 em}}>
-                            <FaDiscord/>
-                            <FaInstagram/>
-                            <FaSlack/>
-                            <FaMedium/>
-                            <SiGmail/>
-                            <FaYoutube/>
-                        </div>
-                    </div>
-
-                    <footer style={{ textAlign: "center" }}>
-                        <p>Web Dev Workshop 2022</p>
-
-                    </footer>
-
-                </div>
+                        <Col lg={4} sm={12}>
+                            <h1 className="heading">Connect</h1>
+                            <div className="icons">
+                                <FaDiscord/>
+                                <FaInstagram/>
+                                <FaSlack/>
+                                <FaMedium/>
+                                <SiGmail/>
+                                <FaYoutube/>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </main>
     );
