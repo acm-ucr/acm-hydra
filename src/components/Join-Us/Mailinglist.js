@@ -11,6 +11,9 @@ const Mailinglist = () => {
     }
 
     const click =()=> {
+        if ((email.contain != ".") || (email.contain != "@")) {
+            alert("Invalid Email Address");
+        }
         console.log();
     }
     return (
