@@ -7,43 +7,21 @@
 }
 
 .about-tile-header{
-    padding: 1rem 2rem;
+    padding: .5rem 1rem;
     background-color: lightblue;
     color: white;
     position: absolute;
 }
 
 .about-tile-container {
-    background-color: transparent;
-    perspective: 1000pz;
+    padding-bottom: 50px;
 }
 
-.about-tile-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    padding-bottom: 20px;
-}
-
-.about-tile-container:hover .about-tile-inner{
+.about-tile-container:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
 
-.about-tile-container:active .about-tile-inner{
-    transform: rotateY(180deg);
-}
-
-.about-tile-front .about-tile-back{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-}
 
 .about-tile-front{
     background-color: lightblue;
@@ -52,8 +30,17 @@
     justify-content: center;
 }
 
+.about-tile-image{
+    width: 300px;
+    height: 200px;
+}
+
 .about-tile-back{
-    background-color: red;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    transform: rotateY(180deg);
+    width: 300px;
+    height: 200px;
 }

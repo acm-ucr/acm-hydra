@@ -7,13 +7,6 @@ import ReactCardFlip from 'react-card-flip'
 // make carousel
 
 const Tile = (props) => {
-  // constructor() {
-  //   super();
-  //     this.state = {
-  //     isFlipped: false
-  //   };
-  //   this.handleClick = this.handleClick.bind(this);
-  // }
 
   const [toggle, setToggle] = useState(false)
 
@@ -22,20 +15,23 @@ const Tile = (props) => {
   }
   return (
 
-    <ReactCardFlip isFlipped={toggle} flipDirection="vertical">
-      <div className="about-tile-front">
-        <span className="about-tile-header">{props.header}</span>
+    <div className="about-tile-wrapper">
+      <div class="about-tile-container">
+        <ReactCardFlip isFlipped={toggle} flipDirection="horizontal">
 
-        <img src={props.image} class="about-tile-image"></img>
+          <div onClick={handleClick} className="about-tile-front">
+            <span className="about-tile-header">{props.header}</span>
 
-        <button onClick={handleClick}>Click to flip</button>
+            <img src={props.image} class="about-tile-image" alt=""></img>
+
+          </div>
+
+          <div onClick={handleClick} className="about-tile-back">
+            <span class="about-tile-description">{props.description}</span>
+          </div>
+        </ReactCardFlip>  
       </div>
-
-      <div className="about-tile-back">
-        <span>{props.description}</span>
-        <button onClick={handleClick}>Click to flip</button>
-      </div>
-    </ReactCardFlip>
+    </div>
   )
 }
 

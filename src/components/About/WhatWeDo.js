@@ -12,7 +12,7 @@ const data = [
     ["Accessible Workshops", Workshop, "description"],
     ["Professional Resumes", Resume, "description"],
     ["All-Star LinkedIns", LinkedIn, "description"],
-    ["Technical Pathways", Workshop, "description"]
+    ["Technical Pathways", Pathways, "description"]
 ]
 
 
