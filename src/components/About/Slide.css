@@ -1,0 +1,16 @@
+.about-single-slide{
+    flex: 0 0 19.7%;
+    text-align: center;
+    margin: 0 2px;
+    transition: transform 300ms ease 100ms;
+}
+
+/* .about-single-slide:hover ~ .about-single-slide{
+    transform: translateX(25%);
+} */
+
+.about-single-slide:hover {
+    transform: scale(1.08);
+    opacity: 1;
+}
+

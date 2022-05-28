@@ -14,7 +14,7 @@
 }
 
 .about-tile-container {
-    padding-bottom: 50px;
+    margin: 1rem;
 }
 
 .about-tile-container:hover{
