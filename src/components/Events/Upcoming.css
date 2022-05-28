@@ -1,0 +1,8 @@
+.events-upcomingevents-wrapper{
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+
