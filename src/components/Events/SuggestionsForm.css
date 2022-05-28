@@ -8,7 +8,6 @@
 }
 
 .events-suggestionsform-suggestion {
-
     color: brown;
 }
 
@@ -16,23 +15,22 @@
     color: gold;
 }
 
-button {
-    margin-top: 10px;
-    justify-content: center;
-}
-
 textarea {
+    resize: none;
     width: 250px;
     height: 100px;
-    resize: none;
 }
 
 input[type=email], input[type=text] {
     width: 250px;
 }
 
-#events-suggestionsform-gridwrapper {
+button {
+    margin-top: 55px;
+}
+/*#events-suggestionsform-gridwrapper {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
     justify-content: center;
 }
+*/
