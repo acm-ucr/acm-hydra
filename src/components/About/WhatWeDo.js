@@ -1,13 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './WhatWeDo.css'
 import './Tile.js'
 import Tile from './Tile.js';
-import Slide from './Slide.js';
 import Resume from './aboutImages/resume.jpeg'
 import Workshop from './aboutImages/Workshop.jpeg'
 import LinkedIn from './aboutImages/LinkedIn.jpeg'
 import Pathways from './aboutImages/Pathways.png'
 import {Row, Col} from 'react-bootstrap'
+import Slider from "react-slick"
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa"
+
 
 const data = [
     ["Accessible Workshops", Workshop, "description"],
@@ -16,17 +18,41 @@ const data = [
     ["Technical Pathways", Pathways, "description"]
 ]
 
-const data2 = [
-    [Workshop],
-    [Workshop],
-    [Workshop],
-    [Workshop],
-    [Workshop],
-    [Workshop]
-]
+
+const images = [Workshop, Resume, LinkedIn, Workshop, Resume, LinkedIn]
 
 
 const WhatWeDo = () => {
+
+    const NextArrow = ({onClick}) => {
+        return(
+            <div className = "arrow next" onClick={onClick}>
+                <FaArrowRight />
+            </div>
+        );
+    };
+
+    const PrevArrow = ({onClick}) => {
+        return(
+            <div className = "arrow prev" onClick={onClick}>
+                <FaArrowLeft />
+            </div>
+        );
+    };
+
+    const [imageIndex, setImageIndex] = useState(0)
+
+    const settings = {
+        infinite: true,
+        lazyLoad: true,
+        speed: 300,
+        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: 0,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />, 
+        beforeChange: (current, next) => setImageIndex(next)
+    }
     return (
         <div className="about-whatwedo-wrapper">
 
@@ -47,15 +73,20 @@ const WhatWeDo = () => {
 
             <h1 className="about-whatwedo-header">Slideshow</h1>
 
-            <div class="about-slide-container">
-                {
-                    data2.map(slide => (
-                        <Slide image = {slide[0]}/>
-                    ))
-                }
-            </div>
-        </div>
 
+
+            <div className="about-slider">
+                <Slider {...settings}>
+                    {
+                        images.map((img, idx) => (
+                            <div className={idx === imageIndex ? "slideactiveSlide" : "slide"}>
+                                <img src={img} alt={img} />
+                            </div>
+                        ))
+                    }
+                </Slider>
+            </div>  
+        </div>
     );
 }
 
