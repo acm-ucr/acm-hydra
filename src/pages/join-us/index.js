@@ -1,5 +1,4 @@
 import React from 'react'
-import Faq from "../../components/Join-Us/Faq"
 import { Row, Col } from 'react-bootstrap'
 import Faq from "../../components/Join-Us/Faq"
 import Mailinglist from "../../components/Join-Us/Mailinglist"
