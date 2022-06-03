@@ -7,8 +7,28 @@ const ClubroomInfo = () => {
     const [submission, setSubmission] = useState(false)
 
     const handleSubmit = () => {
-        // if ()
+
+        if (rcard.length == 16) {
             setSubmission(true)
+        }
+        if (rcard.length == 19 && rcard.includes('-')) {
+            setSubmission(true)
+            // if (rcard.replaceAll("-", "").lenght == 16)
+                setRcard(rcard.replaceAll("-", ""))
+            // else
+            //     alert("ERROR: ENTER A VALID NUMBER")
+        }
+        if (isNaN(rcard)) {
+            alert("ERROR: ENTER A VALID NUMBER")
+            return;
+        }
+
+
+    }
+
+    const handleTyping = (e) => {
+        setRcard(e.target.value);
+        // console.log(rcard);
     }
 
     return (
@@ -35,7 +55,7 @@ const ClubroomInfo = () => {
             <label for="fname">Full Name:</label>
             <input type="text" id="fname" name="fname" />
             <label for="cardnum">R'Card Number:</label>
-            <input type="text" id="cardnum" name="cardnum" />
+            <input type="text" onChange={handleTyping} value={rcard} />
             <button onClick={handleSubmit}>Submit</button>
             <br />
             {submission ? 'Thank you!' : ''}
