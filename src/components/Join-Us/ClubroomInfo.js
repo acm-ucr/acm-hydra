@@ -5,30 +5,23 @@ const ClubroomInfo = () => {
 
     const [rcard, setRcard] = useState("")
     const [submission, setSubmission] = useState(false)
+    // const [numbers, setNumbers] = useState(0);
+    // const [hyphens, setHyphens] = useState(0)
+    // const [entry, setEntry] = useState("")
+
 
     const handleSubmit = () => {
-
-        if (rcard.length == 16) {
+        if(rcard.length == 16 && !isNaN(rcard)) {
+            console.log(rcard)
             setSubmission(true)
+        } else {
+            alert("ERROR: ENTER USING THE FOLLOWING FORMAT XXXX-XXXX-XXXX-XXXX with no hyphens!") 
+            return
         }
-        if (rcard.length == 19 && rcard.includes('-')) {
-            setSubmission(true)
-            // if (rcard.replaceAll("-", "").lenght == 16)
-                setRcard(rcard.replaceAll("-", ""))
-            // else
-            //     alert("ERROR: ENTER A VALID NUMBER")
-        }
-        if (isNaN(rcard)) {
-            alert("ERROR: ENTER A VALID NUMBER")
-            return;
-        }
-
-
     }
 
     const handleTyping = (e) => {
         setRcard(e.target.value);
-        // console.log(rcard);
     }
 
     return (
