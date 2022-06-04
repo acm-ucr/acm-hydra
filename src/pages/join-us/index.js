@@ -12,11 +12,10 @@ const Join_Us = () => {
     <div className="join-us title wrapper">
       <Mailinglist />
       <div className="join-us title wrapper">
-        <Mailinglist />
-
         <ClubroomInfo />
         <Links />
         <Faq />
+        <Mailinglist />
       </div>
     </div>
   )
