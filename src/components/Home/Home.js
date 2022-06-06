@@ -56,6 +56,11 @@ const projects = [
     img: "",
     projectLink: "",
   },
+  {
+    name: "Prathmesh Jain",
+    img: "https://admissions.ucr.edu/sites/default/files/styles/form_preview/public/2018-10/UCR-Campus-Map.jpg?itok=oHwVvHVx",
+    projectLink: "http://ucr-campus-map.herokuapp.com/",
+  },
   // ],
 ];
 
@@ -64,7 +69,11 @@ const ProjectTile = (props) => {
     <div className="home-home-projectTile">
       {/* <h3 className="home-home-projectName"> {props.name} </h3> */}
       <a href={props.link} target="_blank">
-        <img src={props.image} className="home-home-projectImage" />
+        <img
+          src={props.image}
+          style={{ width: "100%" }}
+          className="home-home-projectImage"
+        />
       </a>
     </div>
   );
@@ -76,7 +85,7 @@ const Home = () => {
     <main>
       <title>ACM@UCR</title>
       <div className="home-home-container">
-        <img src="blocks.svg" width={900} className="home-home-acmimg"></img>
+        <img src="blocks.svg" className="home-home-acmimg"></img>
         {/* <Container style={{ margin: "2em" }}>
                     <Row>
                         <Col>
@@ -119,9 +128,12 @@ const Home = () => {
               </p>
 
               {/* <Carousel> */}
-              <Row className="home-home-projects" lg={4} md={2}>
+              <Row
+                className="home-home-projects"
+                style={{ background: "red", width: "100%" }}
+              >
                 {projects.map((project, ind) => (
-                  <Col className="home-home-projects-col" lg={2}>
+                  <Col className="home-home-projects-col" sm={6}>
                     <ProjectTile
                       name={project.name}
                       image={project.img}

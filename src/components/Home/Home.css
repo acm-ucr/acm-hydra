@@ -7,13 +7,16 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1600px;
-  align-self: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 100vh; */
+  /* align-self: center; */
+  background-color: rgb(243, 230, 230);
 }
 
 .home-home-heading {
   text-align: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .home-home-icons {
@@ -33,74 +36,54 @@ h2 {
 }
 
 .home-home-projectTile {
-  background-color: rgb(0, 4, 134);
-  height: 100px;
+  /* height: 100px;
   width: 250px;
-  margin-top: 2px;
+  margin-top: 2px; */
   background-color: black;
   /* margin-left: 50px; */
   /* margin-right: 25px; */
+  /* transition-duration: 0.7s; */
 }
 
-/* .home-home-projectTile :hover {
+.home-home-projectTile :hover {
   transform: scale(1.2);
-} */
-
-.home-home-projects-container :hover * {
-  transform: scale(1.1);
   transition-duration: 0.7s;
 }
+
+/* .home-home-projects-container :hover * {
+  transform: scale(1.1);
+  transition-duration: 0.7s;
+} */
 
 .home-home-projectName {
   padding-top: 10px;
   text-align: center;
   font-family: Arial;
-  font-size: 20px;
+  /*change to em*/
+  font-size: 2.5em;
   color: goldenrod;
   padding-right: 10px;
 }
 
+.home-home-acmimg {
+  width: 80%;
+}
+
 .home-home-projects-container {
-  width: 385px;
-  height: 190px;
-  background-color: rgb(40, 43, 228);
+  width: 100%;
+  /* background-color: red; */
   align-self: center;
   padding-left: 20px;
   /* align-items: center; */
   transition-duration: 0.7s;
 }
 
-.home-home-projectImage {
-  width: 250px;
-  height: 100px;
-  /* overflow: hidden; */
-}
-
-.home-home-projects {
-  width: 400px;
-
-  /* align-items: center; */
-}
-
-.row {
-  width: 1500px;
-  align-self: center;
-  margin-left: 50px;
+/* .row {
+  width: 110%;
+  justify-content: center;
 }
 
 .container {
-  width: 1500px;
-}
-
-.home-home-acmimg {
-  margin-left: 164px;
-}
-
-.col {
-  width: 500px;
-}
-
-.home-home-projects-col {
-  width: 50px;
-  height: 100px;
-}
+  width: 135%;
+  /* background-color: blue; */
+/* justify-content: center; */
