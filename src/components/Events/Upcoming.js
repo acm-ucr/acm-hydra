@@ -5,9 +5,9 @@ import "./Upcoming.css"
 
 export const Upcoming = () => {
   return (
-    <div class="events-upcomingevents-wrapper">
+    <div className="events-upcomingevents-wrapper">
       <label>
-        <h4>Upcoming Events</h4>
+        <h4 className="text-center">Upcoming Events</h4>
       <Container> 
         <Row>
           <Col sm={6}>
