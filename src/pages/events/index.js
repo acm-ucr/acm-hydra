@@ -11,8 +11,8 @@ const Events = () => {
         <div>
             <Navigation />
             <CalendarPageOne />
-            <CalendarPage2 />
             <Upcoming />
+            <CalendarPage2 />
             <SuggestionsForm />
             <Footer />
         </div>
