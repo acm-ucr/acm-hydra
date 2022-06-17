@@ -37,30 +37,25 @@ const projects = [
   // [
   {
     name: "Westin Montana",
-    img: "https://cdn.akamai.steamstatic.com/steam/apps/1943220/header.jpg?t=1653210132",
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAVFBMVEUycBT///+PqIciYwDe5dwxbRDr8OiNsHwgaQA2cxk8dx9BeyV1nmDq7umMpYP8/fvm7eSHrHSYuIlvnFkIYQBTiTh7o2dEfCoeaAAAWQAQXQC8ybeZEcYQAAABW0lEQVR4nO3Px00DUBQAQYNNBpNz/33SAIcvJOR91mwFO5uTY29z6IF/j3B+hPMjnB/h/AjnRzg/wvkRzu8X4f352HZ3S8KHx6eLmT2/7JeEu9e3t9uRvW9P14SX7zfXE7s6WxbeXG1GRkjYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn7Lwo/rQ6/+sWXhy9nUVoWf26l97ZeEd/vTqe2/l4RHFuH8COdHOD/C+RHOj3B+hPMjnN/xC38AOHN6HP38BCYAAAAASUVORK5CYII=",
     projectLink: "https://store.steampowered.com/app/1943220/Sketch/",
   },
   {
     name: "Prathmesh Jain",
-    img: "https://admissions.ucr.edu/sites/default/files/styles/form_preview/public/2018-10/UCR-Campus-Map.jpg?itok=oHwVvHVx",
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAVFBMVEUycBT///+PqIciYwDe5dwxbRDr8OiNsHwgaQA2cxk8dx9BeyV1nmDq7umMpYP8/fvm7eSHrHSYuIlvnFkIYQBTiTh7o2dEfCoeaAAAWQAQXQC8ybeZEcYQAAABW0lEQVR4nO3Px00DUBQAQYNNBpNz/33SAIcvJOR91mwFO5uTY29z6IF/j3B+hPMjnB/h/AjnRzg/wvkRzu8X4f352HZ3S8KHx6eLmT2/7JeEu9e3t9uRvW9P14SX7zfXE7s6WxbeXG1GRkjYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn7Lwo/rQ6/+sWXhy9nUVoWf26l97ZeEd/vTqe2/l4RHFuH8COdHOD/C+RHOj3B+hPMjnN/xC38AOHN6HP38BCYAAAAASUVORK5CYII=",
     projectLink: "http://ucr-campus-map.herokuapp.com/",
   },
   // ],
   // [
   {
     name: "Sample",
-    img: "",
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAVFBMVEUycBT///+PqIciYwDe5dwxbRDr8OiNsHwgaQA2cxk8dx9BeyV1nmDq7umMpYP8/fvm7eSHrHSYuIlvnFkIYQBTiTh7o2dEfCoeaAAAWQAQXQC8ybeZEcYQAAABW0lEQVR4nO3Px00DUBQAQYNNBpNz/33SAIcvJOR91mwFO5uTY29z6IF/j3B+hPMjnB/h/AjnRzg/wvkRzu8X4f352HZ3S8KHx6eLmT2/7JeEu9e3t9uRvW9P14SX7zfXE7s6WxbeXG1GRkjYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn7Lwo/rQ6/+sWXhy9nUVoWf26l97ZeEd/vTqe2/l4RHFuH8COdHOD/C+RHOj3B+hPMjnN/xC38AOHN6HP38BCYAAAAASUVORK5CYII=",
     projectLink: "",
   },
   {
     name: "Sample 2",
-    img: "",
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAVFBMVEUycBT///+PqIciYwDe5dwxbRDr8OiNsHwgaQA2cxk8dx9BeyV1nmDq7umMpYP8/fvm7eSHrHSYuIlvnFkIYQBTiTh7o2dEfCoeaAAAWQAQXQC8ybeZEcYQAAABW0lEQVR4nO3Px00DUBQAQYNNBpNz/33SAIcvJOR91mwFO5uTY29z6IF/j3B+hPMjnB/h/AjnRzg/wvkRzu8X4f352HZ3S8KHx6eLmT2/7JeEu9e3t9uRvW9P14SX7zfXE7s6WxbeXG1GRkjYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn7Lwo/rQ6/+sWXhy9nUVoWf26l97ZeEd/vTqe2/l4RHFuH8COdHOD/C+RHOj3B+hPMjnN/xC38AOHN6HP38BCYAAAAASUVORK5CYII=",
     projectLink: "",
-  },
-  {
-    name: "Prathmesh Jain",
-    img: "https://admissions.ucr.edu/sites/default/files/styles/form_preview/public/2018-10/UCR-Campus-Map.jpg?itok=oHwVvHVx",
-    projectLink: "http://ucr-campus-map.herokuapp.com/",
   },
   // ],
 ];
@@ -70,7 +65,7 @@ const ProjectTile = (props) => {
   return (
     <div className="home-home-projectTile">
       {/* <h3 className="home-home-projectName"> {props.name} </h3> */}
-      <a href={props.link}>
+      <a href={props.link} target="_blank">
         <img
           src={props.image}
           style={{ width: "100%" }}
@@ -130,10 +125,7 @@ const Home = () => {
               </p>
 
               {/* <Carousel> */}
-              <Row
-                className="home-home-projects"
-                style={{ background: "red", width: "100%" }}
-              >
+              <Row className="home-home-projects" style={{ width: "100%" }}>
                 {projects.map((project, ind) => (
                   <Col className="home-home-projects-col" sm={6}>
                     <ProjectTile
