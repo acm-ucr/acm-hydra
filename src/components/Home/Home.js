@@ -11,7 +11,7 @@ import { BsArrowRightSquare, BsArrowLeftSquare } from "react-icons/bs";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 
 import "./Home.css";
-import "./ProjectTile.js";
+// import "./ProjectTile.js";
 
 const workshops = [
   {
@@ -64,6 +64,22 @@ const projects = [
   },
   // ],
 ];
+
+//projectTile
+const ProjectTile = (props) => {
+  return (
+    <div className="home-home-projectTile">
+      {/* <h3 className="home-home-projectName"> {props.name} </h3> */}
+      <a href={props.link}>
+        <img
+          src={props.image}
+          style={{ width: "100%" }}
+          className="home-home-projectImage"
+        />
+      </a>
+    </div>
+  );
+};
 
 // markup
 const Home = () => {
