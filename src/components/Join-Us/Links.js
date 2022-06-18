@@ -16,12 +16,12 @@ const Links = () => {
 
   return (
     <div>
-      <div className="joinus-links-header" >
+      {/* <div className="joinus-links-header" >
         <p>Join ACM@UCR</p>
       </div>
       <div className="joinus-links-image">
          <img src="https://i.imgur.com/1aKMX30.png" width="15%" height="15%" alt="ACM @ UCR Logo"></img> 
-      </div>
+      </div> */}
       <br /><br />
       <div className="joinus-links-orgs">
         <p>Affiliated Organizations</p>
