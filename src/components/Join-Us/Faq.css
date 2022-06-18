@@ -1,31 +1,24 @@
-.faq-header {
+.joinus-faq-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-/* .dropbtn .dropdown {
-    font-size: 16px;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-} */
-
-/* .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9
+    width: 100%;
 }
 
-.dropdown-content {
-    /* display: none; */
-    /* padding: 12px 16px;
-    background-color: #f1f1f1;
-    min-width: 25px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-} */
+.joinus-faq-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.joinus-faq-header {
+    font-size: 3.5em;
+}
+
+.joinus-faq-question, .joinus-faq-answer {
+    font-size: 2em;
+    display: inline;
+}

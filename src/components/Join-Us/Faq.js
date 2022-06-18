@@ -5,31 +5,32 @@ import "./Faq.css"
 
 const Faq = () => {
 
-  return (
+    return (
 
-    <div>
-      <div className="faq-header">
-        <h1>FAQ</h1>
-      </div>
-      <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column" }}>
-          <Accordion>
-            <Accordion.Item eventKey="0">
-            <Accordion.Header>Question 1</Accordion.Header>
-            <Accordion.Body>
-                ??????
-            </Accordion.Body> 
-          </Accordion.Item>
-          <Accordion.Item eventKey="1">
-              <Accordion.Header>boo</Accordion.Header>
-              <Accordion.Body>
-                AHHHH
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        </Container>
-    </div>
+        <div className="joinus-faq-container">
+            <div className="joinus-faq-wrapper">
+                <p className='joinus-faq-header'>Frequently Asked Questions</p>
 
-  )
+                <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column" }}>
+                    <Accordion>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header ><p className="joinus-faq-question">How can I join ACM?</p></Accordion.Header>
+                            <Accordion.Body className="joinus-faq-answer">
+                                Great Question! You Don't!
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1">
+                            <Accordion.Header><p className="joinus-faq-question">How can I join ACM?</p></Accordion.Header>
+                            <Accordion.Body className="joinus-faq-answer">
+                                You don't!
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                </Container>
+            </div>
+        </div>
+
+    )
 }
 
 export default Faq
