@@ -35,21 +35,6 @@ h2 {
   transition-delay: 1ms;
 }
 
-.home-home-projectTile {
-  /* height: 100px;
-  width: 250px;
-  margin-top: 2px; */
-  background-color: black;
-  /* margin-left: 50px; */
-  /* margin-right: 25px; */
-  /* transition-duration: 0.7s; */
-}
-
-.home-home-projectTile :hover {
-  transform: scale(1.2);
-  transition-duration: 0.7s;
-}
-
 .container {
   width: 90%;
   justify-content: center;
@@ -112,3 +97,7 @@ h2 {
   width: 135%;
   /* background-color: blue; */
 /* justify-content: center; */
+
+.home-home-projects {
+    width: 100%;
+}
