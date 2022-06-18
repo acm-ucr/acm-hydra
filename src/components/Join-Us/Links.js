@@ -16,7 +16,7 @@ const Links = () => {
   return (
     <div>
       <div className="joinus-links-orgs">
-        <p>Affiliated Organizations</p>
+        <p className="joinus-links-header">Affiliated Organizations</p>
         <Container fluid style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Row style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               {links.map(link => (
