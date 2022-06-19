@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
-import { HiOutlineMail } from "react-icons/hi"
+import { HiCalendar } from "react-icons/hi"
 import "./Upcoming.css"
 
 export const Upcoming = () => {
   return (
-    <div class="events-upcomingevents-wrapper">
+    <div className="events-upcomingevents-wrapper">
       <label>
-        <h4>Upcoming Events</h4>
+        <h4 className="text-center">Upcoming Events</h4>
       <Container> 
         <Row>
           <Col sm={6}>
@@ -26,7 +26,7 @@ export const Upcoming = () => {
                 </Card.Text>
                 {/* <Button variant="primary">Add to your Google Calendar</Button> */}
                 <a className='footer-link' href="https://google.com" target="_blank" rel="noreferrer">
-                    <HiOutlineMail />
+                    <HiCalendar />
                 </a>
               </Card.Body>
             </Card>
@@ -45,7 +45,7 @@ export const Upcoming = () => {
                 </Card.Text>
                 {/* <Button variant="primary">Add to your Google Calendar</Button> */}
                 <a className='footer-link' href="https://google.com" target="_blank" rel="noreferrer">
-                    <HiOutlineMail />
+                    <HiCalendar />
                 </a>
               </Card.Body>
             </Card>
@@ -64,7 +64,7 @@ export const Upcoming = () => {
                 </Card.Text>
                 {/* <Button variant="primary">Add to your Google Calendar</Button> */}
                 <a className='footer-link' href="https://google.com" target="_blank" rel="noreferrer">
-                    <HiOutlineMail />
+                    <HiCalendar />
                 </a>
               </Card.Body>
             </Card>
