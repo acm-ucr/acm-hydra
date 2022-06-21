@@ -1,15 +1,1 @@
-.Home-Link-icon {
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
 
-.icon {
-  height: 2em;
-  width: 2em;
-}
-
-.icon:hover {
-  transform: scale(1.4);
-  transition-duration: 0.4s;
-}

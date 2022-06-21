@@ -1,16 +1,15 @@
 import React from "react";
-// import {
-//   FaDiscord,
-//   FaInstagram,
-//   FaSlack,
-//   FaMedium,
-//   FaYoutube,
-// } from "react-icons/fa";
-// import { SiGmail } from "react-icons/si";
-// import { BsArrowRightSquare, BsArrowLeftSquare } from "react-icons/bs";
+import {
+  FaDiscord,
+  FaInstagram,
+  FaSlack,
+  FaMedium,
+  FaYoutube,
+} from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import ProjectTile from "./ProjectTile.js";
-import Links from "./Link.js";
+import Link from "./Link.js";
 import "./Home.css";
 
 const workshops = [
@@ -33,6 +32,39 @@ const workshops = [
   },
 ];
 
+const data = [
+  [
+    "Discord",
+    <FaDiscord className="home-home-iconImg" />,
+    "https://docs.google.com/forms/d/e/1FAIpQLSfImoSRQ7d5lQASl5OPxxEK_2iiZT0UKxVsMsn3BMVCkqC-WQ/viewform",
+  ],
+  [
+    "Instagram",
+    <FaInstagram className="home-home-iconImg" />,
+    "https://www.instagram.com/acm_ucr/",
+  ],
+  [
+    "Slack",
+    <FaSlack className="home-home-iconImg" />,
+    "https://csatucr.slack.com/join/shared_invite/zt-pcaakxnq-pT7js04C52GpGHRoggHNIw#/shared-invite/email",
+  ],
+  [
+    "Medium",
+    <FaMedium className="home-home-iconImg" />,
+    "https://medium.com/acm-at-ucr",
+  ],
+  [
+    "Mail",
+    <SiGmail className="home-home-iconImg" />,
+    "mailto:contact@acmucr.org",
+  ],
+  [
+    "Youtube",
+    <FaYoutube className="home-home-iconImg" />,
+    "https://www.youtube.com/channel/UCSLoGcSzNfpHIzdT6QzsmnQ",
+  ],
+];
+
 const projects = [
   {
     name: "Westin Montana",
@@ -44,8 +76,6 @@ const projects = [
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAVFBMVEUycBT///+PqIciYwDe5dwxbRDr8OiNsHwgaQA2cxk8dx9BeyV1nmDq7umMpYP8/fvm7eSHrHSYuIlvnFkIYQBTiTh7o2dEfCoeaAAAWQAQXQC8ybeZEcYQAAABW0lEQVR4nO3Px00DUBQAQYNNBpNz/33SAIcvJOR91mwFO5uTY29z6IF/j3B+hPMjnB/h/AjnRzg/wvkRzu8X4f352HZ3S8KHx6eLmT2/7JeEu9e3t9uRvW9P14SX7zfXE7s6WxbeXG1GRkjYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn7Lwo/rQ6/+sWXhy9nUVoWf26l97ZeEd/vTqe2/l4RHFuH8COdHOD/C+RHOj3B+hPMjnN/xC38AOHN6HP38BCYAAAAASUVORK5CYII=",
     projectLink: "http://ucr-campus-map.herokuapp.com/",
   },
-  // ],
-  // [
   {
     name: "Sample",
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAVFBMVEUycBT///+PqIciYwDe5dwxbRDr8OiNsHwgaQA2cxk8dx9BeyV1nmDq7umMpYP8/fvm7eSHrHSYuIlvnFkIYQBTiTh7o2dEfCoeaAAAWQAQXQC8ybeZEcYQAAABW0lEQVR4nO3Px00DUBQAQYNNBpNz/33SAIcvJOR91mwFO5uTY29z6IF/j3B+hPMjnB/h/AjnRzg/wvkRzu8X4f352HZ3S8KHx6eLmT2/7JeEu9e3t9uRvW9P14SX7zfXE7s6WxbeXG1GRkjYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn6EhP0ICfsREvYjJOxHSNiPkLAfIWE/QsJ+hIT9CAn7ERL2IyTsR0jYj5CwHyFhP0LCfoSE/QgJ+xES9iMk7EdI2I+QsB8hYT9Cwn7Lwo/rQ6/+sWXhy9nUVoWf26l97ZeEd/vTqe2/l4RHFuH8COdHOD/C+RHOj3B+hPMjnN/xC38AOHN6HP38BCYAAAAASUVORK5CYII=",
@@ -113,51 +143,45 @@ const Home = () => {
 
             <Col lg={4} sm={12}>
               <h1 className="home-home-heading">Connect</h1>
-              <Links />
-              {/* <div className="home-home-icons">
-                <a
-                  className="home-home-icon"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfImoSRQ7d5lQASl5OPxxEK_2iiZT0UKxVsMsn3BMVCkqC-WQ/viewform"
-                  target="_blank"
+              {/* <Links /> */}
+              <Container
+                fluid
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Row
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    width: "100%",
+                  }}
                 >
-                  <FaDiscord />
-                </a>
-                <a
-                  href="https://www.instagram.com/acm_ucr/"
-                  target="_blank"
-                  className="home-home-icon"
-                >
-                  <FaInstagram />
-                </a>
-                <a
-                  href="https://csatucr.slack.com/join/shared_invite/zt-pcaakxnq-pT7js04C52GpGHRoggHNIw#/shared-invite/email"
-                  target="_blank"
-                  className="home-home-icon"
-                >
-                  <FaSlack />
-                </a>
-                <a
-                  href="https://medium.com/acm-at-ucr"
-                  target="_blank"
-                  className="home-home-icon"
-                >
-                  <FaMedium />
-                </a>
-                <a
-                  href="mailto:contact@acmucr.org"
-                  target="_blank"
-                  className="home-home-icon"
-                >
-                  <SiGmail />
-                </a>
-                <a
-                  href="https://www.youtube.com/channel/UCSLoGcSzNfpHIzdT6QzsmnQ"
-                  target="_blank"
-                  className="home-home-icon"
-                >
-                  <FaYoutube />
-                </a>
-              </div> */}
+                  {data.map((profile) => (
+                    <Col
+                      lg={2}
+                      sm={1}
+                      md={2}
+                      xs={1}
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        width: "15%",
+                      }}
+                    >
+                      <Link
+                        name={profile[0]}
+                        img={profile[1]}
+                        link={profile[2]}
+                      />
+                    </Col>
+                  ))}
+                </Row>
+              </Container>
             </Col>
           </Row>
         </Container>
