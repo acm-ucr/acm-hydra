@@ -1,0 +1,14 @@
+.home-projectTile-wrapper {
+    /* height: 100px;
+    width: 250px;
+    margin-top: 2px; */
+    background-color: black;
+    /* margin-left: 50px; */
+    /* margin-right: 25px; */
+    /* transition-duration: 0.7s; */
+  }
+
+  .home-projectTile-wrapper:hover {
+    transform: scale(1.2);
+    transition-duration: 0.7s;
+  }

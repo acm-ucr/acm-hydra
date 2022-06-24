@@ -1,0 +1,43 @@
+.joinus-clubroominfo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.joinus-clubroominfo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.joinus-clubroominfo-map {
+    border-radius: 10px;
+    width: 30vw;
+    height: 30vh;
+}
+
+.joinus-clubroominfo-input {
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+.joinus-clubroominfo-text {
+    text-align: center;
+    font-size: 2em;
+}
+
+.joinus-clubroominfo-input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinus-clubroominfo-submit {
+    font-size: 2em;
+    border-radius: 5px;
+    padding: 8px 25px;
+}

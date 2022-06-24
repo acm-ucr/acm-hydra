@@ -1,0 +1,37 @@
+.joinus-links-header {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.joinus-links-header p {
+    margin: 0;
+    font-size: 4em;
+}
+
+.joinus-links-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0E0E6;
+    padding: 0;
+    margin: 0;
+}
+
+.joinus-links-orgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.joinus-links-cs-orgs {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+.joinus-links-cs-orgs:hover {
+    color: #dcd0ff;
+    text-decoration: underline;
+}
