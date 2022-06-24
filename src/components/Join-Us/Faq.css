@@ -1,0 +1,24 @@
+.joinus-faq-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.joinus-faq-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.joinus-faq-header {
+    font-size: 3.5em;
+}
+
+.joinus-faq-question, .joinus-faq-answer {
+    font-size: 2em;
+    display: inline;
+}

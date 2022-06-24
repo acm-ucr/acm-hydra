@@ -1,0 +1,46 @@
+.about-tile-wrapper {
+    /* also ask divyank about width here */
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-tile-header{
+    padding: .5rem 1rem;
+    background-color: lightblue;
+    color: white;
+    position: absolute;
+}
+
+.about-tile-container {
+    margin: 1rem;
+}
+
+.about-tile-container:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.about-tile-front{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-tile-image{
+    width: 300px;
+    height: 200px;
+}
+
+.about-tile-back{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 300px;
+    height: 200px;
+}
