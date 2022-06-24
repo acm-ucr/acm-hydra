@@ -1,39 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Footer from '../../components/Footer/Footer';
-
+import Navigation from '../../components/Navigation/Navigation';
+import CalendarPageOne from '../../components/Events/CalendarPageOne';
+import CalendarPage2 from '../../components/Events/CalendarPage2';
+import SuggestionsForm from '../../components/Events/SuggestionsForm';
 
 const Events = () => {
-
-    const [number, setNumber] = useState(1);
-
-    const increaseNumber = () => {
-        setNumber(number + 1);
-    }
-
-    const decreaseNumber = () => {
-        setNumber(number - 1);
-    }
-
-    const doubleNumber = () => {
-        setNumber(number * 2);
-    }
-
-    const divideNumber = () => {
-        setNumber(number / 2);
-    }
-
-    const resetNumber = () => {
-        setNumber(1);
-    }
-
     return (
         <div>
-            <h1>{number}</h1>
-            <button onClick={increaseNumber}>Increase</button>
-            <button onClick={decreaseNumber}>Decrease</button>
-            <button onClick={doubleNumber}>Double</button>
-            <button onClick={divideNumber}>Divide</button>
-            <button onClick={resetNumber}>Reset</button>
+            <Navigation />
+            <CalendarPageOne />
+            <CalendarPage2 />
+            <SuggestionsForm />
             <Footer />
         </div>
     )
