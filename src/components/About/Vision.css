@@ -1,0 +1,22 @@
+.about-vision-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-vision-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-vision-header p,
+.about-vision-header h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
