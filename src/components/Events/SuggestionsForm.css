@@ -1,19 +1,26 @@
 
 .events-suggestionsform-name {
+    color: green;
+    display: inline-flex;
+    text-align: right;
 }
 
 .events-suggestionsform-email {
     color: yellowgreen;
+    display: inline-flex;
+    text-align: right;
 }
 
 .events-suggestionsform-suggestion {
+    display: inline-flex;
     color: brown;
-    
+    text-align: right;
 }
 
-.events-suggestionsform-submit {
-    color: gold;
+/*.events-suggestionsform-submit {
+
 }
+*/
 
 textarea {
     resize: none;

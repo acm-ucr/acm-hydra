@@ -1,4 +1,4 @@
-import React, { useImperativeHandle, useState } from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./SuggestionsForm.css"
 
@@ -13,16 +13,14 @@ const SuggestionsForm = () => {
         console.log("Name: " + name)
         console.log("Email: " + email)
         console.log("Suggestion: " + suggestion)
-        setSubmit(true);
-        /*name != null && email != null && suggestion != null ? <h3> Thank you for your suggestion! An officer will get back to you shortly!" </h3> : <h3> Please complete all fields before submitting! </h3>; */
+        if(name !== "" && email !== "" && suggestion !== "") {
+            setSubmit(true);
+        } else {
+            setSubmit(false);
+        }
     }
 
-    // const VerifyInformation = () => {
-    //     ({ name } !== null || { email } !== null || { suggestion } !== null)
-    // }
     return (
-
-
         <div className="events-suggestionsform-wrapper">
 
             <Container className="events-suggestionsform-boostrapwrapper" fluid>
@@ -55,9 +53,8 @@ const SuggestionsForm = () => {
             {
                 submit ? 
                     <h3> Thank you for your suggestion! An officer will get back to you shortly! </h3>
-                 : <></>
-                    // <h3> Please complete all fields before submitting! </h3>
-                
+                 :
+                    <h3> Please complete all fields before submitting! </h3>
             }
         </div>
     )
