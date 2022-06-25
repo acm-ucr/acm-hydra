@@ -17,7 +17,7 @@ const workshops = [
         title: "All about JavaScript",
         lead: "Divyank",
         description:
-      "I love javascript so much. I would love to help others realize how astounding of a language it is",
+            "I love javascript so much. I would love to help others realize how astounding of a language it is",
         date: "2020-01-01",
         time: "12:00",
         location: "ACM Room",
@@ -35,32 +35,32 @@ const workshops = [
 const data = [
     [
         "Discord",
-        <FaDiscord className="home-home-iconImg" />,
+        <FaDiscord key={1} className="home-home-iconImg" />,
         "https://docs.google.com/forms/d/e/1FAIpQLSfImoSRQ7d5lQASl5OPxxEK_2iiZT0UKxVsMsn3BMVCkqC-WQ/viewform",
     ],
     [
         "Instagram",
-        <FaInstagram className="home-home-iconImg" />,
+        <FaInstagram key={2} className="home-home-iconImg" />,
         "https://www.instagram.com/acm_ucr/",
     ],
     [
         "Slack",
-        <FaSlack className="home-home-iconImg" />,
+        <FaSlack key={3} className="home-home-iconImg" />,
         "https://csatucr.slack.com/join/shared_invite/zt-pcaakxnq-pT7js04C52GpGHRoggHNIw#/shared-invite/email",
     ],
     [
         "Medium",
-        <FaMedium className="home-home-iconImg" />,
+        <FaMedium key={4} className="home-home-iconImg" />,
         "https://medium.com/acm-at-ucr",
     ],
     [
         "Mail",
-        <SiGmail className="home-home-iconImg" />,
+        <SiGmail key={5} className="home-home-iconImg" />,
         "mailto:contact@acmucr.org",
     ],
     [
         "Youtube",
-        <FaYoutube className="home-home-iconImg" />,
+        <FaYoutube key={6} className="home-home-iconImg" />,
         "https://www.youtube.com/channel/UCSLoGcSzNfpHIzdT6QzsmnQ",
     ],
 ];
@@ -107,7 +107,8 @@ const Home = () => {
                                             <h3>{workshop.lead}</h3>
                                             <p>{workshop.description}</p>
                                             <p>
-                                                {workshop.date} {workshop.time} {workshop.location}
+                                                {workshop.date} {workshop.time}{" "}
+                                                {workshop.location}
                                             </p>
                                         </div>
                                     </Carousel.Item>
@@ -118,22 +119,25 @@ const Home = () => {
                         <Col lg={4} sm={12}>
                             <h1 className="home-home-heading">Inspire</h1>
                             <p>
-                The Association for Computing Machinery at the University of
-                California, Irvine is a non-profit organization that is
-                dedicated to the advancement of computing and the development of
-                computing-related technologies.
+                                The Association for Computing Machinery at the
+                                University of California, Irvine is a non-profit
+                                organization that is dedicated to the
+                                advancement of computing and the development of
+                                computing-related technologies.
                             </p>
                             <p>
-                                <a href="https://www.acm.org/">ACM@UCR</a> is a non-profit
-                organization that is dedicated to the advancement of computing
-                and the development of computing-related technologies.
+                                <a href="https://www.acm.org/">ACM@UCR</a> is a
+                                non-profit organization that is dedicated to the
+                                advancement of computing and the development of
+                                computing-related technologies.
                             </p>
                             <Row className="home-home-projects">
                                 {projects.map((project, index) => (
                                     <Col
                                         key={index}
                                         className="home-home-projects-col"
-                                        sm={6}>
+                                        sm={6}
+                                    >
                                         <ProjectTile
                                             name={project.name}
                                             image={project.img}

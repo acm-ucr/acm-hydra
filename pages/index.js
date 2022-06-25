@@ -4,7 +4,9 @@ import Home from "../components/Home/Home";
 
 const IndexPage = () => {
     return (
-        <Home/>
+        <div className="">
+            <Home />
+        </div>
     );
 };
 
