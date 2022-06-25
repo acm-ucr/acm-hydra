@@ -15,10 +15,6 @@ jobs:
               with:
                   node-version: "16.14.2"
             - run: npm ci
+            - run: npm run check
+            - run: npm run eslint
             - run: npm run build
-            - run: |
-                  if: steps.wait-for-build.outputs.conclusion == 'success'; then
-                    echo "Code is successfully built!"
-                  else 
-                    echo "Build failed!"
-                  fi
