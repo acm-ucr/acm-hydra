@@ -10,7 +10,10 @@ const Link = ({ name, img, link }) => {
     );
 };
 
-Link.defaultProps = {
-    offset: "50% 50%",
+Link.propTypes = {
+    link: PropTypes.string,
+    name: PropTypes.string,
+    img: PropTypes.any,
 };
+
 export default Link;

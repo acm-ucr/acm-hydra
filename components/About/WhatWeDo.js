@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./WhatWeDo.css";
 import "./Tile.js";
 import Tile from "./Tile.js";
@@ -37,8 +37,8 @@ const WhatWeDo = (props) => {
             <h6 className="about-whatwedo-header">What We Do?</h6>
 
             <Row className="about-whatwedo-tiles">
-                {data.map((tile) => (
-                    <Col xl={6}>
+                {data.map((tile, index) => (
+                    <Col key={index} xl={6}>
                         <Tile
                             header={tile[0]}
                             image={tile[1]}
@@ -48,10 +48,10 @@ const WhatWeDo = (props) => {
                 ))}
             </Row>
 
-            <div class="slider">
-                <div class="slide-track">
-                    {slides.map((slide) => (
-                        <Slide image={slide[0]} />
+            <div className="slider">
+                <div className="slide-track">
+                    {slides.map((slide, index) => (
+                        <Slide key={index} image={slide[0]} />
                     ))}
                 </div>
             </div>

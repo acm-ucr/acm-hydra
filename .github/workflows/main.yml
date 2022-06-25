@@ -18,4 +18,9 @@ jobs:
               with: ${{ matrix.node-version }}
             - run: npm ci
             - run: npm run build
-            -
+            - run: |
+                  if: steps.wait-for-build.outputs.conclusion == 'success'; then
+                    echo "Code is successfully built!"
+                  else 
+                    echo "Build failed!"
+                  fi

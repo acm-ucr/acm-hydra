@@ -4,7 +4,7 @@ import Mailinglist from "../../components/Join-Us/Mailinglist";
 import ClubroomInfo from "../../components/Join-Us/ClubroomInfo";
 import Links from "../../components/Join-Us/Links";
 
-const Join_Us = () => {
+const JoinUs = () => {
     return (
         <div>
             <Links />
@@ -16,4 +16,4 @@ const Join_Us = () => {
     );
 };
 
-export default Join_Us;
+export default JoinUs;

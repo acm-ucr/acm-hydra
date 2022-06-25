@@ -13,11 +13,4 @@ npm run eslint || (
     false;
 )
 
-echo 'Code looks good! Attempting to build now!'
-
-npm run build || (
-    echo 'Build failed. Fix errors and attempt again!'
-    false;
-)
-
-echo 'Build has succeded. Commit will now be processed.'
+echo 'Code has no formatting or linting issues!'

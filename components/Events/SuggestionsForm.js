@@ -25,7 +25,7 @@ const SuggestionsForm = () => {
                 <Row>
                     <Col>
                         <div className="events-suggestionsform-name">
-                            <label for="name">Name</label>
+                            <label htmlFor="name">Name</label>
                             <input
                                 type="text"
                                 id="name"
@@ -38,7 +38,7 @@ const SuggestionsForm = () => {
                     </Col>
                     <Col>
                         <div className="events-suggestionsform-email">
-                            <label for="email">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input
                                 type="email"
                                 id="email"
@@ -51,7 +51,7 @@ const SuggestionsForm = () => {
                     </Col>
                     <Col>
                         <div className="events-suggestionsform-suggestion">
-                            <label for="suggestion">Suggestion</label>
+                            <label htmlFor="suggestion">Suggestion</label>
                             <textarea
                                 id="suggestion"
                                 suggestion="suggestion"

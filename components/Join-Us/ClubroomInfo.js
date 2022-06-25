@@ -41,8 +41,8 @@ const ClubroomInfo = () => {
                     loading="lazy"
                 ></iframe>
                 <p className="joinus-clubroominfo-text">
-                    Want clubroom access? Just give us your full name and R'Card
-                    number, then click submit!
+                    Want clubroom access?Just give us your full name and
+                    R&apos;Card number, then click submit!
                     <br />
                 </p>
                 <Row

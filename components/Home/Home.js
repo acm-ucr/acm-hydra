@@ -35,32 +35,32 @@ const workshops = [
 const data = [
     [
         "Discord",
-        <FaDiscord className="home-home-iconImg" />,
+        <FaDiscord key={1} className="home-home-iconImg" />,
         "https://docs.google.com/forms/d/e/1FAIpQLSfImoSRQ7d5lQASl5OPxxEK_2iiZT0UKxVsMsn3BMVCkqC-WQ/viewform",
     ],
     [
         "Instagram",
-        <FaInstagram className="home-home-iconImg" />,
+        <FaInstagram key={2} className="home-home-iconImg" />,
         "https://www.instagram.com/acm_ucr/",
     ],
     [
         "Slack",
-        <FaSlack className="home-home-iconImg" />,
+        <FaSlack key={3} className="home-home-iconImg" />,
         "https://csatucr.slack.com/join/shared_invite/zt-pcaakxnq-pT7js04C52GpGHRoggHNIw#/shared-invite/email",
     ],
     [
         "Medium",
-        <FaMedium className="home-home-iconImg" />,
+        <FaMedium key={4} className="home-home-iconImg" />,
         "https://medium.com/acm-at-ucr",
     ],
     [
         "Mail",
-        <SiGmail className="home-home-iconImg" />,
+        <SiGmail key={5} className="home-home-iconImg" />,
         "mailto:contact@acmucr.org",
     ],
     [
         "Youtube",
-        <FaYoutube className="home-home-iconImg" />,
+        <FaYoutube key={6} className="home-home-iconImg" />,
         "https://www.youtube.com/channel/UCSLoGcSzNfpHIzdT6QzsmnQ",
     ],
 ];

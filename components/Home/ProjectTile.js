@@ -16,4 +16,9 @@ const ProjectTile = (props) => {
     );
 };
 
+ProjectTile.propTypes = {
+    link: PropTypes.string,
+    image: PropTypes.string,
+};
+
 export default ProjectTile;

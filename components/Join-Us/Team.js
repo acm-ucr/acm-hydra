@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Helper-Components/Header";
-import SolarCarRender_1 from "../../Images/SolarCarRender_1.jpg";
+import SolarCarRender1 from "../../Images/SolarCarRender_1.jpg";
 import { Row, Col, Container } from "react-bootstrap";
 import "./Team.css";
 import Profile from "./Profile";
@@ -39,7 +39,7 @@ const Team = () => {
             "Jose Cervantes",
             "Aaron Young",
             "Karam Shanti",
-        ], //Electrical Team
+        ], // Electrical Team
         [
             "Mechanical",
             "Andreas August",
@@ -47,7 +47,8 @@ const Team = () => {
             "Merielle Young",
             "Maggie Ventura",
             "Patrick Aventino",
-        ], //Mechanical Team
+        ],
+        // Mechanical Team
         // ["Battery"], //Battery Team
         // ["Solar Array"], //Solar Array Team
         [
@@ -56,7 +57,8 @@ const Team = () => {
             "Divyank Shah",
             "Ethan Wan",
             "Sachin Chopra",
-        ], //Telemetry Team
+        ],
+        // Telemetry Team
         [
             "Driver Interface",
             "Divyank Shah",
@@ -64,19 +66,21 @@ const Team = () => {
             "Kavin Phabiani",
             "Harjyot Sidhu",
             "Paul Ullman",
-        ], //Driver Interface
+        ],
+        // Driver Interface
         [
             "Business",
             "Divyank Shah",
             "Kevin Kuang",
             "Sekirou Shimono",
             "Aaron Yang",
-        ], //Business Team
+        ],
+        // Business Team
     ];
 
     return (
         <>
-            <Header name="The Team" img={SolarCarRender_1} offset="50% 30%" />
+            <Header name="The Team" img={SolarCarRender1} offset="50% 30%" />
 
             <Separator height="5vh" />
             <p className="team-title">UC Riverside Solar Car Crew</p>
@@ -101,8 +105,9 @@ const Team = () => {
                             alignItems: "center",
                         }}
                     >
-                        {data.map((profile) => (
+                        {data.map((profile, index) => (
                             <Col
+                                key={index}
                                 lg={3}
                                 md={4}
                                 sm={6}
@@ -114,6 +119,7 @@ const Team = () => {
                                 }}
                             >
                                 <Profile
+                                    key={index}
                                     name={profile[0]}
                                     position={profile[1]}
                                     img={profile[2]}
@@ -134,8 +140,9 @@ const Team = () => {
                     className="members"
                     style={{ display: "flex", justifyContent: "center" }}
                 >
-                    {members.map((names) => (
+                    {members.map((names, index) => (
                         <Col
+                            key={index}
                             className="members-wrapper"
                             lg={3}
                             md={4}
@@ -144,7 +151,7 @@ const Team = () => {
                         >
                             <p className="team-name">{names[0]}</p>
                             {names.map((name, index) => (
-                                <p className="team-members">
+                                <p key={index} className="team-members">
                                     {names[index + 1]}{" "}
                                 </p>
                             ))}

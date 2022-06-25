@@ -10,7 +10,7 @@
         "prepare": "husky install",
         "check": "prettier --check .",
         "format": "prettier --write .",
-        "eslint": "eslint . --est js"
+        "eslint": "eslint . --ext js"
     },
     "dependencies": {
         "bootstrap": "^5.1.3",

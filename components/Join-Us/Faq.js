@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import { Row, Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "./Faq.css";
 
 const Faq = () => {
@@ -25,7 +25,7 @@ const Faq = () => {
                                 </p>
                             </Accordion.Header>
                             <Accordion.Body className="joinus-faq-answer">
-                                Great Question! You Don't!
+                                <p>Great Question!You Don&apos;t!</p>
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
@@ -35,7 +35,7 @@ const Faq = () => {
                                 </p>
                             </Accordion.Header>
                             <Accordion.Body className="joinus-faq-answer">
-                                You don't!
+                                <p>Great Question!You Don&apos;t!</p>
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>

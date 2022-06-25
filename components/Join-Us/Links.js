@@ -31,8 +31,9 @@ const Links = () => {
                             alignItems: "center",
                         }}
                     >
-                        {links.map((link) => (
+                        {links.map((link, index) => (
                             <Col
+                                key={index}
                                 xl={4}
                                 style={{
                                     display: "flex",
