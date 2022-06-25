@@ -6,9 +6,7 @@ const IndexPage = () => {
     return (
         <div className="">
             <Home />
-
         </div>
-
     );
 };
 

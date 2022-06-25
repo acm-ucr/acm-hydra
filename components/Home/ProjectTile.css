@@ -6,9 +6,9 @@
     /* margin-left: 50px; */
     /* margin-right: 25px; */
     /* transition-duration: 0.7s; */
-  }
+}
 
-  .home-projectTile-wrapper:hover {
+.home-projectTile-wrapper:hover {
     transform: scale(1.2);
     transition-duration: 0.7s;
-  }
+}

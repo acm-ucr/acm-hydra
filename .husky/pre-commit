@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo 'Will proceed to check code format and lint!'
+
+npm run check || (
+    echo 'Issues with code formatting! Please use Prettier and refer to above errors!'
+    false;
+)
+
+npm run eslint || (
+    echo 'Issues with code linting! Please use ESLint! and refer to above errors!'
+    false;
+)
+
+echo 'Code looks good! Attempting to build now!'
+
+npm run build || (
+    echo 'Build failed. Fix errors and attempt again!'
+    false;
+)
+
+echo 'Build has succeded. Commit will now be processed.'

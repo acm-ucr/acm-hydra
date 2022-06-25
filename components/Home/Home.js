@@ -17,7 +17,7 @@ const workshops = [
         title: "All about JavaScript",
         lead: "Divyank",
         description:
-      "I love javascript so much. I would love to help others realize how astounding of a language it is",
+            "I love javascript so much. I would love to help others realize how astounding of a language it is",
         date: "2020-01-01",
         time: "12:00",
         location: "ACM Room",
@@ -107,7 +107,8 @@ const Home = () => {
                                             <h3>{workshop.lead}</h3>
                                             <p>{workshop.description}</p>
                                             <p>
-                                                {workshop.date} {workshop.time} {workshop.location}
+                                                {workshop.date} {workshop.time}{" "}
+                                                {workshop.location}
                                             </p>
                                         </div>
                                     </Carousel.Item>
@@ -118,22 +119,25 @@ const Home = () => {
                         <Col lg={4} sm={12}>
                             <h1 className="home-home-heading">Inspire</h1>
                             <p>
-                The Association for Computing Machinery at the University of
-                California, Irvine is a non-profit organization that is
-                dedicated to the advancement of computing and the development of
-                computing-related technologies.
+                                The Association for Computing Machinery at the
+                                University of California, Irvine is a non-profit
+                                organization that is dedicated to the
+                                advancement of computing and the development of
+                                computing-related technologies.
                             </p>
                             <p>
-                                <a href="https://www.acm.org/">ACM@UCR</a> is a non-profit
-                organization that is dedicated to the advancement of computing
-                and the development of computing-related technologies.
+                                <a href="https://www.acm.org/">ACM@UCR</a> is a
+                                non-profit organization that is dedicated to the
+                                advancement of computing and the development of
+                                computing-related technologies.
                             </p>
                             <Row className="home-home-projects">
                                 {projects.map((project, index) => (
                                     <Col
                                         key={index}
                                         className="home-home-projects-col"
-                                        sm={6}>
+                                        sm={6}
+                                    >
                                         <ProjectTile
                                             name={project.name}
                                             image={project.img}
