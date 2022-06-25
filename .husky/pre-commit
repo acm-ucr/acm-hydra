@@ -16,4 +16,3 @@ npm run eslint || (
 )
 
 echo 'Code has no linting issues! ✅'
-echo 'Code will now be commited! ✅'
