@@ -1,36 +1,36 @@
 .joinus-mailinglist-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
 }
 
 .joinus-mailinglist-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
 }
 
 .joinus-mailinglist-input {
-    border-radius: 5px;
-    font-size: 2em;
+	border-radius: 5px;
+	font-size: 2em;
 }
 
 .joinus-mailinglist-submit {
-    font-size: 2em;
-    border-radius: 5px;
-    padding: 8px 25px;
+	font-size: 2em;
+	border-radius: 5px;
+	padding: 8px 25px;
 }
 
 .joinus-mailinglist-header {
-    text-align: center;
-    font-size: 3.5em;
+	text-align: center;
+	font-size: 3.5em;
 }
 
 .joinus-mailinglist-text {
-    text-align: center;
-    font-size: 2em;
+	text-align: center;
+	font-size: 2em;
 }

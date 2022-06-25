@@ -6,15 +6,15 @@ import CalendarPage2 from "../../components/Events/CalendarPage2";
 import SuggestionsForm from "../../components/Events/SuggestionsForm";
 
 const Events = () => {
-    return (
-        <div>
-            <Navigation />
-            <CalendarPageOne />
-            <CalendarPage2 />
-            <SuggestionsForm />
-            <Footer />
-        </div>
-    );
+	return (
+		<div>
+			<Navigation />
+			<CalendarPageOne />
+			<CalendarPage2 />
+			<SuggestionsForm />
+			<Footer />
+		</div>
+	);
 };
 
 export default Events;

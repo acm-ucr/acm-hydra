@@ -12,18 +12,18 @@ import { Col, Row, Container } from "react-bootstrap";
 // ];
 
 const CalendarPageOne = () => {
-    return (
-        <Container>
-            <Row className="align-items-center">
-                <Col sm={11} lg={9}>
-                    {/* <Calendar apiKey={API_KEY} calendars={calendars} /> */}
-                </Col>
-                <Col sm={12} lg={3}>
-                    <Upcoming />
-                </Col>
-            </Row>
-        </Container>
-    );
+	return (
+		<Container>
+			<Row className='align-items-center'>
+				<Col sm={11} lg={9}>
+					{/* <Calendar apiKey={API_KEY} calendars={calendars} /> */}
+				</Col>
+				<Col sm={12} lg={3}>
+					<Upcoming />
+				</Col>
+			</Row>
+		</Container>
+	);
 };
 
 export default CalendarPageOne;

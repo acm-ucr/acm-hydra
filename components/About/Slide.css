@@ -1,13 +1,13 @@
 .about-single-slide {
-    height: auto;
-    width: auto;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    perspective: 100px;
+	height: auto;
+	width: auto;
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	perspective: 100px;
 }
 
 .about-single-slide:hover {
-    transform: scale(1.05);
-    cursor: pointer;
+	transform: scale(1.05);
+	cursor: pointer;
 }

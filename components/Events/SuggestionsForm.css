@@ -1,23 +1,23 @@
 .events-suggestionsform-name {
-    color: green;
-    display: inline-flex;
-    text-align: right;
+	color: green;
+	display: inline-flex;
+	text-align: right;
 }
 
 .events-suggestionsform-email {
-    color: yellowgreen;
-    display: inline-flex;
-    text-align: right;
+	color: yellowgreen;
+	display: inline-flex;
+	text-align: right;
 }
 
 .events-suggestionsform-suggestion {
-    display: inline-flex;
-    color: brown;
-    text-align: right;
+	display: inline-flex;
+	color: brown;
+	text-align: right;
 }
 
 textarea {
-    resize: none;
-    width: 250px;
-    height: 100px;
+	resize: none;
+	width: 250px;
+	height: 100px;
 }

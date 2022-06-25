@@ -35,32 +35,32 @@ const workshops = [
 const data = [
     [
         "Discord",
-        <FaDiscord key={1} className="home-home-iconImg" />,
+        <FaDiscord key={1} className='home-home-iconImg' />,
         "https://docs.google.com/forms/d/e/1FAIpQLSfImoSRQ7d5lQASl5OPxxEK_2iiZT0UKxVsMsn3BMVCkqC-WQ/viewform",
     ],
     [
         "Instagram",
-        <FaInstagram key={2} className="home-home-iconImg" />,
+        <FaInstagram key={2} className='home-home-iconImg' />,
         "https://www.instagram.com/acm_ucr/",
     ],
     [
         "Slack",
-        <FaSlack key={3} className="home-home-iconImg" />,
+        <FaSlack key={3} className='home-home-iconImg' />,
         "https://csatucr.slack.com/join/shared_invite/zt-pcaakxnq-pT7js04C52GpGHRoggHNIw#/shared-invite/email",
     ],
     [
         "Medium",
-        <FaMedium key={4} className="home-home-iconImg" />,
+        <FaMedium key={4} className='home-home-iconImg' />,
         "https://medium.com/acm-at-ucr",
     ],
     [
         "Mail",
-        <SiGmail key={5} className="home-home-iconImg" />,
+        <SiGmail key={5} className='home-home-iconImg' />,
         "mailto:contact@acmucr.org",
     ],
     [
         "Youtube",
-        <FaYoutube key={6} className="home-home-iconImg" />,
+        <FaYoutube key={6} className='home-home-iconImg' />,
         "https://www.youtube.com/channel/UCSLoGcSzNfpHIzdT6QzsmnQ",
     ],
 ];
@@ -93,16 +93,16 @@ const Home = () => {
     return (
         <main>
             <title>ACM@UCR</title>
-            <div className="home-home-container">
-                <img src="blocks.svg" className="home-home-acmimg" alt=""></img>
+            <div className='home-home-container'>
+                <img src='blocks.svg' className='home-home-acmimg' alt=''></img>
                 <Container style={{ margin: "2em" }}>
-                    <Row className="row">
-                        <Col lg={4} sm={12} className="col">
-                            <h1 className="home-home-heading">Learn</h1>
+                    <Row className='row'>
+                        <Col lg={4} sm={12} className='col'>
+                            <h1 className='home-home-heading'>Learn</h1>
                             <Carousel>
                                 {workshops.map((workshop, ind) => (
                                     <Carousel.Item key={ind}>
-                                        <div className="home-home-workshop-container">
+                                        <div className='home-home-workshop-container'>
                                             <h2>{workshop.title}</h2>
                                             <h3>{workshop.lead}</h3>
                                             <p>{workshop.description}</p>
@@ -117,7 +117,7 @@ const Home = () => {
                         </Col>
 
                         <Col lg={4} sm={12}>
-                            <h1 className="home-home-heading">Inspire</h1>
+                            <h1 className='home-home-heading'>Inspire</h1>
                             <p>
                                 The Association for Computing Machinery at the
                                 University of California, Irvine is a non-profit
@@ -126,16 +126,16 @@ const Home = () => {
                                 computing-related technologies.
                             </p>
                             <p>
-                                <a href="https://www.acm.org/">ACM@UCR</a> is a
+                                <a href='https://www.acm.org/'>ACM@UCR</a> is a
                                 non-profit organization that is dedicated to the
                                 advancement of computing and the development of
                                 computing-related technologies.
                             </p>
-                            <Row className="home-home-projects">
+                            <Row className='home-home-projects'>
                                 {projects.map((project, index) => (
                                     <Col
                                         key={index}
-                                        className="home-home-projects-col"
+                                        className='home-home-projects-col'
                                         sm={6}
                                     >
                                         <ProjectTile
@@ -149,7 +149,7 @@ const Home = () => {
                         </Col>
 
                         <Col lg={4} sm={12}>
-                            <h1 className="home-home-heading">Connect</h1>
+                            <h1 className='home-home-heading'>Connect</h1>
                             {/* <Links /> */}
                             <Container
                                 fluid
@@ -168,12 +168,7 @@ const Home = () => {
                                     }}
                                 >
                                     {data.map((profile, index) => (
-                                        <Col
-                                            key={index}
-                                            lg={2}
-                                            sm={1}
-                                            md={2}
-                                            xs={1}
+                                        <Col key={index} lg={2} sm={1} md={2} xs={1}
                                             style={{
                                                 display: "flex",
                                                 justifyContent: "center",
@@ -181,10 +176,7 @@ const Home = () => {
                                                 width: "15%",
                                             }}
                                         >
-                                            <Link
-                                                name={profile[0]}
-                                                img={profile[1]}
-                                                link={profile[2]}
+                                            <Link name={profile[0]} img={profile[1]} link={profile[2]}
                                             />
                                         </Col>
                                     ))}
