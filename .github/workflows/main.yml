@@ -1,6 +1,6 @@
 name: "ACM Github Actions CI"
 on:
-    pull-request:
+    pull_request:
         branches: [main, dev]
     workflow_dispatch:
 
