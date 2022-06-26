@@ -1,4 +1,4 @@
-.joinus-clubroominfo-container {
+.joinusClubroominfoContainer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -6,7 +6,7 @@
 	width: 100%;
 }
 
-.joinus-clubroominfo-wrapper {
+.joinusClubroominfoWrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,29 +14,29 @@
 	width: 80%;
 }
 
-.joinus-clubroominfo-map {
+.joinusClubroominfoMap {
 	border-radius: 10px;
 	width: 30vw;
 	height: 30vh;
 }
 
-.joinus-clubroominfo-input {
+.joinusClubroominfoInput {
 	border-radius: 5px;
 	font-size: 2em;
 }
 
-.joinus-clubroominfo-text {
+.joinusClubroominfoText {
 	text-align: center;
 	font-size: 2em;
 }
 
-.joinus-clubroominfo-input-wrapper {
+.joinusClubroominfoInputWrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.joinus-clubroominfo-submit {
+.joinusClubroominfoSubmit {
 	font-size: 2em;
 	border-radius: 5px;
 	padding: 8px 25px;

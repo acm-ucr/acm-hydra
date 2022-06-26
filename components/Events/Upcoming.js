@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { HiCalendar } from "react-icons/hi";
-import "./Upcoming.css";
+import styles from "./Upcoming.module.css";
 
 export const Upcoming = () => {
 	return (
-		<div className='events-upcomingevents-wrapper'>
+		<div className={styles.eventsUpcomingeventsWrapper}>
 			<label>
 				<h4 className='text-center'>Upcoming Events</h4>
 				<Container>

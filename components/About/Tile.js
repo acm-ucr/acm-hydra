@@ -1,37 +1,39 @@
-import React, { useState } from "react";
-import "./Tile.css";
-import ReactCardFlip from "react-card-flip";
+import React from "react";
+// import { useState } from "react"
+import styles from "./Tile.module.css";
+// import ReactCardFlip from "react-card-flip";
 
 // make carousel
 
 const Tile = props => {
-	const [toggle, setToggle] = useState(false);
+	// const [toggle, setToggle] = useState(false);
 
-	const handleClick = () => {
-		setToggle(!toggle);
-	};
+	// const handleClick = () => {
+	//     setToggle(!toggle);
+	// };
+
 	return (
-		<div className='about-tile-wrapper'>
-			<div className='about-tile-container'>
-				<ReactCardFlip isFlipped={toggle} flipDirection='horizontal'>
-					<div onClick={handleClick} className='about-tile-front'>
-						<span className='about-tile-header'>
-							{/* {props.header} */}
-						</span>
+		<div className={styles.aboutTileWrapper}>
+			<div className={styles.aboutTileContainer}>
+				{/* <ReactCardFlip isFlipped={toggle} flipDirection='horizontal'>
+                    <div onClick={handleClick} className={styles.aboutTileFront}>
+                        <span className={styles.aboutTileHeader}>
+                         
+                        </span>
 
-						<img
-							// src={props.image}
-							className='about-tile-image'
-							alt=''
-						></img>
-					</div>
+                        <img
+                           
+                            className={styles.aboutTileImage}
+                            alt=''
+                        ></img>
+                    </div>
 
-					<div onClick={handleClick} className='about-tile-back'>
-						<span className='about-tile-description'>
-							{/* {props.description} */}
-						</span>
-					</div>
-				</ReactCardFlip>
+                    <div onClick={handleClick} className={styles.aboutTileBack}>
+                        <span className={styles.aboutTileDescription}>
+                           
+                        </span>
+                    </div>
+                </ReactCardFlip >  */}
 			</div>
 		</div>
 	);

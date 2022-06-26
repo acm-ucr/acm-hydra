@@ -1,13 +1,15 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Container } from "react-bootstrap";
-import "./Faq.css";
+import styles from "./Faq.module.css";
 
 const Faq = () => {
 	return (
-		<div className='joinus-faq-container'>
-			<div className='joinus-faq-wrapper'>
-				<p className='joinus-faq-header'>Frequently Asked Questions</p>
+		<div className={styles.joinusFaqContainer}>
+			<div className={styles.joinusFaqWrapper}>
+				<p className={styles.joinusFaqHeader}>
+					Frequently Asked Questions
+				</p>
 
 				<Container
 					style={{
@@ -20,21 +22,21 @@ const Faq = () => {
 					<Accordion>
 						<Accordion.Item eventKey='0'>
 							<Accordion.Header>
-								<p className='joinus-faq-question'>
+								<p className={styles.joinusFaqQuestion}>
 									How can I join ACM?
 								</p>
 							</Accordion.Header>
-							<Accordion.Body className='joinus-faq-answer'>
+							<Accordion.Body className={styles.joinusFaqAnswer}>
 								<p>Great Question!You Don&apos;t!</p>
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey='1'>
 							<Accordion.Header>
-								<p className='joinus-faq-question'>
+								<p className={styles.joinusFaqQuestion}>
 									How can I join ACM?
 								</p>
 							</Accordion.Header>
-							<Accordion.Body className='joinus-faq-answer'>
+							<Accordion.Body className={styles.joinusFaqAnswer}>
 								<p>Great Question!You Don&apos;t!</p>
 							</Accordion.Body>
 						</Accordion.Item>

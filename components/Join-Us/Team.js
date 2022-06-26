@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Helper-Components/Header";
 import SolarCarRender1 from "../../Images/SolarCarRender_1.jpg";
 import { Row, Col, Container } from "react-bootstrap";
-import "./Team.css";
+// import "./Team.css";
 import Profile from "./Profile";
 
 import Leen from "../../Images/Profiles/Leen.jpg";

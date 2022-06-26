@@ -1,18 +1,19 @@
 import React from "react";
-import "./Link.css";
+import styles from "./Link.module.css";
+import PropTypes from "prop-types";
 
 const Link = ({ link, name, abbreviation }) => {
 	return (
-		<div className='joinus-link-container'>
+		<div className={styles.joinusLinkContainer}>
 			<a
 				className='joinus-link-link'
 				href={link}
 				target='_blank'
 				rel='noreferrer'
 			>
-				<p className='joinus-link-name'>{name}</p>
+				<p className={styles.joinusLinkName}>{name}</p>
 			</a>
-			<p className='joinus-link-abbreviation'>{abbreviation}</p>
+			<p className={styles.joinusLinkAbbreviation}>{abbreviation}</p>
 		</div>
 	);
 };

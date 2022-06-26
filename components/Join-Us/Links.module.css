@@ -1,14 +1,14 @@
-.joinus-links-header {
+.joinusLinksHeader {
 	text-align: center;
 	font-size: 3.5em;
 }
 
-.joinus-links-header p {
+.joinusLinksHeader p {
 	margin: 0;
 	font-size: 4em;
 }
 
-.joinus-links-image {
+.joinusLinksImage {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,21 +17,21 @@
 	margin: 0;
 }
 
-.joinus-links-orgs {
+.joinusLinksOrgs {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
-.joinus-links-cs-orgs {
+.joinusLinksCsOrgs {
 	text-align: center;
 	text-decoration: none;
 	color: black;
 	font-size: 2em;
 }
 
-.joinus-links-cs-orgs:hover {
+.joinusLinksCsOrgs:hover {
 	color: #dcd0ff;
 	text-decoration: underline;
 }

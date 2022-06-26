@@ -1,11 +1,11 @@
-.about-vision-wrapper {
+.aboutVisionWrapper {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.about-vision-container {
+.aboutVisionContainer {
 	width: 80%;
 	display: flex;
 	align-items: center;
@@ -13,8 +13,8 @@
 	text-align: center;
 }
 
-.about-vision-header p,
-.about-vision-header h6 {
+.aboutVisionHeader p,
+.aboutVisionHeader h6 {
 	display: flex;
 	align-items: center;
 	justify-content: center;

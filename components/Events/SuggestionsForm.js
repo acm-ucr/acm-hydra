@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import "./SuggestionsForm.css";
+import styles from "./SuggestionsForm.module.css";
 
 const SuggestionsForm = () => {
 	const [name, setName] = useState("");
@@ -20,11 +20,14 @@ const SuggestionsForm = () => {
 	};
 
 	return (
-		<div className='events-suggestionsform-wrapper'>
-			<Container className='events-suggestionsform-boostrapwrapper' fluid>
+		<div className={styles.eventsSuggestionsformWrapper}>
+			<Container
+				className={styles.eventsSuggestionsformBoostrapwrapper}
+				fluid
+			>
 				<Row>
 					<Col>
-						<div className='events-suggestionsform-name'>
+						<div className={styles.eventsSuggestionsformName}>
 							<label htmlFor='name'>Name</label>
 							<input
 								type='text'
@@ -37,7 +40,7 @@ const SuggestionsForm = () => {
 						</div>
 					</Col>
 					<Col>
-						<div className='events-suggestionsform-email'>
+						<div className={styles.eventsSuggestionsformEmail}>
 							<label htmlFor='email'>Email</label>
 							<input
 								type='email'
@@ -50,10 +53,11 @@ const SuggestionsForm = () => {
 						</div>
 					</Col>
 					<Col>
-						<div className='events-suggestionsform-suggestion'>
+						<div className={styles.eventsSuggestionsformSuggestion}>
 							<label htmlFor='suggestion'>Suggestion</label>
 							<textarea
 								id='suggestion'
+								className={styles.eventsSuggesstionsTextArea}
 								suggestion='suggestion'
 								value={suggestion}
 								placeholder='suggestion'
@@ -62,7 +66,7 @@ const SuggestionsForm = () => {
 						</div>
 					</Col>
 					<Col>
-						<div className='events-suggestionsform-submit'>
+						<div className={styles.eventsSuggestionsformSubmit}>
 							<button
 								onClick={handleSubmit}
 								type='button'

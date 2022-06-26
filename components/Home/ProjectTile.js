@@ -1,14 +1,15 @@
 import React from "react";
-import "./ProjectTile.css";
+import styles from "./ProjectTile.module.css";
+import PropTypes from "prop-types";
 
 const ProjectTile = props => {
 	return (
-		<div className='home-projectTile-wrapper'>
+		<div className={styles.homeProjectTileWrapper}>
 			<a href={props.link} target='_blank' rel='noopener noreferrer'>
 				<img
 					src={props.image}
 					style={{ width: "100%" }}
-					className='home-projectTile-projectImage'
+					// className={styles.homeProjectTileProjectImage}
 					alt=''
 				/>
 			</a>

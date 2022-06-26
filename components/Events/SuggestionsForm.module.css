@@ -1,22 +1,22 @@
-.events-suggestionsform-name {
+.eventsSuggestionsformName {
 	color: green;
 	display: inline-flex;
 	text-align: right;
 }
 
-.events-suggestionsform-email {
+.eventsSuggestionsformEmail {
 	color: yellowgreen;
 	display: inline-flex;
 	text-align: right;
 }
 
-.events-suggestionsform-suggestion {
+.eventsSuggestionsformSuggestion {
 	display: inline-flex;
 	color: brown;
 	text-align: right;
 }
 
-textarea {
+.eventsSuggestionsTextarea {
 	resize: none;
 	width: 250px;
 	height: 100px;

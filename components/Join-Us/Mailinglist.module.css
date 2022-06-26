@@ -1,4 +1,4 @@
-.joinus-mailinglist-container {
+.joinusMailinglistContainer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -6,7 +6,7 @@
 	width: 100%;
 }
 
-.joinus-mailinglist-wrapper {
+.joinusMailinglistWrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,23 +14,23 @@
 	width: 80%;
 }
 
-.joinus-mailinglist-input {
+.joinusMailinglistInput {
 	border-radius: 5px;
 	font-size: 2em;
 }
 
-.joinus-mailinglist-submit {
+.joinusMailinglistSubmit {
 	font-size: 2em;
 	border-radius: 5px;
 	padding: 8px 25px;
 }
 
-.joinus-mailinglist-header {
+.joinusMailinglistHeader {
 	text-align: center;
 	font-size: 3.5em;
 }
 
-.joinus-mailinglist-text {
+.joinusMailinglistText {
 	text-align: center;
 	font-size: 2em;
 }

@@ -1,4 +1,4 @@
-.link-card {
+.linkCard {
 	background-color: black;
 	width: fit-content;
 	height: fit-content;
@@ -6,12 +6,12 @@
 	border-radius: 15px;
 }
 
-.link-card img {
+.linkCard img {
 	width: 100%;
 	border-radius: 15px 15px 0 0;
 }
 
-.link-position {
+.linkPosition {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1em;
@@ -22,7 +22,7 @@
 	padding-top: 0;
 }
 
-.link-name {
+.linkName {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1.25em;
 	color: white;

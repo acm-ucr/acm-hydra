@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "./Mailinglist.css";
+import styles from "./Mailinglist.module.css";
 
 const Mailinglist = () => {
 	const [email, setEmail] = useState("");
@@ -19,22 +19,28 @@ const Mailinglist = () => {
 	};
 
 	return (
-		<div className='joinus-mailinglist-container'>
-			<div className='joinus-mailinglist-wrapper'>
-				<p className='joinus-mailinglist-header'> Join Mailing List</p>
+		<div className={styles.joinusMailinglistContainer}>
+			<div className={styles.joinusMailinglistWrapper}>
+				<p className={styles.joinusMailinglistHeader}>
+					{" "}
+					Join Mailing List
+				</p>
 				<input
-					className='joinus-mailinglist-input'
+					className={styles.joinusMailinglistInput}
 					type='text'
 					onChange={handleTyping}
 					value={email}
 					placeholder='Email'
 					name=' '
 				/>
-				<button className='joinus-mailinglist-submit' onClick={click}>
+				<button
+					className={styles.joinusMailinglistSubmit}
+					onClick={click}
+				>
 					Join
 				</button>
 				{submission ? (
-					<p className='joinus-mailinglist-text'>
+					<p className={styles.joinusMailinglistText}>
 						Thank you for joining!
 					</p>
 				) : (

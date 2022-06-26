@@ -1,12 +1,12 @@
 import React from "react";
-import "./Vision.css";
+import styles from "./Vision.module.css";
 import "./Tile.js";
 
 const Vision = () => {
 	return (
-		<div className='about-vision-wrapper'>
-			<div className='about-vision-container'>
-				<div className='about-vision-header'>
+		<div className={styles.aboutVisionWrapper}>
+			<div className={styles.aboutVisionContainer}>
+				<div className={styles.aboutVisionHeader}>
 					<h6>Our Vision</h6>
 					<p>
 						Our Vision is simple: To improve our members

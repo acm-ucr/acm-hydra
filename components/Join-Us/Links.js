@@ -1,5 +1,5 @@
 import React from "react";
-import "./Links.css";
+import styles from "./Links.module.css";
 import { Row, Col, Container } from "react-bootstrap";
 import Link from "./Link";
 
@@ -14,8 +14,10 @@ const Links = () => {
 
 	return (
 		<div>
-			<div className='joinus-links-orgs'>
-				<p className='joinus-links-header'>Affiliated Organizations</p>
+			<div className={styles.joinusLinksOrgs}>
+				<p className={styles.joinusLinksHeader}>
+					Affiliated Organizations
+				</p>
 				<Container
 					fluid
 					style={{

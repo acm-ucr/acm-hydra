@@ -1,4 +1,4 @@
-.joinus-faq-container {
+.joinusFaqContainer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -6,7 +6,7 @@
 	width: 100%;
 }
 
-.joinus-faq-wrapper {
+.joinusFaqWrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,12 +14,12 @@
 	width: 80%;
 }
 
-.joinus-faq-header {
+.joinusFaqHeader {
 	font-size: 3.5em;
 }
 
-.joinus-faq-question,
-.joinus-faq-answer {
+.joinusFaqQuestion,
+.joinusFaqAnswer {
 	font-size: 2em;
 	display: inline;
 }

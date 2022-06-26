@@ -1,4 +1,4 @@
-.about-single-slide {
+.aboutSingleSlide {
 	height: auto;
 	width: auto;
 	display: flex;
@@ -7,7 +7,7 @@
 	perspective: 100px;
 }
 
-.about-single-slide:hover {
+.aboutSingleSlide:hover {
 	transform: scale(1.05);
 	cursor: pointer;
 }
