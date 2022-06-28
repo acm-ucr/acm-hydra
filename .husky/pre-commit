@@ -4,7 +4,7 @@
 echo 'Will proceed to check code format and lint! 😁'
 
 npm run check || (
-    echo 'Issues with code formatting! Please use Prettier and refer to above errors! 🚫'
+    echo 'Issues with code formatting! Please use Prettier and refer to above errors! Run `npm run format` to format code. 🚫'
     false;
 )
 
