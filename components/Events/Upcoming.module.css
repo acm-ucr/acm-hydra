@@ -1,6 +1,1 @@
-.eventsUpcomingeventsWrapper {
-	height: 100vh; /* Magic here */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+@import "add-to-calendar-button/assets/css/atcb.min";
