@@ -3,12 +3,17 @@ module.exports = {
 		browser: true,
 		es2021: true,
 	},
-	extends: ["plugin:react/recommended", "google", "prettier"],
+	extends: [
+		"plugin:react/recommended",
+		"google",
+		"prettier",
+		"next/core-web-vitals",
+	],
 	parserOptions: {
 		ecmaFeatures: {
 			jsx: true,
 		},
-		ecmaVersion: "latest",
+		ecmaVersion: 12,
 		sourceType: "module",
 	},
 	plugins: ["react"],
