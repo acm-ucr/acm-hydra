@@ -3,10 +3,10 @@ import styles from "./WhatWeDo.module.css";
 import "./Tile.js";
 // import Tile from "./Tile.js";
 import Slide from "./Slide.js";
-import Resume from "./aboutImages/resume.jpeg";
-import Workshop from "./aboutImages/Workshop.jpeg";
-import LinkedIn from "./aboutImages/LinkedIn.jpeg";
-import Pathways from "./aboutImages/Pathways.png";
+import Resume from "../../public/resume.jpeg";
+import Workshop from "../../public/Workshop.jpeg";
+import LinkedIn from "../../public/LinkedIn.jpeg";
+import Pathways from "../../public/Pathways.png";
 import { Row, Col } from "react-bootstrap";
 
 const data = [

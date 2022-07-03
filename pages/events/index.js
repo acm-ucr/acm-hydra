@@ -1,6 +1,6 @@
 import React from "react";
 import CalendarPageOne from "../../components/Events/CalendarPageOne";
-import CalendarPage2 from "../../components/Events/CalendarPage2";
+import CalendarPage2 from "../../components/Events/calendarPage2";
 import SuggestionsForm from "../../components/Events/SuggestionsForm";
 
 const Events = () => {

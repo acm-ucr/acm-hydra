@@ -7,11 +7,11 @@ const Vision = () => {
 		<div className={styles.aboutVisionWrapper}>
 			<div className={styles.aboutVisionContainer}>
 				<div className={styles.aboutVisionHeader}>
-					<h6>Our Vision</h6>
+					<p>Our Vision</p>
 					<p>
 						Our Vision is simple: To improve our members
 						professionally, technically, and personally. We want to
-						help our members grow throughout their college career.
+						help our members grow throughout their college careers.
 					</p>
 				</div>
 			</div>
