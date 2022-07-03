@@ -4,13 +4,13 @@ import CalendarPage2 from "../../components/Events/calendarPage2";
 import SuggestionsForm from "../../components/Events/SuggestionsForm";
 
 const Events = () => {
-    return (
-        <div>
-            <CalendarPageOne />
-            <CalendarPage2 />
-            <SuggestionsForm />
-        </div>
-    );
+	return (
+		<div>
+			<CalendarPageOne />
+			<CalendarPage2 />
+			<SuggestionsForm />
+		</div>
+	);
 };
 
 export default Events;
