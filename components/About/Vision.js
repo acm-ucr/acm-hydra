@@ -11,7 +11,7 @@ const Vision = () => {
                     <p>
                         Our Vision is simple: To improve our members
                         professionally, technically, and personally. We want to
-                        help our members grow throughout their college career.
+                        help our members grow throughout their college careers.
                     </p>
                 </div>
             </div>
