@@ -1,99 +1,59 @@
-import React, { useState } from "react";
-import { Row, Col } from "react-bootstrap";
-import styles from "./ClubroomInfo.module.css";
+import React from "react";
 
 const ClubroomInfo = () => {
-	const [rcard, setRcard] = useState("");
-	const [submission, setSubmission] = useState(false);
 
-	const handleSubmit = () => {
-		if (rcard.length == 16 && !isNaN(rcard)) {
-			console.log(rcard);
-			setSubmission(true);
-		} else {
-			alert(
-				"ERROR: ENTER USING THE FOLLOWING FORMAT XXXX-XXXX-XXXX-XXXX with no hyphens!"
-			);
-			return;
-		}
-	};
+    return (
+        <div>
+            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 dark:bg-gray-800 dark:text-gray-100">
+                <h2 className="mb-8 text-4xl font-bold leading-none text-center">What is in the clubroom?!</h2>
+                <ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+                    <li className="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current dark:text-violet-400">
+                            <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                            <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                        </svg>
+                        <span>24/7 Room Access</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current dark:text-violet-400">
+                            <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                            <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                        </svg>
+                        <span>Locker Access</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current dark:text-violet-400">
+                            <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                            <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                        </svg>
+                        <span>Whiteboard Walls and Tables</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current dark:text-violet-400">
+                            <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                            <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                        </svg>
+                        <span>Programming Books</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current dark:text-violet-400">
+                            <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                            <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                        </svg>
+                        <span>Board Games</span>
+                    </li>
+                    <li className="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-5 h-5 fill-current dark:text-violet-400">
+                            <path d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"></path>
+                            <polygon points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"></polygon>
+                        </svg>
+                        <span>Fridge and Snacks</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-	const handleTyping = e => {
-		setRcard(e.target.value);
-	};
-
-	return (
-		<div className={styles.joinusClubroominfoContainer}>
-			<div className={styles.joinusClubroominfoWrapper}>
-				<p className={styles.joinusClubroominfoText}>
-					The ACM clubroom is located on the first floor of Winston
-					Chung Hall, Room 127. The room provides whiteboard tables
-					and whiteboard walls, making it a great place to study
-					individually or in groups. It also has snacks, a microwave,
-					a refridgerator, and lockers.
-				</p>
-				<iframe
-					title='google-map'
-					className={styles.joinusClubroominfoMap}
-					src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.6721601805466!2d-117.32812878475674!3d33.97526498062702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcae5acf0fa1e7%3A0xa67be5dc0009c039!2sWinston%20Chung%20Hall%2C%20Riverside%2C%20CA%2092507!5e0!3m2!1sen!2sus!4v1651277816109!5m2!1sen!2sus'
-					frameBorder='0'
-					allowFullScreen=''
-					loading='lazy'
-				></iframe>
-				<p className={styles.joinusClubroominfoText}>
-					Want clubroom access? Just give us your full name and
-					R&apos;Card number, then click submit!
-					<br />
-				</p>
-				<Row
-					className={styles.joinusClubroominfoInputWrapper}
-					style={{ width: "80%" }}
-				>
-					<Col
-						xl={6}
-						sm={12}
-						className={styles.joinusClubroominfoInputWrapper}
-					>
-						<input
-							className={styles.joinusClubroominfoInput}
-							type='text'
-							placeholder='Full Name'
-							id='fname'
-							name='fname'
-						/>
-					</Col>
-					<Col
-						xl={6}
-						sm={12}
-						className={styles.joinusClubroominfoInputWrapper}
-					>
-						<input
-							className={styles.joinusClubroominfoInput}
-							type='text'
-							placeholder='RCard Number'
-							onChange={handleTyping}
-							value={rcard}
-						/>
-					</Col>
-				</Row>
-				<button
-					className={styles.joinusClubroominfoSubmit}
-					onClick={handleSubmit}
-				>
-					Submit
-				</button>
-
-				{submission ? (
-					<p className={styles.joinusClubroominfoText}>
-						Thank you for submitting! You may expect your card
-						access to be granted within 2 weeks
-					</p>
-				) : (
-					""
-				)}
-			</div>
-		</div>
-	);
+    );
 };
 
 export default ClubroomInfo;
