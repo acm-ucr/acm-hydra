@@ -5,16 +5,16 @@ import ClubroomInfo from "../components/Join-Us/ClubroomInfo";
 import Links from "../components/Join-Us/Links";
 import ClubroomRequest from "../components/Join-Us/ClubroomRequest";
 
-const JoinUs = () => {
-	return (
-		<div>
-			<Links />
-			<ClubroomInfo />
-			<ClubroomRequest />
-			<Faq />
-			<Mailinglist />
-		</div>
-	);
+const Join = () => {
+    return (
+        <div>
+            <Links />
+            <ClubroomInfo />
+            <ClubroomRequest />
+            <Faq />
+            <Mailinglist />
+        </div>
+    );
 };
 
-export default JoinUs;
+export default Join;
