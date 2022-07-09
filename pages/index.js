@@ -1,11 +1,19 @@
-import * as React from "react";
-import Home from "../components/Home/Home";
+import React from "react";
+import Connect from "../components/Home/Connect";
+import Landing from "../components/Home/Landing";
+import Projects from "../components/Home/Projects";
+import Stats from "../components/Home/Stats";
+import Workshops from "../components/Home/Workshops";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 const IndexPage = () => {
 	return (
 		<div className=''>
-			<Home />
+			<Landing />
+			<Stats />
+			<Workshops />
+			<Projects />
+			<Connect />
 		</div>
 	);
 };
