@@ -93,7 +93,17 @@ const Footer = () => {
 										rel='noopener noreferrer'
 										className='hover:text-blue-600'
 									>
-										Mentor & Mentee Forms
+										Mentor Forms
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href='\'>
+									<a
+										rel='noopener noreferrer'
+										className='hover:text-blue-600'
+									>
+										Mentee Forms
 									</a>
 								</Link>
 							</li>
