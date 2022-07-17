@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const Footer = () => {
 	return (
@@ -23,43 +23,44 @@ const Footer = () => {
 						<p className='pb-1 text-lg font-medium'>ACM</p>
 						<ul>
 							<li>
-								<Link href='about' >
-									<a rel='noopener noreferrer' className='hover:text-blue-600' >
+								<Link href='about'>
+									<a
+										rel='noopener noreferrer'
+										className='hover:text-blue-600'
+									>
 										About Us
 									</a>
 								</Link>
 							</li>
 							<li>
-								<Link href='join' >	
-									<a rel='noopener noreferrer' className='hover:text-blue-600' >
+								<Link href='\'>
+									<a
+										rel='noopener noreferrer'
+										className='hover:text-blue-600'
+									>
+										Board
+									</a>
+								</Link>
+							</li>
+							<li>
+								<Link href='join'>
+									<a
+										rel='noopener noreferrer'
+										className='hover:text-blue-600'
+									>
 										Join Us
 									</a>
 								</Link>
 							</li>
 							<li>
 								<Link href='events'>
-									<a rel='noopener noreferrer' className='hover:text-blue-600' >
+									<a
+										rel='noopener noreferrer'
+										className='hover:text-blue-600'
+									>
 										Events
 									</a>
 								</Link>
-							</li>
-							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
-							</li>
-							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
 							</li>
 						</ul>
 					</div>
