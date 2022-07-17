@@ -65,52 +65,37 @@ const Footer = () => {
 						</ul>
 					</div>
 					<div className='col-span-6 text-center md:text-left md:col-span-3'>
-						<p className='pb-1 text-lg font-medium'>Category</p>
+						<p className='pb-1 text-lg font-medium'>Resources</p>
 						<ul>
-							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
+						<li>
+								<Link href='\'>
+									<a
+										rel='noopener noreferrer'
+										className='hover:text-blue-600'
+									>
+										Resume Review
+									</a>
+								</Link>
 							</li>
 							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
+								<Link href='\'>
+									<a
+										rel='noopener noreferrer'
+										className='hover:text-blue-600'
+									>
+										Mock Interview
+									</a>
+								</Link>
 							</li>
 							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
-							</li>
-							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
-							</li>
-							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
+								<Link href='\'>
+									<a
+										rel='noopener noreferrer'
+										className='hover:text-blue-600'
+									>
+										Mentor & Mentee Forms
+									</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
