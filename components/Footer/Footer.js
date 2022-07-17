@@ -1,12 +1,14 @@
+import Link from 'next/link';
+
 const Footer = () => {
 	return (
-		<footer className='py-6 bg-gray-100 text-gray-900'>
+		<footer className='py-6 dark:bg-gray-800 dark:text-gray-50'>
 			<div className='container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50'>
 				<div className='grid grid-cols-12'>
 					<div className='pb-6 col-span-full md:pb-0 md:col-span-6'>
 						<a
 							rel='noopener noreferrer'
-							href='#'
+							href='\'
 							className='flex justify-center space-x-3 md:justify-start'
 						>
 							<div className='flex items-center justify-center w-24 h-24'>
@@ -18,34 +20,28 @@ const Footer = () => {
 						</a>
 					</div>
 					<div className='col-span-6 text-center md:text-left md:col-span-3'>
-						<p className='pb-1 text-lg font-medium'>Category</p>
+						<p className='pb-1 text-lg font-medium'>ACM</p>
 						<ul>
 							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
+								<Link href='about' >
+									<a rel='noopener noreferrer' className='hover:text-blue-600' >
+										About Us
+									</a>
+								</Link>
 							</li>
 							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
+								<Link href='join' >	
+									<a rel='noopener noreferrer' className='hover:text-blue-600' >
+										Join Us
+									</a>
+								</Link>
 							</li>
 							<li>
-								<a
-									rel='noopener noreferrer'
-									href='#'
-									className='hover:text-blue-600'
-								>
-									Link
-								</a>
+								<Link href='events'>
+									<a rel='noopener noreferrer' className='hover:text-blue-600' >
+										Events
+									</a>
+								</Link>
 							</li>
 							<li>
 								<a
