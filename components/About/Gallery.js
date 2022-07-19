@@ -5,14 +5,14 @@ const Gallery = () => {
 		<section className='py-6 dark:bg-gray-800 dark:text-gray-50'>
 			<div className='container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4'>
 				<img
-					src='https://lh3.googleusercontent.com/pw/AM-JKLVv7AS5gdRC3kZ2lN-_QtsiZVKcnfteGQkqnZqANnOmhAxdUEjImIgs_lFf7-L3PnlHPLnUxdkMk80y2kEFCxifGZ4eGddL9gpupz5PFMeTqHuwQ-AYH-tz0TpoP9WErROIPx2Jjo1Sbjx1yfeozyMt4w=w1244-h933-no?authuser=0'
+					src='../../public/image2.jpg'
 					alt='A group of students sitting around tables wait patiently as they wait for the presentation to begin.'
 					className='w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square'
 				/>
 				<img
 					alt='Students sit around tables and wait patiently for the presentation to begin.'
 					className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-					src='https://lh3.googleusercontent.com/pw/AM-JKLVJyiU05MtXcvINZhVmjKw6G5-ems6zapmWuVbRguDIjcsl0v1IFWBYwVBTVuSt0LIeCLgxWcxevJ1UErlaJrJQ2cs6qrKTG2zwG3Vo9r6mIS7Sj5IenkSbMhqHhmq903mjlclLB0ZbF6GS6HgH4XcYgg=w1244-h933-no?authuser=0'
+          src='../../public/image1.jpg'
 				/>
 				<img
 					alt='A group of students in a classroom watching two people give a presentation.'
