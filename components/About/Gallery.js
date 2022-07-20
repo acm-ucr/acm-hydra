@@ -12,12 +12,12 @@ const Gallery = () => {
 				<img
 					alt='Students sit around tables and wait patiently for the presentation to begin.'
 					className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-          src='./image1.jpg'
+					src='./image1.jpg'
 				/>
 				<img
 					alt='A group of students in a classroom watching two people give a presentation.'
 					className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-          src='./image3.jpg'
+					src='./image3.jpg'
 				/>
 				<img
 					alt='Professors oversee as students group up and gather around tables to brainstorm ideas.'
@@ -42,7 +42,7 @@ const Gallery = () => {
 				<img
 					alt='Students sitting around tables doing work on their laptops.'
 					className='w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square'
-          src='./image8.jpg'
+					src='./image8.jpg'
 				/>
 				<img
 					alt='Students sitting at tables and doing work on their laptops'
@@ -50,7 +50,7 @@ const Gallery = () => {
 					src='./image9.jpg'
 				/>
 				<img
-          src='./image10.jpg'
+					src='./image10.jpg'
 					alt='Students sitting at tables with professors as they discuss their brainstorm ideas.'
 					className='w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square'
 				/>
