@@ -33,7 +33,6 @@ const Footer = () => {
 						<Link href='\'>
 							<a
 								rel='noopener noreferrer'
-								href='\'
 								className='flex justify-center space-x-3 md:justify-start'
 							>
 								<div className='flex items-center justify-center w-24 h-24'>
@@ -46,27 +45,31 @@ const Footer = () => {
 						</Link>
 					</div>
 					<div className='col-span-6 text-center md:text-left md:col-span-3'>
-						<p className='text-lg font-medium text-center pr-7 mb-0.5'>ACM</p>
+						<p className='text-lg font-medium text-center pr-7 mb-0.5'>
+							ACM
+						</p>
 						<ul className='pl-0 inline-block text-left'>
 							{ACMLinks.map((link, index) => {
-								return(
-								<li key={index}>
-									<FooterLink {...link} />
-								</li>
+								return (
+									<li key={index}>
+										<FooterLink {...link} />
+									</li>
 								);
 							})}
 						</ul>
 					</div>
 					<div className='col-span-6 text-center md:text-left md:col-span-3'>
-						<p className='text-lg font-medium text-center pr-7 mb-0.5'>Resources</p>
+						<p className='text-lg font-medium text-center pr-7 mb-0.5'>
+							Resources
+						</p>
 						<ul className='pl-0 inline-block text-left'>
 							{ResourcesLinks.map((link, index) => {
-									return(
+								return (
 									<li key={index}>
 										<FooterLink {...link} />
 									</li>
-									);
-								})}
+								);
+							})}
 						</ul>
 					</div>
 				</div>
