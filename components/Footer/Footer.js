@@ -1,116 +1,76 @@
 import Link from "next/link";
 
+const ACMLinks = [
+	{ path: "/about", text: "About Us" },
+	{ path: "/", text: "Board" },
+	{ path: "/join", text: "Join Us" },
+	{ path: "/events", text: "Events" },
+];
+
+const ResourcesLinks = [
+	{ path: "/", text: "Resume Review" },
+	{ path: "/", text: "Mock Interview" },
+	{ path: "/", text: "Mentor Form" },
+	{ path: "/", text: "Mentee Form" },
+];
+
+const FooterLink = ({ path, text }) => {
+	return (
+		<Link href={path}>
+			<a className='hover:text-blue-600' rel='noopener noreferrer'>
+				{text}
+			</a>
+		</Link>
+	);
+};
+
 const Footer = () => {
 	return (
 		<footer className='py-6 dark:bg-gray-800 dark:text-gray-50'>
-			<div className='container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50'>
+			<div className='container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50 pt-3.5'>
 				<div className='grid grid-cols-12'>
 					<div className='pb-6 col-span-full md:pb-0 md:col-span-6'>
-						<a
-							rel='noopener noreferrer'
-							href='\'
-							className='flex justify-center space-x-3 md:justify-start'
-						>
-							<div className='flex items-center justify-center w-24 h-24'>
-								<img
-									src='https://acmucr.org/src/images/acm_ucr_logo.png'
-									alt='ACM Logo'
-								/>
-							</div>
-						</a>
+						<Link href='\'>
+							<a
+								rel='noopener noreferrer'
+								href='\'
+								className='flex justify-center space-x-3 md:justify-start'
+							>
+								<div className='flex items-center justify-center w-24 h-24'>
+									<img
+										src='https://acmucr.org/src/images/acm_ucr_logo.png'
+										alt='ACM Logo'
+									/>
+								</div>
+							</a>
+						</Link>
 					</div>
 					<div className='col-span-6 text-center md:text-left md:col-span-3'>
-						<p className='pb-1 text-lg font-medium'>ACM</p>
-						<ul>
-							<li>
-								<Link href='about'>
-									<a
-										rel='noopener noreferrer'
-										className='hover:text-blue-600'
-									>
-										About Us
-									</a>
-								</Link>
-							</li>
-							<li>
-								<Link href='\'>
-									<a
-										rel='noopener noreferrer'
-										className='hover:text-blue-600'
-									>
-										Board
-									</a>
-								</Link>
-							</li>
-							<li>
-								<Link href='join'>
-									<a
-										rel='noopener noreferrer'
-										className='hover:text-blue-600'
-									>
-										Join Us
-									</a>
-								</Link>
-							</li>
-							<li>
-								<Link href='events'>
-									<a
-										rel='noopener noreferrer'
-										className='hover:text-blue-600'
-									>
-										Events
-									</a>
-								</Link>
-							</li>
+						<p className='text-lg font-medium text-center pr-7 mb-0.5'>ACM</p>
+						<ul className='pl-0 inline-block text-left'>
+							{ACMLinks.map((link, index) => {
+								return(
+								<li key={index}>
+									<FooterLink {...link} />
+								</li>
+								);
+							})}
 						</ul>
 					</div>
 					<div className='col-span-6 text-center md:text-left md:col-span-3'>
-						<p className='pb-1 text-lg font-medium'>Resources</p>
-						<ul>
-							<li>
-								<Link href='\'>
-									<a
-										rel='noopener noreferrer'
-										className='hover:text-blue-600'
-									>
-										Resume Review
-									</a>
-								</Link>
-							</li>
-							<li>
-								<Link href='\'>
-									<a
-										rel='noopener noreferrer'
-										className='hover:text-blue-600'
-									>
-										Mock Interview
-									</a>
-								</Link>
-							</li>
-							<li>
-								<Link href='\'>
-									<a
-										rel='noopener noreferrer'
-										className='hover:text-blue-600'
-									>
-										Mentor Forms
-									</a>
-								</Link>
-							</li>
-							<li>
-								<Link href='\'>
-									<a
-										rel='noopener noreferrer'
-										className='hover:text-blue-600'
-									>
-										Mentee Forms
-									</a>
-								</Link>
-							</li>
+						<p className='text-lg font-medium text-center pr-7 mb-0.5'>Resources</p>
+						<ul className='pl-0 inline-block text-left'>
+							{ResourcesLinks.map((link, index) => {
+									return(
+									<li key={index}>
+										<FooterLink {...link} />
+									</li>
+									);
+								})}
 						</ul>
 					</div>
 				</div>
-				<div className='grid justify-center pt-6 lg:justify-between'>
+				<div className='grid justify-center pt-3.5 lg:justify-between mt-4'>
 					<div className='flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6'>
 						<span>©2022 All rights reserved</span>
 					</div>
@@ -120,7 +80,7 @@ const Footer = () => {
 							href='https://docs.google.com/forms/d/e/1FAIpQLSfImoSRQ7d5lQASl5OPxxEK_2iiZT0UKxVsMsn3BMVCkqC-WQ/viewform'
 							target='_blank'
 							title='Discord'
-							className='flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-gray-50'
+							className='flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 text-gray-50'
 						>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
@@ -136,7 +96,7 @@ const Footer = () => {
 							href='https://join.slack.com/t/csatucr/shared_invite/zt-6fz8g1lu-oKHsfL1qx3wZMJ9k3j2sXw'
 							target='_blank'
 							title='Slack'
-							className='flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-gray-50'
+							className='flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 text-gray-50'
 						>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
@@ -152,7 +112,7 @@ const Footer = () => {
 							href='https://www.instagram.com/acm_ucr/'
 							target='_blank'
 							title='Instagram'
-							className='flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-gray-50'
+							className='flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 hover:bg-blue-700 text-gray-50'
 						>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
