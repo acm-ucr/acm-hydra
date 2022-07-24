@@ -6,15 +6,15 @@ import Stats from "../components/Home/Stats";
 import Workshops from "../components/Home/Workshops";
 
 const IndexPage = () => {
-    return (
-        <div className=''>
-            <Landing />
-            <Stats />
-            <Workshops />
-            <Projects />
-            <Connect />
-        </div>
-    );
+	return (
+		<div className=''>
+			<Landing />
+			<Stats />
+			<Workshops />
+			<Projects />
+			<Connect />
+		</div>
+	);
 };
 
 export default IndexPage;
