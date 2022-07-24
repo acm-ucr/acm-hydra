@@ -1,7 +1,8 @@
+// import base from "daisyui/dist/base";
+// import utilities from "daisyui/dist/utilities";
+// import { loadComponents } from "next/dist/server/load-components";
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import styles from "./SuggestionsForm.module.css";
-
 const SuggestionsForm = () => {
 	const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
@@ -9,28 +10,31 @@ const SuggestionsForm = () => {
 	const [submit, setSubmit] = useState(false);
 
 	const handleSubmit = () => {
-		console.log("Name: " + name);
-		console.log("Email: " + email);
-		console.log("Suggestion: " + suggestion);
 		if (name !== "" && email !== "" && suggestion !== "") {
 			setSubmit(true);
+			console.log("Name: " + name);
+			console.log("Email: " + email);
+			console.log("Suggestion: " + suggestion);
 		} else {
 			setSubmit(false);
 		}
 	};
 
 	return (
-		<div className={styles.eventsSuggestionsformWrapper}>
-			<Container
-				className={styles.eventsSuggestionsformBoostrapwrapper}
-				fluid
-			>
+		<div className='pt-5'>
+			<Container fluid>
 				<Row>
 					<Col>
-						<div className={styles.eventsSuggestionsformName}>
-							<label htmlFor='name'>Name</label>
+						<div>
+							<label
+								htmlFor='name'
+								className='lg:align-top text-blue-500'
+							>
+								Name
+							</label>
 							<input
 								type='text'
+								className='md:col-span-1 rounded-md border-orange-300 ml-2.5 row-span-1'
 								id='name'
 								name='name'
 								value={name}
@@ -40,10 +44,16 @@ const SuggestionsForm = () => {
 						</div>
 					</Col>
 					<Col>
-						<div className={styles.eventsSuggestionsformEmail}>
-							<label htmlFor='email'>Email</label>
+						<div>
+							<label
+								htmlFor='email'
+								className='lg:align-top text-blue-500'
+							>
+								Email
+							</label>
 							<input
 								type='email'
+								className='md:col-span-2 rounded-md border-orange-300 ml-2.5 row-span-2'
 								id='email'
 								email='email'
 								value={email}
@@ -53,11 +63,16 @@ const SuggestionsForm = () => {
 						</div>
 					</Col>
 					<Col>
-						<div className={styles.eventsSuggestionsformSuggestion}>
-							<label htmlFor='suggestion'>Suggestion</label>
+						<div>
+							<label
+								htmlFor='suggestion'
+								className='lg:align-top text-blue-500'
+							>
+								Suggestion
+							</label>
 							<textarea
 								id='suggestion'
-								className={styles.eventsSuggesstionsTextArea}
+								className='md:col-span-3 rounded-md border-orange-300 resize-none ml-2.5 row-span-3'
 								suggestion='suggestion'
 								value={suggestion}
 								placeholder='suggestion'
@@ -66,11 +81,12 @@ const SuggestionsForm = () => {
 						</div>
 					</Col>
 					<Col>
-						<div className={styles.eventsSuggestionsformSubmit}>
+						<div>
 							<button
 								onClick={handleSubmit}
 								type='button'
 								id='submit'
+								className='md:col-span-4 rounded-md inline-flex text-right bg-yellow-400 p-2.5 row-span-4'
 							>
 								Submit
 							</button>
