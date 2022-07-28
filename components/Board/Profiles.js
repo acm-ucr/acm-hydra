@@ -148,14 +148,14 @@ const arr = [
 	},
 ];
 
-export default function Profiles() {
-	if (!Array.isArray(arr)) return "results are not array " + typeof arr;
-
-	return (
+const Profiles = () => {
+  return (
 		<div className='profileGrid grid grid-cols-4 grid-rows-3'>
-			{arr.map(function (arrP, index) {
-				return <Profile person={arrP} key={index} />;
-			})}
+			{arr.map((arrP, index) => (
+				<Profile key = {index} person = {arrP} />
+			))}
 		</div>
 	);
 }
+
+export default Profiles

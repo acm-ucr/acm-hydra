@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function Profile(props) {
-	const mailTo = "mailTo:" + props.person.email;
+const Profile = (props) => {
+  const mailTo = "mailTo:" + props.person.email;
 	return (
 		<div className='profileCard flex w-3/6'>
 			<div className='max-w-sm rounded-md shadow-md dark:dark:bg-gray-900 dark:dark:text-gray-100'>
@@ -50,3 +50,5 @@ export default function Profile(props) {
 		</div>
 	);
 }
+
+export default Profile;

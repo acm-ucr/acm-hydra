@@ -3,9 +3,7 @@ import Profiles from "../components/Board/Profiles";
 
 const Board = () => {
 	return (
-		<div>
 			<Profiles />
-		</div>
 	);
 };
 
