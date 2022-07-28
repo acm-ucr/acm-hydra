@@ -149,13 +149,19 @@ const arr = [
 ];
 
 const Profiles = () => {
-  return (
-		<div className='profileGrid grid grid-cols-4 grid-rows-3'>
-			{arr.map((arrP, index) => (
-				<Profile key = {index} person = {arrP} />
-			))}
-		</div>
-	);
-}
+	return (
+		<section className="py-6 dark:dark:bg-gray-800 dark:dark:text-gray-100">
+			<div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
+				<h1 className="text-4xl font-bold leading-none text-center sm:text-5xl">ACM Board 2022-2023</h1>
 
-export default Profiles
+				<div className='profileGrid grid grid-cols-4 grid-rows-3'>
+					{arr.map((arrP, index) => (
+						<Profile key={index} person={arrP} />
+					))}
+				</div>
+			</div>
+		</section>
+	);
+};
+
+export default Profiles;
