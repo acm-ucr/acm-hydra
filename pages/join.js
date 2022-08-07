@@ -1,20 +1,18 @@
 import React from "react";
-import Faq from "../components/Join-Us/Faq";
-import Mailinglist from "../components/Join-Us/Mailinglist";
-import ClubroomInfo from "../components/Join-Us/ClubroomInfo";
-import Links from "../components/Join-Us/Links";
-import ClubroomRequest from "../components/Join-Us/ClubroomRequest";
+import Clubroom from "../components/Clubroom";
+import Faq from "../components/Faq";
+import StudentOrgs from "../components/StudentOrgs";
 
 const Join = () => {
 	return (
 		<div>
-			<Links />
-			<ClubroomInfo />
-			<ClubroomRequest />
 			<Faq />
-			<Mailinglist />
+			<Clubroom />
+			<StudentOrgs />
 		</div>
 	);
 };
 
 export default Join;
+
+// DO NOT EDIT
