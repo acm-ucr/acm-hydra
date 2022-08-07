@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const StudentOrgs = () => {
-    return (
-        <div>StudentOrgs</div>
-    )
-}
+	return <div>StudentOrgs</div>;
+};
 
-export default StudentOrgs
+export default StudentOrgs;

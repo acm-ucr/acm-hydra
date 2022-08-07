@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Topic = () => {
-    return (
-        <div>Topic</div>
-    )
-}
+	return <div>Topic</div>;
+};
 
-export default Topic
+export default Topic;

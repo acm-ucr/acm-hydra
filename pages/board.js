@@ -1,14 +1,14 @@
-import React from 'react'
-import Officers from "../components/Officers"
+import React from "react";
+import Officers from "../components/Officers";
 
 const Board = () => {
-    return (
-        <div>
-            <Officers />
-        </div>
-    )
-}
+	return (
+		<div>
+			<Officers />
+		</div>
+	);
+};
 
-export default Board
+export default Board;
 
 // DO NOT EDIT
