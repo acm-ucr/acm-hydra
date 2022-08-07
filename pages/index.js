@@ -1,19 +1,20 @@
 import React from "react";
-import Connect from "../components/Home/Connect";
-import Landing from "../components/Home/Landing";
-import Projects from "../components/Home/Projects";
-import Stats from "../components/Home/Stats";
-import Workshops from "../components/Home/Workshops";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import Landing from "../components/Landing";
+import Introduction from "../components/Introduction";
+import Stats from "../components/Stats";
+import Upcoming from "../components/Upcoming";
+import Learn from "../components/Learn";
+import Inspire from "../components/Inspire";
 
 const IndexPage = () => {
 	return (
 		<div className=''>
 			<Landing />
+			<Introduction />
 			<Stats />
-			<Workshops />
-			<Projects />
-			<Connect />
+			<Upcoming />
+			<Learn />
+			<Inspire />
 		</div>
 	);
 };
