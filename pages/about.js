@@ -1,14 +1,18 @@
 import React from "react";
-import Gallery from "../components/About/Gallery";
-import Information from "../components/About/Information";
+import Vision from "../components/Vision";
+import What from "../components/What";
+import Why from "../components/Why";
 
 const About = () => {
 	return (
 		<div>
-			<Information />
-			<Gallery />
+			<Vision />
+			<What />
+			<Why />
 		</div>
 	);
 };
 
 export default About;
+
+// DO NOT EDIT

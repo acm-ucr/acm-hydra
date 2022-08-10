@@ -1,16 +1,16 @@
 import React from "react";
-import CalendarPageOne from "../components/Events/CalendarPageOne";
-import CalendarPage2 from "../components/Events/calendarPage2";
-import SuggestionsForm from "../components/Events/SuggestionsForm";
+import Calendar from "../components/Calendar";
+import PastEvents from "../components/PastEvents";
 
 const Events = () => {
 	return (
 		<div>
-			<CalendarPageOne />
-			<CalendarPage2 />
-			<SuggestionsForm />
+			<Calendar />
+			<PastEvents />
 		</div>
 	);
 };
 
 export default Events;
+
+// DO NOT EDIT
