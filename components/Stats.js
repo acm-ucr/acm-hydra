@@ -3,7 +3,7 @@ import React from "react";
 const Stats = () => {
 	return (
 		<div>
-			<ul className='text-5xl font-semibold flex items-center text-center space-x-20 leading-15'>
+			<ul className='text-5xl decoration-black font-semibold absolute bottom-0 leading-15 flex items-center text-center space-x-32'>
 				<li>10 members</li>
 				<li>10 alumni</li>
 				<li>10 socials</li>
