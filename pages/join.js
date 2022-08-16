@@ -6,15 +6,15 @@ import Links from "../components/Join-Us/Links";
 import ClubroomRequest from "../components/Join-Us/ClubroomRequest";
 
 const Join = () => {
-    return (
-        <div>
-            <Links />
-            <ClubroomInfo />
-            <ClubroomRequest />
-            <Faq />
-            <Mailinglist />
-        </div>
-    );
+	return (
+		<div>
+			<Links />
+			<ClubroomInfo />
+			<ClubroomRequest />
+			<Faq />
+			<Mailinglist />
+		</div>
+	);
 };
 
 export default Join;
