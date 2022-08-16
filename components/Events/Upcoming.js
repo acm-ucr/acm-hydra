@@ -27,7 +27,7 @@ export const Upcoming = () => {
 	return (
 		<div className='flex justify-end py-10'>
 			<label>
-				<h4 className='text-center'>Upcoming Events</h4>
+				<h4 className='text-center'>Past Events</h4>
 				<Container>
 					<Row>
 						<Col sm={6}>
@@ -41,23 +41,6 @@ export const Upcoming = () => {
 											Time:
 											<br />
 											Location:
-											{/* Tried using CDM */}
-											{/* <link
-												rel='stylesheet'
-												href='https://cdn.jsdelivr.net/npm/add-to-calendar-button@1.9.0/assets/css/atcb.min.css'
-											></link>
-											<script
-												src='https://cdn.jsdelivr.net/npm/add-to-calendar-button@1.9.0'
-												defer
-											></script> */}
-											{/* <div class='atcb'>
-												{"{"}
-												"name":"Add the title of your
-												event",
-												"startDate":"2022-02-21",
-												"endDate":"2022-03-24",
-												"options":[ "Google" ]{"}"}
-											</div> */}
 										</p>
 									</Card.Text>
 								</Card.Body>
@@ -74,15 +57,8 @@ export const Upcoming = () => {
 											Location:
 										</p>
 									</Card.Text>
-									{/* <Button variant="primary">Add to your Google Calendar</Button> */}
-									<a
-										className='footer-link'
-										href='https://google.com'
-										target='_blank'
-										rel='noreferrer'
-									>
-										<HiCalendar />
-									</a>
+
+									<HiCalendar />
 								</Card.Body>
 							</Card>
 							<Card style={{ width: "15rem" }}>
@@ -97,15 +73,8 @@ export const Upcoming = () => {
 											Location:
 										</p>
 									</Card.Text>
-									{/* <Button variant="primary">Add to your Google Calendar</Button> */}
-									<a
-										className='footer-link'
-										href='https://google.com'
-										target='_blank'
-										rel='noreferrer'
-									>
-										<HiCalendar />
-									</a>
+
+									<HiCalendar />
 								</Card.Body>
 							</Card>
 						</Col>
