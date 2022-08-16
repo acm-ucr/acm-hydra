@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<footer className='dark:bg-neutral-900 dark:text-gray-50 py-6'>
 			<div className='container p-6 mx-auto lg:space-y-8'>
-				<h2 className='text-4xl font-bold text-center'>
+				<h2 className='text-4xl font-lexend font-bold text-center'>
 					Let&#39;s connect!
 				</h2>
 				<div className='flex flex-wrap justify-center justify-around px-80'>
