@@ -5,6 +5,7 @@ import Stats from "../components/Stats";
 import Upcoming from "../components/Upcoming";
 import Learn from "../components/Learn";
 import Inspire from "../components/Inspire";
+import Filter from "../components/Filter";
 
 const IndexPage = () => {
 	return (
@@ -15,6 +16,7 @@ const IndexPage = () => {
 			<Upcoming />
 			<Learn />
 			<Inspire />
+			<Filter topic='topic here' />
 		</div>
 	);
 };
