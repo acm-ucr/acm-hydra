@@ -19,6 +19,7 @@ module.exports = {
 	plugins: ["react"],
 	rules: {
 		"require-jsdoc": "off",
+		"@next/next/no-img-element": "off",
 	},
 	settings: {
 		react: {
