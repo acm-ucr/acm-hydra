@@ -18,9 +18,8 @@ const Footer = () => {
 						Let&#39;s connect!
 					</p>
 				</Row>
-
 				<Row className='justify-center mx-auto'>
-					<Col>
+					<Col xs={4} md={2} className='flex justify-center'>
 						<a
 							rel='noopener noreferrer'
 							href='https://www.instagram.com/acm_ucr/'
@@ -31,7 +30,7 @@ const Footer = () => {
 							<FaInstagram size='56'></FaInstagram>
 						</a>
 					</Col>
-					<Col>
+					<Col xs={4} md={2} className='flex justify-center'>
 						<a
 							rel='noopener noreferrer'
 							href='https://docs.google.com/forms/d/e/1FAIpQLSfImoSRQ7d5lQASl5OPxxEK_2iiZT0UKxVsMsn3BMVCkqC-WQ/viewform'
@@ -42,7 +41,7 @@ const Footer = () => {
 							<FaDiscord size='56'></FaDiscord>
 						</a>
 					</Col>
-					<Col>
+					<Col xs={4} md={2} className='flex justify-center'>
 						<a
 							rel='noopener noreferrer'
 							href='https://www.youtube.com/channel/UCSLoGcSzNfpHIzdT6QzsmnQ'
@@ -53,7 +52,7 @@ const Footer = () => {
 							<FaYoutube size='56'></FaYoutube>
 						</a>
 					</Col>
-					<Col>
+					<Col xs={4} md={2} className='flex justify-center'>
 						<a
 							rel='noopener noreferrer'
 							href='https://github.com/acm-ucr'
@@ -64,7 +63,7 @@ const Footer = () => {
 							<FaGithub size='56'></FaGithub>
 						</a>
 					</Col>
-					<Col>
+					<Col xs={4} md={2} className='flex justify-center'>
 						<a
 							rel='noopener noreferrer'
 							href='https://join.slack.com/t/csatucr/shared_invite/zt-6fz8g1lu-oKHsfL1qx3wZMJ9k3j2sXw'
@@ -75,7 +74,7 @@ const Footer = () => {
 							<FaSlack size='56'></FaSlack>
 						</a>
 					</Col>
-					<Col>
+					<Col xs={4} md={2} className='flex justify-center'>
 						<a
 							rel='noopener noreferrer'
 							href='https://medium.com/acm-at-ucr'
