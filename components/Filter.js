@@ -4,9 +4,10 @@ const Filter = ({ topic, color }) => {
 	return (
 		<div className='w-full h-full px-2 py-1 flex justify-between bg-black rounded-full'>
 			<div
-				className={`w-5 h-5 self-center flex-none rounded-full bg-[${color}]`}
+				className={`w-5 h-5 self-center flex-none rounded-full`}
+				style={{ backgroundColor: color }}
 			></div>
-			<div className='font-lexend text-xs ml-2 truncate max-w-min text-white self-center '>
+			<div className='font-lexend text-xs min-w-fit text-white flex justify-center items-center '>
 				{topic}
 			</div>
 		</div>
