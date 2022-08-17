@@ -1,10 +1,12 @@
 import React from "react";
 
-const Filter = ({ topic }) => {
+const Filter = ({ topic, color }) => {
 	return (
-		<div className='w-[20%] h-[100%] flex justify-between bg-black rounded-full'>
-			<div className='w-[14%] h-[65%] self-center ml-[7%] bg-[#ff5370] rounded-full'></div>
-			<div className='font-lexend text-[40%] text-white self-center mr-[8%]'>
+		<div className='w-full h-full px-2 py-1 flex justify-between bg-black rounded-full'>
+			<div
+				className={`w-5 h-5 self-center flex-none rounded-full bg-[${color}]`}
+			></div>
+			<div className='font-lexend text-xs ml-2 truncate max-w-min text-white self-center '>
 				{topic}
 			</div>
 		</div>
