@@ -2,13 +2,15 @@ import React from "react";
 
 const Stats = () => {
 	return (
-		<div>
-			<ul className='font-lexend text-5xl decoration-black font-semibold absolute left-6 bottom-11 leading-15 flex items-center text-center space-x-32'>
-				<li>10 members</li>
-				<li>10 alumni</li>
-				<li>10 socials</li>
-				<li>10 workshops</li>
-			</ul>
+		<div className='container'>
+			<div className='row'>
+				<div className='font-lexend text-5xl decoration-black font-semibold flex align-items-center text-center'>
+					<div className='col'>10+ members</div>
+					<div className='col'>10 alumni</div>
+					<div className='col'>10 socials</div>
+					<div className='col'>10 workshops</div>
+				</div>
+			</div>
 		</div>
 	);
 };
