@@ -67,19 +67,17 @@ const FaqItem = props => {
 	}
 
 	return (
-		<>
-			<Accordion.Item eventKey={props.index}>
-				<Accordion.Header className='bg-black text-white w-full p-2 flex rounded-t-lg m-0'>
-					Accordion Item #{props.index + 1}
-				</Accordion.Header>
-				<Accordion.Body
-					className={`${colorArray[colorCount]}`}
-					eventKey={props.index}
-				>
-					{props.element.answer}
-				</Accordion.Body>
-			</Accordion.Item>
-		</>
+		<Accordion.Item eventKey={props.index}>
+			<Accordion.Button className={`bg-black text-white`}>
+				Accordion Item #{props.index + 1}
+			</Accordion.Button>
+			<Accordion.Body
+				className={`${colorArray[colorCount]}`}
+				eventKey={props.index}
+			>
+				{props.element.answer}
+			</Accordion.Body>
+		</Accordion.Item>
 	);
 };
 
