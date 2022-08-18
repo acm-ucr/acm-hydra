@@ -46,11 +46,6 @@ const infoArray = [
 	},
 ]; // dummy data
 
-const headerStyle = {
-	color: "white !important",
-	backgroundColor: "#0f121a !important",
-};
-
 const colorArray = [
 	"bg-color1",
 	"bg-color2",
@@ -72,23 +67,17 @@ const FaqItem = props => {
 	}
 
 	return (
-		<>
-			<Accordion.Item eventKey={props.index}>
-				<Accordion.Header
-					style={headerStyle}
-					className='w-full p-2 flex rounded-t-lg m-0'
-				>
-					Accordion Item #{props.index + 1}
-				</Accordion.Header>
-
-				<Accordion.Body
-					className={`${colorArray[colorCount]}`}
-					eventKey={props.index}
-				>
-					{props.element.answer}
-				</Accordion.Body>
-			</Accordion.Item>
-		</>
+		<Accordion.Item className={`-mt-2`} eventKey={props.index}>
+			<Accordion.Button className={`bg-black text-white rounded-t-lg`}>
+				Accordion Item #{props.index + 1}
+			</Accordion.Button>
+			<Accordion.Body
+				className={`${colorArray[colorCount]}`}
+				eventKey={props.index}
+			>
+				{props.element.answer}
+			</Accordion.Body>
+		</Accordion.Item>
 	);
 };
 
