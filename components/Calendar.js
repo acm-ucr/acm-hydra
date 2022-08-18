@@ -23,7 +23,7 @@ const filterMapping = [
 
 const Calendar = () => {
 	return (
-		<div>
+		<>
 			<Row className='w-5/6 p-1'>
 				{filterMapping.map((filter, index) => {
 					return (
@@ -33,7 +33,7 @@ const Calendar = () => {
 					);
 				})}
 			</Row>
-		</div>
+		</>
 	);
 };
 
