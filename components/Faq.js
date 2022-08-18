@@ -1,40 +1,7 @@
 import React from "react";
-import Script from "next/script";
+import Accordion from "react-bootstrap/Accordion";
 
-let colorCount = 0;
-
-const bodyColors = [
-	{
-		backgroundColor: "#82aaff",
-	},
-	{
-		backgroundColor: "#c792ea",
-	},
-	{
-		backgroundColor: "#ffd700",
-	},
-	{
-		backgroundColor: "#c3e88d",
-	},
-	{
-		backgroundColor: "#ff5370",
-	},
-	{
-		backgroundColor: "#f07178",
-	},
-	{
-		backgroundColor: "#89ddff",
-	},
-	{
-		backgroundColor: "#f78c6c",
-	},
-	{
-		backgroundColor: "#80cbc4",
-	},
-	{
-		backgroundColor: "#da70d6",
-	},
-];
+let colorCount = 1;
 
 const infoArray = [
 	{
@@ -77,42 +44,41 @@ const infoArray = [
 		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
 		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
 	},
+]; // dummy data
+
+const colorArray = [
+	"bg-color1",
+	"bg-color2",
+	"bg-color3",
+	"bg-color4",
+	"bg-color5",
+	"bg-color6",
+	"bg-color7",
+	"bg-color8",
+	"bg-color9",
+	"bg-color10",
 ];
 
 const FaqItem = props => {
-	if (colorCount == bodyColors.length) {
-		colorCount = 0;
-		console.log("Color reset to 0!");
+	colorCount = props.index;
+	if (colorCount == 10) {
+		colorCount = 1;
+		console.log("Color reset to 1!");
 	}
 
 	return (
 		<>
-			<div className='accordion-item'>
-				<h2 className='accordion-header' id={`heading${props.index}`}>
-					<button
-						className='accordion-button collapsed'
-						type='button'
-						data-bs-toggle='collapse'
-						data-bs-target={`#collapse${props.index}`}
-						aria-expanded='true'
-						aria-controls={`collapse${props.index}`}
-					>
-						{props.element.question}
-					</button>
-				</h2>
-				<div
-					id={`collapse${props.index}`}
-					className='accordion-collapse collapse'
-					aria-labelledby={`heading${props.index}`}
+			<Accordion.Item eventKey={props.index}>
+				<Accordion.Header className='bg-black text-white w-full p-2 flex rounded-t-lg m-0'>
+					Accordion Item #{props.index + 1}
+				</Accordion.Header>
+				<Accordion.Body
+					className={`${colorArray[colorCount]}`}
+					eventKey={props.index}
 				>
-					<div
-						className='accordion-body'
-						style={bodyColors[colorCount++]}
-					>
-						{props.element.answer}
-					</div>
-				</div>
-			</div>
+					{props.element.answer}
+				</Accordion.Body>
+			</Accordion.Item>
 		</>
 	);
 };
@@ -120,28 +86,16 @@ const FaqItem = props => {
 const Faq = () => {
 	return (
 		<>
-			<link
-				href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'
-				rel='stylesheet'
-				integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC'
-				crossOrigin='anonymous'
-			></link>
-			<Script
-				src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js'
-				integrity='sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p'
-				crossOrigin='anonymous'
-			></Script>
-			<Script
-				src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js'
-				integrity='sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF'
-				crossOrigin='anonymous'
-			></Script>
-
-			<div className='accordion accordion-flush' id='accordionExample'>
+			<Accordion className='p-[5vw]' flush alwaysOpen>
 				{infoArray.map((element, index) => (
-					<FaqItem element={element} key={index} index={index} />
+					<FaqItem
+						className='m-0 p-0'
+						element={element}
+						key={index}
+						index={index}
+					/>
 				))}
-			</div>
+			</Accordion>
 		</>
 	);
 };

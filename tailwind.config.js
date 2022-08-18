@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+	important: true,
 	content: [
 		"./pages/**/*.{js,ts,jsx,tsx}",
 		"./components/**/*.{js,ts,jsx,tsx}",
@@ -8,6 +9,18 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				lexend: ["Lexend"],
+			},
+			colors: {
+				color1: "#82aaff",
+				color2: "#c792ea",
+				color3: "#ffd700",
+				color4: "#c3e88d",
+				color5: "#ff5370",
+				color6: "#f07178",
+				color7: "#89ddff",
+				color8: "#f78c6c",
+				color9: "#80cbc4",
+				color10: "#da70d6",
 			},
 		},
 	},
