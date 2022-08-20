@@ -10,7 +10,7 @@ const Learn = () => {
 				Learn
 			</div>
 			<Row>
-				<Col className='flex justify-around'>
+				<Col className='flex justify-center items-center'>
 					professional
 					<Topic />
 				</Col>
@@ -18,7 +18,7 @@ const Learn = () => {
 					technical
 					<Topic />
 				</Col>
-				<Col className='flex justify-around'>
+				<Col className='flex justify-center items-center'>
 					academic
 					<Topic />
 				</Col>
