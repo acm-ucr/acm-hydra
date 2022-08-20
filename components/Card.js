@@ -5,7 +5,7 @@ class Block extends React.Component {
 	render() {
 		return (
 			// have one shadow white and one black right behind it looking like a border
-			<div class='flex justify-center'>
+			<div className='flex justify-center'>
 				<Card
 					style={{
 						width: "15rem",
@@ -16,18 +16,18 @@ class Block extends React.Component {
 				>
 					<Card.Body>
 						<br />
-						<div class='flex justify-evenly '>
-							<div class='columns-1 text-blue-500'>
+						<div className='flex justify-evenly '>
+							<div className='columns-1 text-blue-500'>
 								<Card.Title>09</Card.Title>
 								<Card.Title>21</Card.Title>
 								<Card.Title>22</Card.Title>
 							</div>
 
-							<div class='columns-1'>
-								<div class='text-blue-500'>
+							<div className='columns-1'>
+								<div className='text-blue-500'>
 									<Card.Title>General Meeting</Card.Title>
 								</div>
-								<div class='text-white'>
+								<div className='text-white'>
 									<Card.Title>5-6 pm</Card.Title>
 									<Card.Subtitle>WCH 127</Card.Subtitle>
 									<br />
