@@ -46,17 +46,30 @@ const infoArray = [
 	},
 ]; // dummy data
 
+const colors = [
+	"#82aaff",
+	"#c792ea",
+	"#ffd700",
+	"#c3e88d",
+    "#ff5370",
+	"#f07178",
+	"#89ddff",
+	"#f78c6c",
+	"#80cbc4",
+	"#da70d6",
+]
+
 const colorArray = [
-	"bg-color1",
-	"bg-color2",
-	"bg-color3",
-	"bg-color4",
-	"bg-color5",
-	"bg-color6",
-	"bg-color7",
-	"bg-color8",
-	"bg-color9",
-	"bg-color10",
+	`bg-color1`,
+	`bg-color2`,
+	`bg-color3`,
+	`bg-color4`,
+	`bg-color5`,
+	`bg-color6`,
+	`bg-color7`,
+	`bg-color8`,
+	`bg-color9`,
+	`bg-color10`,
 ];
 
 const FaqItem = props => {
@@ -66,15 +79,31 @@ const FaqItem = props => {
 		console.log("Color reset to 1!");
 	}
 
+	let bgClass = "bg-white";
+	let bgStyle = {};
+
+	if(props.index != 0 )
+	{
+		bgClass = `bg-color${props.index}`;
+	}
+
+	if(props.index == infoArray.length-1)
+	{
+		bgClass = '';
+		bgStyle = {
+			boxShadow: `0px -5vw ${colors[infoArray.length-2]}`,
+		};
+		console.log("Last element: " + bgStyle);
+	}
+
 	return (
-		<Accordion.Item className={`-mt-2`} eventKey={props.index}>
-			<Accordion.Button className={`bg-black text-white rounded-t-lg`}>
-				Accordion Item #{props.index + 1}
+		<Accordion.Item className={`${bgClass} font-lexend m-0 p-0`} id={`element${props.index}`} eventKey={props.index} >
+			<Accordion.Button className={`bg-black text-white rounded-t-lg -mt-[0.4vw]`}>
+				Lorem ipsum dolor sit amet? 
 			</Accordion.Button>
 			<Accordion.Body
-				className={`${colorArray[colorCount]}`}
-				eventKey={props.index}
-			>
+				className={`${colorArray[colorCount]} rounded-b-lg pt-[1vw] pb-[1.5vw]`}
+				eventKey={props.index} style={bgStyle} >
 				{props.element.answer}
 			</Accordion.Body>
 		</Accordion.Item>
@@ -84,10 +113,10 @@ const FaqItem = props => {
 const Faq = () => {
 	return (
 		<>
-			<Accordion className='p-[5vw]' flush alwaysOpen>
+			<Accordion className='p-[10vw]' flush alwaysOpen>
 				{infoArray.map((element, index) => (
 					<FaqItem
-						className='m-0 p-0'
+						className='bg-black m-0 p-0'
 						element={element}
 						key={index}
 						index={index}
