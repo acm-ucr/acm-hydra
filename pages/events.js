@@ -9,9 +9,9 @@ const Events = () => {
 			<Calendar />
 			<PastEvents />
 			<Topic
-				Topic='course planning'
-				BackgroundColor='#43B9AD'
-				TextColor='black'
+				topic='course planning'
+				backgroundcolor='#43B9AD'
+				textcolor='black'
 			/>
 		</div>
 	);
