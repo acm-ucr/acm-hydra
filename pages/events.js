@@ -8,7 +8,11 @@ const Events = () => {
 		<div>
 			<Calendar />
 			<PastEvents />
-			<Topic Topic='resume' BackgroundColor='#43B9AD' TextColor='white' />
+			<Topic
+				Topic='course planning'
+				BackgroundColor='#43B9AD'
+				TextColor='black'
+			/>
 		</div>
 	);
 };
