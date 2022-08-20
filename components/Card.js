@@ -8,10 +8,10 @@ class Block extends React.Component {
 			<div className='flex justify-center'>
 				<Card
 					style={{
-						width: "15rem",
+						width: "14rem",
 						backgroundColor: "black",
 						borderRadius: 25,
-						boxShadow: "12px -13px white, 14px -16px black",
+						boxShadow: "12px -13px white, 16px -17px black",
 					}}
 				>
 					<Card.Body>
