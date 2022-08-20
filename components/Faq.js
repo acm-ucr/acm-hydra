@@ -1,5 +1,10 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import resolveConfig from "tailwindcss/resolveConfig";
+import tailwindConfig from "../tailwind.config.js";
+
+const fullConfig = resolveConfig(tailwindConfig);
+console.log(fullConfig.theme.colors.color1);
 
 let colorCount = 1;
 
@@ -46,19 +51,6 @@ const infoArray = [
 	},
 ]; // dummy data
 
-const colors = [
-	"#82aaff",
-	"#c792ea",
-	"#ffd700",
-	"#c3e88d",
-    "#ff5370",
-	"#f07178",
-	"#89ddff",
-	"#f78c6c",
-	"#80cbc4",
-	"#da70d6",
-]
-
 const colorArray = [
 	`bg-color1`,
 	`bg-color2`,
@@ -72,39 +64,45 @@ const colorArray = [
 	`bg-color10`,
 ];
 
-const FaqItem = props => {
-	colorCount = props.index;
+const FaqItem = ({ index, element }) => {
+	colorCount = index;
 	if (colorCount == 10) {
 		colorCount = 1;
 		console.log("Color reset to 1!");
 	}
 
-	let bgClass = "bg-white";
-	let bgStyle = {};
+	const bgClass =
+		index == infoArray.length - 1
+			? ""
+			: index != 0
+			? `bg-color${index}`
+			: "bg-white";
 
-	if(props.index != 0 )
-	{
-		bgClass = `bg-color${props.index}`;
-	}
+	const lastColor = fullConfig.theme.colors[`color${infoArray.length - 1}`];
+	console.log(lastColor);
 
-	if(props.index == infoArray.length-1)
-	{
-		bgClass = '';
-		bgStyle = {
-			boxShadow: `0px -5vw ${colors[infoArray.length-2]}`,
-		};
-		console.log("Last element: " + bgStyle);
-	}
+	const bgStyle =
+		index == infoArray.length - 1
+			? { boxShadow: `0px -4.4vw ${lastColor}` }
+			: {};
 
 	return (
-		<Accordion.Item className={`${bgClass} font-lexend m-0 p-0`} id={`element${props.index}`} eventKey={props.index} >
-			<Accordion.Button className={`bg-black text-white rounded-t-lg -mt-[0.4vw]`}>
-				Lorem ipsum dolor sit amet? 
+		<Accordion.Item
+			className={`${bgClass} font-lexend m-0 p-0`}
+			id={`element${index}`}
+			eventKey={index}
+		>
+			<Accordion.Button
+				className={`bg-black text-white rounded-t-lg -mt-2`}
+			>
+				{element.question}
 			</Accordion.Button>
 			<Accordion.Body
 				className={`${colorArray[colorCount]} rounded-b-lg pt-[1vw] pb-[1.5vw]`}
-				eventKey={props.index} style={bgStyle} >
-				{props.element.answer}
+				eventKey={index}
+				style={bgStyle}
+			>
+				{element.answer}
 			</Accordion.Body>
 		</Accordion.Item>
 	);
@@ -112,18 +110,16 @@ const FaqItem = props => {
 
 const Faq = () => {
 	return (
-		<>
-			<Accordion className='p-[10vw]' flush alwaysOpen>
-				{infoArray.map((element, index) => (
-					<FaqItem
-						className='bg-black m-0 p-0'
-						element={element}
-						key={index}
-						index={index}
-					/>
-				))}
-			</Accordion>
-		</>
+		<Accordion className='p-[10vw]' flush alwaysOpen>
+			{infoArray.map((element, index) => (
+				<FaqItem
+					className='bg-black m-0 p-0'
+					element={element}
+					key={index}
+					index={index}
+				/>
+			))}
+		</Accordion>
 	);
 };
 
