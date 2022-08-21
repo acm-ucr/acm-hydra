@@ -5,17 +5,19 @@ const Stats = () => {
 	return (
 		<div>
 			<Container>
-				<Row className='font-lexend text-4xl decoration-black font-semibold'>
-					<Col xs={4} md={3} className='flex justify-center'>
+				<Row
+					className='font-lexend text-5xl decoration-black font-semibold flex justify-between items-center whitespace-nowrap'
+				>
+					<Col sm={12} md={6} lg={3} className='flex justify-center whitespace-nowrap'>
 						10+ members
 					</Col>
-					<Col xs={4} md={3} className='flex justify-center'>
+					<Col sm={12} md={6} lg={3} className='flex justify-center whitespace-nowrap'>
 						10 alumni
 					</Col>
-					<Col xs={4} md={3} className='flex justify-center'>
+					<Col sm={12} md={6} lg={3} className='flex justify-center whitespace-nowrap'>
 						10 socials
 					</Col>
-					<Col xs={4} md={3} className='flex justify-center'>
+					<Col sm={12} md={6} lg={3} className='flex justify-center whitespace-nowrap'>
 						10 workshops
 					</Col>
 				</Row>
