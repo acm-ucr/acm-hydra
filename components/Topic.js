@@ -1,7 +1,7 @@
 import React from "react";
 
 const Topic = () => {
-	return <div>Topic</div>;
+	return <div></div>;
 };
 
 export default Topic;
