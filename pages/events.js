@@ -10,8 +10,8 @@ const Events = () => {
 			<PastEvents />
 			<Topic
 				topic='course planning'
-				backgroundcolor='#43B9AD'
-				textcolor='black'
+				backgroundColor='#43B9AD'
+				textColor='black'
 			/>
 		</div>
 	);
