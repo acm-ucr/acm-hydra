@@ -3,10 +3,8 @@ const Topic = ({ topic, backgroundColor, textColor }) => {
 	return (
 		<div>
 			<div
-				className='flex justify-center items-center w-96 h-36 rounded-3xl border-2 border-black mb-8 shadow-black'
+				className={`flex justify-center items-center rounded-3xl border-2 border-black mb-8 shadow-black bg-${backgroundColor} text-${textColor}`}
 				style={{
-					backgroundColor: backgroundColor,
-					color: textColor,
 					boxShadow: "10px -8px black",
 				}}
 			>
