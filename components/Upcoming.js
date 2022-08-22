@@ -1,12 +1,9 @@
-import React from "react";
-import Card from "./Card";
+import React from 'react'
 
-export const Upcoming = () => {
-	return (
-		<>
-			<Card />
-		</>
-	);
-};
+const Upcoming = () => {
+    return (
+        <div>Upcoming</div>
+    )
+}
 
-export default Upcoming;
+export default Upcoming
