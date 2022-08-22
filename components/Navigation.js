@@ -1,7 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import Link from "next/link";
-import Image from "next/image";
 
 const Navigation = () => {
 	return (
@@ -9,11 +8,11 @@ const Navigation = () => {
 			<Navbar.Brand>
 				<Link href='/' passHref>
 					<Nav.Link eventKey='1'>
-						<Image
-							src='/../public/acmlogo.png'
+						<img
+							src='acmlogo.png'
 							alt=''
-							width='70%'
-							height='70%'
+							width='40%'
+							height='40%'
 						/>
 					</Nav.Link>
 				</Link>
