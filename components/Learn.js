@@ -5,16 +5,15 @@ import Topic from "../components/Topic";
 const Learn = () => {
 	return (
 		<div className='font-lexend text-4xl'>
-			<div className='flex justify-center items-center font-lexend font-bold text-6xl mb-2'>
+			<div className='flex justify-center items-center font-lexend font-bold text-6xl mb-4'>
 				Learn
 			</div>
-			<Row
-				xl={4}
-				className='flex justify-center items-center bg-lime-400'
-			>
+			<Row className='flex justify-center items-start'>
 				<Col
 					xl={4}
-					className='flex flex-col items-center justify-center bg-red-400 px-4 '
+					md={4}
+					sm={12}
+					className='flex flex-col items-center justify-center'
 				>
 					professional
 					<Topic
@@ -31,7 +30,9 @@ const Learn = () => {
 
 				<Col
 					xl={4}
-					className='flex flex-col justify-center bg-orange-400'
+					md={4}
+					sm={12}
+					className='flex flex-col items-center justify-center'
 				>
 					technical
 					<Topic
@@ -53,7 +54,10 @@ const Learn = () => {
 
 				<Col
 					xl={4}
-					className='flex flex-col justify-center bg-teal-500'
+					md={4}
+					sm={12}
+					className='flex flex-col items-center justify-center'
+					style={{ overflowWrap: "unset" }}
 				>
 					academic
 					<Topic
