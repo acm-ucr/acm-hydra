@@ -1,36 +1,25 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Introduction = () => {
 	return (
-		<Container>
-			<Row className='font-lexend flex justify-start text-center items-center m-auto'>
-				<Row
-					sm={3}
-					md={3}
-					lg={3}
-					className='text-7xl font-semibold flex justify-center w-75'
-				>
+		<Row className='font-lexend flex justify-center text-center items-center'>
+			<Col sm={3} md={3} lg={3} className='w-5/6'>
+				<p className='text-7xl font-semibold flex justify-center'>
 					We are ACM @ UCR
-				</Row>
-				<Row
-					sm={3}
-					md={3}
-					lg={3}
-					className='text-5xl font-normal flex justify-center w-75'
-				>
+				</p>
+				<p className='text-5xl font-normal flex justify-center'>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					Arcu, amet ut orci, at sed parturient quis sagittis a.
-				</Row>
-				<Col sm={3} md={3} lg={3} className=''>
-					<img
-						className=''
-						alt='acm @ ucr logo'
-						src='./acm-ucr-logo.png'
-					/>
-				</Col>
-			</Row>
-		</Container>
+				</p>
+			</Col>
+			<Col sm={3} md={3} lg={3}>
+				<img
+					alt='acm @ ucr logo'
+					src='acm-ucr-logo.png'
+				/>
+			</Col>
+		</Row>
 	);
 };
 
