@@ -8,8 +8,14 @@ const Learn = () => {
 			<div className='flex justify-center items-center font-lexend font-bold text-6xl mb-2'>
 				Learn
 			</div>
-			<Row>
-				<Col className='flex flex-col justify-center items-center'>
+			<Row
+				xl={4}
+				className='flex justify-center items-center bg-lime-400'
+			>
+				<Col
+					xl={4}
+					className='flex flex-col items-center justify-center bg-red-400 px-4 '
+				>
 					professional
 					<Topic
 						topic='resume'
@@ -22,7 +28,11 @@ const Learn = () => {
 						textColor='black'
 					/>
 				</Col>
-				<Col className='flex flex-col justify-center items-center'>
+
+				<Col
+					xl={4}
+					className='flex flex-col justify-center bg-orange-400'
+				>
 					technical
 					<Topic
 						topic='web dev'
@@ -40,7 +50,11 @@ const Learn = () => {
 						textColor='white'
 					/>
 				</Col>
-				<Col className='flex flex-col justify-center items-center'>
+
+				<Col
+					xl={4}
+					className='flex flex-col justify-center bg-teal-500'
+				>
 					academic
 					<Topic
 						topic='graduate studies'
@@ -50,7 +64,7 @@ const Learn = () => {
 					<Topic
 						topic='research'
 						backgroundColor='#E37A45'
-						textColor='white'
+						textColor='black'
 					/>
 					<Topic
 						topic='course planning'
