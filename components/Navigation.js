@@ -4,67 +4,41 @@ import Link from "next/link";
 
 const Navigation = () => {
 	return (
-		<Navbar collapseOnSelect bg='light' expand='lg'>
+		<Navbar collapseOnSelect className='font-lexend fs-4' expand='lg'>
 			<Navbar.Brand>
 				<Link href='/' passHref>
 					<Nav.Link eventKey='1'>
 						<img
-							src='acmlogo.png'
-							alt=''
-							width='40%'
-							height='40%'
+							src='acm-ucr-logo.png'
+							className='w-2/5 h-2/5'
+							alt='acm@ucr logo'
 						/>
 					</Nav.Link>
 				</Link>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='basic-navbar-nav' />
 			<Navbar.Collapse id='basic-navbar-nav'>
-				<Nav className='ml-auto'>
-					<ul className='navbar-nav ml-auto float-rightmb-2 mb-lg-0'>
-						<li
-							className='nav-item active nav-link font-lexend text-black'
-							eventKey='1'
-						>
-							<Link align='right' href='/about' passHref>
-								<Nav.Link
-									className='text-black no-underline'
-									eventKey='2'
-								>
-									about
-								</Nav.Link>
-							</Link>
-						</li>
-						<li className='nav-item active nav-link font-lexend font-color-black'>
-							<Link align='right' href='/board' passHref>
-								<Nav.Link
-									className='text-black no-underline'
-									eventKey='3'
-								>
-									board
-								</Nav.Link>
-							</Link>
-						</li>
-						<li className='nav-item active nav-link font-lexend font-color-black'>
-							<Link align='right' href='/events' passHref>
-								<Nav.Link
-									className='text-black no-underline'
-									eventKey='4'
-								>
-									events
-								</Nav.Link>
-							</Link>
-						</li>
-						<li className='nav-item active nav-link font-lexend font-color-black'>
-							<Link align='right' href='/join' passHref>
-								<Nav.Link
-									className='text-black no-underline'
-									eventKey='5'
-								>
-									join us
-								</Nav.Link>
-							</Link>
-						</li>
-					</ul>
+				<Nav className='ml-auto nav-item active nav-link float-right mb-2 mb-lg-0 no-underline'>
+					<Link href='/about' passHref>
+						<Nav.Link className='text-black' eventKey='2'>
+							about
+						</Nav.Link>
+					</Link>
+					<Link href='/board' passHref>
+						<Nav.Link className='text-black' eventKey='3'>
+							board
+						</Nav.Link>
+					</Link>
+					<Link href='/events' passHref>
+						<Nav.Link className='text-black' eventKey='4'>
+							events
+						</Nav.Link>
+					</Link>
+					<Link href='/join' passHref>
+						<Nav.Link className='text-black' eventKey='5'>
+							join us
+						</Nav.Link>
+					</Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
