@@ -13,7 +13,7 @@ const Learn = () => {
 					xl={4}
 					md={4}
 					sm={12}
-					className='flex flex-col items-center justify-center'
+					className='flex flex-col items-center justify-center whitespace-nowrap'
 				>
 					professional
 					<Topic
@@ -32,7 +32,7 @@ const Learn = () => {
 					xl={4}
 					md={4}
 					sm={12}
-					className='flex flex-col items-center justify-center'
+					className='flex flex-col items-center justify-center whitespace-nowrap'
 				>
 					technical
 					<Topic
@@ -56,8 +56,7 @@ const Learn = () => {
 					xl={4}
 					md={4}
 					sm={12}
-					className='flex flex-col items-center justify-center'
-					style={{ overflowWrap: "unset" }}
+					className='flex flex-col items-center justify-center whitespace-nowrap'
 				>
 					academic
 					<Topic
