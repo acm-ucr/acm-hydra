@@ -5,13 +5,18 @@ const Introduction = () => {
 	return (
 		<Row className='font-lexend flex justify-between items-center w-11/12 mx-auto'>
 			<Col className='text-center'>
-				<Row className='text-7xl font-semibold flex justify-center mx-auto whitespace-nowrap'>
+				<p className='text-7xl font-semibold flex justify-center mx-auto whitespace-nowrap navbar-expand'>
 					We are ACM @ UCR
-				</Row>
-				<Row className='text-5xl font-normal flex justify-center mx-auto w-5/6 pt-5'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Arcu, amet ut orci, at sed parturient quis sagittis a.
-				</Row>
+				</p>
+				<p className='text-5xl font-normal flex justify-center mx-auto w-11/12 pt-5'>
+					ACM at UCR is the largest student-run technical organization
+					with a focus on Computer Science. Our goal is to help our
+					members develop their technical and professional skills to
+					help them in school and the tech industry. We aim to
+					accomplish our goal by providing technical workshops,
+					professional events, and many more opportunities for our
+					members to excel.
+				</p>
 			</Col>
 			<Col>
 				<img alt='acm @ ucr logo' src='acm-ucr-logo.png' />
