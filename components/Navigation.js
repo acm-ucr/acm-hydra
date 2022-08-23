@@ -16,26 +16,38 @@ const Navigation = () => {
 					</Nav.Link>
 				</Link>
 			</Navbar.Brand>
-			<Navbar.Toggle aria-controls='basic-navbar-nav' />
-			<Navbar.Collapse id='basic-navbar-nav'>
-				<Nav className='ml-auto nav-item active nav-link float-right mb-2 mb-lg-0 no-underline'>
+			<Navbar.Toggle aria-controls='navbar-nav' />
+			<Navbar.Collapse id='navbar-nav'>
+				<Nav className='ml-auto mb-2 mb-lg-0 no-underline'>
 					<Link href='/about' passHref>
-						<Nav.Link className='text-black' eventKey='2'>
+						<Nav.Link
+							className='ml-auto text-acm-black'
+							eventKey='2'
+						>
 							about
 						</Nav.Link>
 					</Link>
 					<Link href='/board' passHref>
-						<Nav.Link className='text-black' eventKey='3'>
+						<Nav.Link
+							className='ml-auto text-acm-black'
+							eventKey='3'
+						>
 							board
 						</Nav.Link>
 					</Link>
 					<Link href='/events' passHref>
-						<Nav.Link className='text-black' eventKey='4'>
+						<Nav.Link
+							className='ml-auto text-acm-black'
+							eventKey='4'
+						>
 							events
 						</Nav.Link>
 					</Link>
 					<Link href='/join' passHref>
-						<Nav.Link className='text-black' eventKey='5'>
+						<Nav.Link
+							className='ml-auto text-acm-black'
+							eventKey='5'
+						>
 							join us
 						</Nav.Link>
 					</Link>
