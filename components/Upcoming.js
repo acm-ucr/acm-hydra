@@ -5,7 +5,7 @@ import Event from "./Event";
 const Upcoming = () => {
 	return (
 		<div>
-			<text className='flex justify-center text-4xl font-bold'>
+			<text className='flex justify-center text-5xl font-bold'>
 				Upcoming Events
 			</text>
 			<br />
