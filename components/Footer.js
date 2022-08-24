@@ -61,14 +61,15 @@ const Footer = () => {
 								md={2}
 								className='flex justify-center'
 							>
-								<Link
-									rel='noopener noreferrer'
-									href={link.path}
-									target='_blank'
-									title={link.title}
-									className='fill-current text-gray-50 hover:text-gray-300'
-								>
-									{link.image}
+								<Link href={link.path}>
+									<a
+										rel='noopener noreferrer'
+										target='_blank'
+										title={link.title}
+										className='fill-current text-gray-50 hover:text-gray-300'
+									>
+										{link.image}
+									</a>
 								</Link>
 							</Col>
 						);
