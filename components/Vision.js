@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 const Vision = () => {
 	return (
-		<Row className='font-lexend flex justify-between items-center w-5/6 mx-auto'>
+		<Row className='font-lexend flex justify-between items-center w-11/12 mx-auto'>
 			<Col sm={6} className='text-center'>
 				<p className='text-6xl font-semibold flex justify-center mx-auto'>
 					Our Vision
