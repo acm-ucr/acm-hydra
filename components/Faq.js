@@ -67,8 +67,8 @@ const colorArray = [
 	`bg-black`,
 ];
 
-let keys = [];
-for (let key in fullConfig.theme.acm) {
+const keys = [];
+for (const key in fullConfig.theme.acm) {
 	if (fullConfig.theme.acm.hasOwnProperty(key)) {
 		keys.push(key);
 	}
