@@ -5,7 +5,7 @@ import tailwindConfig from "../tailwind.config.js";
 
 const fullConfig = resolveConfig(tailwindConfig);
 
-let colorCount = 1;
+let colorCount = 0;
 
 const infoArray = [
 	{
@@ -51,38 +51,47 @@ const infoArray = [
 ]; // dummy data
 
 const colorArray = [
-	`bg-color1`,
-	`bg-color2`,
-	`bg-color3`,
-	`bg-color4`,
-	`bg-color5`,
-	`bg-color6`,
-	`bg-color7`,
-	`bg-color8`,
-	`bg-color9`,
-	`bg-color10`,
+	`bg-blue`,
+	`bg-lightpurple`,
+	`bg-yellow`,
+	`bg-green`,
+	`bg-red`,
+	`bg-gray`,
+	`bg-pink`,
+	`bg-lightblue`,
+	`bg-darkgray`,
+	`bg-orange`,
+	`bg-marine`,
+	`bg-purple`,
+	`bg-white`,
+	`bg-black`,
 ];
+
+let keys = [];
+for (let key in fullConfig.theme.acm) {
+	if (fullConfig.theme.acm.hasOwnProperty(key)) {
+		keys.push(key);
+	}
+}
 
 const FaqItem = ({ index, element }) => {
 	colorCount = index;
-	if (colorCount == 10) {
-		colorCount = 1;
-		console.log("Color reset to 1!");
+	if (colorCount == 14) {
+		colorCount = 0;
 	}
 
 	const bgClass =
 		index == infoArray.length - 1
 			? ""
 			: index != 0
-			? `bg-color${index}`
+			? `${colorArray[colorCount - 1]}`
 			: "bg-white";
 
-	const lastColor = fullConfig.theme.colors[`color${infoArray.length - 1}`];
-	console.log(lastColor);
+	const lastColor = fullConfig.theme.acm[keys[infoArray.length - 2]];
 
 	const bgStyle =
 		index == infoArray.length - 1
-			? { boxShadow: `0px -4.4vw ${lastColor}` }
+			? { boxShadow: `0px -3.3vw ${lastColor}` }
 			: {};
 
 	return (

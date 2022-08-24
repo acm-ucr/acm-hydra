@@ -10,18 +10,6 @@ module.exports = {
 			fontFamily: {
 				lexend: ["Lexend"],
 			},
-			colors: {
-				color1: "#82aaff",
-				color2: "#c792ea",
-				color3: "#ffd700",
-				color4: "#c3e88d",
-				color5: "#ff5370",
-				color6: "#f07178",
-				color7: "#89ddff",
-				color8: "#f78c6c",
-				color9: "#80cbc4",
-				color10: "#da70d6",
-			},
 			backgroundImage: {
 				arrow: "url('/chevron.png')",
 			},
@@ -41,6 +29,7 @@ module.exports = {
 				white: "#ffffff",
 				black: "#000000",
 			},
+			backgroundColor: theme => theme("acm"),
 		},
 	},
 	plugins: [
