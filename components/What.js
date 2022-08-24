@@ -19,8 +19,8 @@ const What = () => {
 					Winter, we introduce technical pathways ranging from web/app
 					development to security to cloud computing. In the Spring,
 					we focus on all the small engineering cruft that is expected
-					knowledge for CS students that classes don't cover: Offline
-					Editing, Source Control, Using APIs, and more.
+					knowledge for CS students that classes don&apos;t cover:
+					Offline Editing, Source Control, Using APIs, and more.
 				</p>
 			</Col>
 		</Row>
