@@ -12,14 +12,15 @@ const What = () => {
 					What we do!
 				</p>
 				<p className='text-4xl font-normal flex justify-center mx-auto w-11/12 pt-3'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Consequat vel ultrices neque odio egestas tempor id. Semper
-					tortor, eget nisi vivamus. Cras aliquam, maecenas facilisis
-					tempor massa dui tempus eget. Eros consequat nullam
-					tristique tristique placerat cursus amet integer. Ac nunc,
-					at lobortis phasellus eu dui. Vitae consectetur diam sed
-					venenatis non. Eleifend varius volutpat sapien tellus tortor
-					ultrices. Semper.
+					Every quarter, we focus on improving specific aspects of our
+					members. In the Fall, we develop professional resumes, build
+					all-star LinkedIns, and offer workshops on Applying
+					Effectively at companies from the Big 4 to startups. In the
+					Winter, we introduce technical pathways ranging from web/app
+					development to security to cloud computing. In the Spring,
+					we focus on all the small engineering cruft that is expected
+					knowledge for CS students that classes don't cover: Offline
+					Editing, Source Control, Using APIs, and more.
 				</p>
 			</Col>
 		</Row>
