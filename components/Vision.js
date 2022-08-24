@@ -3,20 +3,20 @@ import { Row, Col } from "react-bootstrap";
 
 const Vision = () => {
 	return (
-		<Row className='font-lexend flex justify-between items-center w-11/12 mx-auto'>
-			<Col className='text-center'>
-				<p className='text-6xl font-semibold flex justify-center mx-auto'>Our Vision</p>
-				<p className='text-3xl font-normal flex justify-center mx-auto w-9/12 pt-3'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Vestibulum ut sit viverra dignissim leo, commodo. Posuere
-					habitant nibh hac et cras nibh vitae tempus. Tortor neque,
-					volutpat nibh elementum. Odio eget pellentesque a, lobortis
-					sed cursus ut sed. Tortor, elementum odio odio euismod a
-					commodo. Ac mollis magna pellentesque arcu sed a rhoncus.
-					Egestas malesuada sed amet, commodo neque massa. Nisl.
+		<Row className='font-lexend flex justify-between items-center w-5/6 mx-auto'>
+			<Col sm={6} className='text-center'>
+				<p className='text-6xl font-semibold flex justify-center mx-auto'>
+					Our Vision
+				</p>
+				<p className='text-3xl font-normal flex justify-center mx-auto w-10/12 pt-3'>
+					Our Vision is simple: We want to improve our members
+					professionally, technically, and personally. We want to help
+					our members grow throughout their college career, whether
+					they enter as a first-year university student or as a
+					transfer student.
 				</p>
 			</Col>
-			<Col>
+			<Col sm={6}>
 				<img alt='picture frame component' src='' />
 			</Col>
 		</Row>
