@@ -23,8 +23,10 @@ module.exports = {
 				color10: "#da70d6",
 			},
 			backgroundImage: {
-				'arrow': "url('/chevron.png')",
-				acm: {
+				arrow: "url('/chevron.png')",
+			
+			},
+			acm: {
 					blue: "#82aaff",
 					lightpurple: "#c792ea",
 					yellow: "#ffd700",
@@ -39,7 +41,6 @@ module.exports = {
 					purple: "#da70d6",
 					white: "#ffffff",
 					black: "#000000",
-				},
 			},
 		},
 	},

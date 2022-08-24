@@ -93,7 +93,7 @@ const FaqItem = ({ index, element }) => {
 		>
 			<Accordion.Button
 				className={`bg-black text-white rounded-t-lg -mt-2 after:bg-arrow focus:shadow-none`}
-				>
+			>
 				{element.question}
 			</Accordion.Button>
 			<Accordion.Body
