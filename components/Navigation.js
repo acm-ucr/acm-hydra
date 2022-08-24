@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navigation = () => {
 	return (
-		<Navbar collapseOnSelect className='font-lexend fs-4' expand='lg'>
+		<Navbar collapseOnSelect className='font-lexend fs-4' expand='sm'>
 			<Navbar.Brand>
 				<Link href='/' passHref>
 					<Nav.Link eventKey='1'>
