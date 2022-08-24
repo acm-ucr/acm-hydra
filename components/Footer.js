@@ -66,7 +66,7 @@ const Footer = () => {
 										rel='noopener noreferrer'
 										target='_blank'
 										title={link.title}
-										className='fill-current text-gray-50 hover:text-gray-300'
+										className='fill-current text-gray-50 hover:text-acm-gray'
 									>
 										{link.image}
 									</a>
