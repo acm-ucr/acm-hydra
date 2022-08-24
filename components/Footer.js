@@ -66,14 +66,18 @@ const Footer = () => {
 					</p>
 				</Row>
 				<Row className='justify-center mx-auto'>
-						{SocialLinks.map((link, index) => {
-							return (
-								<Col key={index} xs={4} md={2} className='flex justify-center'>	
-									<FooterLink {...link}/>
-								</Col>
-							);
-
-						})}
+					{SocialLinks.map((link, index) => {
+						return (
+							<Col
+								key={index}
+								xs={4}
+								md={2}
+								className='flex justify-center'
+							>
+								<FooterLink {...link} />
+							</Col>
+						);
+					})}
 				</Row>
 			</Container>
 		</footer>
