@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import Link from "next/link";
 import {
 	FaDiscord,
 	FaInstagram,
@@ -42,20 +43,6 @@ const SocialLinks = [
 	},
 ];
 
-const FooterLink = ({ path, title, image }) => {
-	return (
-		<a
-			rel='noopener noreferrer'
-			href={path}
-			target='_blank'
-			title={title}
-			className='mx-auto fill-current md:mx-12 lg:m-0 text-gray-50 hover:text-gray-300'
-		>
-			{image}
-		</a>
-	);
-};
-
 const Footer = () => {
 	return (
 		<footer className='bg-neutral-900 text-gray-50 py-6'>
@@ -74,7 +61,15 @@ const Footer = () => {
 								md={2}
 								className='flex justify-center'
 							>
-								<FooterLink {...link} />
+								<Link
+									rel='noopener noreferrer'
+									href={link.path}
+									target='_blank'
+									title={link.title}
+									className='mx-auto fill-current md:mx-12 lg:m-0 text-gray-50 hover:text-gray-300'
+								>
+									{link.image}
+								</Link>
 							</Col>
 						);
 					})}
