@@ -66,7 +66,7 @@ const Footer = () => {
 									href={link.path}
 									target='_blank'
 									title={link.title}
-									className='fill-current md:mx-12 lg:m-0 text-gray-50 hover:text-gray-300'
+									className='fill-current text-gray-50 hover:text-gray-300'
 								>
 									{link.image}
 								</Link>
