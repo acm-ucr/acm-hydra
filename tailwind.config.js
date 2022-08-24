@@ -22,6 +22,9 @@ module.exports = {
 				color9: "#80cbc4",
 				color10: "#da70d6",
 			},
+			backgroundImage: {
+				'arrow': "url('/chevron.png')",
+			},
 		},
 	},
 	plugins: [

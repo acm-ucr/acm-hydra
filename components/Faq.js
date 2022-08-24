@@ -4,7 +4,6 @@ import resolveConfig from "tailwindcss/resolveConfig";
 import tailwindConfig from "../tailwind.config.js";
 
 const fullConfig = resolveConfig(tailwindConfig);
-console.log(fullConfig.theme.colors.color1);
 
 let colorCount = 1;
 
@@ -93,8 +92,8 @@ const FaqItem = ({ index, element }) => {
 			eventKey={index}
 		>
 			<Accordion.Button
-				className={`bg-black text-white rounded-t-lg -mt-2`}
-			>
+				className={`bg-black text-white rounded-t-lg -mt-2 after:bg-arrow focus:shadow-none`}
+				>
 				{element.question}
 			</Accordion.Button>
 			<Accordion.Body
