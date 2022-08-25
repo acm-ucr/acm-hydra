@@ -10,7 +10,7 @@ const Navigation = () => {
 					<Nav.Link eventKey='1'>
 						<img
 							src='acm-ucr-logo.png'
-							className='w-24 h-24'
+							className='w-24 h-24 '
 							alt='acm@ucr logo'
 						/>
 					</Nav.Link>
