@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+	important: true,
 	content: [
 		"./pages/**/*.{js,ts,jsx,tsx}",
 		"./components/**/*.{js,ts,jsx,tsx}",
@@ -8,6 +9,9 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				lexend: ["Lexend"],
+			},
+			backgroundImage: {
+				arrow: "url('/chevron.png')",
 			},
 			colors: {
 				acm: {
