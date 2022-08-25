@@ -18,7 +18,7 @@ const Vision = () => {
 				</p>
 			</Col>
 			<Col sm={6}>
-        <Frame />
+				<Frame />
 			</Col>
 		</Row>
 	);
