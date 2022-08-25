@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import Frame from "./Frame";
 
 const Why = () => {
 	return (
@@ -21,7 +22,7 @@ const Why = () => {
 				</p>
 			</Col>
 			<Col sm={6}>
-				<img alt='picture frame component' src='' />
+				<Frame />
 			</Col>
 		</Row>
 	);
