@@ -10,7 +10,7 @@ const Navigation = () => {
 					<Nav.Link eventKey='1'>
 						<img
 							src='acm-ucr-logo.png'
-							className='w-2/5 h-2/5'
+							className='w-24 h-24 '
 							alt='acm@ucr logo'
 						/>
 					</Nav.Link>
@@ -18,7 +18,7 @@ const Navigation = () => {
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav'>
-				<Nav className='ml-auto mb-2 mb-lg-0 no-underline'>
+				<Nav className='ml-auto mb-2 mb-lg-2 no-underline'>
 					<Link href='/about' passHref>
 						<Nav.Link
 							className='m-auto text-acm-black'
