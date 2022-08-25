@@ -1,9 +1,5 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import resolveConfig from "tailwindcss/resolveConfig";
-import tailwindConfig from "../tailwind.config.js";
-
-const fullConfig = resolveConfig(tailwindConfig);
 
 let colorCount = 0;
 
@@ -51,28 +47,21 @@ const infoArray = [
 ]; // dummy data
 
 const colorArray = [
-	`bg-blue`,
-	`bg-lightpurple`,
-	`bg-yellow`,
-	`bg-green`,
-	`bg-red`,
-	`bg-gray`,
-	`bg-pink`,
-	`bg-lightblue`,
-	`bg-darkgray`,
-	`bg-orange`,
-	`bg-marine`,
-	`bg-purple`,
-	`bg-white`,
-	`bg-black`,
+	`bg-acm-blue`,
+	`bg-acm-lightpurple`,
+	`bg-acm-yellow`,
+	`bg-acm-green`,
+	`bg-acm-red`,
+	`bg-acm-gray`,
+	`bg-acm-pink`,
+	`bg-acm-lightblue`,
+	`bg-acm-darkgray`,
+	`bg-acm-orange`,
+	`bg-acm-marine`,
+	`bg-acm-purple`,
+	`bg-acm-white`,
+	`bg-acm-black`,
 ];
-
-const keys = [];
-for (const key in fullConfig.theme.acm) {
-	if (fullConfig.theme.acm.hasOwnProperty(key)) {
-		keys.push(key);
-	}
-}
 
 const FaqItem = ({ index, element }) => {
 	colorCount = index;
@@ -81,18 +70,7 @@ const FaqItem = ({ index, element }) => {
 	}
 
 	const bgClass =
-		index == infoArray.length - 1
-			? ""
-			: index != 0
-			? `${colorArray[colorCount - 1]}`
-			: "bg-white";
-
-	const lastColor = fullConfig.theme.acm[keys[infoArray.length - 2]];
-
-	const bgStyle =
-		index == infoArray.length - 1
-			? { boxShadow: `0px -3.3vw ${lastColor}` }
-			: {};
+		index == infoArray.length - 1 ? "" : `${colorArray[colorCount]}`;
 
 	return (
 		<Accordion.Item
@@ -101,14 +79,13 @@ const FaqItem = ({ index, element }) => {
 			eventKey={index}
 		>
 			<Accordion.Button
-				className={`bg-black text-white rounded-t-lg -mt-2 after:bg-arrow focus:shadow-none`}
+				className={`bg-acm-black text-acm-white rounded-t-lg -mt-2 after:bg-arrow focus:shadow-none`}
 			>
 				{element.question}
 			</Accordion.Button>
 			<Accordion.Body
 				className={`${colorArray[colorCount]} rounded-b-lg pt-[1vw] pb-[1.5vw]`}
 				eventKey={index}
-				style={bgStyle}
 			>
 				{element.answer}
 			</Accordion.Body>
@@ -118,12 +95,16 @@ const FaqItem = ({ index, element }) => {
 
 const Faq = () => {
 	return (
-		<Accordion className='p-[10vw]' flush alwaysOpen>
+		<Accordion
+			className='flex flex-col justify-center mx-auto w-2/3 height-1/3'
+			flush
+			alwaysOpen
+		>
 			{infoArray.map((element, index) => (
 				<FaqItem
-					className='bg-black m-0 p-0'
-					element={element}
 					key={index}
+					className='bg-acm-black m-0 p-0'
+					element={element}
 					index={index}
 				/>
 			))}
