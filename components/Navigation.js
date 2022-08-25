@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const Navigation = () => {
 	return (
-		<Navbar collapseOnSelect className='font-lexend fs-4' expand='md'>
+		<Navbar collapseOnSelect className='font-lexend fs-4' expand='sm'>
 			<Navbar.Brand>
 				<Link href='/' passHref>
 					<Nav.Link eventKey='1'>
 						<img
 							src='acm-ucr-logo.png'
-							className='w-24 max-h-24'
+							className='w-24 h-24'
 							alt='acm@ucr logo'
 						/>
 					</Nav.Link>
@@ -18,8 +18,7 @@ const Navigation = () => {
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav'>
-				<Nav className=' ml-auto no-underline' flex='justify-end'>
-					{/* mb-2 mb-lg-0 */}
+				<Nav className='ml-auto mb-2 mb-lg-2 no-underline'>
 					<Link href='/about' passHref>
 						<Nav.Link
 							className='m-auto text-acm-black'
