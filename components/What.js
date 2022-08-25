@@ -1,11 +1,12 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import Frame from "./Frame";
 
 const What = () => {
 	return (
 		<Row className='font-lexend flex justify-between items-center w-11/12 mx-auto'>
 			<Col sm={6}>
-				<img alt='picture frame component' src='' />
+				<Frame />
 			</Col>
 			<Col sm={6} className='text-center'>
 				<p className='text-6xl font-medium flex justify-center mx-auto'>
