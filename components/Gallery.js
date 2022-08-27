@@ -3,11 +3,11 @@ import { Row, Col } from "react-bootstrap";
 
 const Gallery = () => {
 	return (
-		<Row className='flex justify-center mx-auto items-center'>
-			<Row className='font-lexend text-3xl font-semibold flex justify-center mx-auto p-4'>
+		<Row className='flex justify-center mx-auto'>
+			<Row className='font-lexend text-3xl font-semibold flex justify-center py-4'>
 				Gallery
 			</Row>
-			<Row className='flex justify-center m-auto w-11/12'>
+			<Row className='flex justify-center'>
 				<Row>
 					<Col>
 						<img
@@ -15,7 +15,7 @@ const Gallery = () => {
 							src='image11.png'
 						/>
 					</Col>
-					<Col className='flex justify-center m-auto'>
+					<Col className='flex justify-center'>
 						<Col>
 							<img
 								className='pr-1 pb-1'
