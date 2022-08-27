@@ -9,13 +9,13 @@ const Gallery = () => {
 			</Row>
 			<Row className='flex justify-center'>
 				<Row>
-					<Col>
+					<Col className='gx-2'>
 						<img
 							alt='group of students gathering in front of rivera library'
 							src='image11.png'
 						/>
 					</Col>
-					<Col className='flex justify-center'>
+					<Col className='flex justify-center gx-2'>
 						<Col>
 							<img
 								className='pr-1 pb-1'
@@ -43,7 +43,7 @@ const Gallery = () => {
 					</Col>
 				</Row>
 				<Row className='pt-2'>
-					<Col className='flex justify-center m-auto'>
+					<Col className='flex justify-center m-auto gx-2'>
 						<Col>
 							<img
 								className='pr-1 pb-1'
@@ -69,7 +69,7 @@ const Gallery = () => {
 							/>
 						</Col>
 					</Col>
-					<Col>
+					<Col className='gx-2'>
 						<img
 							alt='students sitting at tables discussing their ideas with professors'
 							src='image10.jpg'
@@ -78,7 +78,7 @@ const Gallery = () => {
 				</Row>
 				<Row>
 					<img
-						className='pt-2 pb-16'
+						className='pt-2 pb-16 gx-2'
 						alt='students paying attention during an acm meeting'
 						src='image12.png'
 					/>
