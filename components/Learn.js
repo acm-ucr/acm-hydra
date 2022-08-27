@@ -18,12 +18,12 @@ const Learn = () => {
 					professional
 					<Topic
 						topic='resume'
-						backgroundColor='#43B9AD'
 						textColor='black'
+						backgroundColor='#80cbc4'
 					/>
 					<Topic
 						topic='interviews'
-						backgroundColor='#43B9AD'
+						backgroundColor='#80cbc4'
 						textColor='black'
 					/>
 				</Col>
@@ -37,17 +37,17 @@ const Learn = () => {
 					technical
 					<Topic
 						topic='web dev'
-						backgroundColor='#243B5A'
+						backgroundColor='#525975'
 						textColor='white'
 					/>
 					<Topic
 						topic='version control'
-						backgroundColor='#243B5A'
+						backgroundColor='#525975'
 						textColor='white'
 					/>
 					<Topic
 						topic='data science'
-						backgroundColor='#243B5A'
+						backgroundColor='#525975'
 						textColor='white'
 					/>
 				</Col>
@@ -61,17 +61,17 @@ const Learn = () => {
 					academic
 					<Topic
 						topic='graduate studies'
-						backgroundColor='#E37A45'
+						backgroundColor='#f78c6c'
 						textColor='black'
 					/>
 					<Topic
 						topic='research'
-						backgroundColor='#E37A45'
+						backgroundColor='#f78c6c'
 						textColor='black'
 					/>
 					<Topic
 						topic='course planning'
-						backgroundColor='#E37A45'
+						backgroundColor='#f78c6c'
 						textColor='black'
 					/>
 				</Col>
