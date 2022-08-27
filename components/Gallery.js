@@ -9,7 +9,7 @@ const Gallery = () => {
 			</Row>
 			<Row className='flex justify-center m-auto w-11/12'>
 				<Row>
-					<Col className='p-2'>
+					<Col className='py-2'>
 						<img alt='' src='image11.png' />
 					</Col>
 					<Col className='flex justify-center m-auto w-5/6'>
@@ -34,12 +34,12 @@ const Gallery = () => {
 							<img className='p-1' alt='' src='image9.jpg' />
 						</Col>
 					</Col>
-					<Col className='p-2'>
+					<Col className='py-2'>
 						<img alt='' src='image10.jpg' />
 					</Col>
 				</Row>
 				<Row>
-					<img className='p-2' alt='' src='image12.png' />
+					<img className='pt-2 pb-16' alt='' src='image12.png' />
 				</Row>
 			</Row>
 		</Row>
