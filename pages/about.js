@@ -10,7 +10,7 @@ const About = () => {
 			<Vision />
 			<What />
 			<Why />
-      <Gallery />
+			<Gallery />
 		</div>
 	);
 };
