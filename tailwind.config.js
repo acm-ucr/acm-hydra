@@ -13,6 +13,9 @@ module.exports = {
 			backgroundImage: {
 				arrow: "url('/chevron.png')",
 			},
+			borderImage:
+				"conic-gradient(from 10deg, marine 70deg, black 0deg, black 175deg, lightpurple 175deg, lightpurple 255deg, black 3deg)",
+			borderImageSlice: 1,
 			colors: {
 				acm: {
 					blue: "#82aaff",
