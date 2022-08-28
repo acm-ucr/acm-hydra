@@ -9,10 +9,10 @@ const What = () => {
 				<Frame />
 			</Col>
 			<Col sm={6} className='text-center'>
-				<p className='text-6xl font-medium flex justify-center mx-auto'>
+				<p className='text-3xl font-medium flex justify-center mx-auto'>
 					What we do!
 				</p>
-				<p className='text-4xl font-normal flex justify-center mx-auto w-11/12 pt-3'>
+				<p className='text-xl font-normal flex justify-center mx-auto w-11/12 pt-3'>
 					Every quarter, we focus on improving specific aspects of our
 					members. In the Fall, we develop professional resumes, build
 					all-star LinkedIns, and offer workshops on Applying
