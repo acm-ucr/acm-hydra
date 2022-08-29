@@ -45,7 +45,7 @@ const SocialLinks = [
 
 const Footer = () => {
 	return (
-		<footer className='bg-neutral-900 text-gray-50 py-6'>
+		<footer className='bg-acm-black text-acm-white py-6'>
 			<Container className='justify-center mx-auto'>
 				<Row>
 					<p className='text-4xl font-lexend font-bold text-center'>
@@ -66,7 +66,7 @@ const Footer = () => {
 										rel='noopener noreferrer'
 										target='_blank'
 										title={link.title}
-										className='fill-current text-gray-50 hover:text-acm-gray'
+										className='fill-current text-acm-white hover:text-acm-gray'
 									>
 										{link.image}
 									</a>
