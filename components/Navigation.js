@@ -22,7 +22,7 @@ const Navigation = () => {
 					<Link href='/' passHref>
 						<Nav.Link
 							className='m-auto text-acm-black hover:text-acm-gray'
-							eventKey='2'
+							eventKey='6'
 						>
 							home
 						</Nav.Link>
