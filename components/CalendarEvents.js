@@ -10,26 +10,26 @@ const events = [
 		id: 0,
 		title: "All Day Event very long title",
 		allDay: true,
-		start: new Date(2022, 8, 0),
-		end: new Date(2022, 8, 1),
+		start: new Date(2022, 8, 6, 12, 1, 0),
+		end: new Date(2022, 8, 6, 11, 45, 0),
 	},
 	{
 		id: 1,
 		title: "Long Event",
-		start: new Date(2022, 8, 7),
-		end: new Date(2022, 8, 10),
+		start: new Date(2022, 8, 7, 12, 1, 0),
+		end: new Date(2022, 8, 7, 11, 45, 0),
 	},
 
 	{
 		id: 2,
-		title: "DTS STARTS",
-		start: new Date(2022, 8, 13, 0, 0, 0),
-		end: new Date(2022, 8, 20, 0, 0, 0),
+		title: { title: "POGGERS", time: "5PM" },
+		start: new Date(2022, 8, 13, 12, 1, 0),
+		end: new Date(2022, 8, 13, 11, 45, 0),
 	},
 ];
 
 const CustomToolbar = event => {
-	console.log(event);
+	// console.log(event);
 
 	return (
 		<div>
@@ -38,6 +38,19 @@ const CustomToolbar = event => {
 			<br />
 			{event.date.getFullYear() % 100}
 			<button onClick={() => event.onNavigate("NEXT")}>Next</button>
+		</div>
+	);
+};
+
+const CustomEvent = event => {
+	return (
+		<div>
+			{event.title.title}
+			<br />
+			{event.title.time}
+			{/* {event.slotStart.getHours()}<br />
+            {event.slotStart.toLocaleTimeString(navigator.language, { hour: '2-digit', minute: '2-digit' })}<br />
+            {event.slotEnd.toLocaleTimeString(navigator.language, { hour: '2-digit', minute: '2-digit' })} */}
 		</div>
 	);
 };
@@ -51,10 +64,11 @@ const CalendarEvents = () => {
 						className='font-lexend w-full'
 						events={events}
 						localizer={mLocalizer}
-						step={30}
-						views={["month"]}
+						// step={30}
+						// views={["month"]}
+						defaultView='month'
 						components={{
-							// event: EventComponent,
+							event: CustomEvent,
 							toolbar: CustomToolbar,
 						}}
 					/>
