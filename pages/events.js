@@ -1,12 +1,10 @@
 import React from "react";
-import Calendar from "../components/Calendar";
-import PastEvents from "../components/PastEvents";
+import CalendarEvents from "../components/CalendarEvents";
 
 const Events = () => {
 	return (
 		<div>
-			<Calendar />
-			<PastEvents />
+			<CalendarEvents />
 		</div>
 	);
 };
