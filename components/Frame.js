@@ -1,12 +1,8 @@
 import React from "react";
 
-const Frame = ({ squareImage }) => {
+const Frame = ({ image }) => {
 	return (
-		<img
-			className='ml-5 border-solid'
-			src={squareImage}
-			alt='Square image'
-		/>
+		<img className='border-solid' src={image} alt='ACM Gallery Picture' />
 	);
 };
 
