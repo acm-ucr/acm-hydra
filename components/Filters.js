@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "reaxt-bootstrap";
 import Filter from "Filter.js";
 
-const filterMapping = [
+const filters = [
 	{
 		topic: "Meetings",
 		color: "#82aaff",
@@ -24,7 +24,7 @@ const filterMapping = [
 const Filters = () => {
 	return (
 		<Row className='w-5/6 p-1'>
-			{filterMapping.map((filter, index) => {
+			{filters.map((filter, index) => {
 				return (
 					<Col key={index} xs={4} sm={3} lg={2} className='mb-1'>
 						<Filter topic={filter.topic} color={filter.color} />
