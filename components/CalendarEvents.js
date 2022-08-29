@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -6,6 +6,7 @@ import Events from "./Events.js";
 import { Row, Col } from "react-bootstrap";
 import Filter from "./Filter.js";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import EventInformation from "./EventInformation.js";
 
 const mLocalizer = momentLocalizer(moment);
 
@@ -98,6 +99,8 @@ const CustomEvent = ({ title, event }) => {
 };
 
 const CalendarEvents = () => {
+	const [eventInfo, setEventInfo] = useState({});
+
 	return (
 		<section className='w-full flex justify-center items-center flex-col'>
 			<div className=' w-11/12 flex justify-center items-center'>
@@ -111,6 +114,9 @@ const CalendarEvents = () => {
 						components={{
 							event: CustomEvent,
 							toolbar: CustomToolbar,
+						}}
+						onSelectEvent={event => {
+							setEventInfo(event);
 						}}
 						eventPropGetter={event => {
 							return { style: { backgroundColor: event.color } };
@@ -132,6 +138,7 @@ const CalendarEvents = () => {
 					/>
 				</div>
 			</div>
+			<EventInformation event={eventInfo} />
 		</section>
 	);
 };
