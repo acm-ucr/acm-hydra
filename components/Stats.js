@@ -1,10 +1,9 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Stats = () => {
 	return (
-		<Container>
-			<Row className='font-lexend text-5xl decoration-black font-semibold flex justify-between items-center whitespace-nowrap'>
+			<Row className='font-lexend text-5xl acm-black font-semibold flex justify-between items-center whitespace-nowrap m-auto w-11/12'>
 				<Col
 					sm={12}
 					md={6}
@@ -38,7 +37,6 @@ const Stats = () => {
 					10 workshops
 				</Col>
 			</Row>
-		</Container>
 	);
 };
 

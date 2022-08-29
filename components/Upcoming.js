@@ -5,11 +5,11 @@ import Event from "./Event";
 const Upcoming = () => {
 	return (
 		<div>
-			<text className='flex justify-center text-5xl font-bold'>
+			<text className='flex justify-center text-5xl font-bold m-auto w-11/12'>
 				Upcoming Events
 			</text>
 			<br />
-			<Row>
+			<Row className='w-11/12 m-auto'>
 				<Col>
 					<Event
 						month='01'
