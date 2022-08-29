@@ -21,7 +21,7 @@ const Navigation = () => {
 				<Nav className='ml-auto mb-2 mb-lg-2 no-underline'>
 					<Link href='/about' passHref>
 						<Nav.Link
-							className='m-auto text-acm-black'
+							className='m-auto text-acm-black hover:text-acm-gray'
 							eventKey='2'
 						>
 							about
@@ -29,7 +29,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/board' passHref>
 						<Nav.Link
-							className='m-auto text-acm-black'
+							className='m-auto text-acm-black hover:text-acm-gray'
 							eventKey='3'
 						>
 							board
@@ -37,7 +37,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/events' passHref>
 						<Nav.Link
-							className='m-auto text-acm-black'
+							className='m-auto text-acm-black hover:text-acm-gray'
 							eventKey='4'
 						>
 							events
@@ -45,7 +45,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/join' passHref>
 						<Nav.Link
-							className='m-auto text-acm-black'
+							className='m-auto text-acm-black hover:text-acm-gray'
 							eventKey='5'
 						>
 							join us
