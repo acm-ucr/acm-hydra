@@ -30,9 +30,12 @@ const filters = [
 
 const CustomToolbar = event => {
 	return (
-		<div>
-			<Row>
-				<Col className='flex justify-start items-center text-3xl font-lexend font-bold'>
+		<div className=''>
+			<Row className=''>
+				<Col
+					xs={3}
+					className=' w-full flex justify-start items-center text-3xl font-lexend font-bold'
+				>
 					<FaArrowLeft
 						onClick={() => event.onNavigate("PREV")}
 						className='hover:text-acm-darkgray hover:cursor-pointer'
@@ -49,46 +52,46 @@ const CustomToolbar = event => {
 						className='hover:text-acm-darkgray hover:cursor-pointer'
 					/>
 				</Col>
-				<Col className='flex justify-end items-center '>
-					{filters.map((filter, index) => {
-						return (
-							<Col
-								key={index}
-								xs={4}
-								sm={3}
-								lg={2}
-								className='m-1'
-							>
-								<Filter
-									topic={filter.topic}
-									color={filter.color}
-								/>
-							</Col>
-						);
-					})}
+				<Col
+					xs={9}
+					className=' w-full flex justify-end items-center m-0 p-0'
+				>
+					<Row className=' w-full m-0 p-0 flex justify-end items-center '>
+						{filters.map((filter, index) => {
+							return (
+								<Col
+									key={index}
+									xs={4}
+									sm={4}
+									lg={2}
+									className='m-1 p-0'
+								>
+									<Filter
+										topic={filter.topic}
+										color={filter.color}
+									/>
+								</Col>
+							);
+						})}
+					</Row>
 				</Col>
 			</Row>
 		</div>
 	);
 };
 
-const CustomEvent = event => {
+const CustomEvent = ({ title, event }) => {
 	return (
-		<div className='font-lexend p-1 break-all'>
-			<p>
-				{event.title}
+		<div className='font-lexend p-1'>
+			<p className='inline whitespace-nowrap'>
+				{title}
 				<br />
-				{event.event.start.toLocaleTimeString(navigator.language, {
-					hour: "2-digit",
-					minute: "2-digit",
-				})}{" "}
+				{event.location}
 				<nbsp /> - <nbsp />
-				{event.event.end.toLocaleTimeString(navigator.language, {
+				{event.start.toLocaleTimeString(navigator.language, {
 					hour: "2-digit",
 					minute: "2-digit",
 				})}
-				<br />
-				{event.event.location}
 			</p>
 		</div>
 	);
@@ -110,8 +113,21 @@ const CalendarEvents = () => {
 							toolbar: CustomToolbar,
 						}}
 						eventPropGetter={event => {
-							const backgroundColor = event.color;
-							return { style: { backgroundColor } };
+							return { style: { backgroundColor: event.color } };
+						}}
+						dayPropGetter={event => {
+							const bg =
+								new Date(event).toLocaleDateString() ==
+								new Date().toLocaleDateString()
+									? "#c3e88d"
+									: "white";
+							return {
+								style: {
+									background: bg,
+									margin: 0,
+									padding: 0,
+								},
+							};
 						}}
 					/>
 				</div>
