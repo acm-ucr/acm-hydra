@@ -3,17 +3,71 @@ import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import Events from "./Events.js";
+import { Row, Col } from "react-bootstrap";
+import Filter from "./Filter.js";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const mLocalizer = momentLocalizer(moment);
+
+const filters = [
+	{
+		topic: "Meetings",
+		color: "#82aaff",
+	},
+	{
+		topic: "Career",
+		color: "#c792ea",
+	},
+	{
+		topic: "Socials",
+		color: "#ff5370",
+	},
+	{
+		topic: "Workshops",
+		color: "#ffd700",
+	},
+];
 
 const CustomToolbar = event => {
 	return (
 		<div>
-			<button onClick={() => event.onNavigate("PREV")}>Previous</button>
-			{event.date.getMonth() + 1}
-			<br />
-			{event.date.getFullYear() % 100}
-			<button onClick={() => event.onNavigate("NEXT")}>Next</button>
+			<Row>
+				<Col className='flex justify-start items-center text-3xl font-lexend font-bold'>
+					<FaArrowLeft
+						onClick={() => event.onNavigate("PREV")}
+						className='hover:text-acm-darkgray hover:cursor-pointer'
+					/>
+					<div className='text-center text-5xl p-1'>
+						{event.date.getMonth() + 1 < 10
+							? `0${event.date.getMonth() + 1}`
+							: event.date.getMonth() + 1}
+						<br />
+						{event.date.getFullYear() % 100}
+					</div>
+					<FaArrowRight
+						onClick={() => event.onNavigate("NEXT")}
+						className='hover:text-acm-darkgray hover:cursor-pointer'
+					/>
+				</Col>
+				<Col className='flex justify-end items-center '>
+					{filters.map((filter, index) => {
+						return (
+							<Col
+								key={index}
+								xs={4}
+								sm={3}
+								lg={2}
+								className='m-1'
+							>
+								<Filter
+									topic={filter.topic}
+									color={filter.color}
+								/>
+							</Col>
+						);
+					})}
+				</Col>
+			</Row>
 		</div>
 	);
 };
