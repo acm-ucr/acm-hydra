@@ -14,7 +14,7 @@ module.exports = {
 				arrow: "url('/chevron.png')",
 			},
 			borderImage:
-				"conic-gradient(from 10deg, marine 70deg, black 0deg, black 175deg, lightpurple 175deg, lightpurple 255deg, black 3deg)",
+				"conic-gradient(from 10deg, #80cbc4 70deg, #000000 0deg, #000000 175deg, #c792ea 175deg, #c792ea 255deg, #000000 3deg)",
 			borderImageSlice: 1,
 			colors: {
 				acm: {
