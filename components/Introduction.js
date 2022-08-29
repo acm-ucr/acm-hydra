@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 const Introduction = () => {
 	return (
 		<Row className='font-lexend flex justify-between items-center w-11/12 mx-auto'>
-			<Col className='text-center w-11/12'>
+			<Col className='text-center'>
 				<p className='text-7xl font-semibold flex justify-center mx-auto whitespace-nowrap navbar-expand'>
 					We are ACM @ UCR
 				</p>
@@ -18,7 +18,7 @@ const Introduction = () => {
 					members to excel.
 				</p>
 			</Col>
-			<Col className='w-11/12'>
+			<Col>
 				<img alt='acm @ ucr logo' src='acm-ucr-logo.png' />
 			</Col>
 		</Row>
