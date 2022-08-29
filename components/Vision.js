@@ -17,8 +17,13 @@ const Vision = () => {
 					transfer student.
 				</p>
 			</Col>
-			<Col sm={6}>
-				<Frame />
+			<Col sm={6} className='flex justify-center items-center'>
+				<Frame
+					image='image1.jpg'
+					topRight={"#80cbc4"}
+					bottomLeft={"#c792ea"}
+					corners={"black"}
+				/>
 			</Col>
 		</Row>
 	);

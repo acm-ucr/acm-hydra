@@ -5,8 +5,7 @@ let colorCount = 0;
 
 const infoArray = [
 	{
-		question: `quam quisque id diam vel quam elementum 
-		pulvinar etiam non quam lacus suspendisse faucibus interdum`,
+		question: `What is ACM?`,
 		answer: `Lorem ipsum dolor sit amet, consectetur 
 		adipiscing elit, sed do eiusmod tempor incididunt 
 		ut labore et dolore magna aliqua. Ullamcorper sit 
@@ -15,8 +14,7 @@ const infoArray = [
 		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
 	},
 	{
-		question: `quam quisque id diam vel quam elementum 
-		pulvinar etiam non quam lacus suspendisse faucibus interdum`,
+		question: `How do I join ACM @ UCR?`,
 		answer: `Lorem ipsum dolor sit amet, consectetur 
 		adipiscing elit, sed do eiusmod tempor incididunt 
 		ut labore et dolore magna aliqua. Ullamcorper sit 
@@ -25,8 +23,7 @@ const infoArray = [
 		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
 	},
 	{
-		question: `quam quisque id diam vel quam elementum 
-		pulvinar etiam non quam lacus suspendisse faucibus interdum`,
+		question: `Who is able to join ACM @ UCR?`,
 		answer: `Lorem ipsum dolor sit amet, consectetur 
 		adipiscing elit, sed do eiusmod tempor incididunt 
 		ut labore et dolore magna aliqua. Ullamcorper sit 
@@ -35,8 +32,16 @@ const infoArray = [
 		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
 	},
 	{
-		question: `quam quisque id diam vel quam elementum 
-		pulvinar etiam non quam lacus suspendisse faucibus interdum`,
+		question: `How can I participate in student led projects?`,
+		answer: `Lorem ipsum dolor sit amet, consectetur 
+		adipiscing elit, sed do eiusmod tempor incididunt 
+		ut labore et dolore magna aliqua. Ullamcorper sit 
+		amet risus nullam eget felis eget nunc lobortis. 
+		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
+		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+	},
+	{
+		question: `When are general meetings/workshops/events/socials?`,
 		answer: `Lorem ipsum dolor sit amet, consectetur 
 		adipiscing elit, sed do eiusmod tempor incididunt 
 		ut labore et dolore magna aliqua. Ullamcorper sit 
@@ -74,17 +79,17 @@ const FaqItem = ({ index, element }) => {
 
 	return (
 		<Accordion.Item
-			className={`${bgClass} font-lexend m-0 p-0`}
+			className={`${bgClass} focus:!shadow-none font-lexend m-0 p-0`}
 			id={`element${index}`}
 			eventKey={index}
 		>
 			<Accordion.Button
-				className={`bg-acm-black text-acm-white rounded-t-lg -mt-2 after:bg-arrow focus:shadow-none`}
+				className={`!bg-acm-black !text-acm-white !rounded-t-lg -mt-3.5 after:!bg-arrow focus:!shadow-none`}
 			>
 				{element.question}
 			</Accordion.Button>
 			<Accordion.Body
-				className={`${colorArray[colorCount]} rounded-b-lg pt-[1vw] pb-[1.5vw]`}
+				className={`${colorArray[colorCount]} rounded-b-lg !pt-6 !pb-8`}
 				eventKey={index}
 			>
 				{element.answer}
@@ -103,7 +108,7 @@ const Faq = () => {
 			{infoArray.map((element, index) => (
 				<FaqItem
 					key={index}
-					className='bg-acm-black m-0 p-0'
+					className='!bg-acm-black focus:!shadow-none m-0 p-0'
 					element={element}
 					index={index}
 				/>
