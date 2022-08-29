@@ -5,8 +5,13 @@ import Frame from "./Frame";
 const What = () => {
 	return (
 		<Row className='font-lexend flex justify-between items-center w-11/12 mx-auto'>
-			<Col sm={6}>
-				<Frame />
+			<Col sm={6} className='flex justify-center items-center'>
+				<Frame
+					image='image14.png'
+					topRight={"#ffd700"}
+					bottomLeft={"#ff5370"}
+					corners={"#82aaff"}
+				/>
 			</Col>
 			<Col sm={6} className='text-center'>
 				<p className='text-3xl font-medium flex justify-center mx-auto'>
