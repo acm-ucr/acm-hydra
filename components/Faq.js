@@ -6,48 +6,25 @@ let colorCount = 0;
 const infoArray = [
 	{
 		question: `What is ACM?`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		answer: `ACM is UCR's largest computer science club. We focus on 
+		professional and academic development, mentorship, and projects.`,
 	},
 	{
 		question: `How do I join ACM @ UCR?`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		answer: `Currently, there's no official way to join like a membership 
+		fee, so all you have to do is come out to our events! `,
 	},
 	{
 		question: `Who is able to join ACM @ UCR?`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		answer: `All UCR students.`,
 	},
 	{
 		question: `How can I participate in student led projects?`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		answer: `By reaching out to project leads.`,
 	},
 	{
 		question: `When are general meetings/workshops/events/socials?`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		answer: `Times change during every quarter. Be sure to check our socials for the most up to date time and events.`,
 	},
 ]; // dummy data
 
