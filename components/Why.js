@@ -21,8 +21,13 @@ const Why = () => {
 					at UCR can only be measured by the success of our members.
 				</p>
 			</Col>
-			<Col sm={6}>
-				<Frame />
+			<Col sm={6} className='flex justify-center items-center'>
+				<Frame
+					image='image3.jpg'
+					topRight={"#223470"}
+					bottomLeft={"#f78c6c"}
+					corners={"#c3e88d"}
+				/>
 			</Col>
 		</Row>
 	);

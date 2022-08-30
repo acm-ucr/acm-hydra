@@ -1,59 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import Event from "./Event";
+import { Events } from "./Events.js";
 
 const Upcoming = () => {
+	const [events, setEvents] = useState([]);
+
+	useEffect(() => {
+		setEvents(
+			Events.filter(event => {
+				return event.start > new Date();
+			}).slice(0, 3)
+		);
+	}, []);
+
 	return (
-		<div>
-			<text className='flex justify-center text-5xl font-bold m-auto w-11/12'>
+		<div className='flex justify-content items-center flex-col'>
+			<text className='flex justify-center text-5xl font-bold'>
 				Upcoming Events
 			</text>
 			<br />
-			<Row className='w-11/12 m-auto'>
-				<Col>
-					<Event
-						month='01'
-						day='02'
-						year='03'
-						type='general'
-						time='3'
-						place='WCH'
-						description='blash'
-					/>
-				</Col>
-				<Col>
-					<Event
-						month='01'
-						day='02'
-						year='03'
-						type='general'
-						time='3'
-						place='WCH'
-						description='blash'
-					/>
-				</Col>
-				<Col>
-					<Event
-						month='01'
-						day='02'
-						year='03'
-						type='general'
-						time='3'
-						place='WCH'
-						description='blash'
-					/>
-				</Col>
-				<Col>
-					<Event
-						month='01'
-						day='02'
-						year='03'
-						type='general'
-						time='3'
-						place='WCH'
-						description='blash'
-					/>
-				</Col>
+			<Row className='w-11/12'>
+				{events.map((event, index) => (
+					<Col key={index}>
+						<Event
+							title={event.title}
+							location={event.location}
+							color={event.color}
+							start={event.start}
+							end={event.end}
+							description={event.description}
+						/>
+					</Col>
+				))}
 			</Row>
 		</div>
 	);
