@@ -6,7 +6,7 @@ import Events from "./Events.js";
 import { Row, Col } from "react-bootstrap";
 import Filter from "./Filter.js";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-import EventInformation from "./EventInformation.js";
+import Event from "./Event.js";
 
 const mLocalizer = momentLocalizer(moment);
 
@@ -28,6 +28,19 @@ const filters = [
 		color: "#ffd700",
 	},
 ];
+const event = {
+	type: "general",
+	location: "WCH 127",
+	day: "1",
+	ledBy: "john",
+	year: "1",
+	month: "1",
+	textColor: "#82aaff",
+	place: "WCH",
+	time: "3",
+	description:
+		"According to all known laws of aviation, there is no way that a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible.",
+};
 
 const CustomToolbar = event => {
 	return (
@@ -99,7 +112,7 @@ const CustomEvent = ({ title, event }) => {
 };
 
 const CalendarEvents = () => {
-	const [eventInfo, setEventInfo] = useState({});
+	const [eventInfo, setEventInfo] = useState(event);
 
 	return (
 		<section className='w-full flex justify-center items-center flex-col'>
@@ -138,10 +151,8 @@ const CalendarEvents = () => {
 					/>
 				</div>
 			</div>
-			<div className='flex justify-center'>
-				<div className='w-4/5'>
-					<EventInformation event={eventInfo} />
-				</div>
+			<div className='w-4/5'>
+				<Event event={eventInfo} isCalendarEvent={true} />
 			</div>
 		</section>
 	);
