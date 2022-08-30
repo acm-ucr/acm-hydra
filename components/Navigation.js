@@ -19,6 +19,14 @@ const Navigation = () => {
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav'>
 				<Nav className='ml-auto mb-2 mb-lg-2 no-underline'>
+					<Link href='/' passHref>
+						<Nav.Link
+							className='m-auto text-acm-black hover:text-acm-gray'
+							eventKey='6'
+						>
+							home
+						</Nav.Link>
+					</Link>
 					<Link href='/about' passHref>
 						<Nav.Link
 							className='m-auto !text-acm-black hover:!text-acm-gray'
