@@ -1,87 +1,51 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
-const Event = props => {
-	if (props.isCalendarEvent) {
-		return (
-			<div className='bg-black rounded-3xl'>
-				<Card className='border-none border-white bg-transparent font-lexend lg:py-12 lg:p-8'>
-					<Card.Body className='flex justify-evenly'>
-						<Card.Title className='w-1/6'>
-							<p
-								className='text-4xl inline'
-								style={{ color: props.event.textColor }}
-							>
-								{props.event.month}
-								<br />
-								{props.event.day}
-								<br />
-								{props.event.year}
-							</p>
-						</Card.Title>
-						<div className='w-4/6'>
-							<Card.Title>
-								<p
-									className='text-4xl inline break-normal'
-									style={{ color: props.event.textColor }}
-								>
-									{props.event.type}
-								</p>
-							</Card.Title>
-							<div className='text-white text-xl'>
-								<Card.Text>
-									{props.event.time}
-									<br />
-									{props.event.place}
-									<br />
-									{props.event.ledBy}
-									<br />
-									<br />
-									{props.event.description}
-								</Card.Text>
-							</div>
-						</div>
-					</Card.Body>
-				</Card>
-			</div>
-		);
-	} else {
-		return (
-			<Card className='bg-black font-lexend shadow-[10px_-8px_0px_0px_black'>
+const Event = ({ title, location, color, start, end, description }) => {
+	return (
+		<div
+			className={
+				"h-full bg-acm-black rounded shadow-[10px_-8px_0px_0px] shadow-acm-blue"
+			}
+		>
+			<Card className='!bg-acm-black font-lexend  !border-none'>
 				<Card.Body className='flex justify-evenly'>
 					<Card.Title className='w-1/6'>
-						<p className='text-3xl inline text-white'>
-							{props.month}
+						<p className='text-4xl inline text-acm-white'>
+							{start.getMonth() + 1}
 							<br />
-							{props.day}
+							{start.getDate() < 10
+								? `0` + start.getDate()
+								: start.getDate()}
 							<br />
-							{props.year}
+							{start.getFullYear() % 100}
 						</p>
 					</Card.Title>
-					<div className='w-4/6'>
+					<div className='pl-3'>
 						<Card.Title>
-							<p className='text-3xl inline text-white'>
-								{props.type}
+							<p className='text-2xl text-acm-white inline'>
+								{title}
 							</p>
 						</Card.Title>
-						<div className='text-white'>
+						<div className='text-acm-white text-md'>
 							<Card.Text>
-								{props.time}
-								<br />
-								{props.place}
-								<br />
-								<br />
-								{props.description}
+								<div className='text-acm-white'>
+									{location}
+									<nbsp /> - <nbsp />
+									{start.toLocaleTimeString("en", {
+										hour: "2-digit",
+										minute: "2-digit",
+									})}
+									<br />
+								</div>
+								{description}
 							</Card.Text>
 						</div>
 					</div>
 				</Card.Body>
 			</Card>
-		);
-	}
+		</div>
+	);
 };
-
-{
-}
 
 export default Event;

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import Events from "./Events.js";
+import { Events } from "./Events.js";
 import { Row, Col } from "react-bootstrap";
 import Filter from "./Filter.js";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
@@ -98,8 +98,6 @@ const CustomEvent = ({ title, event }) => {
 };
 
 const CalendarEvents = () => {
-	const [eventInfo, setEventInfo] = useState({});
-
 	return (
 		<section className='w-full flex justify-center items-center flex-col'>
 			<div className=' w-11/12 flex justify-center items-center'>
@@ -113,9 +111,6 @@ const CalendarEvents = () => {
 						components={{
 							event: CustomEvent,
 							toolbar: CustomToolbar,
-						}}
-						onSelectEvent={event => {
-							setEventInfo(event);
 						}}
 						eventPropGetter={event => {
 							return { style: { backgroundColor: event.color } };
@@ -137,9 +132,28 @@ const CalendarEvents = () => {
 					/>
 				</div>
 			</div>
-			<div className='w-4/5'>
-				<Event event={eventInfo} isCalendarEvent={true} />
-			</div>
+
+			<Row className='w-11/12 flex justify-center'>
+				<text className='flex justify-center text-5xl font-bold'>
+					Upcoming Events
+				</text>
+				{Events.map((event, index) =>
+					event.start > new Date() ? (
+						<Col key={index} xl={3} className='p-3'>
+							<Event
+								title={event.title}
+								location={event.location}
+								color={event.color}
+								start={event.start}
+								end={event.end}
+								description={event.description}
+							/>{" "}
+						</Col>
+					) : (
+						<></>
+					)
+				)}
+			</Row>
 		</section>
 	);
 };
