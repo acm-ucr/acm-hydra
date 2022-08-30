@@ -28,20 +28,6 @@ const filters = [
 		color: "#ffd700",
 	},
 ];
-const event = {
-	type: "general",
-	location: "WCH 127",
-	day: "1",
-	ledBy: "john",
-	year: "1",
-	month: "1",
-	textColor: "#82aaff",
-	place: "WCH",
-	time: "3",
-	description:
-		"According to all known laws of aviation, there is no way that a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible.",
-};
-
 const CustomToolbar = event => {
 	return (
 		<div className=''>
@@ -112,7 +98,7 @@ const CustomEvent = ({ title, event }) => {
 };
 
 const CalendarEvents = () => {
-	const [eventInfo, setEventInfo] = useState(event);
+	const [eventInfo, setEventInfo] = useState({});
 
 	return (
 		<section className='w-full flex justify-center items-center flex-col'>
