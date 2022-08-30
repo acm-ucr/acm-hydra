@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -98,6 +98,16 @@ const CustomEvent = ({ title, event }) => {
 };
 
 const CalendarEvents = () => {
+	const [events, setEvents] = useState([]);
+
+	useEffect(() => {
+		setEvents(
+			Events.filter(event => {
+				return event.start > new Date();
+			})
+		);
+	}, []);
+
 	return (
 		<section className='w-full flex justify-center items-center flex-col'>
 			<div className=' w-11/12 flex justify-center items-center'>
@@ -137,22 +147,18 @@ const CalendarEvents = () => {
 				<text className='flex justify-center text-5xl font-bold'>
 					Upcoming Events
 				</text>
-				{Events.map((event, index) =>
-					event.start > new Date() ? (
-						<Col key={index} xl={3} className='p-3'>
-							<Event
-								title={event.title}
-								location={event.location}
-								color={event.color}
-								start={event.start}
-								end={event.end}
-								description={event.description}
-							/>{" "}
-						</Col>
-					) : (
-						<></>
-					)
-				)}
+				{events.map((event, index) => (
+					<Col key={index} xl={3} className='p-3'>
+						<Event
+							title={event.title}
+							location={event.location}
+							color={event.color}
+							start={event.start}
+							end={event.end}
+							description={event.description}
+						/>
+					</Col>
+				))}
 			</Row>
 		</section>
 	);

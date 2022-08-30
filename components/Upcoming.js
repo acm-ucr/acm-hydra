@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import Event from "./Event";
 import { Events } from "./Events.js";
 
-const upcoming = Events.filter(event => {
-	return event.start > new Date();
-}).slice(0, 3);
-
 const Upcoming = () => {
+	const [events, setEvents] = useState([]);
+
+	useEffect(() => {
+		setEvents(
+			Events.filter(event => {
+				return event.start > new Date();
+			}).slice(0, 3)
+		);
+	}, []);
+
 	return (
 		<div className='flex justify-content items-center flex-col'>
 			<text className='flex justify-center text-5xl font-bold'>
@@ -15,7 +21,7 @@ const Upcoming = () => {
 			</text>
 			<br />
 			<Row className='w-11/12'>
-				{upcoming.map((event, index) => (
+				{events.map((event, index) => (
 					<Col key={index}>
 						<Event
 							title={event.title}
