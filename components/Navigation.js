@@ -21,7 +21,7 @@ const Navigation = () => {
 				<Nav className='ml-auto mb-2 mb-lg-2 no-underline'>
 					<Link href='/' passHref>
 						<Nav.Link
-							className='m-auto text-acm-black hover:text-acm-gray'
+							className='m-auto !text-acm-black hover:!text-acm-gray'
 							eventKey='6'
 						>
 							home

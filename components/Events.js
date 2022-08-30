@@ -5,13 +5,14 @@ const filters = {
 	Workshops: "#ffd700",
 };
 
-const Events = [
+export const Events = [
 	{
 		title: "CRS: Resume + LaTex",
 		location: "WCH 127",
 		color: filters["Career"],
 		start: new Date(2022, 9, 7, 16, 0, 0),
 		end: new Date(2022, 9, 7, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
 		title: "CRS: Internships",
@@ -19,6 +20,7 @@ const Events = [
 		color: filters["Career"],
 		start: new Date(2022, 9, 14, 16, 0, 0),
 		end: new Date(2022, 9, 14, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
 		title: "CRS: Interview Process",
@@ -26,6 +28,7 @@ const Events = [
 		color: filters["Career"],
 		start: new Date(2022, 9, 21, 16, 0, 0),
 		end: new Date(2022, 9, 21, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
 		title: "CRS: Linkedin/Github",
@@ -33,6 +36,7 @@ const Events = [
 		color: filters["Career"],
 		start: new Date(2022, 9, 28, 16, 0, 0),
 		end: new Date(2022, 9, 28, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
 		title: "CRS: Course Planning",
@@ -40,6 +44,7 @@ const Events = [
 		color: filters["Career"],
 		start: new Date(2022, 10, 4, 16, 0, 0),
 		end: new Date(2022, 10, 4, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
 		title: "CRS: Mock Interviews",
@@ -47,6 +52,7 @@ const Events = [
 		color: filters["Career"],
 		start: new Date(2022, 10, 11, 16, 0, 0),
 		end: new Date(2022, 10, 11, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
 		title: "CRS: Graduate Studies",
@@ -54,6 +60,7 @@ const Events = [
 		color: filters["Career"],
 		start: new Date(2022, 10, 18, 16, 0, 0),
 		end: new Date(2022, 10, 18, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
 		title: "CRS: Research",
@@ -61,7 +68,6 @@ const Events = [
 		color: filters["Career"],
 		start: new Date(2022, 10, 25, 16, 0, 0),
 		end: new Date(2022, 10, 25, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 ];
-
-export default Events;

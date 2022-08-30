@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import Events from "./Events.js";
+import { Events } from "./Events.js";
 import { Row, Col } from "react-bootstrap";
 import Filter from "./Filter.js";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-import EventInformation from "./EventInformation.js";
+import Event from "./Event.js";
 
 const mLocalizer = momentLocalizer(moment);
 
@@ -28,7 +28,6 @@ const filters = [
 		color: "#ffd700",
 	},
 ];
-
 const CustomToolbar = event => {
 	return (
 		<div className=''>
@@ -99,7 +98,15 @@ const CustomEvent = ({ title, event }) => {
 };
 
 const CalendarEvents = () => {
-	const [eventInfo, setEventInfo] = useState({});
+	const [events, setEvents] = useState([]);
+
+	useEffect(() => {
+		setEvents(
+			Events.filter(event => {
+				return event.start > new Date();
+			})
+		);
+	}, []);
 
 	return (
 		<section className='w-full flex justify-center items-center flex-col'>
@@ -114,9 +121,6 @@ const CalendarEvents = () => {
 						components={{
 							event: CustomEvent,
 							toolbar: CustomToolbar,
-						}}
-						onSelectEvent={event => {
-							setEventInfo(event);
 						}}
 						eventPropGetter={event => {
 							return { style: { backgroundColor: event.color } };
@@ -138,7 +142,24 @@ const CalendarEvents = () => {
 					/>
 				</div>
 			</div>
-			<EventInformation event={eventInfo} />
+
+			<Row className='w-11/12 flex justify-center'>
+				<text className='flex justify-center text-5xl font-bold'>
+					Upcoming Events
+				</text>
+				{events.map((event, index) => (
+					<Col key={index} xl={3} className='p-3'>
+						<Event
+							title={event.title}
+							location={event.location}
+							color={event.color}
+							start={event.start}
+							end={event.end}
+							description={event.description}
+						/>
+					</Col>
+				))}
+			</Row>
 		</section>
 	);
 };
