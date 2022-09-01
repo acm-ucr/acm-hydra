@@ -2,18 +2,8 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-// {
-// 		name: "Vinz Angelo Madrigal",
-// 		pronoun: "He/Him",
-// 		position: "President",
-// 		image: "vinz.jpeg",
-// 		email: "vmadr010@ucr.edu",
-// 		linkedin: "https://www.linkedin.com/in/vinzmadrigal/",
-// 		github: "https://github.com/mvinzangelo",
-// 		bio: `Heyo I'm Vinz. I was born in the Philippines but swam to SoCal when I was a little boy. I like reading books that are way out of my comprehension level and singing songs that are way out of my range. Join ACM to help shape the future of CS at UCR, thank you :)`,
-// 	},
-
 const Profile = ({
+	color,
 	name,
 	pronouns,
 	position,
@@ -23,12 +13,12 @@ const Profile = ({
 	github,
 }) => {
 	return (
-		<div className='h-full'>
-			<Row className='bg-blue-500 w-full m-1 '>
-				<Col
-					xl={3}
-					className='bg-red-500 flex justify-evenly items-center flex-col'
-				>
+		<Row className={`bg-${color} w-11/12 p-3 rounded-2xl`}>
+			<Col
+				xs={2}
+				className='flex justify-start m-0 p-0 items-center flex-col'
+			>
+				<div className='h-4/6 flex justify-evenly items-center flex-col '>
 					{github === "" ? (
 						<></>
 					) : (
@@ -41,6 +31,7 @@ const Profile = ({
 							<FaGithub className='text-4xl' />
 						</a>
 					)}
+
 					{linkedin === "" ? (
 						<></>
 					) : (
@@ -66,17 +57,21 @@ const Profile = ({
 							<FaEnvelope className='text-4xl' />
 						</a>
 					)}
-				</Col>
-				<Col xl={9} className='font-lexend'>
-					<img src={image} />
-					<p className='text-xl font-bold inline'>{name}</p>
-					<br />
-					<p className='text-xl inline'>{position}</p>
-					<br />
-					<p>{pronouns}</p>
-				</Col>
-			</Row>
-		</div>
+				</div>
+			</Col>
+			<Col xs={10} className='font-lexend text-acm-black m-0 pr-0'>
+				<img
+					className='shadow-[10px_8px_0px_0px] shadow-acm-white mb-3'
+					src={image}
+					alt='Profile Picture of Board Member'
+				/>
+				<p className='text-base inline'>{name}</p>
+				<br />
+				<p className='text-base  inline'>{position}</p>
+				<br />
+				<p>{pronouns}</p>
+			</Col>
+		</Row>
 	);
 };
 
