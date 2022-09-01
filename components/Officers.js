@@ -1,7 +1,8 @@
 import React from "react";
+import { Row, Col } from "react-bootstrap";
 import Profile from "./Profile";
 
-const OfficerData = [
+const officers = [
 	{
 		name: "Vinz Angelo Madrigal",
 		pronoun: "He/Him",
@@ -130,12 +131,17 @@ const Officers = () => {
 			<h1 className='font-lexend text-3xl font-medium text-center'>
 				Meet our Board!
 			</h1>
-
-			<div className='profileGrid grid grid-cols-2'>
-				{OfficerData.map((arrP, index) => (
-					<Profile key={index} person={arrP} />
+			<Row className='w-11/12'>
+				{officers.map((officer, index) => (
+					<Col
+						xs={6}
+						key={index}
+						className='flex justify-center mx-auto'
+					>
+						<Profile key={index} person={officer} />
+					</Col>
 				))}
-			</div>
+			</Row>
 		</div>
 	);
 };
