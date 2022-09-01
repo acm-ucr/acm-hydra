@@ -1,8 +1,8 @@
 import React from "react";
-import Profile from "./Profile";
 import { Row, Col } from "react-bootstrap";
+import Profile from "./Profile";
 
-const OfficerData = [
+const officers = [
 	{
 		name: "Vinz Madrigal",
 		pronoun: "He/Him",
@@ -131,9 +131,8 @@ const Officers = () => {
 			<h1 className='font-lexend text-3xl font-medium text-center'>
 				Meet our Board!
 			</h1>
-
 			<Row className=''>
-				{OfficerData.map((officer, index) => (
+				{officers.map((officer, index) => (
 					<Col key={index} xl={3} className='h-full bg-green-500 p-1'>
 						<Profile
 							name={officer.name}
