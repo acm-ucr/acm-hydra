@@ -38,7 +38,7 @@ const Inspire = () => {
 			<br />
 			<Row className='w-11/12'>
 				{projects.map((project, index) => (
-					<Col key={index} lg={4} md={6}>
+					<Col key={index} lg={4} md={6} className='p-3'>
 						<Project
 							title={project.title}
 							timeline={project.timeline}
