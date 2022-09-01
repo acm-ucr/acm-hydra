@@ -4,8 +4,8 @@ import Profile from "./Profile";
 
 const officers = [
 	{
-		name: "Vinz Angelo Madrigal",
-		pronoun: "He/Him",
+		name: "Vinz Madrigal",
+		pronoun: "he/him",
 		position: "President",
 		image: "vinz.jpeg",
 		email: "vmadr010@ucr.edu",
@@ -15,7 +15,7 @@ const officers = [
 	},
 	{
 		name: "Justin Mazon",
-		pronoun: "He/Him",
+		pronoun: "he/him",
 		position: "Vice President",
 		image: "justin.jpg",
 		email: "jmazo002@ucr.edu",
@@ -24,9 +24,19 @@ const officers = [
 		bio: "Hello! My name is Justin Mazon and I am studying Computer Engineering. Some of my interests are computer building, keyboard building, playing guitar, and chess.",
 	},
 	{
+		name: "David Ryan",
+		pronoun: "he/him",
+		position: "Event",
+		image: "johnnie.png",
+		email: "dryan011@ucr.edu",
+		linkedin: "https://www.linkedin.com/in/david-michael-ryan/",
+		github: "https://github.com/davidry777",
+		bio: `I'm from San Diego, CA and I am also a Data Science major at BCOE. I do swim workouts on alternative days and I enjoy talking about football, tech, and college advice.`,
+	},
+	{
 		name: "Alex Hsieh",
-		pronoun: "He/Him",
-		position: "Membership Chair",
+		pronoun: "he/him",
+		position: "Membership",
 		image: "alex.jpg",
 		email: "ahsie014@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/alex-c-hsieh",
@@ -35,38 +45,18 @@ const officers = [
 	},
 	{
 		name: "Joshua Candelaria",
-		pronoun: "He/Him",
-		position: "Membership Chair",
-		image: "joshua.png",
+		pronoun: "he/him",
+		position: "Membership",
+		image: "johnnie.png",
 		email: "jcand014@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/jecndlria/",
 		github: "https://github.com/jecndlria",
 		bio: `I'm Josh, one of your Membership Co-Chairs this year! A few of my favorite things are basketball, music, and video games. I hope to create better connections between you and your peers and give everyone a safe space here at ACM@UCR.`,
 	},
 	{
-		name: "David Ryan",
-		pronoun: "He/Him",
-		position: "Event Chair",
-		image: "",
-		email: "dryan011@ucr.edu",
-		linkedin: "https://www.linkedin.com/in/david-michael-ryan/",
-		github: "https://github.com/davidry777",
-		bio: `I'm from San Diego, CA and I am also a Data Science major at BCOE. I do swim workouts on alternative days and I enjoy talking about football, tech, and college advice.`,
-	},
-	{
-		name: "Cindy Lee",
-		pronoun: "She/Her",
-		position: "Treasurer",
-		image: "",
-		email: "Clee541@ucr.edu",
-		linkedin: "https://www.linkedin.com/in/cindy-lee-7a0306183",
-		github: "",
-		bio: "Make a short bio for me :)",
-	},
-	{
 		name: "Samarth Srinivasa",
-		pronoun: "He/Him",
-		position: "Industry Outreach Chair",
+		pronoun: "he/him",
+		position: "Industry",
 		image: "samarth.png",
 		email: "ssrin027@ucr.edu",
 		linkedin: "www.linkedin.com/in/samarth-srinivasa",
@@ -74,9 +64,19 @@ const officers = [
 		bio: "I am a third year data science major at UCR! Contact me if you have any questions about talking to industry leaders and companies in the field of computer science, or any other questions you might have about ACM! Other than School and ACM, I enjoy playing music, chess, and cooking.",
 	},
 	{
+		name: "Cindy Lee",
+		pronoun: "she/her",
+		position: "Treasurer",
+		image: "johnnie.png",
+		email: "Clee541@ucr.edu",
+		linkedin: "https://www.linkedin.com/in/cindy-lee-7a0306183",
+		github: "",
+		bio: "Make a short bio for me :)",
+	},
+	{
 		name: "Ashley Kim",
-		pronoun: "She/Her",
-		position: "Co-Marketing Chair",
+		pronoun: "she/her",
+		position: "Marketing",
 		image: "ashley.jpg",
 		email: "akim291@ucr.edu",
 		linkedin: "www.linkedin.com/in/ashley-kim-838893196",
@@ -85,8 +85,8 @@ const officers = [
 	},
 	{
 		name: "Ashwin Jagadish",
-		pronoun: "He/Him",
-		position: "Marketing Co-Chair",
+		pronoun: "he/him",
+		position: "Marketing",
 		image: "ashwin.jpg",
 		email: "ajaga008@ucr.edu",
 		linkedin: "www.linkedin.com/in/ashwin-jagadish",
@@ -95,7 +95,7 @@ const officers = [
 	},
 	{
 		name: "Johnnie Dinh",
-		pronoun: "He/Him",
+		pronoun: "he/him",
 		position: "Secretary",
 		image: "johnnie.png",
 		email: "kdinh032@ucr.edu",
@@ -105,9 +105,9 @@ const officers = [
 	},
 	{
 		name: "Sachin Chopra",
-		pronoun: "He/Him",
-		position: "Alumni Chair",
-		image: "sachin.png",
+		pronoun: "he/him",
+		position: "Alumni",
+		image: "johnnie.png",
 		email: "schop021@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/sachinkchopra",
 		github: "https://github.com/SafeDuck",
@@ -115,8 +115,8 @@ const officers = [
 	},
 	{
 		name: "Divyank Shah",
-		pronoun: "He/Him",
-		position: "Professional Development Chair",
+		pronoun: "he/him",
+		position: "Projects Lead",
 		image: "divyank.jpg",
 		email: "dshah048@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/divyank-shah/",
@@ -125,23 +125,36 @@ const officers = [
 	},
 ];
 
+const colors = [
+	"acm-blue",
+	"acm-lightpurple",
+	"acm-yellow",
+	"acm-green",
+	"acm-pink",
+	"acm-orange",
+	"acm-marine",
+];
+
 const Officers = () => {
 	return (
-		<div className='container flex flex-col items-center justify-center p-4 mx-auto'>
+		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto'>
 			<h1 className='font-lexend text-3xl font-medium text-center'>
 				Meet our Board!
 			</h1>
-			<Row className='w-11/12'>
+			<Row className='w-full'>
 				{officers.map((officer, index) => (
 					<Col
-						xs={6}
 						key={index}
-						className='flex justify-center mx-auto'
+						xl={3}
+						lg={4}
+						sm={6}
+						xs={12}
+						className='h-full p-2 flex justify-center items-center'
 					>
 						<Profile
-							key={index}
+							color={colors[index % colors.length]}
 							name={officer.name}
-							pronouns={officer.pronouns}
+							pronouns={officer.pronoun}
 							position={officer.position}
 							image={officer.image}
 							email={officer.email}
