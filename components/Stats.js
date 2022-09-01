@@ -3,14 +3,14 @@ import { Row, Col } from "react-bootstrap";
 
 const Stats = () => {
 	return (
-		<Row className='font-lexend text-5xl decoration-black font-semibold flex justify-between items-center whitespace-nowrap'>
+		<Row className='font-lexend text-5xl decoration-black font-semibold flex justify-between items-center whitespace-nowrap mx-auto w-11/12'>
 			<Col
 				sm={12}
 				md={6}
 				lg={3}
 				className='flex justify-center whitespace-nowrap'
 			>
-				10+ members
+				500+ members
 			</Col>
 			<Col
 				sm={12}
