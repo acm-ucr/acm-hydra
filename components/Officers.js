@@ -138,7 +138,16 @@ const Officers = () => {
 						key={index}
 						className='flex justify-center mx-auto'
 					>
-						<Profile key={index} person={officer} />
+						<Profile
+							key={index}
+							name={officer.name}
+							pronouns={officer.pronouns}
+							position={officer.position}
+							image={officer.image}
+							email={officer.email}
+							linkedin={officer.linkedin}
+							github={officer.github}
+						/>
 					</Col>
 				))}
 			</Row>
