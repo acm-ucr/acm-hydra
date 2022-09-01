@@ -5,44 +5,26 @@ let colorCount = 0;
 
 const infoArray = [
 	{
-		question: `quam quisque id diam vel quam elementum 
-		pulvinar etiam non quam lacus suspendisse faucibus interdum`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		question: `What is ACM?`,
+		answer: `ACM is UCR's largest computer science club. We focus on 
+		professional and academic development, mentorship, and projects.`,
 	},
 	{
-		question: `quam quisque id diam vel quam elementum 
-		pulvinar etiam non quam lacus suspendisse faucibus interdum`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		question: `How do I join ACM @ UCR?`,
+		answer: `Currently, there's no official way to join like a membership 
+		fee, so all you have to do is come out to our events! `,
 	},
 	{
-		question: `quam quisque id diam vel quam elementum 
-		pulvinar etiam non quam lacus suspendisse faucibus interdum`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		question: `Who is able to join ACM @ UCR?`,
+		answer: `All UCR students.`,
 	},
 	{
-		question: `quam quisque id diam vel quam elementum 
-		pulvinar etiam non quam lacus suspendisse faucibus interdum`,
-		answer: `Lorem ipsum dolor sit amet, consectetur 
-		adipiscing elit, sed do eiusmod tempor incididunt 
-		ut labore et dolore magna aliqua. Ullamcorper sit 
-		amet risus nullam eget felis eget nunc lobortis. 
-		Ultrices dui sapien eget mi. Etiam tempor orci eu lobortis 
-		elementum. Tincidunt nunc pulvinar sapien et ligula ullamcorper.`,
+		question: `How can I participate in student led projects?`,
+		answer: `By reaching out to project leads.`,
+	},
+	{
+		question: `When are general meetings/workshops/events/socials?`,
+		answer: `Times change during every quarter. Be sure to check our socials for the most up to date time and events.`,
 	},
 ]; // dummy data
 
@@ -74,17 +56,17 @@ const FaqItem = ({ index, element }) => {
 
 	return (
 		<Accordion.Item
-			className={`${bgClass} font-lexend m-0 p-0`}
+			className={`${bgClass} focus:!shadow-none font-lexend m-0 p-0`}
 			id={`element${index}`}
 			eventKey={index}
 		>
 			<Accordion.Button
-				className={`bg-acm-black text-acm-white rounded-t-lg -mt-2 after:bg-arrow focus:shadow-none`}
+				className={`!bg-acm-black !text-acm-white !rounded-t-lg -mt-3.5 after:!bg-arrow focus:!shadow-none`}
 			>
 				{element.question}
 			</Accordion.Button>
 			<Accordion.Body
-				className={`${colorArray[colorCount]} rounded-b-lg pt-[1vw] pb-[1.5vw]`}
+				className={`${colorArray[colorCount]} rounded-b-lg !pt-6 !pb-8`}
 				eventKey={index}
 			>
 				{element.answer}
@@ -103,7 +85,7 @@ const Faq = () => {
 			{infoArray.map((element, index) => (
 				<FaqItem
 					key={index}
-					className='bg-acm-black m-0 p-0'
+					className='!bg-acm-black focus:!shadow-none m-0 p-0'
 					element={element}
 					index={index}
 				/>
