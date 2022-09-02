@@ -4,98 +4,12 @@ import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { Events } from "./Events.js";
 import { Row, Col } from "react-bootstrap";
-import Filter from "./Filter.js";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import CustomToolbar from "./CustomToolbar.js";
+import CustomEvent from "./CustomEvent.js";
+
 import Event from "./Event.js";
 
 const mLocalizer = momentLocalizer(moment);
-
-const filters = [
-	{
-		topic: "Meetings",
-		color: "#82aaff",
-	},
-	{
-		topic: "Career",
-		color: "#c792ea",
-	},
-	{
-		topic: "Socials",
-		color: "#ff5370",
-	},
-	{
-		topic: "Workshops",
-		color: "#ffd700",
-	},
-];
-const CustomToolbar = event => {
-	return (
-		<div className=''>
-			<Row className=''>
-				<Col
-					xs={3}
-					className=' w-full flex justify-start items-center text-3xl font-lexend font-bold'
-				>
-					<FaArrowLeft
-						onClick={() => event.onNavigate("PREV")}
-						className='hover:text-acm-darkgray hover:cursor-pointer'
-					/>
-					<div className='text-center text-5xl p-1'>
-						{event.date.getMonth() + 1 < 10
-							? `0${event.date.getMonth() + 1}`
-							: event.date.getMonth() + 1}
-						<br />
-						{event.date.getFullYear() % 100}
-					</div>
-					<FaArrowRight
-						onClick={() => event.onNavigate("NEXT")}
-						className='hover:text-acm-darkgray hover:cursor-pointer'
-					/>
-				</Col>
-				<Col
-					xs={9}
-					className=' w-full flex justify-end items-center m-0 p-0'
-				>
-					<Row className=' w-full m-0 p-0 flex justify-end items-center '>
-						{filters.map((filter, index) => {
-							return (
-								<Col
-									key={index}
-									xs={4}
-									sm={4}
-									lg={2}
-									className='m-1 p-0'
-								>
-									<Filter
-										topic={filter.topic}
-										color={filter.color}
-									/>
-								</Col>
-							);
-						})}
-					</Row>
-				</Col>
-			</Row>
-		</div>
-	);
-};
-
-const CustomEvent = ({ title, event }) => {
-	return (
-		<div className='font-lexend p-1'>
-			<p className='inline whitespace-nowrap'>
-				{title}
-				<br />
-				{event.location}
-				<nbsp /> - <nbsp />
-				{event.start.toLocaleTimeString(navigator.language, {
-					hour: "2-digit",
-					minute: "2-digit",
-				})}
-			</p>
-		</div>
-	);
-};
 
 const CalendarEvents = () => {
 	const [events, setEvents] = useState([]);
