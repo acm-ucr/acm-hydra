@@ -4,7 +4,7 @@ import Topic from "../components/Topic";
 
 const Learn = () => {
 	return (
-		<div className='font-lexend flex justify-center items-center flex-col'>
+		<div className='text-acm-black font-lexend flex justify-center items-center flex-col'>
 			<div className='flex justify-center items-center font-bold text-6xl mb-4 mx-auto w-11/12'>
 				Learn
 			</div>
@@ -19,12 +19,12 @@ const Learn = () => {
 					<Topic
 						topic='resume'
 						backgroundColor='#43B9AD'
-						textColor='black'
+						textColor='#000000'
 					/>
 					<Topic
 						topic='interviews'
 						backgroundColor='#43B9AD'
-						textColor='black'
+						textColor='#000000'
 					/>
 				</Col>
 
@@ -62,17 +62,17 @@ const Learn = () => {
 					<Topic
 						topic='graduate studies'
 						backgroundColor='#E37A45'
-						textColor='black'
+						textColor='#000000'
 					/>
 					<Topic
 						topic='research'
 						backgroundColor='#E37A45'
-						textColor='black'
+						textColor='#000000'
 					/>
 					<Topic
 						topic='course planning'
 						backgroundColor='#E37A45'
-						textColor='black'
+						textColor='#000000'
 					/>
 				</Col>
 			</Row>
