@@ -4,7 +4,7 @@ import Frame from "./Frame";
 
 const What = () => {
 	return (
-		<Row className='font-lexend flex justify-between items-center w-11/12 mx-auto'>
+		<Row className='font-lexend flex text-acm-black justify-between items-center w-11/12 mx-auto'>
 			<Col sm={6} className='flex justify-center items-center'>
 				<Frame
 					image='image14.png'

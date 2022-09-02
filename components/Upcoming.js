@@ -16,7 +16,7 @@ const Upcoming = () => {
 
 	return (
 		<div className='flex justify-content items-center flex-col'>
-			<text className='flex justify-center text-5xl font-bold'>
+			<text className='text-acm-black flex justify-center text-5xl font-bold'>
 				Upcoming Events
 			</text>
 			<br />
