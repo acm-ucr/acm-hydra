@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Navigation = () => {
 	return (
-		<div className='w-full flex justify-center items-center py-16 my-2'>
+		<div className='container w-full flex justify-center items-center py-16 !bg-white'>
 			<Navbar
 				collapseOnSelect
-				className='font-lexend fs-4 w-11/12'
+				className='font-lexend fs-4 w-full bg-white'
 				expand='sm'
 				fixed='top'
 			>
