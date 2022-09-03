@@ -18,7 +18,7 @@ const Stats = () => {
 				lg={3}
 				className='flex justify-center whitespace-nowrap'
 			>
-				10+ alumni
+				1000+ alumni
 			</Col>
 			<Col
 				sm={12}
