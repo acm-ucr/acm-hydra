@@ -77,20 +77,25 @@ const FaqItem = ({ index, element }) => {
 
 const Faq = () => {
 	return (
-		<Accordion
-			className='flex flex-col justify-center mx-auto w-2/3 height-1/3'
-			flush
-			alwaysOpen
-		>
-			{infoArray.map((element, index) => (
-				<FaqItem
-					key={index}
-					className='!bg-acm-black focus:!shadow-none m-0 p-0'
-					element={element}
-					index={index}
-				/>
-			))}
-		</Accordion>
+		<>
+			<p className='font-lexend text-acm-black text-3xl font-semibold flex justify-center pb-4'>
+				Frequently Asked Questions
+			</p>
+			<Accordion
+				className='flex flex-col justify-center mx-auto w-2/3 height-1/3'
+				flush
+				alwaysOpen
+			>
+				{infoArray.map((element, index) => (
+					<FaqItem
+						key={index}
+						className='!bg-acm-black focus:!shadow-none m-0 p-0'
+						element={element}
+						index={index}
+					/>
+				))}
+			</Accordion>
+		</>
 	);
 };
 
