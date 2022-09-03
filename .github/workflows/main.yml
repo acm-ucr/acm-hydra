@@ -6,6 +6,7 @@ on:
 
 jobs:
     build:
+        name: ACM Official Website CI
         runs-on: ubuntu-latest
 
         steps:
@@ -18,3 +19,4 @@ jobs:
             - run: npm run check
             - run: npm run eslint
             - run: npm run build
+            - run: npm run export
