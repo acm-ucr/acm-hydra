@@ -107,7 +107,7 @@ const officers = [
 		name: "Sachin Chopra",
 		pronoun: "he/him",
 		position: "Alumni",
-		image: "johnnie.png",
+		image: "sachin.jpg",
 		email: "schop021@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/sachinkchopra",
 		github: "https://github.com/SafeDuck",
