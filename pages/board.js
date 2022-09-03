@@ -3,7 +3,7 @@ import Officers from "../components/Officers";
 
 const Board = () => {
 	return (
-		<div>
+		<div className='mt-[130px]'>
 			<Officers />
 		</div>
 	);

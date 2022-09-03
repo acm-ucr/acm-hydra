@@ -5,7 +5,7 @@ import StudentOrgs from "../components/StudentOrgs";
 
 const Join = () => {
 	return (
-		<div>
+		<div className='mt-[130px]'>
 			<Faq />
 			<Clubroom />
 			<StudentOrgs />

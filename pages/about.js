@@ -6,7 +6,7 @@ import Gallery from "../components/Gallery";
 
 const About = () => {
 	return (
-		<div>
+		<div className='mt-[130px]'>
 			<Vision />
 			<What />
 			<Why />
