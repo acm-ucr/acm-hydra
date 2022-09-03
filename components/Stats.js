@@ -26,7 +26,7 @@ const Stats = () => {
 				lg={3}
 				className='flex justify-center whitespace-nowrap'
 			>
-				10 socials
+				50+ socials
 			</Col>
 			<Col
 				sm={12}
@@ -34,7 +34,7 @@ const Stats = () => {
 				lg={3}
 				className='flex justify-center whitespace-nowrap'
 			>
-				20 workshops
+				100+ workshops
 			</Col>
 		</Row>
 	);
