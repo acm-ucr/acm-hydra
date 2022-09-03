@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 const Stats = () => {
 	return (
-		<Row className='font-lexend text-5xl decoration-black font-semibold flex justify-between items-center whitespace-nowrap'>
+		<Row className='font-lexend text-5xl decoration-acm-black text-acm-black font-semibold flex justify-between items-center whitespace-nowrap'>
 			<Col
 				sm={12}
 				md={6}
