@@ -77,7 +77,7 @@ const FaqItem = ({ index, element }) => {
 
 const Faq = () => {
 	return (
-		<React.Fragment>
+		<>
 			<p className='font-lexend acm-black text-3xl font-semibold flex justify-center pb-4'>
 				Frequently Asked Questions
 			</p>
@@ -95,7 +95,7 @@ const Faq = () => {
 					/>
 				))}
 			</Accordion>
-		</React.Fragment>
+		</>
 	);
 };
 
