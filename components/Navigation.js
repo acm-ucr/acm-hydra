@@ -4,18 +4,19 @@ import Link from "next/link";
 
 const Navigation = () => {
 	return (
-		<div className='w-full flex justify-center items-center'>
+		<div className='w-full flex justify-center items-center py-16 my-2'>
 			<Navbar
 				collapseOnSelect
 				className='font-lexend fs-4 w-11/12'
 				expand='sm'
+				fixed='top'
 			>
 				<Navbar.Brand>
 					<Link href='/' passHref>
 						<Nav.Link eventKey='1'>
 							<img
 								src='acm-ucr-logo.png'
-								className='w-24 h-24 '
+								className='w-24 h-24'
 								alt='acm@ucr logo'
 							/>
 						</Nav.Link>
