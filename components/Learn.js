@@ -4,11 +4,11 @@ import Topic from "../components/Topic";
 
 const Learn = () => {
 	return (
-		<div className='font-lexend flex justify-center items-center flex-col'>
-			<div className='flex justify-center items-center font-bold text-6xl mb-4'>
+		<div className='text-acm-black font-lexend flex justify-center items-center flex-col'>
+			<div className='flex justify-center items-center font-bold text-6xl mb-4 mx-auto w-11/12'>
 				Learn
 			</div>
-			<Row className='flex justify-center items-start text-4xl w-10/12'>
+			<Row className='flex justify-center items-start text-4xl w-11/12'>
 				<Col
 					xl={4}
 					md={6}

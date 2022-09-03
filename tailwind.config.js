@@ -9,6 +9,9 @@ module.exports = {
 			fontFamily: {
 				lexend: ["Lexend"],
 			},
+			backgroundImage: {
+				arrow: "url('/chevron.png')",
+			},
 			colors: {
 				acm: {
 					blue: "#82aaff",
