@@ -1,4 +1,4 @@
-name: "ACM Github Actions CI"
+name: ACM Website
 on:
     pull_request:
         branches: [main, dev]
@@ -6,7 +6,7 @@ on:
 
 jobs:
     build:
-        name: ACM Official Website CI
+        name: Build Checks
         runs-on: ubuntu-latest
 
         steps:
