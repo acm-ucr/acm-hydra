@@ -3,7 +3,7 @@ import CalendarEvents from "../components/CalendarEvents";
 
 const Events = () => {
 	return (
-		<div className='mt-[130px]'>
+		<div>
 			<CalendarEvents />
 		</div>
 	);

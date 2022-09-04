@@ -4,12 +4,11 @@ import Link from "next/link";
 
 const Navigation = () => {
 	return (
-		<div className='w-full flex justify-center items-center !bg-acm-white fixed-top border-b-4 border-[#4184fc]'>
+		<div className='w-full flex justify-center items-center fixed-top !bg-acm-white border-b-4 border-[#4184fc]'>
 			<Navbar
 				collapseOnSelect
 				className='font-lexend fs-4 w-11/12 ml-auto mr-auto'
 				expand='sm'
-				// border-bottom='5px solid #fff'
 			>
 				<Navbar.Brand>
 					<Link href='/' passHref>

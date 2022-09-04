@@ -78,7 +78,7 @@ const FaqItem = ({ index, element }) => {
 const Faq = () => {
 	return (
 		<>
-			<p className='font-lexend text-acm-black text-3xl font-semibold flex justify-center pb-4'>
+			<p className='font-lexend text-acm-black text-3xl font-semibold flex justify-center pb-4 mt-[130px]'>
 				Frequently Asked Questions
 			</p>
 			<Accordion

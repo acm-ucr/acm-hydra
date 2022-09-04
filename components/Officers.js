@@ -137,7 +137,7 @@ const colors = [
 
 const Officers = () => {
 	return (
-		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto'>
+		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto mt-[130px]'>
 			<h1 className='font-lexend text-3xl font-medium text-center'>
 				Meet our Board!
 			</h1>

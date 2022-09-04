@@ -8,7 +8,7 @@ import Inspire from "../components/Inspire";
 
 const IndexPage = () => {
 	return (
-		<div className='mt-[130px]'>
+		<div>
 			<Landing />
 			<Introduction />
 			<Stats />
