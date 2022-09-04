@@ -71,8 +71,8 @@ const Orgs = [
 	},
 	{
 		name: "Design@UCR",
-		website: "",
-		instagram: "https://www.instagram.com/ieeeucr/?hl=en",
+		website: "https://www.designatucr.com/",
+		instagram: "https://www.instagram.com/designatucr/?hl=en",
 		img: "designucr.png",
 		pronouns: "",
 		position: "",
@@ -83,7 +83,7 @@ const Orgs = [
 	{
 		name: "Rose Hack",
 		website: "",
-		instagram: "https://www.instagram.com/ieeeucr/?hl=en",
+		instagram: "https://www.instagram.com/rosehackucr/?hl=en",
 		img: "rosehack.png",
 		pronouns: "",
 		position: "",
@@ -94,7 +94,7 @@ const Orgs = [
 	{
 		name: "Citrus Hack",
 		website: "",
-		instagram: "https://www.instagram.com/ieeeucr/?hl=en",
+		instagram: "https://www.instagram.com/citrushack_ucr/?hl=en",
 		img: "citrushack.png",
 		pronouns: "",
 		position: "",
@@ -105,7 +105,7 @@ const Orgs = [
 	{
 		name: "Cutie Hack",
 		website: "",
-		instagram: "https://www.instagram.com/ieeeucr/?hl=en",
+		instagram: "https://www.instagram.com/cutiehack_ucr/?hl=en",
 		img: "cutiehack.png",
 		pronouns: "",
 		position: "",
@@ -116,7 +116,7 @@ const Orgs = [
 	{
 		name: "Competitive Coding Club",
 		website: "",
-		instagram: "https://www.instagram.com/ieeeucr/?hl=en",
+		instagram: "",
 		img: "ccc.png",
 		pronouns: "",
 		position: "",
@@ -127,7 +127,7 @@ const Orgs = [
 	{
 		name: "Solar Car",
 		website: "https://ucrsolarcar.com/",
-		instagram: "https://www.instagram.com/ieeeucr/?hl=en",
+		instagram: "https://www.instagram.com/ucrsolarcar/?hl=en",
 		img: "solarcar.png",
 		pronouns: "",
 		position: "",
