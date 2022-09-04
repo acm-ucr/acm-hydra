@@ -4,7 +4,7 @@ import Frame from "./Frame";
 
 const Vision = () => {
 	return (
-		<div className='mt-[130px]'>
+		<div className='mt-32'>
 			<Row className='font-lexend flex text-acm-black justify-between items-center w-11/12 mx-auto'>
 				<Col sm={6} className='text-center'>
 					<p className='text-3xl font-semibold flex justify-center mx-auto'>
