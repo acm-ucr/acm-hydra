@@ -7,11 +7,27 @@ const filters = {
 
 export const Events = [
 	{
+		title: "Intern/UG Research Panel",
+		location: "WCH 205/206",
+		color: filters["Meetings"],
+		start: new Date(2022, 8, 27, 16, 0, 0),
+		end: new Date(2022, 8, 27, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
+	},
+	{
 		title: "CRS: Resume + LaTex",
 		location: "WCH 127",
 		color: filters["Career"],
 		start: new Date(2022, 9, 7, 16, 0, 0),
 		end: new Date(2022, 9, 7, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
+	},
+	{
+		title: "Metaverse With Meta",
+		location: "WCH 205/206",
+		color: filters["Meetings"],
+		start: new Date(2022, 9, 11, 16, 0, 0),
+		end: new Date(2022, 9, 11, 18, 0, 0),
 		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
@@ -47,6 +63,14 @@ export const Events = [
 		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
+		title: "Thinking Like A Programmer",
+		location: "WCH 205/206",
+		color: filters["Meetings"],
+		start: new Date(2022, 10, 8, 16, 0, 0),
+		end: new Date(2022, 10, 8, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
+	},
+	{
 		title: "CRS: Mock Interviews",
 		location: "WCH 127",
 		color: filters["Career"],
@@ -60,6 +84,14 @@ export const Events = [
 		color: filters["Career"],
 		start: new Date(2022, 10, 18, 16, 0, 0),
 		end: new Date(2022, 10, 18, 18, 0, 0),
+		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
+	},
+	{
+		title: "GM 4",
+		location: "WCH 205/206",
+		color: filters["Meetings"],
+		start: new Date(2022, 10, 22, 16, 0, 0),
+		end: new Date(2022, 10, 22, 18, 0, 0),
 		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
