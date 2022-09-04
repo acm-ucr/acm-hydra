@@ -4,7 +4,7 @@ import Topic from "../components/Topic";
 
 const Learn = () => {
 	return (
-		<div className='text-acm-black font-lexend flex justify-center items-center flex-col'>
+		<div className='mb-20 text-acm-black font-lexend flex justify-center items-center flex-col'>
 			<div className='flex justify-center items-center font-bold text-6xl mb-4 mx-auto w-11/12'>
 				Learn
 			</div>
