@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navigation = () => {
 	return (
-		<div className='w-full flex justify-center items-center fixed-top !bg-acm-white border-b-4 border-[#4184fc]'>
+		<div className='w-full flex justify-center items-center fixed-top bg-acm-white border-b-4 border-[#4184fc]'>
 			<Navbar
 				collapseOnSelect
 				className='font-lexend fs-4 w-11/12 ml-auto mr-auto'
@@ -70,7 +70,6 @@ const Navigation = () => {
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
-			{/* <div className='w-full container py-2 !bg-acm-black'></div> */}
 		</div>
 	);
 };
