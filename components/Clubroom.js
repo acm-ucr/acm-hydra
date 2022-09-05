@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 const Clubroom = () => {
 	return (
 		<Row className='flex justify-between items-center bg-acm-blue rounded-2xl mx-auto w-2/3 px-4 pt-5 pb-4 mt-4'>
-			<Col sm={6} className='font-lexend text-acm-black font-medium'>
+			<Col sm={6} className='font-lexend text-acm-black font-base'>
 				<p className='text-3xl'>ACM Clubroom</p>
 				<p className='text-xl'>
 					We will often hold academic, professional, and technical
