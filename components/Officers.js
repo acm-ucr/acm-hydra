@@ -31,7 +31,7 @@ const officers = [
 		name: "David Ryan",
 		pronoun: "he/him",
 		position: "Event",
-		image: "johnnie.png",
+		image: "david.jpg",
 		email: "dryan011@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/david-michael-ryan/",
 		github: "https://github.com/davidry777",
@@ -55,7 +55,7 @@ const officers = [
 		name: "Joshua Candelaria",
 		pronoun: "he/him",
 		position: "Membership",
-		image: "johnnie.png",
+		image: "joshua.jpg",
 		email: "jcand014@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/jecndlria/",
 		github: "https://github.com/jecndlria",
@@ -79,7 +79,7 @@ const officers = [
 		name: "Cindy Lee",
 		pronoun: "she/her",
 		position: "Treasurer",
-		image: "johnnie.png",
+		image: "cindy.jpg",
 		email: "Clee541@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/cindy-lee-7a0306183",
 		github: "",
@@ -127,7 +127,7 @@ const officers = [
 		name: "Sachin Chopra",
 		pronoun: "he/him",
 		position: "Alumni",
-		image: "johnnie.png",
+		image: "sachin.jpg",
 		email: "schop021@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/sachinkchopra",
 		github: "https://github.com/SafeDuck",
@@ -161,7 +161,7 @@ const colors = [
 
 const Officers = () => {
 	return (
-		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto'>
+		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto mt-32'>
 			<h1 className='font-lexend text-3xl font-medium text-center'>
 				Meet our Board!
 			</h1>
