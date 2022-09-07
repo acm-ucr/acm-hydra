@@ -20,10 +20,13 @@ const Profile = ({
 	website,
 	insta,
 	description,
-	shadowColor,
 }) => {
 	return (
-		<Row className={`bg-${color} w-11/12 p-3 rounded-2xl h-[350px]`}>
+		<Row
+			className={`bg-${color} w-11/12 p-3 rounded-2xl ${
+				pronouns === undefined ? "h-[350px]" : ""
+			}`}
+		>
 			<Col
 				xs={2}
 				className='flex justify-start m-0 p-0 items-center flex-col'
@@ -73,11 +76,11 @@ const Profile = ({
 					) : (
 						<a
 							href={website}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-acm-black'
 							target='_blank'
 							rel='noreferrer'
 						>
-							<FaGlobe className='text-4xl text-acm-black' />
+							<FaGlobe className='text-4xl' />
 						</a>
 					)}
 
@@ -86,18 +89,18 @@ const Profile = ({
 					) : (
 						<a
 							href={insta}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-acm-black'
 							target='_blank'
 							rel='noreferrer'
 						>
-							<FaInstagram className='text-4xl text-acm-black ' />
+							<FaInstagram className='text-4xl' />
 						</a>
 					)}
 				</div>
 			</Col>
 			<Col xs={10} className='font-lexend text-acm-black m-0 pr-0'>
 				<img
-					className={`shadow-[10px_8px_0px_0px] ${shadowColor} mb-3`}
+					className={`shadow-[10px_8px_0px_0px] shadow-acm-black mb-3`}
 					src={image}
 					alt='Profile Picture of Board Member'
 				/>

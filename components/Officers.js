@@ -160,7 +160,6 @@ const Officers = () => {
 							email={officer.email}
 							linkedin={officer.linkedin}
 							github={officer.github}
-							shadowColor='shadow-acm-white'
 						/>
 					</Col>
 				))}

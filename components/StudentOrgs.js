@@ -136,7 +136,6 @@ const StudentOrgs = () => {
 							insta={org.instagram}
 							image={org.img}
 							description={org.description}
-							shadowColor='shadow-acm-black'
 						/>
 					</Col>
 				))}
