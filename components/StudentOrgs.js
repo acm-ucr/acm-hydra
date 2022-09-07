@@ -4,7 +4,7 @@ import Profile from "./Profile.js";
 
 const Orgs = [
 	{
-		name: "Technical Interview & Coding Support",
+		name: "Technical Interview & Coding Support (TICS)",
 		website: "https://google.com/",
 		instagram: "https://www.instagram.com/tics_ucr/?hl=en",
 		img: "ticsucr.png",
@@ -15,7 +15,7 @@ const Orgs = [
 		github: "",
 	},
 	{
-		name: "Society of Women Engineers",
+		name: "Society of Women Engineers (SWE)",
 		website: "https://ucrswe.org/",
 		instagram: "https://www.instagram.com/swe.ucr/?hl=en",
 		img: "swe.png",
@@ -26,7 +26,7 @@ const Orgs = [
 		github: "",
 	},
 	{
-		name: "Women In Computing",
+		name: "Women In Computing (WINC)",
 		website: "https://winc.cs.ucr.edu/",
 		instagram: "https://www.instagram.com/wincucr/?hl=en",
 		img: "winc.png",
@@ -40,7 +40,7 @@ const Orgs = [
 		name: "GameSpawn",
 		website: "https://gamespawn.github.io/",
 		instagram: "https://www.instagram.com/gamespawn.ucr/?hl=en",
-		img: "gamespawn.png",
+		img: "gamespawnwhite.jpg",
 		pronouns: "",
 		position: "",
 		email: "",
@@ -59,7 +59,7 @@ const Orgs = [
 		github: "",
 	},
 	{
-		name: "Institute of Electrical and Electronics Engineers",
+		name: "Institute of Electrical and Electronics Engineers (IEEE)",
 		website: "https://ieeeucr.github.io/",
 		instagram: "https://www.instagram.com/ieeeucr/?hl=en",
 		img: "ieee.png",
@@ -82,7 +82,7 @@ const Orgs = [
 	},
 	{
 		name: "Rose Hack",
-		website: "",
+		website: "https://rosehack.com/",
 		instagram: "https://www.instagram.com/rosehackucr/?hl=en",
 		img: "rosehack.png",
 		pronouns: "",
@@ -93,7 +93,7 @@ const Orgs = [
 	},
 	{
 		name: "Citrus Hack",
-		website: "",
+		website: "https://www.citrushack.com/",
 		instagram: "https://www.instagram.com/citrushack_ucr/?hl=en",
 		img: "citrushack.png",
 		pronouns: "",
@@ -104,7 +104,7 @@ const Orgs = [
 	},
 	{
 		name: "Cutie Hack",
-		website: "",
+		website: "https://www.cutiehack.io/",
 		instagram: "https://www.instagram.com/cutiehack_ucr/?hl=en",
 		img: "cutiehack.png",
 		pronouns: "",
@@ -129,6 +129,28 @@ const Orgs = [
 		website: "https://ucrsolarcar.com/",
 		instagram: "https://www.instagram.com/ucrsolarcar/?hl=en",
 		img: "solarcar.png",
+		pronouns: "",
+		position: "",
+		email: "",
+		linkedin: "",
+		github: "",
+	},
+	{
+		name: "Robo Sub",
+		website: "https://robosubucr.weebly.com/",
+		instagram: "https://www.instagram.com/robosubucr/?hl=en",
+		img: "robosub.jpg",
+		pronouns: "",
+		position: "",
+		email: "",
+		linkedin: "",
+		github: "",
+	},
+	{
+		name: "Unmanned Aerial Systems",
+		website: "https://ucr-uas.weebly.com/",
+		instagram: "https://www.instagram.com/ucruas/",
+		img: "uas.png",
 		pronouns: "",
 		position: "",
 		email: "",

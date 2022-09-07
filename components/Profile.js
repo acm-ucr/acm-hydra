@@ -21,9 +21,7 @@ const Profile = ({
 	insta,
 }) => {
 	return (
-		<Row
-			className={`bg-${color} w-11/12 p-3 rounded-2xl min-h-[310px] max-h-[350px]`}
-		>
+		<Row className={`bg-${color} w-11/12 p-3 rounded-2xl h-[310px]`}>
 			<Col
 				xs={2}
 				className='flex justify-start m-0 p-0 items-center flex-col'
@@ -34,7 +32,7 @@ const Profile = ({
 					) : (
 						<a
 							href={github}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-acm-black'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -47,7 +45,7 @@ const Profile = ({
 					) : (
 						<a
 							href={linkedin}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-acm-black'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -60,7 +58,7 @@ const Profile = ({
 					) : (
 						<a
 							href={`mailto:` + email}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-acm-black'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -77,7 +75,7 @@ const Profile = ({
 							target='_blank'
 							rel='noreferrer'
 						>
-							<FaGlobe className='text-4xl' />
+							<FaGlobe className='text-4xl text-acm-black' />
 						</a>
 					)}
 
@@ -90,7 +88,7 @@ const Profile = ({
 							target='_blank'
 							rel='noreferrer'
 						>
-							<FaInstagram className='text-4xl' />
+							<FaInstagram className='text-4xl text-acm-black ' />
 						</a>
 					)}
 				</div>
