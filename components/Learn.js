@@ -4,7 +4,7 @@ import Topic from "../components/Topic";
 
 const Learn = () => {
 	return (
-		<div className='text-acm-black font-lexend flex justify-center items-center flex-col'>
+		<div className='mb-20 text-acm-black font-lexend flex justify-center items-center flex-col'>
 			<div className='flex justify-center items-center font-bold text-6xl mb-4 mx-auto w-11/12'>
 				Learn
 			</div>
@@ -18,13 +18,13 @@ const Learn = () => {
 					professional
 					<Topic
 						topic='resume'
-						backgroundColor='#43B9AD'
-						textColor='#000000'
+						backgroundColor='acm-marine'
+						textColor='acm-black'
 					/>
 					<Topic
 						topic='interviews'
-						backgroundColor='#43B9AD'
-						textColor='#000000'
+						backgroundColor='acm-marine'
+						textColor='acm-black'
 					/>
 				</Col>
 
@@ -37,18 +37,18 @@ const Learn = () => {
 					technical
 					<Topic
 						topic='web dev'
-						backgroundColor='#243B5A'
-						textColor='white'
+						backgroundColor='acm-darkgray'
+						textColor='acm-white'
 					/>
 					<Topic
 						topic='version control'
-						backgroundColor='#243B5A'
-						textColor='white'
+						backgroundColor='acm-darkgray'
+						textColor='acm-white'
 					/>
 					<Topic
 						topic='data science'
-						backgroundColor='#243B5A'
-						textColor='white'
+						backgroundColor='acm-darkgray'
+						textColor='acm-white'
 					/>
 				</Col>
 
@@ -61,18 +61,18 @@ const Learn = () => {
 					academic
 					<Topic
 						topic='graduate studies'
-						backgroundColor='#E37A45'
-						textColor='#000000'
+						backgroundColor='acm-orange'
+						textColor='acm-black'
 					/>
 					<Topic
 						topic='research'
-						backgroundColor='#E37A45'
-						textColor='#000000'
+						backgroundColor='acm-orange'
+						textColor='acm-black'
 					/>
 					<Topic
 						topic='course planning'
-						backgroundColor='#E37A45'
-						textColor='#000000'
+						backgroundColor='acm-orange'
+						textColor='acm-black'
 					/>
 				</Col>
 			</Row>
