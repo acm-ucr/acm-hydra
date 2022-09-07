@@ -12,8 +12,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/vinzmadrigal/",
 		github: "https://github.com/mvinzangelo",
 		bio: `Heyo I'm Vinz. I was born in the Philippines but swam to SoCal when I was a little boy. I like reading books that are way out of my comprehension level and singing songs that are way out of my range. Join ACM to help shape the future of CS at UCR, thank you :)`,
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Justin Mazon",
@@ -24,8 +22,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/justin-mazon-b312661a9/",
 		github: "https://github.com/JustintheBox",
 		bio: "Hello! My name is Justin Mazon and I am studying Computer Engineering. Some of my interests are computer building, keyboard building, playing guitar, and chess.",
-		website: "",
-		insta: "",
 	},
 	{
 		name: "David Ryan",
@@ -36,8 +32,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/david-michael-ryan/",
 		github: "https://github.com/davidry777",
 		bio: `I'm from San Diego, CA and I am also a Data Science major at BCOE. I do swim workouts on alternative days and I enjoy talking about football, tech, and college advice.`,
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Alex Hsieh",
@@ -48,8 +42,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/alex-c-hsieh",
 		github: "https://github.com/alexchsieh",
 		bio: `Hey, I'm Alex Hsieh, an incoming 3rd year and your Membership Co-Chair for the coming 2022-2023 academic year. I hope to build a mentor-mentee program that will help students connect with upperclassman and receive the necessary guidance and support to thrive in CS@UCR. Thank you for your support and please reach out if you need anything!`,
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Joshua Candelaria",
@@ -60,8 +52,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/jecndlria/",
 		github: "https://github.com/jecndlria",
 		bio: `I'm Josh, one of your Membership Co-Chairs this year! A few of my favorite things are basketball, music, and video games. I hope to create better connections between you and your peers and give everyone a safe space here at ACM@UCR.`,
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Samarth Srinivasa",
@@ -72,8 +62,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/samarth-srinivasa",
 		github: "https://github.com/SamarthSrinivasa",
 		bio: "I am a third year data science major at UCR! Contact me if you have any questions about talking to industry leaders and companies in the field of computer science, or any other questions you might have about ACM! Other than School and ACM, I enjoy playing music, chess, and cooking.",
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Cindy Lee",
@@ -84,8 +72,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/cindy-lee-7a0306183",
 		github: "",
 		bio: "Make a short bio for me :)",
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Ashley Kim",
@@ -96,8 +82,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/ashley-kim-838893196",
 		github: "",
 		bio: `Hi everyone! I'm Ashley and I'm a 3rd year CS major. My hobbies outside of class include digital illustration, making fashion pinterest boards, and baking cookies for my friends.`,
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Ashwin Jagadish",
@@ -108,8 +92,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/ashwin-jagadish",
 		github: "",
 		bio: `Hi, my name is Ashwin, and I'm a 3rd year Computer Science with Business Applications major. I'm looking forward to being ACM's Marketing Chair this year and creating more engagement within the club.`,
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Johnnie Dinh",
@@ -120,8 +102,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/johnniedinh/",
 		github: "https://github.com/johnniedinhCS",
 		bio: "Friendliest secretary around (and maybe the coolest); Resident keyboard warrior of ACM. Always happy to help, so feel free to shoot me a message, even at 3 AM.",
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Sachin Chopra",
@@ -132,8 +112,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/sachinkchopra",
 		github: "https://github.com/SafeDuck",
 		bio: `Hey ACM folks, I'm Sachin! I study CS and love to discuss the theories of the subject. You can catch me doing some origami, playing guitar, or asking professors way too many questions. I hope you find your community and enjoy your time here.`,
-		website: "",
-		insta: "",
 	},
 	{
 		name: "Divyank Shah",
@@ -144,8 +122,6 @@ const officers = [
 		linkedin: "https://www.linkedin.com/in/divyank-shah/",
 		github: "https://github.com/shahdivyank",
 		bio: `Hey! I'm Divyank and I am a 1st year CS major! I am your professional development chair this year and am excited to create new opporuntites for everyone! Outside of school I love to talk tech, go on hikes, or take a bike ride!`,
-		website: "",
-		insta: "",
 	},
 ];
 
@@ -184,6 +160,7 @@ const Officers = () => {
 							email={officer.email}
 							linkedin={officer.linkedin}
 							github={officer.github}
+							shadowColor='shadow-acm-white'
 						/>
 					</Col>
 				))}

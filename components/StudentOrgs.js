@@ -103,49 +103,6 @@ const Orgs = [
 	},
 ];
 
-// const ProfileOrg = ({ color, name, website, instagram }) => {
-// 	return (
-// 		<Row className={`bg-${color} w-11/12 p-3 rounded-2xl`}>
-// 			<Col
-// 				xs={2}
-// 				className='flex justify-start m-0 p-0 items-center flex-col'
-// 			>
-// 				<div className='h-full flex justify-evenly items-center flex-col'>
-// 					{website === "" ? (
-// 						<></>
-// 					) : (
-// 						<a
-// 							href={website}
-// 							className='text-acm-black hover:text-gray-300'
-// 							target='_blank'
-// 							rel='noreferrer'
-// 						>
-// 							<FaGlobe className='text-4xl' />
-// 						</a>
-// 					)}
-
-// 					{instagram === "" ? (
-// 						<></>
-// 					) : (
-// 						<a
-// 							href={instagram}
-// 							className='text-acm-black hover:text-gray-300'
-// 							target='_blank'
-// 							rel='noreferrer'
-// 						>
-// 							<FaInstagram className='text-4xl' />
-// 						</a>
-// 					)}
-// 				</div>
-// 			</Col>
-// 			<Col xs={10} className='font-lexend text-acm-black m-0 pr-0'>
-// 				<p className='text-2xl inline'>{name}</p>
-// 				<br />
-// 			</Col>
-// 		</Row>
-// 	);
-// };
-
 const colors = [
 	"acm-blue",
 	"acm-lightpurple",
@@ -179,6 +136,7 @@ const StudentOrgs = () => {
 							insta={org.instagram}
 							image={org.img}
 							description={org.description}
+							shadowColor='shadow-acm-black'
 						/>
 					</Col>
 				))}

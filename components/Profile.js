@@ -20,6 +20,7 @@ const Profile = ({
 	website,
 	insta,
 	description,
+	shadowColor,
 }) => {
 	return (
 		<Row className={`bg-${color} w-11/12 p-3 rounded-2xl h-[350px]`}>
@@ -96,7 +97,7 @@ const Profile = ({
 			</Col>
 			<Col xs={10} className='font-lexend text-acm-black m-0 pr-0'>
 				<img
-					className='shadow-[10px_8px_0px_0px] shadow-acm-black mb-3'
+					className={`shadow-[10px_8px_0px_0px] ${shadowColor} mb-3`}
 					src={image}
 					alt='Profile Picture of Board Member'
 				/>
