@@ -19,15 +19,16 @@ const Profile = ({
 	github,
 	website,
 	insta,
+	description,
 }) => {
 	return (
-		<Row className={`bg-${color} w-11/12 p-3 rounded-2xl h-[310px]`}>
+		<Row className={`bg-${color} w-11/12 p-3 rounded-2xl h-[350px]`}>
 			<Col
 				xs={2}
 				className='flex justify-start m-0 p-0 items-center flex-col'
 			>
 				<div className='h-4/6 flex justify-evenly items-center flex-col '>
-					{github === "" ? (
+					{github === undefined ? (
 						<></>
 					) : (
 						<a
@@ -40,7 +41,7 @@ const Profile = ({
 						</a>
 					)}
 
-					{linkedin === "" ? (
+					{linkedin === undefined ? (
 						<></>
 					) : (
 						<a
@@ -53,7 +54,7 @@ const Profile = ({
 						</a>
 					)}
 
-					{email === "" ? (
+					{email === undefined ? (
 						<></>
 					) : (
 						<a
@@ -66,7 +67,7 @@ const Profile = ({
 						</a>
 					)}
 
-					{website === "" ? (
+					{website === undefined ? (
 						<></>
 					) : (
 						<a
@@ -79,7 +80,7 @@ const Profile = ({
 						</a>
 					)}
 
-					{insta === "" ? (
+					{insta === undefined ? (
 						<></>
 					) : (
 						<a
@@ -100,6 +101,8 @@ const Profile = ({
 					alt='Profile Picture of Board Member'
 				/>
 				<p className='text-base inline fs-6'> {name}</p>
+				<br />
+				<p className='text-sm  inline'>{description}</p>
 				<br />
 				<p className='text-base  inline'>{position}</p>
 				<br />

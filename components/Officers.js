@@ -184,8 +184,6 @@ const Officers = () => {
 							email={officer.email}
 							linkedin={officer.linkedin}
 							github={officer.github}
-							website={officer.website}
-							insta={officer.insta}
 						/>
 					</Col>
 				))}
