@@ -24,7 +24,7 @@ const CalendarEvents = () => {
 
 	return (
 		<section className='w-full flex justify-center items-center flex-col mt-32'>
-			<div className=' w-11/12 flex justify-center items-center'>
+			<div className='mb-20 w-11/12 flex justify-center items-center'>
 				<div className='h-[110vh] w-full'>
 					<Calendar
 						className='font-lexend w-full'

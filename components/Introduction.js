@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 const Introduction = () => {
 	return (
-		<Row className='text-acm-black font-lexend flex justify-between items-center w-11/12 mx-auto'>
+		<Row className='mb-20 text-acm-black font-lexend flex justify-between items-center w-11/12 mx-auto'>
 			<Col className='text-center'>
 				<p className='text-3xl font-semibold mx-auto whitespace-nowrap navbar-expand'>
 					We are ACM @ UCR
