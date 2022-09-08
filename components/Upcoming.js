@@ -22,7 +22,7 @@ const Upcoming = () => {
 			<br />
 			<Row className='w-11/12'>
 				{events.map((event, index) => (
-					<Col className='p-4' key={index}>
+					<Col className='p-3' key={index}>
 						<Event
 							title={event.title}
 							location={event.location}
