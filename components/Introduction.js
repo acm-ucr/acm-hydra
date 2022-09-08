@@ -1,9 +1,8 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Introduction = () => {
 	return (
-	
 		<Row className='mb-20 text-acm-black font-lexend flex justify-center items-center w-11/12 mx-auto'>
 			<Col xs={12} md={7} lg={8} className='text-center'>
 				<p className='text-3xl font-semibold mx-auto whitespace-nowrap navbar-expand'>
@@ -23,7 +22,6 @@ const Introduction = () => {
 				<img alt='acm @ ucr logo' src='acm-ucr-logo.png' />
 			</Col>
 		</Row>
-	
 	);
 };
 
