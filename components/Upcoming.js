@@ -16,9 +16,9 @@ const Upcoming = () => {
 
 	return (
 		<div className='w-full mb-20 flex justify-content items-center flex-col'>
-			<text className='ml-20 mr-20 sm:flex justify-center text-acm-black text-5xl font-bold'>
+			<p className='flex justify-center text-center text-acm-black text-5xl font-bold'>
 				Upcoming Events
-			</text>
+			</p>
 			<br />
 			<Row className='w-11/12'>
 				{events.map((event, index) => (
