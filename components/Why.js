@@ -23,7 +23,7 @@ const Why = () => {
 			</Col>
 			<Col sm={6} className='flex justify-center items-center'>
 				<Frame
-					image='image3.jpg'
+					image='presentation4.jpg'
 					topRight={"#223470"}
 					bottomLeft={"#f78c6c"}
 					corners={"#c3e88d"}

@@ -20,7 +20,7 @@ const Vision = () => {
 				</Col>
 				<Col sm={6} className='flex justify-center items-center'>
 					<Frame
-						image='image1.jpg'
+						image='presentation1.jpg'
 						topRight={"#80cbc4"}
 						bottomLeft={"#c792ea"}
 						corners={"#000000"}
