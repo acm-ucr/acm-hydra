@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Link from "next/link";
-import { FooterSocialLinks } from "./FooterSocialLinks";
+import { FooterSocialLinks } from "./data/FooterSocialLinks";
 
 const Footer = () => {
 	return (

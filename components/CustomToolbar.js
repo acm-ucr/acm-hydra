@@ -2,7 +2,7 @@ import React from "react";
 import Filter from "./Filter.js";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { Row, Col } from "react-bootstrap";
-import { CustomToolbarFilters } from "./CustomToolbarFilters.js";
+import { CustomToolbarFilters } from "./data/CustomToolbarFilters.js";
 
 const CustomToolbar = event => {
 	return (
