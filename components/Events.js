@@ -33,6 +33,33 @@ export const Events = [
 			"Explore the future of the metaverse with Meta software engineers and learn about its impacts in social interaction.",
 	},
 	{
+		title: "Speed Dating",
+		location: "WCH 205/206",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 11, 17, 0, 0),
+		end: new Date(2022, 9, 11, 18, 0, 0),
+		description:
+			"Come out and meet all the possible mentors you could be paired with for the rest of the school year!",
+	},
+	{
+		title: "What Mentors Can Offer",
+		location: "ACM Clubroom",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 12, 17, 0, 0),
+		end: new Date(2022, 9, 12, 18, 0, 0),
+		description:
+			"Create a plan and see some cool projects created by your mentors!",
+	},
+	{
+		title: "Mentor Q/A",
+		location: "ACM Clubroom",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 13, 17, 0, 0),
+		end: new Date(2022, 9, 13, 18, 0, 0),
+		description:
+			"Ask mentors anything about technical advice, college life, or just general advice.",
+	},
+	{
 		title: "CRS: Internships",
 		location: "WCH 127",
 		color: filters["Career"],
