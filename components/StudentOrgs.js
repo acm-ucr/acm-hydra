@@ -135,7 +135,6 @@ const StudentOrgs = () => {
 							website={org.website}
 							insta={org.instagram}
 							image={org.img}
-							description={org.description}
 						/>
 					</Col>
 				))}

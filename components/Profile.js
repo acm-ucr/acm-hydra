@@ -19,12 +19,11 @@ const Profile = ({
 	github,
 	website,
 	insta,
-	description,
 }) => {
 	return (
 		<Row
 			className={`bg-${color} w-11/12 p-3 rounded-2xl ${
-				pronouns === undefined ? "h-[350px]" : ""
+				pronouns === undefined ? "h-[310px]" : ""
 			}`}
 		>
 			<Col
@@ -37,7 +36,7 @@ const Profile = ({
 					) : (
 						<a
 							href={github}
-							className='text-acm-white hover:text-acm-black'
+							className='text-acm-white hover:text-gray-300'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -50,7 +49,7 @@ const Profile = ({
 					) : (
 						<a
 							href={linkedin}
-							className='text-acm-white hover:text-acm-black'
+							className='text-acm-white hover:text-gray-300'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -63,7 +62,7 @@ const Profile = ({
 					) : (
 						<a
 							href={`mailto:` + email}
-							className='text-acm-white hover:text-acm-black'
+							className='text-acm-white hover:text-gray-300'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -76,7 +75,7 @@ const Profile = ({
 					) : (
 						<a
 							href={website}
-							className='text-acm-white hover:text-acm-black'
+							className='text-acm-white hover:text-gray-300'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -89,7 +88,7 @@ const Profile = ({
 					) : (
 						<a
 							href={insta}
-							className='text-acm-white hover:text-acm-black'
+							className='text-acm-white hover:text-gray-300'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -105,8 +104,6 @@ const Profile = ({
 					alt='Profile Picture of Board Member'
 				/>
 				<p className='text-base inline fs-6'> {name}</p>
-				<br />
-				<p className='text-sm  inline'>{description}</p>
 				<br />
 				<p className='text-base  inline'>{position}</p>
 				<br />
