@@ -13,7 +13,7 @@ const Clubroom = () => {
 					to study, socialize, and learn new things!
 				</p>
 				<p className='text-xl'>
-					Here are the perks:
+					Available perks:
 					<>
 						<li className='pl-5'>Whiteboard walls</li>
 						<li className='pl-5'>Programming books</li>
