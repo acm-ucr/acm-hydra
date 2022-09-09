@@ -4,15 +4,17 @@ import Card from "react-bootstrap/Card";
 const Event = ({ title, location, color, start, end, description }) => {
 	return (
 		<div
-			className={
-				"h-full bg-acm-black rounded shadow-[10px_-8px_0px_0px] shadow-acm-green"
-			}
+			className='h-full bg-acm-black rounded shadow-[10px_-8px_0px_0px]'
+			style={{ color: color }}
 		>
 			<Card className='!bg-acm-black font-lexend  !border-none'>
 				<Card.Body className='flex justify-evenly'>
 					<Card.Title className='w-1/6'>
 						<p className='text-4xl inline text-acm-white'>
-							{start.getMonth() + 1}
+							<br />
+							{start.getMonth() + 1 < 10
+								? `0` + (start.getMonth() + 1)
+								: start.getMonth() + 1}
 							<br />
 							{start.getDate() < 10
 								? `0` + start.getDate()
