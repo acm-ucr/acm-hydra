@@ -42,21 +42,21 @@ export const Events = [
 			"Come out and meet all the possible mentors you could be paired with for the rest of the school year!",
 	},
 	{
-		title: "Mentor Q/A",
-		location: "ACM Clubroom",
-		color: filters["Socials"],
-		start: new Date(2022, 9, 13, 17, 0, 0),
-		end: new Date(2022, 9, 13, 18, 0, 0),
-		description:
-			"Ask mentors anything about technical advice, college life, or just general advice.",
-	},
-	{
 		title: "CRS: Internships",
 		location: "WCH 127",
 		color: filters["Career"],
 		start: new Date(2022, 9, 13, 16, 0, 0),
 		end: new Date(2022, 9, 13, 18, 0, 0),
 		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
+	},
+	{
+		title: "Mentor Q/A",
+		location: "ACM Clubroom",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 14, 17, 0, 0),
+		end: new Date(2022, 9, 14, 18, 0, 0),
+		description:
+			"Ask mentors anything about technical advice, college life, or just general advice.",
 	},
 	{
 		title: "CRS: Interview Process",
