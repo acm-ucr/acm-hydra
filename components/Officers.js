@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { OfficersArray } from "./data/OfficersArray";
-import { OfficersColors } from "./data/OfficersColors";
+import { OfficersArray } from "./data/Officers";
+import { Colors } from "./data/Colors";
 import Profile from "./Profile";
 
 const Officers = () => {
@@ -21,9 +21,7 @@ const Officers = () => {
 						className='h-full p-2 flex justify-center items-center'
 					>
 						<Profile
-							color={
-								OfficersColors[index % OfficersColors.length]
-							}
+							color={Colors[index % Colors.length]}
 							name={officer.name}
 							pronouns={officer.pronoun}
 							position={officer.position}

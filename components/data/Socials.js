@@ -7,7 +7,7 @@ import {
 	FaGithub,
 } from "react-icons/fa";
 
-export const FooterSocialLinks = [
+export const Socials = [
 	{
 		path: "https://www.instagram.com/acm_ucr/",
 		title: "Instagram",

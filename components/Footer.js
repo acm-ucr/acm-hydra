@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Link from "next/link";
-import { FooterSocialLinks } from "./data/FooterSocialLinks";
+import { Socials } from "./data/Socials";
 
 const Footer = () => {
 	return (
@@ -13,7 +13,7 @@ const Footer = () => {
 					</p>
 				</Row>
 				<Row className='justify-center mx-auto'>
-					{FooterSocialLinks.map((link, index) => {
+					{Socials.map((link, index) => {
 						return (
 							<Col
 								key={index}

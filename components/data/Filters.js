@@ -1,4 +1,4 @@
-export const CustomToolbarFilters = [
+export const Filters = [
 	{
 		topic: "Meetings",
 		color: "#82aaff",

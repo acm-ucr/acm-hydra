@@ -1,4 +1,4 @@
-export const OfficersColors = [
+export const Colors = [
 	"acm-blue",
 	"acm-lightpurple",
 	"acm-yellow",
