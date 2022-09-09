@@ -82,7 +82,7 @@ const Faq = () => {
 				Frequently Asked Questions
 			</p>
 			<Accordion
-				className='flex flex-col justify-center mx-auto w-2/3 height-1/3'
+				className='flex flex-col justify-center mx-auto w-11/12 height-1/3'
 				flush
 				alwaysOpen
 			>
