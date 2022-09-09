@@ -7,12 +7,12 @@ const Navigation = () => {
 		<div className='w-full flex justify-center items-center bg-acm-white fixed-top border-b-4 border-acm-blue'>
 			<Navbar
 				collapseOnSelect
-				className='font-lexend fs-4 w-11/12 ml-auto mr-auto'
+				className='px-0 py-0 font-lexend fs-4 w-11/12 ml-auto mr-auto'
 				expand='sm'
 			>
-				<Navbar.Brand>
+				<Navbar.Brand className="p-0">
 					<Link href='/' passHref>
-						<Nav.Link eventKey='1'>
+						<Nav.Link eventKey='1' className="p-0">
 							<img
 								src='acm-ucr-logo.png'
 								className='w-24 h-24'
