@@ -4,9 +4,9 @@ import { Row, Col } from "react-bootstrap";
 const Clubroom = () => {
 	return (
 		<Row className='flex justify-between font-lexend text-acm-black mx-auto w-2/3'>
-			<Row className='text-3xl font-semibold flex justify-center'>
+			<p className='text-3xl font-semibold flex justify-center'>
 				ACM Clubroom
-			</Row>
+			</p>
 			<Row className='bg-acm-blue rounded-2xl items-center px-4 pt-5 pb-4 mt-4'>
 				<Col sm={6} className='text-xl font-base'>
 					<p>
