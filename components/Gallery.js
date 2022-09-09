@@ -12,7 +12,7 @@ const Gallery = () => {
 					<Col className='gx-2'>
 						<img
 							alt='group of students gathering in front of rivera library'
-							src='image11.png'
+							src='rivera-library.png'
 						/>
 					</Col>
 					<Col className='flex justify-center gx-2'>
@@ -20,24 +20,24 @@ const Gallery = () => {
 							<img
 								className='pr-1 pb-1'
 								alt='students in a classroom listening to a presentation'
-								src='image1.jpg'
+								src='presentation1.jpg'
 							/>
 							<img
 								className='pr-1 pt-0.5'
 								alt='students in a classroom listening to a presentation'
-								src='image3.jpg'
+								src='presentation4.jpg'
 							/>
 						</Col>
 						<Col>
 							<img
 								className='pl-1 pb-1'
 								alt='students in a classroom listening to a panel'
-								src='image16.png'
+								src='panel.png'
 							/>
 							<img
 								className='pl-1 pt-0.5'
 								alt='groups of students in discussion sitting around tables'
-								src='image5.jpg'
+								src='discussion.jpg'
 							/>
 						</Col>
 					</Col>
@@ -48,31 +48,31 @@ const Gallery = () => {
 							<img
 								className='pr-1 pb-1'
 								alt='students sitting at tables listening to a presentation'
-								src='image15.png'
+								src='presentation6.png'
 							/>
 							<img
 								className='pr-1 pt-0.5'
 								alt='students in a large classroom watching a presentation'
-								src='image14.png'
+								src='presentation7.png'
 							/>
 						</Col>
 						<Col>
 							<img
 								className='pl-1 pb-1'
 								alt='students watching a presentation on development workflow'
-								src='image17.png'
+								src='presentation-workflow.png'
 							/>
 							<img
 								className='pl-1 pt-0.5'
 								alt='students following along on their laptops in an acm workshop'
-								src='image9.jpg'
+								src='acm-workshop.jpg'
 							/>
 						</Col>
 					</Col>
 					<Col className='gx-2'>
 						<img
 							alt='students sitting at tables discussing their ideas with professors'
-							src='image10.jpg'
+							src='discussion-professors.jpg'
 						/>
 					</Col>
 				</Row>
@@ -80,7 +80,7 @@ const Gallery = () => {
 					<img
 						className='pt-2 pb-16 gx-2'
 						alt='students paying attention during an acm meeting'
-						src='image12.png'
+						src='meeting.png'
 					/>
 				</Row>
 			</Row>
