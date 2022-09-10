@@ -8,7 +8,7 @@ const filters = {
 export const Events = [
 	{
 		title: "Intern/Research Panel",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 8, 27, 16, 0, 0),
 		end: new Date(2022, 8, 27, 18, 0, 0),
@@ -25,12 +25,21 @@ export const Events = [
 	},
 	{
 		title: "Metaverse",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 9, 11, 16, 0, 0),
 		end: new Date(2022, 9, 11, 18, 0, 0),
 		description:
 			"Explore the future of the metaverse with Meta software engineers and learn about its impacts in social interaction.",
+	},
+	{
+		title: "Speed Dating",
+		location: "WCH 205/6",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 12, 17, 0, 0),
+		end: new Date(2022, 9, 12, 18, 0, 0),
+		description:
+			"Come out and meet all the possible mentors you could be paired with for the rest of the school year!",
 	},
 	{
 		title: "CRS: Internships",
@@ -39,6 +48,15 @@ export const Events = [
 		start: new Date(2022, 9, 13, 16, 0, 0),
 		end: new Date(2022, 9, 13, 18, 0, 0),
 		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
+	},
+	{
+		title: "Mentor Q/A",
+		location: "WCH 127",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 14, 17, 0, 0),
+		end: new Date(2022, 9, 14, 18, 0, 0),
+		description:
+			"Ask mentors anything about technical advice, college life, or just general advice.",
 	},
 	{
 		title: "CRS: Interview Process",
@@ -66,7 +84,7 @@ export const Events = [
 	},
 	{
 		title: "Thinking Like A Programmer",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 10, 8, 16, 0, 0),
 		end: new Date(2022, 10, 8, 18, 0, 0),
@@ -91,7 +109,7 @@ export const Events = [
 	},
 	{
 		title: "Interview with Namanh Kapur",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 10, 22, 16, 0, 0),
 		end: new Date(2022, 10, 22, 18, 0, 0),
