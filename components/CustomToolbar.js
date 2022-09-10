@@ -9,7 +9,7 @@ const CustomToolbar = event => {
 		<div className=''>
 			<Row className=''>
 				<Col
-					xs={3}
+					xs={4}
 					className=' w-full flex justify-start items-center text-3xl font-lexend font-bold'
 				>
 					<FaArrowLeft
@@ -29,18 +29,18 @@ const CustomToolbar = event => {
 					/>
 				</Col>
 				<Col
-					xs={9}
+					xs={8}
 					className=' w-full flex justify-end items-center m-0 p-0'
 				>
-					<Row className=' w-full m-0 p-0 flex justify-end items-center '>
+					<Row className='w-full  m-0 p-0 flex justify-end items-center '>
 						{Filters.map((filter, index) => {
 							return (
 								<Col
 									key={index}
-									xs={4}
-									sm={4}
+									xs={5}
+									sm={5}
 									lg={2}
-									className='m-1 p-0'
+									className='p-1'
 								>
 									<Filter
 										topic={filter.topic}
