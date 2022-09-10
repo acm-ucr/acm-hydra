@@ -27,7 +27,7 @@ const Clubroom = () => {
 					</p>
 				</Col>
 				<Col sm={6}>
-					<img alt='' src='image3.jpg' />
+					<img alt='' src='presentation4.jpg' />
 				</Col>
 			</Row>
 		</Row>
