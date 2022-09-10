@@ -10,9 +10,9 @@ const Navigation = () => {
 				className='px-0 py-0 font-lexend fs-4 w-11/12 ml-auto mr-auto'
 				expand='sm'
 			>
-				<Navbar.Brand className="p-0">
+				<Navbar.Brand className='p-0'>
 					<Link href='/' passHref>
-						<Nav.Link eventKey='1' className="p-0">
+						<Nav.Link eventKey='1' className='p-0'>
 							<img
 								src='acm-ucr-logo.png'
 								className='w-24 h-24'
