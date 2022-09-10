@@ -8,7 +8,7 @@ const filters = {
 export const Events = [
 	{
 		title: "Intern/Research Panel",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 8, 27, 16, 0, 0),
 		end: new Date(2022, 8, 27, 18, 0, 0),
@@ -25,7 +25,7 @@ export const Events = [
 	},
 	{
 		title: "Metaverse",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 9, 11, 16, 0, 0),
 		end: new Date(2022, 9, 11, 18, 0, 0),
@@ -34,7 +34,7 @@ export const Events = [
 	},
 	{
 		title: "Speed Dating",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Socials"],
 		start: new Date(2022, 9, 12, 17, 0, 0),
 		end: new Date(2022, 9, 12, 18, 0, 0),
@@ -51,7 +51,7 @@ export const Events = [
 	},
 	{
 		title: "Mentor Q/A",
-		location: "ACM Clubroom",
+		location: "WCH 127",
 		color: filters["Socials"],
 		start: new Date(2022, 9, 14, 17, 0, 0),
 		end: new Date(2022, 9, 14, 18, 0, 0),
@@ -84,7 +84,7 @@ export const Events = [
 	},
 	{
 		title: "Thinking Like A Programmer",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 10, 8, 16, 0, 0),
 		end: new Date(2022, 10, 8, 18, 0, 0),
@@ -109,7 +109,7 @@ export const Events = [
 	},
 	{
 		title: "Interview with Namanh Kapur",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 10, 22, 16, 0, 0),
 		end: new Date(2022, 10, 22, 18, 0, 0),
