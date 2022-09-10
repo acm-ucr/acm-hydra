@@ -36,7 +36,7 @@ const Profile = ({
 					) : (
 						<a
 							href={github}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-gray-200'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -49,7 +49,7 @@ const Profile = ({
 					) : (
 						<a
 							href={linkedin}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-gray-200'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -62,7 +62,7 @@ const Profile = ({
 					) : (
 						<a
 							href={`mailto:` + email}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-gray-200'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -75,7 +75,7 @@ const Profile = ({
 					) : (
 						<a
 							href={website}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-gray-200'
 							target='_blank'
 							rel='noreferrer'
 						>
@@ -88,7 +88,7 @@ const Profile = ({
 					) : (
 						<a
 							href={insta}
-							className='text-acm-white hover:text-gray-300'
+							className='text-acm-white hover:text-gray-200'
 							target='_blank'
 							rel='noreferrer'
 						>

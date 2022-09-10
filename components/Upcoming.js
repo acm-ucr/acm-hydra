@@ -15,14 +15,14 @@ const Upcoming = () => {
 	}, []);
 
 	return (
-		<div className='mb-20 flex justify-content items-center flex-col'>
-			<text className='text-acm-black flex justify-center text-5xl font-bold'>
+		<div className='w-full mb-20 flex justify-content items-center flex-col'>
+			<p className='flex justify-center text-center text-acm-black text-5xl font-bold'>
 				Upcoming Events
-			</text>
+			</p>
 			<br />
 			<Row className='w-11/12'>
 				{events.map((event, index) => (
-					<Col key={index}>
+					<Col className='p-3' md={6} lg={4} key={index}>
 						<Event
 							title={event.title}
 							location={event.location}

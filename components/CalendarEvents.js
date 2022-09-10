@@ -58,9 +58,9 @@ const CalendarEvents = () => {
 			</div>
 
 			<Row className='w-11/12 flex justify-center'>
-				<text className='flex justify-center text-5xl font-bold'>
+				<p className='text-center flex justify-center text-5xl font-bold'>
 					Upcoming Events
-				</text>
+				</p>
 				{events.map((event, index) => (
 					<Col key={index} xl={3} className='p-3'>
 						<Event
