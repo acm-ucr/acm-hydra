@@ -1,6 +1,8 @@
 #!/bin/sh
 
-# Builds the `dev` branch 
+cd /home/projects/acm/acm-hydra-main-branch
+
+# Builds the `main` branch 
 res=$(git pull origin main | grep Already)
 
 if [[ ${res} =~ 'Already' ]]
