@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 const Clubroom = () => {
 	return (
-		<Row className='flex justify-between items-center bg-acm-blue rounded-2xl mx-auto w-2/3 px-4 pt-5 pb-4 mt-4'>
+		<Row className='flex justify-between items-center bg-acm-blue rounded-2xl mx-auto w-11/12 px-4 pt-5 pb-4 mt-4'>
 			<Col sm={6} className='font-lexend text-acm-black font-base'>
 				<p className='text-3xl'>ACM Clubroom</p>
 				<p className='text-xl'>
@@ -13,7 +13,7 @@ const Clubroom = () => {
 					to study, socialize, and learn new things!
 				</p>
 				<p className='text-xl'>
-					Here are the perks:
+					Available Perks:
 					<>
 						<li className='pl-5'>Whiteboard walls</li>
 						<li className='pl-5'>Programming books</li>
