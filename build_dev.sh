@@ -8,6 +8,6 @@ then
   echo 'Site already up to date'
 else
   npm ci
-  npm run bulid
+  npm run build
   npm run export
 fi
