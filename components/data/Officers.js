@@ -66,7 +66,6 @@ export const OfficersArray = [
 		image: "cindy.jpg",
 		email: "Clee541@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/cindy-lee-7a0306183",
-		github: "",
 		bio: "Make a short bio for me :)",
 	},
 	{
@@ -76,7 +75,6 @@ export const OfficersArray = [
 		image: "ashley.jpg",
 		email: "akim291@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/ashley-kim-838893196",
-		github: "",
 		bio: `Hi everyone! I'm Ashley and I'm a 3rd year CS major. My hobbies outside of class include digital illustration, making fashion pinterest boards, and baking cookies for my friends.`,
 	},
 	{
@@ -86,7 +84,6 @@ export const OfficersArray = [
 		image: "ashwin.jpg",
 		email: "ajaga008@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/ashwin-jagadish",
-		github: "",
 		bio: `Hi, my name is Ashwin, and I'm a 3rd year Computer Science with Business Applications major. I'm looking forward to being ACM's Marketing Chair this year and creating more engagement within the club.`,
 	},
 	{
