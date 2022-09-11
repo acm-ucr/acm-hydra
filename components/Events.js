@@ -33,15 +33,6 @@ export const Events = [
 			"Explore the future of the metaverse with Meta software engineers and learn about its impacts in social interaction.",
 	},
 	{
-		title: "Speed Dating",
-		location: "WCH 205/6",
-		color: filters["Socials"],
-		start: new Date(2022, 9, 12, 17, 0, 0),
-		end: new Date(2022, 9, 12, 18, 0, 0),
-		description:
-			"Come out and meet all the possible mentors you could be paired with for the rest of the school year!",
-	},
-	{
 		title: "CRS: Internships",
 		location: "WCH 127",
 		color: filters["Career"],
@@ -50,11 +41,29 @@ export const Events = [
 		description: "REALLY COOL DESCRIPTION THAT WE NEED TO FIGURE OUT",
 	},
 	{
+		title: "Speed Dating",
+		location: "WCH 205/6",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 17, 16, 0, 0),
+		end: new Date(2022, 9, 17, 17, 0, 0),
+		description:
+			"Come out and meet all the possible mentors you could be paired with for the rest of the school year!",
+	},
+	{
+		title: "What Bytes Will Offer",
+		location: "WCH 127",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 18, 16, 0, 0),
+		end: new Date(2022, 9, 18, 17, 0, 0),
+		description:
+			"Create a plan and see some cool projects created by your mentors!",
+	},
+	{
 		title: "Mentor Q/A",
 		location: "WCH 127",
 		color: filters["Socials"],
-		start: new Date(2022, 9, 14, 17, 0, 0),
-		end: new Date(2022, 9, 14, 18, 0, 0),
+		start: new Date(2022, 9, 19, 16, 0, 0),
+		end: new Date(2022, 9, 19, 17, 0, 0),
 		description:
 			"Ask mentors anything about technical advice, college life, or just general advice.",
 	},

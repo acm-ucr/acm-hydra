@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd /home/projects/acm/acm-hydra-dev-branch
+
 # Builds the `dev` branch 
 res=$(git pull origin dev | grep Already)
 
