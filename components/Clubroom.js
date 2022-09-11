@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 const Clubroom = () => {
 	return (
-		<Row className='flex justify-between font-lexend text-acm-black mx-auto w-2/3'>
+		<Row className='flex justify-between font-lexend text-acm-black mx-auto w-11/12'>
 			<p className='text-3xl font-semibold flex justify-center'>
 				ACM Clubroom
 			</p>
