@@ -8,7 +8,7 @@ const filters = {
 export const Events = [
 	{
 		title: "Intern Panel",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 8, 27, 16, 0, 0),
 		end: new Date(2022, 8, 27, 18, 0, 0),
