@@ -11,7 +11,7 @@ const Clubroom = () => {
 				<Col sm={6} className='text-xl font-base'>
 					<p>
 						We will often hold academic, professional, and technical
-						workshops and events in this room! Located in Wingston
+						workshops and events in this room! Located in Winston
 						Chung Hall 127, behind Bytes, you can expect a lively
 						environment to study, socialize, and learn new things!
 					</p>
