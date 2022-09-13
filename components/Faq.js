@@ -1,32 +1,8 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import { FaqInfoArray } from "./FaqInfoArray";
 
 let colorCount = 0;
-
-const infoArray = [
-	{
-		question: `What is ACM?`,
-		answer: `ACM is UCR's largest computer science club. We focus on 
-		professional and academic development, mentorship, and projects.`,
-	},
-	{
-		question: `How do I join ACM @ UCR?`,
-		answer: `Currently, there's no official way to join like a membership 
-		fee, so all you have to do is come out to our events! `,
-	},
-	{
-		question: `Who is able to join ACM @ UCR?`,
-		answer: `All UCR students.`,
-	},
-	{
-		question: `How can I participate in student led projects?`,
-		answer: `By reaching out to project leads.`,
-	},
-	{
-		question: `When are general meetings/workshops/events/socials?`,
-		answer: `Times change during every quarter. Be sure to check our socials for the most up to date time and events.`,
-	},
-]; // dummy data
 
 const colorArray = [
 	`bg-acm-blue`,
@@ -52,7 +28,7 @@ const FaqItem = ({ index, element }) => {
 	}
 
 	const bgClass =
-		index == infoArray.length - 1 ? "" : `${colorArray[colorCount]}`;
+		index == FaqInfoArray.length - 1 ? "" : `${colorArray[colorCount]}`;
 
 	return (
 		<Accordion.Item
@@ -77,16 +53,16 @@ const FaqItem = ({ index, element }) => {
 
 const Faq = () => {
 	return (
-		<>
-			<p className='font-lexend text-acm-black text-3xl font-semibold flex justify-center pb-4 mt-32'>
+		<div className='mb-20'>
+			<p className='font-lexend text-acm-black text-3xl text-center font-semibold flex justify-center pb-4 mt-32'>
 				Frequently Asked Questions
 			</p>
 			<Accordion
-				className='flex flex-col justify-center mx-auto w-2/3 height-1/3'
+				className='flex flex-col justify-center mx-auto w-11/12 height-1/3'
 				flush
 				alwaysOpen
 			>
-				{infoArray.map((element, index) => (
+				{FaqInfoArray.map((element, index) => (
 					<FaqItem
 						key={index}
 						className='!bg-acm-black focus:!shadow-none m-0 p-0'
@@ -95,7 +71,7 @@ const Faq = () => {
 					/>
 				))}
 			</Accordion>
-		</>
+		</div>
 	);
 };
 

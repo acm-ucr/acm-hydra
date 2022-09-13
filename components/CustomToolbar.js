@@ -2,32 +2,14 @@ import React from "react";
 import Filter from "./Filter.js";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { Row, Col } from "react-bootstrap";
-
-const filters = [
-	{
-		topic: "Meetings",
-		color: "#82aaff",
-	},
-	{
-		topic: "Career",
-		color: "#c792ea",
-	},
-	{
-		topic: "Socials",
-		color: "#ff5370",
-	},
-	{
-		topic: "Workshops",
-		color: "#ffd700",
-	},
-];
+import { Filters } from "./data/Filters.js";
 
 const CustomToolbar = event => {
 	return (
 		<div className=''>
 			<Row className=''>
 				<Col
-					xs={3}
+					xs={4}
 					className=' w-full flex justify-start items-center text-3xl font-lexend font-bold'
 				>
 					<FaArrowLeft
@@ -47,18 +29,18 @@ const CustomToolbar = event => {
 					/>
 				</Col>
 				<Col
-					xs={9}
+					xs={8}
 					className=' w-full flex justify-end items-center m-0 p-0'
 				>
-					<Row className=' w-full m-0 p-0 flex justify-end items-center '>
-						{filters.map((filter, index) => {
+					<Row className='w-full  m-0 p-0 flex justify-end items-center '>
+						{Filters.map((filter, index) => {
 							return (
 								<Col
 									key={index}
-									xs={4}
-									sm={4}
+									xs={5}
+									sm={5}
 									lg={2}
-									className='m-1 p-0'
+									className='p-1'
 								>
 									<Filter
 										topic={filter.topic}

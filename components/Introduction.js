@@ -3,8 +3,8 @@ import { Row, Col } from "react-bootstrap";
 
 const Introduction = () => {
 	return (
-		<Row className='text-acm-black font-lexend flex justify-between items-center w-11/12 mx-auto'>
-			<Col className='text-center'>
+		<Row className='mb-20 text-acm-black font-lexend flex justify-center items-center w-11/12 mx-auto'>
+			<Col xs={12} md={7} lg={8} className='text-center'>
 				<p className='text-3xl font-semibold mx-auto whitespace-nowrap navbar-expand'>
 					We are ACM @ UCR
 				</p>
@@ -18,7 +18,7 @@ const Introduction = () => {
 					members to excel.
 				</p>
 			</Col>
-			<Col>
+			<Col xs={7} sm={5} md={5} lg={4}>
 				<img alt='acm @ ucr logo' src='acm-ucr-logo.png' />
 			</Col>
 		</Row>
