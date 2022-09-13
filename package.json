@@ -26,18 +26,18 @@
 		"react-router-bootstrap": "^0.26.2"
 	},
 	"devDependencies": {
-		"@tailwindcss/aspect-ratio": "^0.4.0",
+		"@tailwindcss/aspect-ratio": "^0.4.2",
 		"@tailwindcss/forms": "^0.5.2",
 		"@tailwindcss/line-clamp": "^0.4.0",
 		"@tailwindcss/typography": "^0.5.2",
 		"autoprefixer": "^10.4.7",
 		"eslint": "^8.18.0",
 		"eslint-config-google": "^0.14.0",
-		"eslint-config-next": "12.1.6",
+		"eslint-config-next": "12.3.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-react": "^7.31.8",
 		"husky": "^8.0.0",
-		"postcss": "^8.4.14",
+		"postcss": "^8.4.16",
 		"prettier": "2.7.1",
 		"tailwindcss": "^3.1.6"
 	}
