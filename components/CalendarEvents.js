@@ -18,7 +18,7 @@ const CalendarEvents = () => {
 		setEvents(
 			Events.filter(event => {
 				return event.start > new Date();
-			})
+			}).slice(0, 8)
 		);
 	}, []);
 

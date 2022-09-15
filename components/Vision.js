@@ -5,8 +5,8 @@ import Frame from "./Frame";
 const Vision = () => {
 	return (
 		<div className='mt-32'>
-			<Row className='font-lexend flex text-acm-black justify-between items-center w-11/12 mx-auto'>
-				<Col sm={6} className='text-center'>
+			<Row className='font-lexend flex text-acm-black justify-between items-center w-11/12 mx-auto '>
+				<Col sm={6} className='text-center p-3'>
 					<p className='text-3xl font-semibold flex justify-center mx-auto'>
 						Our Vision
 					</p>
@@ -18,7 +18,7 @@ const Vision = () => {
 						as a transfer student.
 					</p>
 				</Col>
-				<Col sm={6} className='flex justify-center items-center'>
+				<Col sm={6} className='flex justify-center items-center p-3'>
 					<Frame
 						image='presentation1.jpg'
 						topRight={"#80cbc4"}
