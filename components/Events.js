@@ -30,7 +30,7 @@ export const Events = [
 		start: new Date(2022, 9, 11, 16, 0, 0),
 		end: new Date(2022, 9, 11, 18, 0, 0),
 		description:
-			"Explore the future of the metaverse with Meta software engineers and learn about its impacts in social interaction.",
+			"Explore the future of the metaverse with Meta, Fortnite, & Roblox engineers to learn its impacts in social interaction.",
 	},
 	{
 		title: "CRS: Internships",
