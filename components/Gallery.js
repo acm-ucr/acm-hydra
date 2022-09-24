@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 const Gallery = () => {
 	return (
 		<Row className='text-acm-black flex justify-center mx-auto w-11/12'>
-			<Row className='font-lexend text-3xl font-semibold flex justify-center py-4'>
+			<Row className='font-lexend text-heading flex justify-center py-4'>
 				Gallery
 			</Row>
 			<Row className='flex justify-center'>

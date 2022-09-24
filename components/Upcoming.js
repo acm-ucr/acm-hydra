@@ -10,19 +10,19 @@ const Upcoming = () => {
 		setEvents(
 			Events.filter(event => {
 				return event.start > new Date();
-			}).slice(0, 3)
+			}).slice(0, 4)
 		);
 	}, []);
 
 	return (
 		<div className='w-full mb-20 flex justify-content items-center flex-col'>
-			<p className='flex justify-center text-center text-acm-black text-5xl font-bold'>
+			<p className='flex justify-center text-center text-acm-black font-lexend text-heading'>
 				Upcoming Events
 			</p>
 			<br />
 			<Row className='w-11/12'>
 				{events.map((event, index) => (
-					<Col className='p-3' md={6} lg={4} key={index}>
+					<Col className='p-3' md={6} lg={3} key={index}>
 						<Event
 							title={event.title}
 							location={event.location}

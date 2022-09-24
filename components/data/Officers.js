@@ -110,7 +110,7 @@ export const OfficersArray = [
 		name: "Andy Chung",
 		pronoun: "he/him",
 		position: "Outreach",
-		image: "sachin.jpg",
+		image: "andy.jpg",
 		email: "undahvt@gmail.com",
 		linkedin: "https://www.linkedin.com/in/andy-tran-041bb21b7/",
 		github: "https://github.com/undahveeti",

@@ -18,7 +18,7 @@ export const FaqInfoArray = [
 		answer: `By reaching out to project leads.`,
 	},
 	{
-		question: `When are general meetings/workshops/events/socials?`,
+		question: `When are general meetings, workshops, events, socials?`,
 		answer: `Times change during every quarter. Be sure to check our socials for the most up to date time and events.`,
 	},
 ]; // dummy data

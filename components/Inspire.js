@@ -6,7 +6,7 @@ import { InspireProjects } from "./InspireProjects";
 const Inspire = () => {
 	return (
 		<div className='flex justify-content items-center flex-col'>
-			<text className='text-center flex justify-center text-5xl font-bold text-acm-black'>
+			<text className='text-center flex justify-center font-lexend text-heading text-acm-black'>
 				ACM @ UCR Projects
 			</text>
 			<br />
