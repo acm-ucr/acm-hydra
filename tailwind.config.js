@@ -7,10 +7,16 @@ module.exports = {
 	theme: {
 		extend: {
 			fontSize: {
-				// heading: "2.5rem",
 				text: "1rem",
 				heading: [
 					"2.5rem",
+					{
+						fontWeight: "400",
+						fontFamily: "Lexend",
+					},
+				],
+				text: [
+					"1.5rem",
 					{
 						fontWeight: "400",
 						fontFamily: "Lexend",

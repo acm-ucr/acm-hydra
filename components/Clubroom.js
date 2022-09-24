@@ -7,7 +7,7 @@ const Clubroom = () => {
 		<Row className='flex justify-center font-lexend text-acm-black mx-auto w-11/12'>
 			<p className='text-heading flex justify-center'>ACM Clubroom</p>
 			<Row className='bg-acm-blue flex items-center rounded-2xl px-4 pt-5 pb-4 mt-4'>
-				<Col sm={6} className='text-xl'>
+				<Col sm={6} className='text-text'>
 					<p>
 						We will often hold academic, professional, and technical
 						workshops and events in this room! Located in Winston

@@ -8,7 +8,7 @@ const Introduction = () => {
 				<p className='text-heading mx-auto whitespace-nowrap navbar-expand'>
 					We are ACM @ UCR
 				</p>
-				<p className='text-xl font-normal mx-auto w-11/12 pt-5'>
+				<p className='text-text mx-auto w-11/12 pt-5'>
 					ACM at UCR is the largest student-run technical organization
 					with a focus on Computer Science. Our goal is to help our
 					members develop their technical and professional skills to

@@ -103,7 +103,7 @@ const Profile = ({
 					src={image}
 					alt='Profile Picture of Board Member'
 				/>
-				<p className='text-base inline fs-6'> {name}</p>
+				<p className='text-text inline'> {name}</p>
 				<br />
 				<p className='text-base  inline'>{position}</p>
 				<br />

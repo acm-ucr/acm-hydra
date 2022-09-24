@@ -9,7 +9,7 @@ const Vision = () => {
 				<p className='text-heading flex justify-center mx-auto'>
 					Our Vision
 				</p>
-				<p className='text-xl font-normal flex justify-center mx-auto w-11/12 pt-3'>
+				<p className='text-text flex justify-center mx-auto w-11/12 pt-3'>
 					Our Vision is simple: We want to improve our members
 					professionally, technically, and personally. We want to help
 					our members grow throughout their college career, whether
