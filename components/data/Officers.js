@@ -107,6 +107,16 @@ export const OfficersArray = [
 		bio: `Hey ACM folks, I'm Sachin! I study CS and love to discuss the theories of the subject. You can catch me doing some origami, playing guitar, or asking professors way too many questions. I hope you find your community and enjoy your time here.`,
 	},
 	{
+		name: "Andy Chung",
+		pronoun: "he/him",
+		position: "Outreach",
+		image: "sachin.jpg",
+		email: "undahvt@gmail.com",
+		linkedin: "https://www.linkedin.com/in/andy-tran-041bb21b7/",
+		github: "https://github.com/undahveeti",
+		bio: `Hey ACM folks, I'm Sachin! I study CS and love to discuss the theories of the subject. You can catch me doing some origami, playing guitar, or asking professors way too many questions. I hope you find your community and enjoy your time here.`,
+	},
+	{
 		name: "Divyank Shah",
 		pronoun: "he/him",
 		position: "Projects Lead",
