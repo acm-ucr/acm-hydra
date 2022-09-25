@@ -24,13 +24,13 @@ const CalendarEvents = () => {
 
 	return (
 		<section className='w-full flex justify-center items-center flex-col mt-[12vh]'>
-			<p className='text-center flex justify-center text-heading mt-3'>
+			<p className='text-center flex justify-center text-heading mt-3 m-0'>
 				Calendar of Events
 			</p>
 			<div className='mb-5 w-11/12 flex justify-center items-center'>
 				<div className='h-[110vh] w-full'>
 					<Calendar
-						className='font-lexend w-full'
+						className='font-lexend w-full m-0 p-0'
 						events={Events}
 						localizer={mLocalizer}
 						defaultView='month'
@@ -60,7 +60,7 @@ const CalendarEvents = () => {
 				</div>
 			</div>
 
-			<Row className='w-11/12 flex justify-center'>
+			<Row className='w-11/12 mb-20 flex justify-center'>
 				<p className='text-center flex justify-center text-heading'>
 					Upcoming Events
 				</p>

@@ -23,13 +23,10 @@ const Navigation = () => {
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='navbar-nav' />
 				<Navbar.Collapse id='navbar-nav'>
-					<Nav
-						className='ml-auto mb-2 mb-lg-2 no-underline'
-						// margin-bottom='120px'
-					>
+					<Nav className='ml-auto mb-2 mb-lg-2 no-underline'>
 						<Link href='/' passHref>
 							<Nav.Link
-								className='m-auto !text-acm-black hover:!text-acm-gray'
+								className='m-auto !text-acm-black !font-medium hover:!text-acm-blue'
 								eventKey='6'
 							>
 								home
@@ -37,7 +34,7 @@ const Navigation = () => {
 						</Link>
 						<Link href='/about' passHref>
 							<Nav.Link
-								className='m-auto !text-acm-black hover:!text-acm-gray'
+								className='m-auto !text-acm-black !font-medium hover:!text-acm-blue'
 								eventKey='2'
 							>
 								about
@@ -45,7 +42,7 @@ const Navigation = () => {
 						</Link>
 						<Link href='/board' passHref>
 							<Nav.Link
-								className='m-auto !text-acm-black hover:!text-acm-gray'
+								className='m-auto !text-acm-black !font-medium hover:!text-acm-blue'
 								eventKey='3'
 							>
 								board
@@ -53,7 +50,7 @@ const Navigation = () => {
 						</Link>
 						<Link href='/events' passHref>
 							<Nav.Link
-								className='m-auto !text-acm-black hover:!text-acm-gray'
+								className='m-auto !text-acm-black !font-medium hover:!text-acm-blue'
 								eventKey='4'
 							>
 								events
@@ -61,7 +58,7 @@ const Navigation = () => {
 						</Link>
 						<Link href='/join' passHref>
 							<Nav.Link
-								className='m-auto !text-acm-black hover:!text-acm-gray'
+								className='m-auto !text-acm-black !font-medium hover:!text-acm-blue'
 								eventKey='5'
 							>
 								join us

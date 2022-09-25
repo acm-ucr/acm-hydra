@@ -9,9 +9,9 @@ module.exports = {
 			fontSize: {
 				text: "1rem",
 				heading: [
-					"2.5rem",
+					"3.5rem",
 					{
-						fontWeight: "400",
+						fontWeight: "600",
 						fontFamily: "Lexend",
 					},
 				],

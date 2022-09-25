@@ -53,7 +53,7 @@ const FaqItem = ({ index, element }) => {
 
 const Faq = () => {
 	return (
-		<div className='mb-20'>
+		<div className='mb-20 pt-20 '>
 			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-4 mt-[12vh]'>
 				Frequently Asked Questions
 			</p>

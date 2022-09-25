@@ -107,7 +107,7 @@ export const OfficersArray = [
 		bio: `Hey ACM folks, I'm Sachin! I study CS and love to discuss the theories of the subject. You can catch me doing some origami, playing guitar, or asking professors way too many questions. I hope you find your community and enjoy your time here.`,
 	},
 	{
-		name: "Andy Chung",
+		name: "Andy T.",
 		pronoun: "he/him",
 		position: "Outreach",
 		image: "andy.jpg",
