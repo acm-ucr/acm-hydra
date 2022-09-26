@@ -19,6 +19,7 @@ const Profile = ({
 	github,
 	website,
 	insta,
+	board,
 }) => {
 	return (
 		<Row
@@ -103,9 +104,15 @@ const Profile = ({
 					src={image}
 					alt='Profile Picture of Board Member'
 				/>
-				<p className='text-text inline'> {name}</p>
+				<p
+					className={`text-text inline text-lg ${
+						board ? "font-medium" : ""
+					}`}
+				>
+					{name}
+				</p>
 				<br />
-				<p className='text-base  inline'>{position}</p>
+				<p className='text-base inline'>{position}</p>
 				<br />
 				<p>{pronouns}</p>
 			</Col>

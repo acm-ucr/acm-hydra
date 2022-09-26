@@ -135,6 +135,7 @@ const StudentOrgs = () => {
 							website={org.website}
 							insta={org.instagram}
 							image={org.img}
+							board={false}
 						/>
 					</Col>
 				))}

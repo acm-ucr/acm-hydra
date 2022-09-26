@@ -7,7 +7,6 @@ module.exports = {
 	theme: {
 		extend: {
 			fontSize: {
-				text: "1rem",
 				heading: [
 					"3.5rem",
 					{

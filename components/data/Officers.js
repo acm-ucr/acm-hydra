@@ -22,7 +22,7 @@ export const OfficersArray = [
 	{
 		name: "David Ryan",
 		pronoun: "he/him",
-		position: "Event",
+		position: "Event Chair",
 		image: "david.jpg",
 		email: "dryan011@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/david-michael-ryan/",
