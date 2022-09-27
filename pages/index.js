@@ -9,7 +9,7 @@ import Head from "next/head";
 
 const IndexPage = () => {
 	return (
-		<>
+		<div className='overflow-y-auto overflow-x-auto'>
 			<Head>
 				<title>ACM at UCR</title>
 			</Head>
@@ -19,7 +19,7 @@ const IndexPage = () => {
 			<Upcoming />
 			<Learn />
 			<Inspire />
-		</>
+		</div>
 	);
 };
 
