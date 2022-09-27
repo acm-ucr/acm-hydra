@@ -4,7 +4,7 @@ import Frame from "./Frame";
 
 const Vision = () => {
 	return (
-		<Row className='font-lexend flex text-acm-black justify-between items-center w-11/12 mx-auto'>
+		<Row className='font-lexend flex text-acm-black justify-between items-center w-11/12 mx-auto pt-4'>
 			<Col sm={6} className='text-center p-3'>
 				<p className='text-heading flex justify-center mx-auto'>
 					Our Vision

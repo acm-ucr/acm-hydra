@@ -24,7 +24,7 @@ const CalendarEvents = () => {
 
 	return (
 		<section className='w-full flex justify-center items-center flex-col mt-[12vh]'>
-			<p className='text-center flex justify-center text-heading mt-3 m-0'>
+			<p className='text-center font-lexend flex justify-center text-heading m-0 pt-4'>
 				Calendar of Events
 			</p>
 			<div className='mb-5 w-11/12 flex justify-center items-center'>
