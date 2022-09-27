@@ -4,7 +4,7 @@ import Frame from "./Frame";
 
 const Clubroom = () => {
 	return (
-		<Row className='flex justify-center font-lexend text-acm-black mx-auto w-11/12'>
+		<div className='flex justify-center flex-col font-lexend text-acm-black mx-auto w-11/12'>
 			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-5 m-0'>
 				ACM Clubroom
 			</p>
@@ -27,7 +27,7 @@ const Clubroom = () => {
 				</Col>
 				<Col
 					sm={6}
-					className='flex justify-center items-center h-full w-full p-4'
+					className='flex justify-center items-center w-full p-4'
 				>
 					<Frame
 						image='presentation4.jpg'
@@ -37,7 +37,7 @@ const Clubroom = () => {
 					/>
 				</Col>
 			</Row>
-		</Row>
+		</div>
 	);
 };
 

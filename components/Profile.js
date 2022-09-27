@@ -23,7 +23,7 @@ const Profile = ({
 }) => {
 	return (
 		<Row
-			className={`bg-${color} w-12/12 p-[0.67rem] m-1 rounded-2xl ${
+			className={`bg-${color} w-full p-[0.67rem] m-1 rounded-2xl ${
 				pronouns === undefined ? "h-[330px]" : ""
 			}`}
 		>

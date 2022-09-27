@@ -127,7 +127,7 @@ const StudentOrgs = () => {
 						lg={4}
 						sm={6}
 						xs={12}
-						className='h-full p-2 flex justify-center items-center'
+						className='h-full p-2 flex justify-center items-center w-full'
 					>
 						<Profile
 							color={colors[index % colors.length]}

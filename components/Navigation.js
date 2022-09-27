@@ -7,7 +7,7 @@ const Navigation = () => {
 		<Navbar
 			collapseOnSelect
 			className=' py-0 font-lexend w-12/12 px-3 m-0 !bg-acm-white h-[12vh] border-acm-blue border-b-4'
-			expand='sm'
+			expand='md'
 			fixed='top'
 		>
 			<Navbar.Brand className='p-0'>
@@ -23,7 +23,7 @@ const Navigation = () => {
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav'>
-				<Nav className='ml-auto mb-2 mb-lg-2 no-underline'>
+				<Nav className='ml-auto mb-2 mb-lg-2 bg-red-500 lg:w-6/12 w-9/12 no-underline text-2xl'>
 					<Link href='/' passHref>
 						<Nav.Link
 							className='m-auto bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
