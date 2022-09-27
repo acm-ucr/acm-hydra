@@ -30,18 +30,16 @@ const Event = ({ title, location, color, start, end, description }) => {
 							</p>
 						</Card.Title>
 						<div className='text-acm-white text-md'>
-							<Card.Text>
-								<div className='text-acm-white'>
-									{location}
-									&nbsp; - &nbsp;
-									{start.toLocaleTimeString("en", {
-										hour: "2-digit",
-										minute: "2-digit",
-									})}
-									<br />
-								</div>
-								{description}
-							</Card.Text>
+							<div className='text-acm-white'>
+								{location}
+								&nbsp; - &nbsp;
+								{start.toLocaleTimeString("en", {
+									hour: "2-digit",
+									minute: "2-digit",
+								})}
+								<br />
+							</div>
+							{description}
 						</div>
 					</div>
 				</Card.Body>
