@@ -10,7 +10,7 @@ const Upcoming = () => {
 		setEvents(
 			Events.filter(event => {
 				return event.start > new Date();
-			}).slice(0, 4)
+			}).slice(0, 3)
 		);
 	}, []);
 
@@ -22,7 +22,7 @@ const Upcoming = () => {
 			<br />
 			<Row className='w-11/12'>
 				{events.map((event, index) => (
-					<Col className='p-3' md={6} lg={3} key={index}>
+					<Col className='p-3' md={6} lg={4} key={index}>
 						<Event
 							title={event.title}
 							location={event.location}
