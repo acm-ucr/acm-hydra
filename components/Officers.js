@@ -6,8 +6,8 @@ import Profile from "./Profile";
 
 const Officers = () => {
 	return (
-		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto mt-32'>
-			<h1 className='font-lexend text-3xl font-medium text-center'>
+		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto mt-[12vh]'>
+			<h1 className='font-lexend text-heading text-center'>
 				Meet our Board!
 			</h1>
 			<Row className='w-full'>
@@ -29,6 +29,7 @@ const Officers = () => {
 							email={officer.email}
 							linkedin={officer.linkedin}
 							github={officer.github}
+							board={true}
 						/>
 					</Col>
 				))}

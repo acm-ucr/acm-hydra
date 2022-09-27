@@ -5,8 +5,8 @@ import { InspireProjects } from "./InspireProjects";
 
 const Inspire = () => {
 	return (
-		<div className='flex justify-content items-center flex-col'>
-			<text className='text-center flex justify-center text-5xl font-bold text-acm-black'>
+		<div className='flex justify-content items-center flex-col mb-20'>
+			<text className='text-center flex justify-center font-lexend text-heading text-acm-black m-0 p-0'>
 				ACM @ UCR Projects
 			</text>
 			<br />

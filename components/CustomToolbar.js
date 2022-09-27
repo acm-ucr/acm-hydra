@@ -6,11 +6,11 @@ import { Filters } from "./data/Filters.js";
 
 const CustomToolbar = event => {
 	return (
-		<div className=''>
-			<Row className=''>
+		<div className='flex justify-center items-center'>
+			<Row className=' w-full'>
 				<Col
 					xs={4}
-					className=' w-full flex justify-start items-center text-3xl font-lexend font-bold'
+					className=' w-full flex justify-start items-center text-3xl font-lexend  font-bold'
 				>
 					<FaArrowLeft
 						onClick={() => event.onNavigate("PREV")}

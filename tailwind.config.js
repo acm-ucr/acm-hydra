@@ -6,6 +6,22 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			fontSize: {
+				heading: [
+					"3.5rem",
+					{
+						fontWeight: "600",
+						fontFamily: "Lexend",
+					},
+				],
+				text: [
+					"1.5rem",
+					{
+						fontWeight: "400",
+						fontFamily: "Lexend",
+					},
+				],
+			},
 			fontFamily: {
 				lexend: ["Lexend"],
 			},

@@ -19,10 +19,11 @@ const Profile = ({
 	github,
 	website,
 	insta,
+	board,
 }) => {
 	return (
 		<Row
-			className={`bg-${color} w-11/12 p-3 rounded-2xl ${
+			className={`bg-${color} w-12/12 p-[0.67rem] m-1 rounded-2xl ${
 				pronouns === undefined ? "h-[310px]" : ""
 			}`}
 		>
@@ -103,11 +104,11 @@ const Profile = ({
 					src={image}
 					alt='Profile Picture of Board Member'
 				/>
-				<p className='text-base inline fs-6'> {name}</p>
+				<p className={`inline text-xl font-medium`}>{name}</p>
 				<br />
-				<p className='text-base  inline'>{position}</p>
+				<p className='inline text-[1.1rem]'>{position}</p>
 				<br />
-				<p>{pronouns}</p>
+				<p className='text-[0.9rem]'>{pronouns}</p>
 			</Col>
 		</Row>
 	);

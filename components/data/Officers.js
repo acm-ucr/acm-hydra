@@ -22,7 +22,7 @@ export const OfficersArray = [
 	{
 		name: "David Ryan",
 		pronoun: "he/him",
-		position: "Event",
+		position: "Event Chair",
 		image: "david.jpg",
 		email: "dryan011@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/david-michael-ryan/",
@@ -104,6 +104,16 @@ export const OfficersArray = [
 		email: "schop021@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/sachinkchopra",
 		github: "https://github.com/SafeDuck",
+		bio: `Hey ACM folks, I'm Sachin! I study CS and love to discuss the theories of the subject. You can catch me doing some origami, playing guitar, or asking professors way too many questions. I hope you find your community and enjoy your time here.`,
+	},
+	{
+		name: "Andy Tran",
+		pronoun: "he/him",
+		position: "Outreach",
+		image: "andy.jpg",
+		email: "undahvt@gmail.com",
+		linkedin: "https://www.linkedin.com/in/andy-tran-041bb21b7/",
+		github: "https://github.com/undahveeti",
 		bio: `Hey ACM folks, I'm Sachin! I study CS and love to discuss the theories of the subject. You can catch me doing some origami, playing guitar, or asking professors way too many questions. I hope you find your community and enjoy your time here.`,
 	},
 	{

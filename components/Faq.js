@@ -32,20 +32,20 @@ const FaqItem = ({ index, element }) => {
 
 	return (
 		<Accordion.Item
-			className={`${bgClass} focus:!shadow-none font-lexend m-0 p-0`}
+			className={`${bgClass} font-lexend focus:!shadow-none m-0 p-0`}
 			id={`element${index}`}
 			eventKey={index}
 		>
 			<Accordion.Button
 				className={`!bg-acm-black !text-acm-white !rounded-t-lg -mt-3.5 after:!bg-arrow focus:!shadow-none`}
 			>
-				{element.question}
+				<p className='!text-text'>{element.question}</p>
 			</Accordion.Button>
 			<Accordion.Body
-				className={`${colorArray[colorCount]} rounded-b-lg !pt-6 !pb-8`}
+				className={`${colorArray[colorCount]} rounded-b-lg flex justify-left items-center`}
 				eventKey={index}
 			>
-				{element.answer}
+				<p className='!text-text inline p-2 m-0'>{element.answer}</p>
 			</Accordion.Body>
 		</Accordion.Item>
 	);
@@ -53,8 +53,8 @@ const FaqItem = ({ index, element }) => {
 
 const Faq = () => {
 	return (
-		<div className='mb-20'>
-			<p className='font-lexend text-acm-black text-3xl text-center font-semibold flex justify-center pb-4 mt-32'>
+		<div className='mb-20 pt-20 '>
+			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-4 mt-[12vh]'>
 				Frequently Asked Questions
 			</p>
 			<Accordion
