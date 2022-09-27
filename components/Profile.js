@@ -104,7 +104,7 @@ const Profile = ({
 					src={image}
 					alt='Profile Picture of Board Member'
 				/>
-				<p className={`inline text-xl font-medium`}>{name}</p>
+				<p className={`inline text-xl font-medium m-0 `}>{name}</p>
 				<br />
 				<p className='inline text-[1.1rem]'>{position}</p>
 				<br />
