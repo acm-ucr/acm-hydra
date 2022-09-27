@@ -24,7 +24,7 @@ const Profile = ({
 	return (
 		<Row
 			className={`bg-${color} w-12/12 p-[0.67rem] m-1 rounded-2xl ${
-				pronouns === undefined ? "h-[310px]" : ""
+				pronouns === undefined ? "h-[330px]" : ""
 			}`}
 		>
 			<Col
@@ -104,7 +104,13 @@ const Profile = ({
 					src={image}
 					alt='Profile Picture of Board Member'
 				/>
-				<p className={`inline text-xl font-medium m-0 `}>{name}</p>
+				<p
+					className={`inline text-xl ${
+						board ? "font-medium" : ""
+					} m-0 `}
+				>
+					{name}
+				</p>
 				<br />
 				<p className='inline text-[1.1rem]'>{position}</p>
 				<br />
