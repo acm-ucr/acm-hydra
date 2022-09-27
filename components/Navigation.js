@@ -16,7 +16,7 @@ const Navigation = () => {
 							<img
 								src='acm-ucr-logo.png'
 								className='w-24 h-24'
-								alt='acm@ucr logo'
+								alt='ACM at UCR'
 							/>
 						</Nav.Link>
 					</Link>
