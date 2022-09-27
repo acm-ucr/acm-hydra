@@ -115,8 +115,8 @@ const colors = [
 
 const StudentOrgs = () => {
 	return (
-		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto mb-20 pt-4'>
-			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-4 m-0'>
+		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto mb-20 pt-5'>
+			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-5 m-0'>
 				Student Organizations
 			</p>
 			<Row className='w-full'>

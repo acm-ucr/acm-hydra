@@ -4,8 +4,8 @@ import Frame from "./Frame";
 
 const Clubroom = () => {
 	return (
-		<Row className='flex justify-center font-lexend text-acm-black mx-auto w-11/12 mb-20'>
-			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-4 m-0'>
+		<Row className='flex justify-center font-lexend text-acm-black mx-auto w-11/12'>
+			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-5 m-0'>
 				ACM Clubroom
 			</p>
 			<Row className='bg-acm-blue flex items-center rounded-2xl !p-4 m-0 pb-8'>
