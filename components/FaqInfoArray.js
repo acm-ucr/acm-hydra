@@ -6,19 +6,18 @@ export const FaqInfoArray = [
 	},
 	{
 		question: `How do I join ACM @ UCR?`,
-		answer: `Currently, there's no official way to join like a membership 
-		fee, so all you have to do is come out to our events! `,
+		answer: `We post all of our announcements primarly on Discord, where you can find new events and opportunities. Join our Slack CS@UCR to stay on track with computer science on campus to learn about even more opportunities and events.`,
 	},
 	{
 		question: `Who is able to join ACM @ UCR?`,
-		answer: `All UCR students.`,
+		answer: `ACM @ UCR is open to all students regardless of major! We have members through BCOE including computer science, computer engineering, data science, and more! Students from outside BCOE are welcome as well!`,
 	},
 	{
 		question: `How can I participate in student led projects?`,
-		answer: `By reaching out to project leads.`,
+		answer: `For our current ACM projects, you can reach out to Divyank, our project lead, for more information about joining a project. For other student-led projects, we will create more opportunities for you throughout the year. Be sure to stay in touch for any updates.`,
 	},
 	{
-		question: `When are general meetings/workshops/events/socials?`,
-		answer: `Times change during every quarter. Be sure to check our socials for the most up to date time and events.`,
+		question: `When are general meetings, workshops, events, socials?`,
+		answer: `Refer to the Calendar of Events located on the events page to learn more about what, when, and where these meetings will occur! Additionally, you can check out our Discord to keep track of our latest updates!`,
 	},
-]; // dummy data
+];

@@ -7,7 +7,7 @@ const CustomEvent = ({ title, event }) => {
 				{title}
 				<br />
 				{event.location}
-				<nbsp /> - <nbsp />
+				&nbsp; - &nbsp;
 				{event.start.toLocaleTimeString(navigator.language, {
 					hour: "2-digit",
 					minute: "2-digit",

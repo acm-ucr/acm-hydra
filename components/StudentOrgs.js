@@ -115,10 +115,10 @@ const colors = [
 
 const StudentOrgs = () => {
 	return (
-		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto mb-20 pt-4'>
-			<h1 className='font-lexend text-3xl font-medium text-center'>
-				Check out our fellow organizations!
-			</h1>
+		<div className='container flex flex-col items-center justify-center md:p-1 sm:p-1 mx-auto mb-20 pt-5'>
+			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-5 m-0'>
+				Student Organizations
+			</p>
 			<Row className='w-full'>
 				{Orgs.map((org, index) => (
 					<Col
@@ -127,7 +127,7 @@ const StudentOrgs = () => {
 						lg={4}
 						sm={6}
 						xs={12}
-						className='h-full p-2 flex justify-center items-center'
+						className='h-full p-2 flex justify-center items-center w-full'
 					>
 						<Profile
 							color={colors[index % colors.length]}
@@ -135,6 +135,7 @@ const StudentOrgs = () => {
 							website={org.website}
 							insta={org.instagram}
 							image={org.img}
+							board={false}
 						/>
 					</Col>
 				))}

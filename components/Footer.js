@@ -12,7 +12,7 @@ const Footer = () => {
 						Let&#39;s connect!
 					</p>
 				</Row>
-				<Row className='justify-center mx-auto'>
+				<Row className='justify-center mx-auto w-8/12'>
 					{Socials.map((link, index) => {
 						return (
 							<Col
@@ -26,7 +26,7 @@ const Footer = () => {
 										rel='noopener noreferrer'
 										target='_blank'
 										title={link.title}
-										className='fill-current text-acm-white hover:text-acm-gray'
+										className='fill-current text-acm-white hover:text-acm-blue'
 									>
 										{link.image}
 									</a>

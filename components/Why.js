@@ -6,10 +6,10 @@ const Why = () => {
 	return (
 		<Row className='font-lexend flex text-acm-black justify-between items-center w-11/12 mx-auto'>
 			<Col sm={6} className='text-center p-3'>
-				<p className='text-3xl font-semibold flex justify-center mx-auto'>
+				<p className='text-heading flex justify-center mx-auto'>
 					Why we do it!
 				</p>
-				<p className='text-xl font-normal flex justify-center mx-auto w-11/12 pt-3'>
+				<p className='text-text flex justify-center mx-auto w-11/12 pt-3'>
 					We want UCR to become a premier institution for Computer
 					Science and Engineering. University courses provide a good
 					foundation, but we strive to build upon that. So we

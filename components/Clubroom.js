@@ -1,14 +1,15 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import Frame from "./Frame";
 
 const Clubroom = () => {
 	return (
-		<Row className='flex justify-center font-lexend text-acm-black mx-auto w-11/12'>
-			<p className='text-3xl font-semibold flex justify-center'>
+		<div className='flex justify-center flex-col font-lexend text-acm-black mx-auto w-11/12'>
+			<p className='font-lexend text-acm-black text-heading text-center flex justify-center pb-5 m-0'>
 				ACM Clubroom
 			</p>
-			<Row className='bg-acm-blue flex items-start rounded-2xl px-4 pt-5 pb-4 mt-4'>
-				<Col sm={6} className='text-xl font-base'>
+			<Row className='bg-acm-blue flex items-center rounded-2xl !p-4 m-0 pb-8'>
+				<Col sm={6} className='text-text w-full h-full p-4'>
 					<p>
 						We will often hold academic, professional, and technical
 						workshops and events in this room! Located in Winston
@@ -17,18 +18,26 @@ const Clubroom = () => {
 					</p>
 					Here are the perks:
 					<>
-						<li className='pl-5'>Whiteboard walls</li>
-						<li className='pl-5'>Programming books</li>
-						<li className='pl-5'>Lockers</li>
-						<li className='pl-5'>Snacks</li>
-						<li className='pl-5'>Drinks</li>
+						<li className=''>Whiteboard walls</li>
+						<li className=''>Programming books</li>
+						<li className=''>Lockers</li>
+						<li className=''>Snacks</li>
+						<li className=''>Drinks</li>
 					</>
 				</Col>
-				<Col sm={6}>
-					<img alt='' src='presentation4.jpg' />
+				<Col
+					sm={6}
+					className='flex justify-center items-center w-full p-4'
+				>
+					<Frame
+						image='presentation4.jpg'
+						bottomLeft='#c792ea'
+						topRight='#c3e88d'
+						corners='black'
+					/>
 				</Col>
 			</Row>
-		</Row>
+		</div>
 	);
 };
 
