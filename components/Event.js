@@ -33,7 +33,7 @@ const Event = ({ title, location, color, start, end, description }) => {
 							<Card.Text>
 								<div className='text-acm-white'>
 									{location}
-									<nbsp /> - <nbsp />
+									&nbsp; - &nbsp;
 									{start.toLocaleTimeString("en", {
 										hour: "2-digit",
 										minute: "2-digit",
