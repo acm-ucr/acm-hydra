@@ -25,6 +25,15 @@ export const Events = [
 			"Come learn about how to create your resume with Latex for the upcoming application season!",
 	},
 	{
+		title: "Campus Tours",
+		location: "WCH 127",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 7, 16, 0, 0),
+		end: new Date(2022, 9, 7, 18, 0, 0),
+		description:
+			"Walk around UCR's beautiful campus and learn about what UCR has to offer for you as a student!",
+	},
+	{
 		title: "Metaverse",
 		location: "WCH 205/6",
 		color: filters["Meetings"],
@@ -41,6 +50,15 @@ export const Events = [
 		end: new Date(2022, 9, 13, 18, 0, 0),
 		description:
 			"Learn about the internship application lifecycle and how to get prepared!",
+	},
+	{
+		title: "Picture Day",
+		location: "WCH 127",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 14, 16, 0, 0),
+		end: new Date(2022, 9, 14, 18, 0, 0),
+		description:
+			"Join us to take your next profile picture for all your professional social media platforms.",
 	},
 	{
 		title: "Speed Dating",
