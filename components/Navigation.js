@@ -67,7 +67,6 @@ const Navigation = () => {
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
-		// </div>
 	);
 };
 
