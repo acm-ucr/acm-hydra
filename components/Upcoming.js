@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import Event from "./Event";
-import { Events } from "./data/Events.js";
+import Events from "./data/Events.js";
 
 const Upcoming = () => {
 	const [events, setEvents] = useState([]);

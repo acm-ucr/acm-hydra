@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Profile from "./Profile.js";
 
-import { Orgs } from "./data/StudentOrgsList";
+import Orgs from "./data/StudentOrgsList";
 
 const colors = [
 	"acm-blue",

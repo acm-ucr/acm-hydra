@@ -1,4 +1,4 @@
-export const InspireProjects = [
+const Projects = [
 	{
 		title: "ACM Official Website",
 		timeline: "Summer 2022",
@@ -24,3 +24,5 @@ export const InspireProjects = [
 		deployed: "",
 	},
 ];
+
+export default Projects;

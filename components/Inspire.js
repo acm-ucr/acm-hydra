@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Project from "./Project";
-import { InspireProjects } from "./data/InspireProjects";
+import InspireProjects from "./data/Projects";
 
 const Inspire = () => {
 	return (

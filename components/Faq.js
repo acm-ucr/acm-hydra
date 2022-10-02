@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import { FaqInfoArray } from "./data/FaqInfoArray";
+import FaqInfoArray from "./data/Questions";
 
 let colorCount = 0;
 

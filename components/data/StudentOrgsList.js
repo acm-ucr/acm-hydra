@@ -1,4 +1,4 @@
-export const Orgs = [
+const Organizations = [
 	{
 		name: "Women In Computing (WINC)",
 		website: "https://winc.cs.ucr.edu/",
@@ -98,3 +98,5 @@ export const Orgs = [
 		description: "club",
 	},
 ];
+
+export default Organizations;

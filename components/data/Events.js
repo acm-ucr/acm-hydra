@@ -1,11 +1,9 @@
-const filters = {
-	Meetings: "#82aaff",
-	Career: "#c792ea",
-	Socials: "#ff5370",
-	Workshops: "#ffd700",
-};
+import Filters from "./Filters";
 
-export const Events = [
+const filters = {}; // linked directly from filters
+Filters.forEach(({ topic, color }) => (filters[topic] = color));
+
+const Events = [
 	{
 		title: "Intern Panel",
 		location: "WCH 205/6",
@@ -160,3 +158,5 @@ export const Events = [
 			"Learn about various research positions and why research is so important",
 	},
 ];
+
+export default Events;

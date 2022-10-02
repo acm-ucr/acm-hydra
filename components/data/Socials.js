@@ -7,7 +7,7 @@ import {
 	FaGithub,
 } from "react-icons/fa";
 
-export const Socials = [
+const Socials = [
 	{
 		path: "https://www.instagram.com/acm_ucr/",
 		title: "Instagram",
@@ -39,3 +39,5 @@ export const Socials = [
 		image: <FaMediumM className='text-5xl'></FaMediumM>,
 	},
 ];
+
+export default Socials;

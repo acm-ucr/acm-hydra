@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { OfficersArray } from "./data/Officers";
-import { Colors } from "./data/Colors";
+import OfficersArray from "./data/Officers";
+import Colors from "./data/Colors";
 import Profile from "./Profile";
 
 const Officers = () => {
