@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Project from "./Project";
-import InspireProjects from "./data/Projects";
+import Projects from "./data/Projects";
 
 const Inspire = () => {
 	return (
@@ -11,7 +11,7 @@ const Inspire = () => {
 			</p>
 			<br />
 			<Row className='w-11/12'>
-				{InspireProjects.map((project, index) => (
+				{Projects.map((project, index) => (
 					<Col key={index} lg={4} md={6} className='p-3'>
 						<Project
 							title={project.title}

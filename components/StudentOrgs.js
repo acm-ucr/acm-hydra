@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import Profile from "./Profile.js";
 
-import Orgs from "./data/StudentOrgsList";
+import Organizations from "./data/Organizations";
 
 const colors = [
 	"acm-blue",
@@ -21,7 +21,7 @@ const StudentOrgs = () => {
 				Student Organizations
 			</p>
 			<Row className='w-full'>
-				{Orgs.map((org, index) => (
+				{Organizations.map((org, index) => (
 					<Col
 						key={index}
 						xl={3}

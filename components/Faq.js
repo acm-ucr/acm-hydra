@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import FaqInfoArray from "./data/Questions";
+import Questions from "./data/Questions";
 
 let colorCount = 0;
 
@@ -28,7 +28,7 @@ const FaqItem = ({ index, element }) => {
 	}
 
 	const bgClass =
-		index == FaqInfoArray.length - 1 ? "" : `${colorArray[colorCount]}`;
+		index == Questions.length - 1 ? "" : `${colorArray[colorCount]}`;
 
 	return (
 		<Accordion.Item
@@ -62,7 +62,7 @@ const Faq = () => {
 				flush
 				alwaysOpen
 			>
-				{FaqInfoArray.map((element, index) => (
+				{Questions.map((element, index) => (
 					<FaqItem
 						key={index}
 						className='!bg-acm-black focus:!shadow-none m-0 p-0'
