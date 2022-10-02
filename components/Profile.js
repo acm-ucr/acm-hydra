@@ -10,7 +10,7 @@ import {
 
 const Profile = ({
 	color,
-	boxShadowColor = "shadow-acm-black",
+	boxShadowColor,
 	name,
 	pronouns,
 	position,
