@@ -22,6 +22,7 @@ const Officers = () => {
 					>
 						<Profile
 							color={Colors[index % Colors.length]}
+							boxShadowColor='shadow-acm-white'
 							name={officer.name}
 							pronouns={officer.pronoun}
 							position={officer.position}
