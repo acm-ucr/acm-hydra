@@ -6,7 +6,7 @@ const Navigation = () => {
 	return (
 		<Navbar
 			collapseOnSelect
-			className=' py-0 font-lexend w-12/12 px-3 m-0 !bg-acm-white h-[12vh] border-acm-blue border-b-4'
+			className=' py-0 font-lexend w-12/12 px-3  m-0 !bg-acm-white h-[12vh] border-acm-blue border-b-4'
 			expand='md'
 			fixed='top'
 		>
@@ -15,18 +15,18 @@ const Navigation = () => {
 					<Nav.Link eventKey='1' className='p-0'>
 						<img
 							src='acm-ucr-logo.png'
-							className='w-24 h-24'
+							className='h-[11vh]'
 							alt='ACM at UCR'
 						/>
 					</Nav.Link>
 				</Link>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='navbar-nav' />
-			<Navbar.Collapse id='navbar-nav'>
-				<Nav className='ml-auto mb-2 mb-lg-2 bg-red-500 lg:w-6/12 w-9/12 no-underline text-2xl'>
+			<Navbar.Collapse id='navbar-nav' className='-mt-2'>
+				<Nav className=' mb-2 w-12/12 no-underline ml-auto text-2xl'>
 					<Link href='/' passHref>
 						<Nav.Link
-							className='m-auto bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='6'
 						>
 							home
@@ -34,7 +34,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/about' passHref>
 						<Nav.Link
-							className='m-auto bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='2'
 						>
 							about
@@ -42,7 +42,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/board' passHref>
 						<Nav.Link
-							className='m-auto bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='3'
 						>
 							board
@@ -50,7 +50,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/events' passHref>
 						<Nav.Link
-							className='m-auto bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='4'
 						>
 							events
@@ -58,7 +58,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/join' passHref>
 						<Nav.Link
-							className='m-auto bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='5'
 						>
 							join us
