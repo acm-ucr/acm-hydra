@@ -1,4 +1,4 @@
-const OfficersArray = [
+const Board = [
 	{
 		name: "Vinz Madrigal",
 		pronoun: "he/him",
@@ -128,4 +128,4 @@ const OfficersArray = [
 	},
 ];
 
-export default OfficersArray;
+export default Board;
