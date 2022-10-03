@@ -106,7 +106,7 @@ export const Events = [
 			"Polish your LinkedIn and Github profiles for visiting recruiters!",
 	},
 	{
-		title: "Move Night",
+		title: "Movie Night",
 		location: "WCH 127",
 		color: filters["Socials"],
 		start: new Date(2022, 9, 28, 16, 0, 0),
