@@ -1,5 +1,6 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import { OfficersArray } from "./data/Officers";
 import { Colors } from "./data/Colors";
 import Profile from "./Profile";

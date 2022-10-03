@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import Event from "./Event";
 import { Events } from "./Events.js";
 

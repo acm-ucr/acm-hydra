@@ -3,7 +3,8 @@ import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { Events } from "./Events.js";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import CustomToolbar from "./CustomToolbar.js";
 import CustomEvent from "./CustomEvent.js";
 
