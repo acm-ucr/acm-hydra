@@ -1,5 +1,6 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import Profile from "./Profile.js";
 
 import Organizations from "./data/Organizations";

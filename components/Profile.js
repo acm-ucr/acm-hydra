@@ -1,5 +1,6 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import {
 	FaGithub,
 	FaLinkedin,
@@ -10,6 +11,7 @@ import {
 
 const Profile = ({
 	color,
+	boxShadowColor,
 	name,
 	pronouns,
 	position,
@@ -100,7 +102,7 @@ const Profile = ({
 			</Col>
 			<Col xs={10} className='font-lexend text-acm-black m-0 pr-0'>
 				<img
-					className={`shadow-[10px_8px_0px_0px] shadow-acm-black mb-3`}
+					className={`shadow-[10px_8px_0px_0px] ${boxShadowColor} mb-3`}
 					src={image}
 					alt='Profile Picture of Board Member'
 				/>

@@ -1,5 +1,7 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
 import Link from "next/link";
 import Socials from "./data/Socials";
 

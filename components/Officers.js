@@ -1,5 +1,6 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import Board from "./data/Board";
 import Colors from "./data/Colors";
 import Profile from "./Profile";
@@ -22,6 +23,7 @@ const Officers = () => {
 					>
 						<Profile
 							color={Colors[index % Colors.length]}
+							boxShadowColor='shadow-acm-white'
 							name={officer.name}
 							pronouns={officer.pronoun}
 							position={officer.position}
