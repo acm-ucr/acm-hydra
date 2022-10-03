@@ -6,12 +6,12 @@ import Gallery from "../components/Gallery";
 
 const About = () => {
 	return (
-		<div className='mt-[12vh]'>
+		<>
 			<Vision />
 			<What />
 			<Why />
 			<Gallery />
-		</div>
+		</>
 	);
 };
 
