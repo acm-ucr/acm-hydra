@@ -34,13 +34,13 @@ export const Events = [
 			"Walk around UCR's beautiful campus and learn about what UCR has to offer for you as a student!",
 	},
 	{
-		title: "Metaverse",
+		title: "Project Showcase",
 		location: "WCH 205/6",
 		color: filters["Meetings"],
 		start: new Date(2022, 9, 11, 16, 0, 0),
 		end: new Date(2022, 9, 11, 18, 0, 0),
 		description:
-			"Explore the future of the metaverse with Meta, Fortnite, & Roblox engineers to learn its impacts in social interaction.",
+			"Check out projects made by ACM members for inspiration on your own personal project, and learn more about upcoming hackathons.",
 	},
 	{
 		title: "CRS: Internships",
@@ -104,6 +104,14 @@ export const Events = [
 		end: new Date(2022, 9, 27, 18, 0, 0),
 		description:
 			"Polish your LinkedIn and Github profiles for visiting recruiters!",
+	},
+	{
+		title: "Move Night",
+		location: "WCH 127",
+		color: filters["Socials"],
+		start: new Date(2022, 9, 28, 16, 0, 0),
+		end: new Date(2022, 9, 28, 18, 0, 0),
+		description: "Relax after midterms with a movie night in the clubroom.",
 	},
 	{
 		title: "CRS: Course Planning",
