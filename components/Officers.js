@@ -1,12 +1,13 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import { OfficersArray } from "./data/Officers";
 import { Colors } from "./data/Colors";
 import Profile from "./Profile";
 
 const Officers = () => {
 	return (
-		<div className='container flex flex-col items-center justify-center sm:p-1 sm:pt-4 mx-auto mt-[12vh] pt-4'>
+		<div className='container flex flex-col items-center justify-center sm:p-1 sm:pt-4 mt-[12vh] pt-4 mb-20'>
 			<p className='font-lexend text-heading text-center'>
 				Meet our Board!
 			</p>
@@ -22,6 +23,7 @@ const Officers = () => {
 					>
 						<Profile
 							color={Colors[index % Colors.length]}
+							boxShadowColor='shadow-acm-white'
 							name={officer.name}
 							pronouns={officer.pronoun}
 							position={officer.position}
