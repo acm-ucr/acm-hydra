@@ -1,4 +1,4 @@
-export const Colors = [
+const Colors = [
 	"acm-blue",
 	"acm-lightpurple",
 	"acm-yellow",
@@ -7,3 +7,5 @@ export const Colors = [
 	"acm-orange",
 	"acm-marine",
 ];
+
+export default Colors;
