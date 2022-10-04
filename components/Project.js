@@ -20,9 +20,7 @@ const Project = ({ title, timeline, description, github, deployed }) => {
 			<p className='text-acm-white text-xl text-center'>{description}</p>
 
 			<div className='flex justify-evenly  w-3/6 text-5xl items-center flex-row '>
-				{github === "" ? (
-					<></>
-				) : (
+				{github && (
 					<a
 						href={github}
 						className='text-acm-white hover:text-gray-300 '
@@ -33,9 +31,7 @@ const Project = ({ title, timeline, description, github, deployed }) => {
 					</a>
 				)}
 
-				{deployed === "" ? (
-					<></>
-				) : (
+				{deployed && (
 					<a
 						href={deployed}
 						className='text-acm-white hover:text-gray-300'
