@@ -29,11 +29,7 @@ const Footer = () => {
 										title={link.title}
 										className='fill-current text-acm-white hover:text-acm-blue'
 									>
-										{(function () {
-											const x = link.image;
-											console.log(x);
-											return x;
-										})()}
+										{link.image}
 									</a>
 								</Link>
 							</Col>
