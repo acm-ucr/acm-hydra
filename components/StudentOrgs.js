@@ -5,15 +5,7 @@ import Profile from "./Profile.js";
 
 import Organizations from "./data/Organizations";
 
-const colors = [
-	"acm-blue",
-	"acm-lightpurple",
-	"acm-yellow",
-	"acm-green",
-	"acm-pink",
-	"acm-orange",
-	"acm-marine",
-];
+import Colors from "./data/Colors";
 
 const StudentOrgs = () => {
 	return (
@@ -32,7 +24,7 @@ const StudentOrgs = () => {
 						className='h-full p-2 flex justify-center items-center w-full'
 					>
 						<Profile
-							color={colors[index % colors.length]}
+							color={Colors[index % Colors.length]}
 							name={org.name}
 							website={org.website}
 							insta={org.instagram}
