@@ -34,9 +34,7 @@ const Profile = ({
 				className='flex justify-start m-0 p-0 items-center flex-col'
 			>
 				<div className='h-4/6 flex justify-evenly items-center flex-col '>
-					{github === undefined ? (
-						<></>
-					) : (
+					{github && (
 						<a
 							href={github}
 							className='text-acm-white hover:text-gray-200'
@@ -47,9 +45,7 @@ const Profile = ({
 						</a>
 					)}
 
-					{linkedin === undefined ? (
-						<></>
-					) : (
+					{linkedin && (
 						<a
 							href={linkedin}
 							className='text-acm-white hover:text-gray-200'
@@ -60,9 +56,7 @@ const Profile = ({
 						</a>
 					)}
 
-					{email === undefined ? (
-						<></>
-					) : (
+					{email && (
 						<a
 							href={`mailto:` + email}
 							className='text-acm-white hover:text-gray-200'
@@ -73,9 +67,7 @@ const Profile = ({
 						</a>
 					)}
 
-					{website === undefined ? (
-						<></>
-					) : (
+					{website && (
 						<a
 							href={website}
 							className='text-acm-white hover:text-gray-200'
@@ -86,9 +78,7 @@ const Profile = ({
 						</a>
 					)}
 
-					{insta === undefined ? (
-						<></>
-					) : (
+					{insta && (
 						<a
 							href={insta}
 							className='text-acm-white hover:text-gray-200'
