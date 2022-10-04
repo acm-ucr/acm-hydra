@@ -1,11 +1,11 @@
 const Colors = [
-	"acm-blue",
-	"acm-lightpurple",
-	"acm-yellow",
-	"acm-green",
-	"acm-pink",
-	"acm-orange",
-	"acm-marine",
+	"bg-acm-blue",
+	"bg-acm-lightpurple",
+	"bg-acm-yellow",
+	"bg-acm-green",
+	"bg-acm-pink",
+	"bg-acm-orange",
+	"bg-acm-marine",
 ];
 
 export default Colors;
