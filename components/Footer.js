@@ -14,13 +14,12 @@ const Footer = () => {
 						Let&#39;s connect!
 					</p>
 				</Row>
-				<Row className='justify-center mx-auto w-8/12'>
+				<Row className='justify-center flex-nowrap mx-auto w-8/12'>
 					{Socials.map((link, index) => {
 						return (
 							<Col
 								key={index}
-								xs={4}
-								md={2}
+								xs='2'
 								className='flex justify-center'
 							>
 								<Link href={link.path}>
