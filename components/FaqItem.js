@@ -4,7 +4,7 @@ import Colors from "./data/Colors";
 
 const FaqItem = ({ index, element }) => {
 	const color = Colors[index % Colors.length];
-	console.log(`bg-${color}`);
+
 	return (
 		<Accordion.Item
 			className={`font-lexend focus:!shadow-none m-0 p-0`}
