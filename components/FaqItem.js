@@ -1,25 +1,9 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-
-const colorArray = [
-	`bg-acm-blue`,
-	`bg-acm-lightpurple`,
-	`bg-acm-yellow`,
-	`bg-acm-green`,
-	`bg-acm-red`,
-	`bg-acm-gray`,
-	`bg-acm-pink`,
-	`bg-acm-lightblue`,
-	`bg-acm-darkgray`,
-	`bg-acm-orange`,
-	`bg-acm-marine`,
-	`bg-acm-purple`,
-	`bg-acm-white`,
-	`bg-acm-black`,
-];
+import Colors from "./data/Colors";
 
 const FaqItem = ({ index, element }) => {
-	const color = colorArray[index % colorArray.length];
+	const color = Colors[index % Colors.length];
 
 	return (
 		<Accordion.Item
