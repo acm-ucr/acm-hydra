@@ -1,8 +1,8 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { OfficersArray } from "./data/Officers";
-import { Colors } from "./data/Colors";
+import Board from "./data/Board";
+import Colors from "./data/Colors";
 import Profile from "./Profile";
 
 const Officers = () => {
@@ -12,7 +12,7 @@ const Officers = () => {
 				Meet our Board!
 			</p>
 			<Row className='w-full'>
-				{OfficersArray.map((officer, index) => (
+				{Board.map((officer, index) => (
 					<Col
 						key={index}
 						xl={3}

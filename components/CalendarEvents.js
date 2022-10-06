@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import { Events } from "./Events.js";
+import Events from "./data/Events.js";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import CustomToolbar from "./CustomToolbar.js";

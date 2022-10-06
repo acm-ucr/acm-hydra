@@ -1,4 +1,5 @@
-export const FaqInfoArray = [
+const Questions = [
+	// FaqInfoArray
 	{
 		question: `What is ACM?`,
 		answer: `ACM is UCR's largest computer science club. We focus on 
@@ -21,3 +22,5 @@ export const FaqInfoArray = [
 		answer: `Refer to the Calendar of Events located on the events page to learn more about what, when, and where these meetings will occur! Additionally, you can check out our Discord to keep track of our latest updates!`,
 	},
 ];
+
+export default Questions;

@@ -1,4 +1,4 @@
-export const OfficersArray = [
+const Board = [
 	{
 		name: "Vinz Madrigal",
 		pronoun: "he/him",
@@ -127,3 +127,5 @@ export const OfficersArray = [
 		bio: `Hey! I'm Divyank and I am a 1st year CS major! I am your professional development chair this year and am excited to create new opporuntites for everyone! Outside of school I love to talk tech, go on hikes, or take a bike ride!`,
 	},
 ];
+
+export default Board;

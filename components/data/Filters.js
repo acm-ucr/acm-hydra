@@ -1,4 +1,4 @@
-export const Filters = [
+const Filters = [
 	{
 		topic: "Meetings",
 		color: "#82aaff",
@@ -16,3 +16,5 @@ export const Filters = [
 		color: "#ffd700",
 	},
 ];
+
+export default Filters;
