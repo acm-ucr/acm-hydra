@@ -77,15 +77,6 @@ const Events = [
 			"Create a plan and see some cool projects created by your mentors!",
 	},
 	{
-		title: "Mentor Q/A",
-		location: "WCH 127",
-		color: filters["Socials"],
-		start: new Date(2022, 9, 19, 16, 0, 0),
-		end: new Date(2022, 9, 19, 17, 0, 0),
-		description:
-			"Ask mentors anything about technical advice, college life, or just general advice.",
-	},
-	{
 		title: "CRS: Interview Process",
 		location: "WCH 127",
 		color: filters["Career"],
