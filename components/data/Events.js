@@ -77,15 +77,6 @@ const Events = [
 			"Create a plan and see some cool projects created by your mentors!",
 	},
 	{
-		title: "Mentor Q/A",
-		location: "WCH 127",
-		color: filters["Socials"],
-		start: new Date(2022, 9, 19, 16, 0, 0),
-		end: new Date(2022, 9, 19, 17, 0, 0),
-		description:
-			"Ask mentors anything about technical advice, college life, or just general advice.",
-	},
-	{
 		title: "CRS: Interview Process",
 		location: "WCH 127",
 		color: filters["Career"],
@@ -93,6 +84,15 @@ const Events = [
 		end: new Date(2022, 9, 20, 18, 0, 0),
 		description:
 			"Explore the tips and tricks behind technical and behavioral interviews.",
+	},
+	{
+		title: "Ready Player ACM",
+		location: "WCH 205/6",
+		color: filters["Meetings"],
+		start: new Date(2022, 9, 25, 16, 0, 0),
+		end: new Date(2022, 9, 25, 17, 0, 0),
+		description:
+			"Come to our VR/AR research panel with Prof. Jiasi Chen, Meta SWE James Luo, and graphics researchers to learn about the recent developments in VR/AR technology.",
 	},
 	{
 		title: "CRS: Linkedin/Github",
