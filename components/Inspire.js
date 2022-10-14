@@ -20,6 +20,8 @@ const Inspire = () => {
 							description={project.description}
 							github={project.github}
 							deployed={project.deployed}
+							shadowcolor={project.shadowcolor}
+							titlecolor={project.titlecolor}
 						/>
 					</Col>
 				))}
