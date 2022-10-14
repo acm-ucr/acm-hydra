@@ -1,10 +1,10 @@
-import React from "react";
 import Landing from "../components/Landing";
-import Introduction from "../components/Introduction";
-import Stats from "../components/Stats";
-import Upcoming from "../components/Upcoming";
-import Learn from "../components/Learn";
-import Inspire from "../components/Inspire";
+import React, { Suspense } from "react";
+const Introduction = React.lazy(() => import("../components/Introduction"));
+const Stats = React.lazy(() => import("../components/Stats"));
+const Upcoming = React.lazy(() => import("../components/Upcoming"));
+const Learn = React.lazy(() => import("../components/Learn"));
+const Inspire = React.lazy(() => import("../components/Inspire"));
 import Head from "next/head";
 
 const IndexPage = () => {
@@ -14,11 +14,15 @@ const IndexPage = () => {
 				<title>ACM at UCR</title>
 			</Head>
 			<Landing />
-			<Introduction />
-			<Stats />
-			<Upcoming />
-			<Learn />
-			<Inspire />
+			<Suspense fallback={<div>Loading...</div>}>
+				<section>
+					<Introduction />
+					<Stats />
+					<Upcoming />
+					<Learn />
+					<Inspire />
+				</section>
+			</Suspense>
 		</div>
 	);
 };
