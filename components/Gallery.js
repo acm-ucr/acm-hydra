@@ -1,6 +1,6 @@
 import React from "react";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+const Col = React.lazy(() => import("react-bootstrap/Col"));
+const Row = React.lazy(() => import("react-bootstrap/Row"));
 
 const Gallery = () => {
 	return (
