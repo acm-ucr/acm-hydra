@@ -2,15 +2,21 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { BsGlobe } from "react-icons/bs";
 
-const Project = ({ title, timeline, description, github, deployed }) => {
+const Project = ({
+	title,
+	timeline,
+	description,
+	github,
+	deployed,
+	shadowcolor,
+	titlecolor,
+}) => {
 	return (
 		<div
-			className={
-				"font-lexend p-3 flex justify-start items-center flex-col h-full bg-acm-black rounded shadow-[10px_-8px_0px_0px] shadow-acm-purple"
-			}
+			className={`${shadowcolor} font-lexend p-3 flex justify-start items-center flex-col h-full bg-acm-black rounded shadow-[10px_-8px_0px_0px]`}
 		>
 			<></>
-			<div className='text-acm-purple text-center inline text-3xl'>
+			<div className={`${titlecolor} text-center inline text-3xl`}>
 				{title}
 				<br />
 				<p className='text-acm-white  inline text-xl'>{timeline}</p>
