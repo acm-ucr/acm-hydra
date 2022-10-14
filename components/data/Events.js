@@ -156,6 +156,15 @@ const Events = [
 		description:
 			"Learn about various research positions and why research is so important",
 	},
+	{
+		title: "Ready Player ACM",
+		location: "WCH 205/6",
+		color: filters["Meetings"],
+		start: new Date(2022, 9, 25, 16, 0, 0),
+		end: new Date(2022, 9, 25, 17, 0, 0),
+		description:
+			"Come to our VR/AR research panel with Prof. Jiasi Chen, Meta SWE James Luo, and graphics researchers to learn about the recent developments in VR/AR technology.",
+	},
 ];
 
 export default Events;
