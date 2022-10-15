@@ -16,33 +16,33 @@ const Gallery = () => {
 					/>
 				</Col>
 				<Col className='flex justify-center m-0 p-0' md={6} xs={12}>
-					<Row className='p-0 m-0'>
-						<Col className='m-0 p-1' xs={6}>
-							<img
-								alt='students in a classroom listening to a presentation'
-								src='presentation1.jpg'
-							/>
-						</Col>
-						<Col className='m-0 p-1' xs={6}>
-							<img
-								alt='students in a classroom listening to a presentation'
-								src='presentation4.jpg'
-							/>
-						</Col>
+					{/* <Row className='p-0 m-0'> */}
+					<Col className='m-0 p-1' xs={6}>
+						<img
+							alt='students in a classroom listening to a presentation'
+							src='presentation1.jpg'
+						/>
+					</Col>
+					<Col className='m-0 p-1' xs={6}>
+						<img
+							alt='students in a classroom listening to a presentation'
+							src='presentation4.jpg'
+						/>
+					</Col>
 
-						<Col className='m-0 p-1' xs={6}>
-							<img
-								alt='students in a classroom listening to a panel'
-								src='panel.png'
-							/>
-						</Col>
-						<Col className='m-0 p-1' xs={6}>
-							<img
-								alt='groups of students in discussion sitting around tables'
-								src='discussion.jpg'
-							/>
-						</Col>
-					</Row>
+					<Col className='m-0 p-1' xs={6}>
+						<img
+							alt='students in a classroom listening to a panel'
+							src='panel.png'
+						/>
+					</Col>
+					<Col className='m-0 p-1' xs={6}>
+						<img
+							alt='groups of students in discussion sitting around tables'
+							src='discussion.jpg'
+						/>
+					</Col>
+					{/* </Row> */}
 				</Col>
 			</Row>
 			<Row className='p-0 m-0 flex justify-center w-11/12'>
