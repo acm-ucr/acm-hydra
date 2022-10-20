@@ -12,6 +12,10 @@ const IndexPage = () => {
 		<div className='overflow-y-auto overflow-x-auto'>
 			<Head>
 				<title>ACM at UCR</title>
+				<meta
+					name='google-site-verification'
+					content='Dhlj3InpaVTeHOboDsi4NyEj6SbZSK7YhwNFzSUix8w'
+				/>
 			</Head>
 			<Landing />
 			<Suspense fallback={<div>Loading...</div>}>
