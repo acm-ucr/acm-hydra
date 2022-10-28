@@ -16,7 +16,7 @@ const Gallery = () => {
 					/>
 				</Col>
 				<Col className='flex justify-center m-0 p-0' md={6} xs={12}>
-					{/* <Row className='p-0 m-0'> */}
+					<Row className='p-0 m-0'>
 					<Col className='m-0 p-1' xs={6}>
 						<img
 							alt='students in a classroom listening to a presentation'
@@ -42,7 +42,7 @@ const Gallery = () => {
 							src='discussion.jpg'
 						/>
 					</Col>
-					{/* </Row> */}
+					</Row>
 				</Col>
 			</Row>
 			<Row className='p-0 m-0 flex justify-center w-11/12'>
