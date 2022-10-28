@@ -1,13 +1,13 @@
 import Filters from "./Filters";
 
 const filters = {}; // linked directly from filters
-Filters.forEach(({ topic, color }) => (filters[topic] = color));
+Filters.forEach(filter => (filters[filter.topic] = filter));
 
 const Events = [
 	{
 		title: "Intern Panel",
 		location: "WCH 205/6",
-		color: filters["Meetings"],
+		type: "Meetings",
 		start: new Date(2022, 8, 27, 16, 0, 0),
 		end: new Date(2022, 8, 27, 18, 0, 0),
 		description:
@@ -16,7 +16,7 @@ const Events = [
 	{
 		title: "CRS: Resume + LaTex",
 		location: "WCH 127",
-		color: filters["Career"],
+		type: "Career",
 		start: new Date(2022, 9, 6, 16, 0, 0),
 		end: new Date(2022, 9, 6, 18, 0, 0),
 		description:
@@ -25,7 +25,7 @@ const Events = [
 	{
 		title: "Campus Tours",
 		location: "WCH 127",
-		color: filters["Socials"],
+		type: "Socials",
 		start: new Date(2022, 9, 7, 16, 0, 0),
 		end: new Date(2022, 9, 7, 18, 0, 0),
 		description:
@@ -34,7 +34,7 @@ const Events = [
 	{
 		title: "Project Showcase",
 		location: "WCH 205/6",
-		color: filters["Meetings"],
+		type: "Meetings",
 		start: new Date(2022, 9, 11, 16, 0, 0),
 		end: new Date(2022, 9, 11, 18, 0, 0),
 		description:
@@ -43,7 +43,7 @@ const Events = [
 	{
 		title: "CRS: Internships",
 		location: "WCH 127",
-		color: filters["Career"],
+		type: "Career",
 		start: new Date(2022, 9, 13, 16, 0, 0),
 		end: new Date(2022, 9, 13, 18, 0, 0),
 		description:
@@ -52,7 +52,7 @@ const Events = [
 	{
 		title: "Picture Day",
 		location: "WCH 127",
-		color: filters["Socials"],
+		type: "Socials",
 		start: new Date(2022, 9, 14, 16, 0, 0),
 		end: new Date(2022, 9, 14, 18, 0, 0),
 		description:
@@ -61,7 +61,7 @@ const Events = [
 	{
 		title: "Speed Dating",
 		location: "WCH 205/6",
-		color: filters["Socials"],
+		type: "Socials",
 		start: new Date(2022, 9, 17, 16, 0, 0),
 		end: new Date(2022, 9, 17, 17, 0, 0),
 		description:
@@ -70,7 +70,7 @@ const Events = [
 	{
 		title: "What Bytes Will Offer",
 		location: "WCH 127",
-		color: filters["Socials"],
+		type: "Socials",
 		start: new Date(2022, 9, 18, 16, 0, 0),
 		end: new Date(2022, 9, 18, 17, 0, 0),
 		description:
@@ -79,7 +79,7 @@ const Events = [
 	{
 		title: "Mentor Q/A",
 		location: "WCH 127",
-		color: filters["Socials"],
+		type: "Socials",
 		start: new Date(2022, 9, 19, 16, 0, 0),
 		end: new Date(2022, 9, 19, 17, 0, 0),
 		description:
@@ -88,7 +88,7 @@ const Events = [
 	{
 		title: "CRS: Interview Process",
 		location: "WCH 127",
-		color: filters["Career"],
+		type: "Career",
 		start: new Date(2022, 9, 20, 16, 0, 0),
 		end: new Date(2022, 9, 20, 18, 0, 0),
 		description:
@@ -97,7 +97,7 @@ const Events = [
 	{
 		title: "CRS: Linkedin/Github",
 		location: "WCH 127",
-		color: filters["Career"],
+		type: "Career",
 		start: new Date(2022, 9, 27, 16, 0, 0),
 		end: new Date(2022, 9, 27, 18, 0, 0),
 		description:
@@ -106,7 +106,7 @@ const Events = [
 	{
 		title: "Movie Night",
 		location: "WCH 127",
-		color: filters["Socials"],
+		type: "Socials",
 		start: new Date(2022, 9, 28, 16, 0, 0),
 		end: new Date(2022, 9, 28, 18, 0, 0),
 		description: "Relax after midterms with a movie night in the clubroom.",
@@ -114,7 +114,7 @@ const Events = [
 	{
 		title: "CRS: Course Planning",
 		location: "WCH 127",
-		color: filters["Career"],
+		type: "Career",
 		start: new Date(2022, 10, 3, 16, 0, 0),
 		end: new Date(2022, 10, 3, 18, 0, 0),
 		description:
@@ -123,7 +123,7 @@ const Events = [
 	{
 		title: "Thinking Like A Programmer",
 		location: "WCH 205/6",
-		color: filters["Meetings"],
+		type: "Meetings",
 		start: new Date(2022, 10, 8, 16, 0, 0),
 		end: new Date(2022, 10, 8, 18, 0, 0),
 		description:
@@ -132,7 +132,7 @@ const Events = [
 	{
 		title: "CRS: Mock Interviews",
 		location: "WCH 127",
-		color: filters["Career"],
+		type: "Career",
 		start: new Date(2022, 10, 10, 16, 0, 0),
 		end: new Date(2022, 10, 10, 18, 0, 0),
 		description:
@@ -141,7 +141,7 @@ const Events = [
 	{
 		title: "CRS: Graduate Studies",
 		location: "WCH 127",
-		color: filters["Career"],
+		type: "Career",
 		start: new Date(2022, 10, 17, 16, 0, 0),
 		end: new Date(2022, 10, 17, 18, 0, 0),
 		description:
@@ -150,7 +150,7 @@ const Events = [
 	{
 		title: "Interview with Namanh Kapur",
 		location: "WCH 205/6",
-		color: filters["Meetings"],
+		type: "Meetings",
 		start: new Date(2022, 10, 22, 16, 0, 0),
 		end: new Date(2022, 10, 22, 18, 0, 0),
 		description:
@@ -159,12 +159,17 @@ const Events = [
 	{
 		title: "CRS: Research",
 		location: "WCH 127",
-		color: filters["Career"],
+		type: "Career",
 		start: new Date(2022, 10, 24, 16, 0, 0),
 		end: new Date(2022, 10, 24, 18, 0, 0),
 		description:
 			"Learn about various research positions and why research is so important",
 	},
 ];
+
+Events.forEach(event => {
+	event.color = filters[event.type].color;
+	event.textColor = filters[event.type].textColor;
+});
 
 export default Events;
