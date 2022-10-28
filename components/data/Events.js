@@ -121,6 +121,15 @@ const Events = [
 			"With registration around the corner, learn about the tricks to get all the credits and classes you need!",
 	},
 	{
+		title: "Mentor/Mentee Day #1: UV Social",
+		location: "Meeting at UCR Sign/Scotty Bench, walking to UV",
+		color: filters["Socials"],
+		start: new Date(2022, 10, 4, 16, 0, 0),
+		end: new Date(2022, 10, 4, 18, 0, 0),
+		description:
+			"Meet with your matches and get some food or boba with them on our first Mentor/Mentee day!",
+	},
+	{
 		title: "Thinking Like A Programmer",
 		location: "WCH 205/6",
 		color: filters["Meetings"],
