@@ -88,7 +88,7 @@ const Events = [
 	{
 		title: "Ready Player ACM",
 		location: "WCH 205/6",
-		color: filters["Meetings"],
+		type: "Meetings",
 		start: new Date(2022, 9, 25, 16, 0, 0),
 		end: new Date(2022, 9, 25, 17, 0, 0),
 		description:
@@ -123,7 +123,7 @@ const Events = [
 	{
 		title: "Mentor/Mentee Day #1: UV Social",
 		location: "Meeting at UCR Sign/Scotty Bench, walking to UV",
-		color: filters["Socials"],
+		type: "Socials",
 		start: new Date(2022, 10, 4, 16, 0, 0),
 		end: new Date(2022, 10, 4, 18, 0, 0),
 		description:
