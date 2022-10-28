@@ -3,17 +3,19 @@ import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import Events from "./data/Events.js";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+const Col = React.lazy(() => import("react-bootstrap/Col"));
+const Row = React.lazy(() => import("react-bootstrap/Row"));
 import CustomToolbar from "./CustomToolbar.js";
 import CustomEvent from "./CustomEvent.js";
 
 import Event from "./Event.js";
+import Modal from "./Modal.js";
 
 const mLocalizer = momentLocalizer(moment);
 
 const CalendarEvents = () => {
 	const [events, setEvents] = useState([]);
+	const [modalEvent, setModalEvent] = useState(null);
 
 	useEffect(() => {
 		setEvents(
@@ -29,7 +31,7 @@ const CalendarEvents = () => {
 				Calendar of Events
 			</p>
 			<div className='mb-5 w-11/12 flex justify-center items-center'>
-				<div className='h-[110vh] w-full'>
+				<div className='h-[110vh] w-full relative'>
 					<Calendar
 						className='font-lexend w-full m-0 p-0'
 						events={Events}
@@ -41,23 +43,27 @@ const CalendarEvents = () => {
 							toolbar: CustomToolbar,
 						}}
 						eventPropGetter={event => {
-							return { style: { backgroundColor: event.color } };
+							return { className: `${event.color}` };
 						}}
 						dayPropGetter={event => {
 							const bg =
 								new Date(event).toLocaleDateString() ==
 								new Date().toLocaleDateString()
-									? "#c3e88d"
-									: "white";
+									? "!bg-acm-green"
+									: "!bg-acm-white";
 							return {
+								className: `${bg}`,
 								style: {
-									background: bg,
 									margin: 0,
 									padding: 0,
 								},
 							};
 						}}
+						onSelectEvent={event => {
+							setModalEvent(event);
+						}}
 					/>
+					<Modal event={modalEvent} setState={setModalEvent} />
 				</div>
 			</div>
 
