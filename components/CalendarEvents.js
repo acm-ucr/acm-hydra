@@ -72,7 +72,7 @@ const CalendarEvents = () => {
 					Upcoming Events
 				</p>
 				{events.map((event, index) => (
-					<Col key={index} xl={3} className='p-3'>
+					<Col className='p-3' md={6} lg={3} key={index}>
 						<Event
 							title={event.title}
 							location={event.location}

@@ -77,15 +77,6 @@ const Events = [
 			"Create a plan and see some cool projects created by your mentors!",
 	},
 	{
-		title: "Mentor Q/A",
-		location: "WCH 127",
-		type: "Socials",
-		start: new Date(2022, 9, 19, 16, 0, 0),
-		end: new Date(2022, 9, 19, 17, 0, 0),
-		description:
-			"Ask mentors anything about technical advice, college life, or just general advice.",
-	},
-	{
 		title: "CRS: Interview Process",
 		location: "WCH 127",
 		type: "Career",
@@ -93,6 +84,15 @@ const Events = [
 		end: new Date(2022, 9, 20, 18, 0, 0),
 		description:
 			"Explore the tips and tricks behind technical and behavioral interviews.",
+	},
+	{
+		title: "Ready Player ACM",
+		location: "WCH 205/6",
+		color: filters["Meetings"],
+		start: new Date(2022, 9, 25, 16, 0, 0),
+		end: new Date(2022, 9, 25, 17, 0, 0),
+		description:
+			"Come to our VR/AR research panel with Prof. Jiasi Chen, Meta SWE James Luo, and graphics researchers to learn about the recent developments in VR/AR technology.",
 	},
 	{
 		title: "CRS: Linkedin/Github",
@@ -119,6 +119,15 @@ const Events = [
 		end: new Date(2022, 10, 3, 18, 0, 0),
 		description:
 			"With registration around the corner, learn about the tricks to get all the credits and classes you need!",
+	},
+	{
+		title: "Mentor/Mentee Day #1: UV Social",
+		location: "Meeting at UCR Sign/Scotty Bench, walking to UV",
+		color: filters["Socials"],
+		start: new Date(2022, 10, 4, 16, 0, 0),
+		end: new Date(2022, 10, 4, 18, 0, 0),
+		description:
+			"Meet with your matches and get some food or boba with them on our first Mentor/Mentee day!",
 	},
 	{
 		title: "Thinking Like A Programmer",
