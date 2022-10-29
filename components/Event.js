@@ -6,7 +6,6 @@ const Event = ({ title, location, shadow, start, end, description }) => {
 		<div
 			className={`h-full bg-acm-black rounded shadow-[10px_-8px_0px_0px] ${shadow}`}
 		>
-			{console.log(shadow)}
 			<Card className='!bg-acm-black font-lexend  !border-none'>
 				<Card.Body className='flex justify-evenly'>
 					<Card.Title className='w-1/6'>
