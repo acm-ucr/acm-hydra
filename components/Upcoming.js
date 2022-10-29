@@ -27,7 +27,7 @@ const Upcoming = () => {
 						<Event
 							title={event.title}
 							location={event.location}
-							color={event.color}
+							shadow={event.shadow}
 							start={event.start}
 							end={event.end}
 							description={event.description}

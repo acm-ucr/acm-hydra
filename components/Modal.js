@@ -1,12 +1,12 @@
 import React from "react";
-import { FaCircle, FaTimes } from "react-icons/fa";
+import { FaCircle } from "react-icons/fa";
+import { AiOutlinePlus } from "react-icons/ai";
 
-// <span className={`${color} rounded-full min-w-[1em] min-h-[1em] inline-block translate-y-[0.1em] top-[50%]`}></span>
 const ListElement = ({ color, innerText }) => {
 	return (
-		<div className='flex items-center'>
+		<div className='flex items-center p-2'>
 			<FaCircle className={`${color} mr-2`} />
-			<span> {innerText} </span>
+			<div className='md:text-2xl text-lg'> {innerText} </div>
 		</div>
 	);
 };
@@ -22,36 +22,34 @@ const Modal = ({ event, setState }) => {
 		minute: "2-digit",
 	});
 	return (
-		<div className='font-lexend p-1 fixed m-auto inset-x-0 translate-y-[-50%] p-4 top-[50%] w-[75vw] md:w-[50vw] min-h-[40vw] bg-acm-white border-2 rounded-lg border-acm-black!border-solid z-[42069]'>
-			<p className='inline'>
-				{console.log(event)}
+		<div
+			className={`font-lexend fixed top-[56%] left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 w-[75vw] md:w-[50vw] bg-acm-white border-4 ${event.border} rounded-2xl z-10`}
+		>
+			<div className={`flex justify-between items-center`}>
 				<p
-					className={`text-acm-black ${event.color} w-auto inline-block rounded-full p-2 font-bold`}
+					className={`text-acm-black ${event.color} rounded-full m-0 font-bold py-2 md:py-3 px-3 md:px-4 text-lg md:text-3xl`}
 				>
 					{event.title}
 				</p>
-
-				<>
-					{[
-						event.start.toLocaleDateString(),
-						`${startTime} - ${endTime}`,
-						event.location,
-					].map((line, index) => (
-						<ListElement
-							key={index}
-							color={event.textColor}
-							innerText={line}
-						/>
-					))}
-					<p> {event.description} </p>
-				</>
-			</p>
-			<button
-				className='right-[0px] top-[0px] p-0 m-2 absolute w-[1em] text-5xl'
-				onClick={() => setState(null)}
-			>
-				<FaTimes className='text-acm-red' />
-			</button>
+				<button
+					className='p-0 m-2 text-5xl'
+					onClick={() => setState(null)}
+				>
+					<AiOutlinePlus className='text-acm-black rotate-45 p-0 m-0 hover:text-acm-red' />
+				</button>
+			</div>
+			{[
+				event.start.toLocaleDateString(),
+				`${startTime} - ${endTime}`,
+				event.location,
+			].map((line, index) => (
+				<ListElement
+					key={index}
+					color={event.textColor}
+					innerText={line}
+				/>
+			))}
+			<div className='md:text-2xl text-lg p-2'> {event.description} </div>
 		</div>
 	);
 };
