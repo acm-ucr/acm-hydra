@@ -179,6 +179,8 @@ const Events = [
 Events.forEach(event => {
 	event.color = filters[event.type].color;
 	event.textColor = filters[event.type].textColor;
+	event.shadow = filters[event.type].shadow;
+	event.border = filters[event.type].border;
 });
 
 export default Events;
