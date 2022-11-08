@@ -39,8 +39,8 @@ const Newsletter = () => {
 			) : error == 2 ? (
 				visible && (
 					<Error
-						title='Form Submission Successful!'
-						description='Thank you for subscribing to our newsletter! We periodically send newsletters with our current events and opportunities!'
+						title='Submission Successful!'
+						description='Thank you for subscribing!'
 						background='bg-acm-green'
 						border='border-acm-green'
 						setVisible={setVisible}
@@ -56,17 +56,17 @@ const Newsletter = () => {
 				<Row className='flex justify-center items-center'>
 					<Col
 						className='flex justify-center items-top flex-col'
-						xl={3}
+						xl={4}
 					>
 						<label
-							className='font-lexend flex justify-start items-center'
+							className='font-lexend flex justify-start items-center text-lg'
 							htmlFor='first'
 						>
-							<FaAsterisk className='text-acm-red mx-1' /> First
-							Name
+							<FaAsterisk className='text-acm-red mx-1 text-[.5rem]' />
+							First Name
 						</label>
 						<input
-							className='rounded-md focus:ring-0 focus:border-acm-blue border-2 placeholder:font-lexend'
+							className='rounded-md focus:ring-0 border-acm-black focus:border-acm-blue border-2 placeholder:font-lexend placeholder:text-acm-gray'
 							name='first'
 							placeholder='First Name'
 							type='text'
@@ -76,17 +76,17 @@ const Newsletter = () => {
 					</Col>
 					<Col
 						className='flex justify-center items-top flex-col'
-						xl={3}
+						xl={4}
 					>
 						<label
-							className='font-lexend flex justify-start items-center'
+							className='font-lexend flex justify-start items-center text-lg'
 							htmlFor='first'
 						>
-							<FaAsterisk className='text-acm-red mx-1' /> Last
-							Name
+							<FaAsterisk className='text-acm-red mx-1 text-[.5rem]' />{" "}
+							Last Name
 						</label>
 						<input
-							className='rounded-md focus:ring-0 focus:border-acm-blue border-2 placeholder:font-lexend'
+							className='rounded-md focus:ring-0 border-acm-black focus:border-acm-blue border-2 placeholder:font-lexend placeholder:text-acm-gray'
 							name='last'
 							placeholder='Last Name'
 							type='text'
@@ -96,17 +96,17 @@ const Newsletter = () => {
 					</Col>
 					<Col
 						className='flex justify-center items-top flex-col'
-						xl={3}
+						xl={4}
 					>
 						<label
-							className='font-lexend flex justify-start items-center'
+							className='font-lexend flex justify-start items-center text-lg'
 							htmlFor='first'
 						>
-							<FaAsterisk className='text-acm-red mx-1' /> Email
-							Address
+							<FaAsterisk className='text-acm-red mx-1 text-[.5rem]' />{" "}
+							Email Address
 						</label>
 						<input
-							className='rounded-md focus:ring-0 focus:border-acm-blue border-2 placeholder:font-lexend'
+							className='rounded-md focus:ring-0 border-acm-black focus:border-acm-blue border-2 placeholder:font-lexend placeholder:text-acm-gray'
 							name='email'
 							placeholder='Email Address'
 							type='text'
@@ -115,11 +115,11 @@ const Newsletter = () => {
 						/>
 					</Col>
 					<Col
-						className=' h-full flex justify-center items-center'
-						xl={3}
+						className=' h-full flex justify-center items-center m-5 text-xl'
+						xl={12}
 					>
 						<button
-							className=' rounded-md px-3 py-1 border-acm-purple border-4 hover:bg-acm-purple hover:text-acm-white'
+							className=' rounded-md px-4 py-2 border-acm-green border-2 hover:bg-acm-green '
 							onClick={handleSubmit}
 						>
 							Submit
