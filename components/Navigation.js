@@ -27,7 +27,7 @@ const Navigation = () => {
 				<Nav className=' mb-2 w-12/12 no-underline ml-auto text-2xl'>
 					<Link href='/' passHref>
 						<Nav.Link
-							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='6'
 						>
 							home
@@ -35,7 +35,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/about' passHref>
 						<Nav.Link
-							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='2'
 						>
 							about
@@ -43,7 +43,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/board' passHref>
 						<Nav.Link
-							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='3'
 						>
 							board
@@ -51,7 +51,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/events' passHref>
 						<Nav.Link
-							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='4'
 						>
 							events
@@ -59,7 +59,7 @@ const Navigation = () => {
 					</Link>
 					<Link href='/join' passHref>
 						<Nav.Link
-							className='m-auto whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
+							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='5'
 						>
 							join us
