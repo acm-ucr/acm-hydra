@@ -2,7 +2,50 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository so that there is a local version on your machine with the following command.
+
+`git clone https://github.com/acm-ucr/acm-hydra.git`
+
+Once installed, run `npm i` to install all nessecary dependencies for the project.
+
+Next, install the following plug ins.
+
+-   [Prettier](https://prettier.io/docs/en/index.html) 
+-   [ESLint](https://eslint.org/docs/latest/)
+
+When combined, these two extensions ensure that all code conforms to the style being used in other files while also making debugging and error catching easier.
+
+## Important Commands
+
+Use the following command to format code with Prettier.
+
+`npm run format` 
+
+To check if a file has already been formatted, enter the following.
+
+`npm run check`
+
+These two commands replace `npx prettier --write` and `npx prettier --check` through the use of scripts in the `package.json` file.
+Similar shortcuts can be found for different commands besides Prettier commands in this file.
+
+
+
+The following command runs ESLint.
+
+`npm run eslint`
+
+As with Prettier, this and all later commands are shortcuts whose original commands can be found in the `package.json` file.
+
+
+For building and exporting, use the following commands.
+
+`npm run build` and `npm run export`
+
+
+
+## Running localhost
+
+When working on the website, enter either of the following commands.
 
 ```bash
 npm run dev
@@ -10,9 +53,9 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once entered, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+When you being making changes to the file you're working on, you'll see that the page updates automatically each time you save.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
