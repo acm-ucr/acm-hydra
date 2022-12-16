@@ -10,7 +10,7 @@ Once installed, run `npm i` to install all nessecary dependencies for the projec
 
 Next, install the following plug ins.
 
--   [Prettier](https://prettier.io/docs/en/index.html) 
+-   [Prettier](https://prettier.io/docs/en/index.html)
 -   [ESLint](https://eslint.org/docs/latest/)
 
 When combined, these two extensions ensure that all code conforms to the style being used in other files while also making debugging and error catching easier.
@@ -19,7 +19,7 @@ When combined, these two extensions ensure that all code conforms to the style b
 
 Use the following command to format code with Prettier.
 
-`npm run format` 
+`npm run format`
 
 To check if a file has already been formatted, enter the following.
 
@@ -28,20 +28,15 @@ To check if a file has already been formatted, enter the following.
 These two commands replace `npx prettier --write` and `npx prettier --check` through the use of scripts in the `package.json` file.
 Similar shortcuts can be found for different commands besides Prettier commands in this file.
 
-
-
 The following command runs ESLint.
 
 `npm run eslint`
 
 As with Prettier, this and all later commands are shortcuts whose original commands can be found in the `package.json` file.
 
-
 For building and exporting, use the following commands.
 
 `npm run build` and `npm run export`
-
-
 
 ## Running localhost
 
