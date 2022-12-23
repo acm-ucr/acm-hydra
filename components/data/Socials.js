@@ -14,7 +14,7 @@ const Socials = [
 		image: <FaInstagram className='text-5xl'></FaInstagram>,
 	},
 	{
-		path: "https://docs.google.com/forms/d/e/1FAIpQLSfImoSRQ7d5lQASl5OPxxEK_2iiZT0UKxVsMsn3BMVCkqC-WQ/viewform",
+		path: "https://discord.gg/NXXV2gs",
 		title: " Discord",
 		image: <FaDiscord className='text-5xl'></FaDiscord>,
 	},
