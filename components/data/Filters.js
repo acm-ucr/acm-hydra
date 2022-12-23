@@ -1,19 +1,31 @@
 const Filters = [
 	{
 		topic: "Meetings",
-		color: "#82aaff",
+		color: "!bg-acm-blue",
+		textColor: "text-acm-blue",
+		shadow: "shadow-acm-blue",
+		border: "border-acm-blue",
 	},
 	{
 		topic: "Career",
-		color: "#c792ea",
+		color: "!bg-acm-lightpurple",
+		textColor: "text-acm-lightpurple",
+		shadow: "shadow-acm-lightpurple",
+		border: "border-acm-lightpurple",
 	},
 	{
 		topic: "Socials",
-		color: "#ff5370",
+		color: "!bg-acm-red",
+		textColor: "text-acm-red",
+		shadow: "shadow-acm-red",
+		border: "border-acm-red",
 	},
 	{
 		topic: "Workshops",
-		color: "#ffd700",
+		color: "bg-acm-yellow",
+		textColor: "!text-acm-yellow",
+		shadow: "shadow-acm-yellow",
+		border: "border-acm-yellow",
 	},
 ];
 
