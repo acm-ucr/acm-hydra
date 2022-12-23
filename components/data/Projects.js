@@ -14,7 +14,7 @@ const Projects = [
 		timeline: "Fall 2022",
 		description:
 			"Upcoming project to establish a portal for all ACM members to access special resources and perks.",
-		github: "",
+		github: "https://github.com/acm-ucr/membership-portal",
 		deployed: "",
 		shadowcolor: "shadow-acm-lightblue",
 		titlecolor: "text-acm-lightblue",
