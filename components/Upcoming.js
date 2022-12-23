@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Event from "./Event";
+const Col = React.lazy(() => import("react-bootstrap/Col"));
+const Row = React.lazy(() => import("react-bootstrap/Row"));
+const Event = React.lazy(() => ("./Event"));
 import Events from "./data/Events.js";
 
 const Upcoming = () => {
