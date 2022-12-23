@@ -23,18 +23,24 @@ const Upcoming = () => {
 				</p>
 				<br />
 				<Row className='w-11/12'>
-					{events.map((event, index) => (
-						<Col className='p-3' md={6} lg={4} key={index}>
-							<Event
-								title={event.title}
-								location={event.location}
-								shadow={event.shadow}
-								start={event.start}
-								end={event.end}
-								description={event.description}
-							/>
+					{events.length ? (
+						events.map((event, index) => (
+							<Col className='p-3' md={6} lg={4} key={index}>
+								<Event
+									title={event.title}
+									location={event.location}
+									shadow={event.shadow}
+									start={event.start}
+									end={event.end}
+									description={event.description}
+								/>
+							</Col>
+						))
+					) : (
+						<Col className='flex justify-center text-center text-acm-black font-lexend p-3'>
+							No upcoming events, please check back later!
 						</Col>
-					))}
+					)}
 				</Row>
 			</Suspense>
 		</div>
