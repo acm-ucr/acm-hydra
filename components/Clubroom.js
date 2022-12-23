@@ -19,11 +19,11 @@ const Clubroom = () => {
 					</p>
 					Here are the perks:
 					<>
-						<li className=''>Whiteboard walls</li>
-						<li className=''>Programming books</li>
-						<li className=''>Lockers</li>
-						<li className=''>Snacks</li>
-						<li className=''>Drinks</li>
+						<li>Whiteboard walls</li>
+						<li>Programming books</li>
+						<li>Lockers</li>
+						<li>Snacks</li>
+						<li>Drinks</li>
 					</>
 				</Col>
 				<Col
