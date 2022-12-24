@@ -9,7 +9,7 @@ const Stats = () => {
 				sm={12}
 				md={6}
 				lg={3}
-				className='flex justify-center whitespace-nowrap'
+				className='mb-5 flex justify-center whitespace-nowrap'
 			>
 				500+ members
 			</Col>
@@ -17,7 +17,7 @@ const Stats = () => {
 				sm={12}
 				md={6}
 				lg={3}
-				className='flex justify-center whitespace-nowrap'
+				className='mb-5 flex justify-center whitespace-nowrap'
 			>
 				1000+ alumni
 			</Col>
@@ -25,7 +25,7 @@ const Stats = () => {
 				sm={12}
 				md={6}
 				lg={3}
-				className='flex justify-center whitespace-nowrap'
+				className='mb-5 flex justify-center whitespace-nowrap'
 			>
 				50+ socials
 			</Col>
@@ -33,7 +33,7 @@ const Stats = () => {
 				sm={12}
 				md={6}
 				lg={3}
-				className='flex justify-center whitespace-nowrap'
+				className='mb-5 flex justify-center whitespace-nowrap'
 			>
 				100+ workshops
 			</Col>
