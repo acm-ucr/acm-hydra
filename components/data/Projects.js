@@ -14,16 +14,16 @@ const Projects = [
 		timeline: "Fall 2022",
 		description:
 			"Upcoming project to establish a portal for all ACM members to access special resources and perks.",
-		github: "",
+		github: "https://github.com/acm-ucr/membership-portal",
 		deployed: "",
 		shadowcolor: "shadow-acm-lightblue",
 		titlecolor: "text-acm-lightblue",
 	},
 	{
-		title: "ACM Discord Manager",
+		title: "ACM Practice Platform",
 		timeline: "Winter 2023",
 		description:
-			"Upcoming project to build a Discord bot responsible for handling various common Discord tasks. ",
+			"Our very own online judge where students can learn the fundamentals of programming using Javascript and Python. ",
 		github: "",
 		deployed: "",
 		shadowcolor: "shadow-acm-purple",
