@@ -12,15 +12,13 @@ const Navigation = () => {
 			fixed='top'
 		>
 			<Navbar.Brand className='p-0'>
-				<Link href='/' passHref>
-					<Nav.Link eventKey='1' className='p-0'>
-						<img
-							src='acm-ucr-logo.png'
-							className='h-[11vh]'
-							alt='ACM at UCR'
-						/>
-					</Nav.Link>
-				</Link>
+				<Nav.Link eventKey='1' className='p-0'>
+					<img
+						src='acm-ucr-logo.png'
+						className='h-[11vh]'
+						alt='ACM at UCR'
+					/>
+				</Nav.Link>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav' className='-mt-2'>
