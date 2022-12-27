@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Link from "next/link";
 
 const Navigation = () => {
 	return (
@@ -12,57 +11,52 @@ const Navigation = () => {
 			fixed='top'
 		>
 			<Navbar.Brand className='p-0'>
-				<Nav.Link eventKey='1' className='p-0'>
-					<img
-						src='acm-ucr-logo.png'
-						className='h-[11vh]'
-						alt='ACM at UCR'
-					/>
-				</Nav.Link>
+					<Nav.Link eventKey='1' className='p-0' href='/' passHref>
+						<img
+							src='acm-ucr-logo.png'
+							className='h-[11vh]'
+							alt='ACM at UCR'
+						/>
+					</Nav.Link>
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav' className='-mt-2'>
 				<Nav className=' mb-2 w-12/12 no-underline ml-auto text-2xl'>
-					<Link href='/' passHref>
 						<Nav.Link
 							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='6'
+							href='/' passHref
 						>
 							home
 						</Nav.Link>
-					</Link>
-					<Link href='/about' passHref>
 						<Nav.Link
 							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='2'
+							href='/about' passHref
 						>
 							about
 						</Nav.Link>
-					</Link>
-					<Link href='/board' passHref>
 						<Nav.Link
 							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='3'
+							href='/board' passHref
 						>
 							board
 						</Nav.Link>
-					</Link>
-					<Link href='/events' passHref>
 						<Nav.Link
 							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='4'
+							href='/events' passHref
 						>
 							events
 						</Nav.Link>
-					</Link>
-					<Link href='/join' passHref>
 						<Nav.Link
 							className='m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
 							eventKey='5'
+							href='/join' passHref
 						>
 							join us
 						</Nav.Link>
-					</Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
