@@ -27,6 +27,11 @@ const Learn = () => {
 						backgroundColor='bg-acm-marine'
 						textColor='acm-black'
 					/>
+					<Topic
+						topic='internship opportunities'
+						backgroundColor='bg-acm-marine'
+						textColor='acm-black'
+					/>
 				</Col>
 
 				<Col
