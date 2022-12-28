@@ -19,7 +19,7 @@ const Footer = () => {
 						return (
 							<Col
 								key={index}
-								xs='2'
+								xs='3'
 								className='flex justify-center'
 							>
 								<Link href={link.path}>
