@@ -14,7 +14,7 @@ const Learn = () => {
 					xl={4}
 					md={6}
 					xs={12}
-					className='flex flex-col items-center justify-center'
+					className='flex flex-col items-center justify-center text-center'
 				>
 					professional
 					<Topic
