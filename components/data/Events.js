@@ -175,7 +175,7 @@ const Events = [
 			"Learn about various research positions and why research is so important",
 	},
 	{
-		title: "Data Science Series 1: Intro to Python",
+		title: "DSS: Intro to Python",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 0, 17, 16, 0, 0),
@@ -184,7 +184,7 @@ const Events = [
 			"Join us alongside other CS/DS/STAT students to learn how to use Python, the main data science and ML programming language.",
 	},
 	{
-		title: "Data Science Series 2: Basic Data Cleaning & Manipulation",
+		title: "DSS: Data Cleaning",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 0, 23, 17, 0, 0),
@@ -193,7 +193,7 @@ const Events = [
 			"Learn how to do basic data cleaning and data manipulation in Python, using tools such as NumPy and Pandas.",
 	},
 	{
-		title: "Data Science Series 3: Advanced Data Cleaning & Manipulation",
+		title: "DSS: Data Manipulation",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 0, 30, 17, 0, 0),
@@ -202,7 +202,7 @@ const Events = [
 			"Go in-depth with more advanced data cleaning and data manipulation and use these practices on a different dataset.",
 	},
 	{
-		title: "Data Science Series 4: Data Visualization + Dashboards",
+		title: "DSS: Data Visualization",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 6, 17, 0, 0),
@@ -211,7 +211,7 @@ const Events = [
 			"Join us for our 4th DS workshop, as we learn how to create data visualizations and dashboards from cleaned datasets, including how to present data plots to your audience.",
 	},
 	{
-		title: "Data Science Series 5: Machine Learning Algorithms",
+		title: "DSS: Machine Learning",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 13, 17, 0, 0),
@@ -220,7 +220,7 @@ const Events = [
 			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
 	},
 	{
-		title: "Data Science Series 6: DS Portfolio Project",
+		title: "DSS: Portfolio Project",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 22, 17, 0, 0),
@@ -229,7 +229,7 @@ const Events = [
 			"Join us for our sixth DS workshop, as you'll be doing a DS portfolio project. Get into groups or go solo, pick a dataset, and find insights to create a great analysis. Finish your project by March 8th to get an ACM certification!",
 	},
 	{
-		title: "Data Science Series 7: Workshop Office Hours",
+		title: "DSS: Office Hours",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 27, 17, 0, 0),
@@ -238,7 +238,7 @@ const Events = [
 			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
 	},
 	{
-		title: "Data Science Series 8: Workshop Office Hours",
+		title: "DSS: Office Hours",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 2, 6, 17, 0, 0),
@@ -247,13 +247,13 @@ const Events = [
 			"Need help or advice on your(s) data science project. Our 8th workshop will be office hours for anyone needing help on their project.",
 	},
 	{
-		title: "Data Science Series 9: GitHub Projects + Certifications",
+		title: "DSS: Certification",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 2, 8, 17, 0, 0),
 		end: new Date(2023, 2, 8, 18, 0, 0),
 		description:
-			"Done with you're project? Come to our final workshop to get your certification, and get help for uploading your project to GitHub, if needed.",
+			"Done with your project? Come to our final workshop to get your certification, and get help for uploading your project to GitHub, if needed.",
 	},
 ];
 
