@@ -174,6 +174,87 @@ const Events = [
 		description:
 			"Learn about various research positions and why research is so important",
 	},
+	{
+		title: "DSS: Intro to Python",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 0, 17, 16, 0, 0),
+		end: new Date(2023, 0, 17, 17, 0, 0),
+		description:
+			"Join us alongside other CS/DS/STAT students to learn how to use Python, the main data science and ML programming language.",
+	},
+	{
+		title: "DSS: Data Cleaning",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 0, 23, 17, 0, 0),
+		end: new Date(2023, 0, 23, 18, 0, 0),
+		description:
+			"Learn how to do basic data cleaning and data manipulation in Python, using tools such as NumPy and Pandas.",
+	},
+	{
+		title: "DSS: Data Manipulation",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 0, 30, 17, 0, 0),
+		end: new Date(2023, 0, 30, 18, 0, 0),
+		description:
+			"Go in-depth with more advanced data cleaning and data manipulation and use these practices on a different dataset.",
+	},
+	{
+		title: "DSS: Data Visualization",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 6, 17, 0, 0),
+		end: new Date(2023, 1, 6, 18, 0, 0),
+		description:
+			"Join us for our 4th DS workshop, as we learn how to create data visualizations and dashboards from cleaned datasets, including how to present data plots to your audience.",
+	},
+	{
+		title: "DSS: Machine Learning",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 13, 17, 0, 0),
+		end: new Date(2023, 1, 13, 18, 0, 0),
+		description:
+			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
+	},
+	{
+		title: "DSS: Portfolio Project",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 22, 17, 0, 0),
+		end: new Date(2023, 1, 22, 18, 0, 0),
+		description:
+			"Join us for our sixth DS workshop, as you'll be doing a DS portfolio project. Get into groups or go solo, pick a dataset, and find insights to create a great analysis. Finish your project by March 8th to get an ACM certification!",
+	},
+	{
+		title: "DSS: Office Hours",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 27, 17, 0, 0),
+		end: new Date(2023, 1, 27, 18, 0, 0),
+		description:
+			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
+	},
+	{
+		title: "DSS: Office Hours",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 2, 6, 17, 0, 0),
+		end: new Date(2023, 2, 6, 18, 0, 0),
+		description:
+			"Need help or advice on your(s) data science project. Our 8th workshop will be office hours for anyone needing help on their project.",
+	},
+	{
+		title: "DSS: Certification",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 2, 8, 17, 0, 0),
+		end: new Date(2023, 2, 8, 18, 0, 0),
+		description:
+			"Done with your project? Come to our final workshop to get your certification, and get help for uploading your project to GitHub, if needed.",
+	},
 ];
 
 Events.forEach(event => {
