@@ -5,8 +5,6 @@ import Col from "react-bootstrap/Col";
 import { FaAsterisk } from "react-icons/fa";
 
 const Newsletter = () => {
-	return <></>; // Disable newsletter
-
 	const [first, setFirst] = useState("");
 	const [last, setLast] = useState("");
 	const [email, setEmail] = useState("");
