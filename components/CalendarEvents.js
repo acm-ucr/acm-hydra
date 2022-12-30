@@ -85,7 +85,7 @@ const CalendarEvents = () => {
 						</Col>
 					))
 				) : (
-					<Col className='flex justify-center text-center text-acm-black font-lexend p-3'>
+					<Col className='text-text flex justify-center text-center text-acm-black font-lexend p-3'>
 						No upcoming events, please check back later!
 					</Col>
 				)}
