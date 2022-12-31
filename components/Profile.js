@@ -7,6 +7,7 @@ import {
 	FaEnvelope,
 	FaGlobe,
 	FaInstagram,
+	FaDiscord,
 } from "react-icons/fa";
 
 const Profile = ({
@@ -21,6 +22,7 @@ const Profile = ({
 	github,
 	website,
 	insta,
+	discord,
 	board,
 }) => {
 	return (
@@ -86,6 +88,17 @@ const Profile = ({
 							rel='noreferrer'
 						>
 							<FaInstagram className='text-4xl' />
+						</a>
+					)}
+
+					{discord && (
+						<a
+							href={discord}
+							className='text-acm-white hover:text-gray-200'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<FaDiscord className='text-4xl' />
 						</a>
 					)}
 				</div>
