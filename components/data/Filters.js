@@ -22,10 +22,10 @@ const Filters = [
 	},
 	{
 		topic: "Workshops",
-		color: "bg-acm-yellow",
-		textColor: "!text-acm-yellow",
-		shadow: "shadow-acm-yellow",
-		border: "border-acm-yellow",
+		color: "!bg-acm-orange",
+		textColor: "text-acm-orange",
+		shadow: "shadow-acm-orange",
+		border: "border-acm-orange",
 	},
 ];
 

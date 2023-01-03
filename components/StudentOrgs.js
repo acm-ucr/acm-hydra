@@ -29,6 +29,7 @@ const StudentOrgs = () => {
 								name={org.name}
 								website={org.website}
 								insta={org.instagram}
+								discord={org.discord}
 								image={org.img}
 								board={false}
 							/>
