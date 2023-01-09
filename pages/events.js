@@ -4,6 +4,7 @@ import CalendarEvents from "../components/CalendarEvents";
 const Events = () => {
 	return (
 		<div>
+			<title>Events</title>
 			<CalendarEvents />
 		</div>
 	);
