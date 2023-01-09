@@ -88,7 +88,7 @@ const Organizations = [
 		website: "https://rosehack.com/",
 		instagram: "https://www.instagram.com/rosehackucr/?hl=en",
 		discord: "",
-		img: "rosehack.png",
+		img: "rosehack.jpg",
 	},
 	{
 		name: "Citrus Hack",
