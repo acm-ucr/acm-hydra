@@ -4,6 +4,7 @@ import Officers from "../components/Officers";
 const Board = () => {
 	return (
 		<div>
+			<title>Board</title>
 			<Officers />
 		</div>
 	);
