@@ -27,6 +27,7 @@ const CalendarEvents = () => {
 
 	return (
 		<section className='w-full flex justify-center items-center flex-col mt-[12vh]'>
+			<title>Events</title>
 			<p className='text-center font-lexend flex justify-center text-heading m-0 pt-4'>
 				Calendar of Events
 			</p>

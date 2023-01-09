@@ -7,6 +7,7 @@ import StudentOrgs from "../components/StudentOrgs";
 const Join = () => {
 	return (
 		<div>
+			<title>Join Us</title>
 			<Faq />
 			<Clubroom />
 			<StudentOrgs />
