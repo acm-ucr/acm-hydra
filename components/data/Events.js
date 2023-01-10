@@ -184,6 +184,15 @@ const Events = [
 			"Join us alongside other CS/DS/STAT students to learn how to use Python, the main data science and ML programming language.",
 	},
 	{
+		title: "GM: Pathways in Computer Science Panel",
+		location: "WCH 205/206",
+		type: "Meetings",
+		start: new Date(2023, 0, 18, 17, 0, 0),
+		end: new Date(2023, 0, 18, 18, 0, 0),
+		description:
+			"Learn about the various pathways in CS from industry panelists serving as SWEs, DevOps Engineers, or Data Scientists; and discover which CS career path is right for you!",
+	},
+	{
 		title: "DSS: Data Cleaning",
 		location: "WCH 127",
 		type: "Workshops",
@@ -200,6 +209,15 @@ const Events = [
 		end: new Date(2023, 0, 30, 18, 0, 0),
 		description:
 			"Go in-depth with more advanced data cleaning and data manipulation and use these practices on a different dataset.",
+	},
+	{
+		title: "GM: Social Impact Tech",
+		location: "WCH 205/206",
+		type: "Meetings",
+		start: new Date(2023, 1, 1, 17, 0, 0),
+		end: new Date(2023, 1, 1, 18, 0, 0),
+		description:
+			"Discover how to create social good and sustainability using the latest modern technology, as we sit down and talk to an industry professional about careers in social impact tech.",
 	},
 	{
 		title: "DSS: Data Visualization",
@@ -220,6 +238,15 @@ const Events = [
 			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
 	},
 	{
+		title: "GM: ACM Officer Elections",
+		location: "WCH 205/206",
+		type: "Meetings",
+		start: new Date(2023, 1, 15, 17, 0, 0),
+		end: new Date(2023, 1, 15, 18, 0, 0),
+		description:
+			"Join us for the upcoming ACM Officer Elections! Come out to hear and vote for your next ACM board!",
+	},
+	{
 		title: "DSS: Portfolio Project",
 		location: "WCH 127",
 		type: "Workshops",
@@ -236,6 +263,15 @@ const Events = [
 		end: new Date(2023, 1, 27, 18, 0, 0),
 		description:
 			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
+	},
+	{
+		title: "GM: Importance of Hardware",
+		location: "WCH 205/206",
+		type: "Meetings",
+		start: new Date(2023, 2, 1, 17, 0, 0),
+		end: new Date(2023, 2, 1, 18, 0, 0),
+		description:
+			"Learn about why it's important to understand hardware from a software engineering perspective, as we talk to industry panelists about the emphasis of hardware in CS.",
 	},
 	{
 		title: "DSS: Office Hours",
