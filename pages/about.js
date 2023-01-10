@@ -7,6 +7,7 @@ import Gallery from "../components/Gallery";
 const About = () => {
 	return (
 		<>
+			<title>About</title>
 			<Vision />
 			<What />
 			<Why />

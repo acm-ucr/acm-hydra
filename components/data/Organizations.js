@@ -4,7 +4,7 @@ const Organizations = [
 		website: "https://winc.cs.ucr.edu/",
 		instagram: "https://www.instagram.com/wincucr/?hl=en",
 		discord: "",
-		img: "winc.png",
+		img: "winc.jpg",
 	},
 	{
 		name: "GameSpawn",
@@ -32,7 +32,7 @@ const Organizations = [
 		website: "",
 		instagram: "https://www.instagram.com/tics_ucr/?hl=en",
 		discord: "",
-		img: "ticsucr.png",
+		img: "ticsucr.jpg",
 	},
 	{
 		name: "Competitive Coding Club",
@@ -46,7 +46,7 @@ const Organizations = [
 		website: "https://www.designatucr.com/",
 		instagram: "https://www.instagram.com/designatucr/?hl=en",
 		discord: "",
-		img: "designucr.png",
+		img: "designucr.jpg",
 	},
 	{
 		name: "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -60,7 +60,7 @@ const Organizations = [
 		website: "https://ucrsolarcar.com/",
 		instagram: "https://www.instagram.com/ucrsolarcar/?hl=en",
 		discord: "https://discord.com/invite/eGskEcjNvb",
-		img: "solarcar.png",
+		img: "solarcar.jpg",
 	},
 	{
 		name: "Unmanned Aerial Systems",
@@ -88,14 +88,14 @@ const Organizations = [
 		website: "https://rosehack.com/",
 		instagram: "https://www.instagram.com/rosehackucr/?hl=en",
 		discord: "",
-		img: "rosehack.png",
+		img: "rosehack.jpg",
 	},
 	{
 		name: "Citrus Hack",
 		website: "https://www.citrushack.com/",
 		instagram: "https://www.instagram.com/citrushack_ucr/?hl=en",
 		discord: "",
-		img: "citrushack.png",
+		img: "citrushack.jpg",
 	},
 ];
 
