@@ -10,6 +10,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2022, 8, 27, 16, 0, 0),
 		end: new Date(2022, 8, 27, 18, 0, 0),
+		zoom: "",
 		description:
 			"Learn about the tips and tricks undergraduates use to secure internships opportunities.",
 	},
@@ -19,6 +20,7 @@ const Events = [
 		type: "Career",
 		start: new Date(2022, 9, 6, 16, 0, 0),
 		end: new Date(2022, 9, 6, 18, 0, 0),
+		zoom: "",
 		description:
 			"Come learn about how to create your resume with Latex for the upcoming application season!",
 	},
@@ -28,6 +30,7 @@ const Events = [
 		type: "Socials",
 		start: new Date(2022, 9, 7, 16, 0, 0),
 		end: new Date(2022, 9, 7, 18, 0, 0),
+		zoom: "",
 		description:
 			"Walk around UCR's beautiful campus and learn about what UCR has to offer for you as a student!",
 	},
@@ -37,6 +40,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2022, 9, 11, 16, 0, 0),
 		end: new Date(2022, 9, 11, 18, 0, 0),
+		zoom: "",
 		description:
 			"Check out projects made by ACM members for inspiration on your own personal project, and learn more about upcoming hackathons.",
 	},
@@ -46,6 +50,7 @@ const Events = [
 		type: "Career",
 		start: new Date(2022, 9, 13, 16, 0, 0),
 		end: new Date(2022, 9, 13, 18, 0, 0),
+		zoom: "",
 		description:
 			"Learn about the internship application lifecycle and how to get prepared!",
 	},
@@ -55,6 +60,7 @@ const Events = [
 		type: "Socials",
 		start: new Date(2022, 9, 14, 16, 0, 0),
 		end: new Date(2022, 9, 14, 18, 0, 0),
+		zoom: "",
 		description:
 			"Join us to take your next profile picture for all your professional social media platforms.",
 	},
@@ -64,6 +70,7 @@ const Events = [
 		type: "Socials",
 		start: new Date(2022, 9, 17, 16, 0, 0),
 		end: new Date(2022, 9, 17, 17, 0, 0),
+		zoom: "",
 		description:
 			"Come out and meet all the possible mentors you could be paired with for the rest of the school year!",
 	},
@@ -73,6 +80,7 @@ const Events = [
 		type: "Socials",
 		start: new Date(2022, 9, 18, 16, 0, 0),
 		end: new Date(2022, 9, 18, 17, 0, 0),
+		zoom: "",
 		description:
 			"Create a plan and see some cool projects created by your mentors!",
 	},
@@ -82,6 +90,7 @@ const Events = [
 		type: "Career",
 		start: new Date(2022, 9, 20, 16, 0, 0),
 		end: new Date(2022, 9, 20, 18, 0, 0),
+		zoom: "",
 		description:
 			"Explore the tips and tricks behind technical and behavioral interviews.",
 	},
@@ -91,6 +100,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2022, 9, 25, 16, 0, 0),
 		end: new Date(2022, 9, 25, 17, 0, 0),
+		zoom: "",
 		description:
 			"Come to our VR/AR research panel with Prof. Jiasi Chen, Meta SWE James Luo, and graphics researchers to learn about the recent developments in VR/AR technology.",
 	},
@@ -100,6 +110,7 @@ const Events = [
 		type: "Career",
 		start: new Date(2022, 9, 27, 16, 0, 0),
 		end: new Date(2022, 9, 27, 18, 0, 0),
+		zoom: "",
 		description:
 			"Polish your LinkedIn and Github profiles for visiting recruiters!",
 	},
@@ -109,6 +120,7 @@ const Events = [
 		type: "Socials",
 		start: new Date(2022, 9, 28, 16, 0, 0),
 		end: new Date(2022, 9, 28, 18, 0, 0),
+		zoom: "",
 		description: "Relax after midterms with a movie night in the clubroom.",
 	},
 	{
@@ -117,6 +129,7 @@ const Events = [
 		type: "Career",
 		start: new Date(2022, 10, 3, 16, 0, 0),
 		end: new Date(2022, 10, 3, 18, 0, 0),
+		zoom: "",
 		description:
 			"With registration around the corner, learn about the tricks to get all the credits and classes you need!",
 	},
@@ -126,6 +139,7 @@ const Events = [
 		type: "Socials",
 		start: new Date(2022, 10, 4, 16, 0, 0),
 		end: new Date(2022, 10, 4, 18, 0, 0),
+		zoom: "",
 		description:
 			"Meet with your matches and get some food or boba with them on our first Mentor/Mentee day!",
 	},
@@ -135,6 +149,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2022, 10, 8, 16, 0, 0),
 		end: new Date(2022, 10, 8, 18, 0, 0),
+		zoom: "",
 		description:
 			"Discover the tips and tricks to THINK like a programmer and help you excel in your classes, projects, and various opportunities.",
 	},
@@ -144,6 +159,7 @@ const Events = [
 		type: "Career",
 		start: new Date(2022, 10, 10, 16, 0, 0),
 		end: new Date(2022, 10, 10, 18, 0, 0),
+		zoom: "",
 		description:
 			"Do a mock behavoral or technical or both interview with our officers!",
 	},
@@ -153,6 +169,7 @@ const Events = [
 		type: "Career",
 		start: new Date(2022, 10, 17, 16, 0, 0),
 		end: new Date(2022, 10, 17, 18, 0, 0),
+		zoom: "",
 		description:
 			"Explore graduate studies and the necessary requirements to stand out!",
 	},
@@ -162,6 +179,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2022, 10, 22, 16, 0, 0),
 		end: new Date(2022, 10, 22, 18, 0, 0),
+		zoom: "",
 		description:
 			"Join Namanh Kapur, a content creator, discuss his journey and various challenges he faced along the way.",
 	},
@@ -171,6 +189,7 @@ const Events = [
 		type: "Career",
 		start: new Date(2022, 10, 24, 16, 0, 0),
 		end: new Date(2022, 10, 24, 18, 0, 0),
+		zoom: "",
 		description:
 			"Learn about various research positions and why research is so important",
 	},
@@ -180,6 +199,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 0, 17, 16, 0, 0),
 		end: new Date(2023, 0, 17, 17, 0, 0),
+		zoom: "",
 		description:
 			"Join us alongside other CS/DS/STAT students to learn how to use Python, the main data science and ML programming language.",
 	},
@@ -189,6 +209,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2023, 0, 18, 17, 0, 0),
 		end: new Date(2023, 0, 18, 18, 0, 0),
+		zoom: "https://ucr.zoom.us/my/d6485433235?pwd=T01GeDduVEtEZG1vTWdaNkp0ek5XQT09",
 		description:
 			"Learn about the various pathways in CS from industry panelists serving as SWEs, DevOps Engineers, or Data Scientists; and discover which CS career path is right for you!",
 	},
@@ -198,6 +219,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 0, 23, 17, 0, 0),
 		end: new Date(2023, 0, 23, 18, 0, 0),
+		zoom: "",
 		description:
 			"Learn how to do basic data cleaning and data manipulation in Python, using tools such as NumPy and Pandas.",
 	},
@@ -207,6 +229,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 0, 30, 17, 0, 0),
 		end: new Date(2023, 0, 30, 18, 0, 0),
+		zoom: "",
 		description:
 			"Go in-depth with more advanced data cleaning and data manipulation and use these practices on a different dataset.",
 	},
@@ -216,6 +239,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2023, 1, 1, 17, 0, 0),
 		end: new Date(2023, 1, 1, 18, 0, 0),
+		zoom: "",
 		description:
 			"Discover how to create social good and sustainability using the latest modern technology, as we sit down and talk to an industry professional about careers in social impact tech.",
 	},
@@ -225,6 +249,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 1, 6, 17, 0, 0),
 		end: new Date(2023, 1, 6, 18, 0, 0),
+		zoom: "",
 		description:
 			"Join us for our 4th DS workshop, as we learn how to create data visualizations and dashboards from cleaned datasets, including how to present data plots to your audience.",
 	},
@@ -234,6 +259,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 1, 13, 17, 0, 0),
 		end: new Date(2023, 1, 13, 18, 0, 0),
+		zoom: "",
 		description:
 			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
 	},
@@ -243,6 +269,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2023, 1, 15, 17, 0, 0),
 		end: new Date(2023, 1, 15, 18, 0, 0),
+		zoom: "",
 		description:
 			"Join us for the upcoming ACM Officer Elections! Come out to hear and vote for your next ACM board!",
 	},
@@ -252,6 +279,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 1, 22, 17, 0, 0),
 		end: new Date(2023, 1, 22, 18, 0, 0),
+		zoom: "",
 		description:
 			"Join us for our sixth DS workshop, as you'll be doing a DS portfolio project. Get into groups or go solo, pick a dataset, and find insights to create a great analysis. Finish your project by March 8th to get an ACM certification!",
 	},
@@ -261,6 +289,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 1, 27, 17, 0, 0),
 		end: new Date(2023, 1, 27, 18, 0, 0),
+		zoom: "",
 		description:
 			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
 	},
@@ -270,6 +299,7 @@ const Events = [
 		type: "Meetings",
 		start: new Date(2023, 2, 1, 17, 0, 0),
 		end: new Date(2023, 2, 1, 18, 0, 0),
+		zoom: "",
 		description:
 			"Learn about why it's important to understand hardware from a software engineering perspective, as we talk to industry panelists about the emphasis of hardware in CS.",
 	},
@@ -279,6 +309,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 2, 6, 17, 0, 0),
 		end: new Date(2023, 2, 6, 18, 0, 0),
+		zoom: "",
 		description:
 			"Need help or advice on your(s) data science project. Our 8th workshop will be office hours for anyone needing help on their project.",
 	},
@@ -288,6 +319,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 2, 8, 17, 0, 0),
 		end: new Date(2023, 2, 8, 18, 0, 0),
+		zoom: "",
 		description:
 			"Done with your project? Come to our final workshop to get your certification, and get help for uploading your project to GitHub, if needed.",
 	},
