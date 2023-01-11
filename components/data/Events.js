@@ -214,6 +214,16 @@ const Events = [
 			"Learn about the various pathways in CS from industry panelists serving as SWEs, DevOps Engineers, or Data Scientists; and discover which CS career path is right for you!",
 	},
 	{
+		title: "Food and Mingle!",
+		location: "WCH 127",
+		type: "Socials",
+		start: new Date(2023, 0, 20, 16, 0, 0),
+		end: new Date(2023, 0, 20, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come to the clubroom to hang out with fellow club members and have lunch!",
+	},
+	{
 		title: "DSS: Data Cleaning",
 		location: "WCH 127",
 		type: "Workshops",
@@ -222,6 +232,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Learn how to do basic data cleaning and data manipulation in Python, using tools such as NumPy and Pandas.",
+	},
+	{
+		title: "Food and Mingle!",
+		location: "WCH 127",
+		type: "Socials",
+		start: new Date(2023, 0, 27, 16, 0, 0),
+		end: new Date(2023, 0, 27, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
 	{
 		title: "DSS: Data Manipulation",
@@ -244,6 +264,16 @@ const Events = [
 			"Discover how to create social good and sustainability using the latest modern technology, as we sit down and talk to an industry professional about careers in social impact tech.",
 	},
 	{
+		title: "Food and Mingle!",
+		location: "WCH 127",
+		type: "Socials",
+		start: new Date(2023, 1, 3, 16, 0, 0),
+		end: new Date(2023, 1, 3, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come to the clubroom to hang out with fellow club members and have lunch!",
+	},
+	{
 		title: "DSS: Data Visualization",
 		location: "WCH 127",
 		type: "Workshops",
@@ -252,6 +282,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Join us for our 4th DS workshop, as we learn how to create data visualizations and dashboards from cleaned datasets, including how to present data plots to your audience.",
+	},
+	{
+		title: "Food and Mingle!",
+		location: "WCH 127",
+		type: "Socials",
+		start: new Date(2023, 1, 10, 16, 0, 0),
+		end: new Date(2023, 1, 10, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
 	{
 		title: "DSS: Machine Learning",
@@ -274,6 +314,16 @@ const Events = [
 			"Join us for the upcoming ACM Officer Elections! Come out to hear and vote for your next ACM board!",
 	},
 	{
+		title: "Food and Mingle!",
+		location: "WCH 127",
+		type: "Socials",
+		start: new Date(2023, 1, 17, 16, 0, 0),
+		end: new Date(2023, 1, 17, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come to the clubroom to hang out with fellow club members and have lunch!",
+	},
+	{
 		title: "DSS: Portfolio Project",
 		location: "WCH 127",
 		type: "Workshops",
@@ -282,6 +332,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Join us for our sixth DS workshop, as you'll be doing a DS portfolio project. Get into groups or go solo, pick a dataset, and find insights to create a great analysis. Finish your project by March 8th to get an ACM certification!",
+	},
+	{
+		title: "Food and Mingle!",
+		location: "WCH 127",
+		type: "Socials",
+		start: new Date(2023, 1, 24, 16, 0, 0),
+		end: new Date(2023, 1, 24, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
 	{
 		title: "DSS: Office Hours",
@@ -304,6 +364,16 @@ const Events = [
 			"Learn about why it's important to understand hardware from a software engineering perspective, as we talk to industry panelists about the emphasis of hardware in CS.",
 	},
 	{
+		title: "Food and Mingle!",
+		location: "WCH 127",
+		type: "Socials",
+		start: new Date(2023, 2, 3, 16, 0, 0),
+		end: new Date(2023, 2, 3, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come to the clubroom to hang out with fellow club members and have lunch!",
+	},
+	{
 		title: "DSS: Office Hours",
 		location: "WCH 127",
 		type: "Workshops",
@@ -322,6 +392,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Done with your project? Come to our final workshop to get your certification, and get help for uploading your project to GitHub, if needed.",
+	},
+	{
+		title: "Food and Mingle!",
+		location: "WCH 127",
+		type: "Socials",
+		start: new Date(2023, 2, 10, 16, 0, 0),
+		end: new Date(2023, 2, 10, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
 ];
 
