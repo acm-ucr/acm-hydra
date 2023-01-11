@@ -51,9 +51,9 @@ const Modal = ({ event, setState }) => {
 						/>
 				  ))
 				: [
-						event.zoom,
 						event.start.toLocaleDateString(),
 						`${startTime} - ${endTime}`,
+						event.zoom,
 				  ].map((line, index) => (
 						<ListElement
 							key={index}
