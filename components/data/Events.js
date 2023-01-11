@@ -231,7 +231,7 @@ const Events = [
 		end: new Date(2023, 0, 24, 19, 0, 0),
 		zoom: "",
 		description:
-			"Join us for this first student-led Discord Bot workshop, where we will go over the rising language of Go and its significance through development of Discord Bots.",
+			"Discord Bot Series: Join us for this first student-led Discord Bot workshop, where we will go over the rising language of Go and its significance through development of Discord Bots.",
 	},
 	{
 		title: "DSS: Data Manipulation",
@@ -251,7 +251,7 @@ const Events = [
 		end: new Date(2023, 0, 31, 19, 0, 0),
 		zoom: "",
 		description:
-			"Join us in learning how to start up a Discord Bot application and connect it through a simple Golang script with handlers and simple input/output commands.",
+			"Discord Bot Series: Join us in learning how to start up a Discord Bot application and connect it through a simple Golang script with handlers and simple input/output commands.",
 	},
 	{
 		title: "Social Impact Tech",
@@ -281,7 +281,7 @@ const Events = [
 		end: new Date(2023, 1, 7, 19, 0, 0),
 		zoom: "",
 		description:
-			"Join us in learning how to add embed commands to our Golang Discord Bot and organize all of our commands.",
+			"Discord Bot Series: Join us in learning how to add embed commands to our Golang Discord Bot and organize all of our commands.",
 	},
 	{
 		title: "DSS: Machine Learning",
@@ -301,7 +301,7 @@ const Events = [
 		end: new Date(2023, 1, 14, 19, 0, 0),
 		zoom: "",
 		description:
-			"Join us in developing a mini game command in our Golang Discord Bot by utilizing more of Golang’s standard libraries.",
+			"Discord Bot Series: Join us in developing a mini game command in our Golang Discord Bot by utilizing more of Golang’s standard libraries.",
 	},
 	{
 		title: "ACM Officer Elections",
@@ -321,7 +321,7 @@ const Events = [
 		end: new Date(2023, 1, 21, 19, 0, 0),
 		zoom: "",
 		description:
-			"Join us in learning how to add a voice channel command that could open up the potential for more complex projects like music bots.",
+			"Discord Bot Series: Join us in learning how to add a voice channel command that could open up the potential for more complex projects like music bots.",
 	},
 	{
 		title: "DSS: Portfolio Project",
@@ -351,7 +351,7 @@ const Events = [
 		end: new Date(2023, 1, 28, 19, 0, 0),
 		zoom: "",
 		description:
-			"Join us in understanding databases, the CRUD abilities, and how they can be integrated with discord bots in Golang.",
+			"Discord Bot Series: Join us in understanding databases, the CRUD abilities, and how they can be integrated with discord bots in Golang.",
 	},
 	{
 		title: "Importance of Hardware",
