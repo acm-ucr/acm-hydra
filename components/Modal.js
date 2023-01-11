@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCircle } from "react-icons/fa";
 import { AiOutlinePlus } from "react-icons/ai";
+import Link from "next/link";
 
 const ListElement = ({ color, innerText }) => {
 	return (
@@ -53,7 +54,9 @@ const Modal = ({ event, setState }) => {
 				: [
 						event.start.toLocaleDateString(),
 						`${startTime} - ${endTime}`,
-						event.zoom,
+						<Link key={self} href={event.zoom}>
+							{event.zoom}
+						</Link>,
 				  ].map((line, index) => (
 						<ListElement
 							key={index}
