@@ -185,7 +185,7 @@ const Events = [
 	},
 	{
 		title: "GM: Pathways in Computer Science Panel",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 0, 18, 17, 0, 0),
 		end: new Date(2023, 0, 18, 18, 0, 0),
@@ -212,7 +212,7 @@ const Events = [
 	},
 	{
 		title: "GM: Social Impact Tech",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 1, 1, 17, 0, 0),
 		end: new Date(2023, 1, 1, 18, 0, 0),
@@ -239,7 +239,7 @@ const Events = [
 	},
 	{
 		title: "GM: ACM Officer Elections",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 1, 15, 17, 0, 0),
 		end: new Date(2023, 1, 15, 18, 0, 0),
@@ -266,7 +266,7 @@ const Events = [
 	},
 	{
 		title: "GM: Importance of Hardware",
-		location: "WCH 205/206",
+		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 2, 1, 17, 0, 0),
 		end: new Date(2023, 2, 1, 18, 0, 0),
