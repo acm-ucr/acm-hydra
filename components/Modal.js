@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCircle } from "react-icons/fa";
 import { AiOutlinePlus } from "react-icons/ai";
+import Link from "next/link";
 
 const ListElement = ({ color, innerText }) => {
 	return (
@@ -38,17 +39,32 @@ const Modal = ({ event, setState }) => {
 					<AiOutlinePlus className='text-acm-black rotate-45 p-0 m-0 hover:text-acm-red' />
 				</button>
 			</div>
-			{[
-				event.start.toLocaleDateString(),
-				`${startTime} - ${endTime}`,
-				event.location,
-			].map((line, index) => (
-				<ListElement
-					key={index}
-					color={event.textColor}
-					innerText={line}
-				/>
-			))}
+			{event.zoom == 0
+				? [
+						event.start.toLocaleDateString(),
+						`${startTime} - ${endTime}`,
+						event.location,
+				  ].map((line, index) => (
+						<ListElement
+							key={index}
+							color={event.textColor}
+							innerText={line}
+						/>
+				  ))
+				: [
+						event.start.toLocaleDateString(),
+						`${startTime} - ${endTime}`,
+						event.location,
+						<Link key={self} href={event.zoom}>
+							Zoom
+						</Link>,
+				  ].map((line, index) => (
+						<ListElement
+							key={index}
+							color={event.textColor}
+							innerText={line}
+						/>
+				  ))}
 			<div className='md:text-2xl text-lg p-2'> {event.description} </div>
 		</div>
 	);
