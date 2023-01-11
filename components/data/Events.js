@@ -234,6 +234,16 @@ const Events = [
 			"Learn how to do basic data cleaning and data manipulation in Python, using tools such as NumPy and Pandas.",
 	},
 	{
+		title: "DBS: Golang",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 0, 24, 17, 0, 0),
+		end: new Date(2023, 0, 24, 19, 0, 0),
+		zoom: "",
+		description:
+			"Discord Bot Series: Join us for this first student-led Discord Bot workshop, where we will go over the rising language of Go and its significance through development of Discord Bots.",
+	},
+	{
 		title: "Food and Mingle!",
 		location: "WCH 127",
 		type: "Socials",
@@ -252,6 +262,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Go in-depth with more advanced data cleaning and data manipulation and use these practices on a different dataset.",
+	},
+	{
+		title: "DBS: Creating Discord Bot",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 0, 31, 17, 0, 0),
+		end: new Date(2023, 0, 31, 19, 0, 0),
+		zoom: "",
+		description:
+			"Discord Bot Series: Join us in learning how to start up a Discord Bot application and connect it through a simple Golang script with handlers and simple input/output commands.",
 	},
 	{
 		title: "Social Impact Tech",
@@ -284,6 +304,16 @@ const Events = [
 			"Join us for our 4th DS workshop, as we learn how to create data visualizations and dashboards from cleaned datasets, including how to present data plots to your audience.",
 	},
 	{
+		title: "DBS: Embed Commands",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 7, 17, 0, 0),
+		end: new Date(2023, 1, 7, 19, 0, 0),
+		zoom: "",
+		description:
+			"Discord Bot Series: Join us in learning how to add embed commands to our Golang Discord Bot and organize all of our commands.",
+	},
+	{
 		title: "Food and Mingle!",
 		location: "WCH 127",
 		type: "Socials",
@@ -304,6 +334,16 @@ const Events = [
 			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
 	},
 	{
+		title: "DBS: Mini Game Commands",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 14, 17, 0, 0),
+		end: new Date(2023, 1, 14, 19, 0, 0),
+		zoom: "",
+		description:
+			"Discord Bot Series: Join us in developing a mini game command in our Golang Discord Bot by utilizing more of Golang’s standard libraries.",
+	},
+	{
 		title: "ACM Officer Elections",
 		location: "WCH 205/6",
 		type: "Meetings",
@@ -312,6 +352,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Join us for the upcoming ACM Officer Elections! Come out to hear and vote for your next ACM board!",
+	},
+	{
+		title: "DBS: Voice Channel Commands",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 21, 17, 0, 0),
+		end: new Date(2023, 1, 21, 19, 0, 0),
+		zoom: "",
+		description:
+			"Discord Bot Series: Join us in learning how to add a voice channel command that could open up the potential for more complex projects like music bots.",
 	},
 	{
 		title: "Food and Mingle!",
@@ -352,6 +402,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
+	},
+	{
+		title: "DBS: Database with Bots",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 28, 17, 0, 0),
+		end: new Date(2023, 1, 28, 19, 0, 0),
+		zoom: "",
+		description:
+			"Discord Bot Series: Join us in understanding databases, the CRUD abilities, and how they can be integrated with discord bots in Golang.",
 	},
 	{
 		title: "Importance of Hardware",
