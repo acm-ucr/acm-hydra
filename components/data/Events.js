@@ -184,7 +184,7 @@ const Events = [
 			"Join us alongside other CS/DS/STAT students to learn how to use Python, the main data science and ML programming language.",
 	},
 	{
-		title: "GM: Pathways in Computer Science Panel",
+		title: "Pathways in Computer Science Panel",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 0, 18, 17, 0, 0),
@@ -211,7 +211,7 @@ const Events = [
 			"Go in-depth with more advanced data cleaning and data manipulation and use these practices on a different dataset.",
 	},
 	{
-		title: "GM: Social Impact Tech",
+		title: "Social Impact Tech",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 1, 1, 17, 0, 0),
@@ -238,7 +238,7 @@ const Events = [
 			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
 	},
 	{
-		title: "GM: ACM Officer Elections",
+		title: "ACM Officer Elections",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 1, 15, 17, 0, 0),
@@ -265,7 +265,7 @@ const Events = [
 			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
 	},
 	{
-		title: "GM: Importance of Hardware",
+		title: "Importance of Hardware",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 2, 1, 17, 0, 0),
