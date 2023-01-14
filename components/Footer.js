@@ -2,7 +2,6 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
-// import Link from "next/link";
 import Socials from "./data/Socials";
 
 const Footer = () => {
@@ -22,17 +21,15 @@ const Footer = () => {
 								xs='3'
 								className='flex justify-center'
 							>
-								{/* <Link href={link.path}> */}
 								<a
 									href={link.path}
-									rel='noopener noreferrer'
+									rel='noreferrer'
 									target='_blank'
 									title={link.title}
 									className='fill-current text-acm-white hover:text-acm-blue'
 								>
 									{link.image}
 								</a>
-								{/* </Link> */}
 							</Col>
 						);
 					})}
