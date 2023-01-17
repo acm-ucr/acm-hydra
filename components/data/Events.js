@@ -204,7 +204,7 @@ const Events = [
 			"Join us alongside other CS/DS/STAT students to learn how to use Python, the main data science and ML programming language.",
 	},
 	{
-		title: "Pathways in Computer Science Panel",
+		title: "Pathways in CS Panel",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 0, 18, 17, 0, 0),
@@ -264,7 +264,7 @@ const Events = [
 			"Go in-depth with more advanced data cleaning and data manipulation and use these practices on a different dataset.",
 	},
 	{
-		title: "DBS: Creating Discord Bot",
+		title: "DBS: Creating DB",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 0, 31, 17, 0, 0),
@@ -304,7 +304,7 @@ const Events = [
 			"Join us for our 4th DS workshop, as we learn how to create data visualizations and dashboards from cleaned datasets, including how to present data plots to your audience.",
 	},
 	{
-		title: "DBS: Embed Commands",
+		title: "DBS: Embed Cmds",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 7, 17, 0, 0),
@@ -334,7 +334,7 @@ const Events = [
 			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
 	},
 	{
-		title: "DBS: Mini Game Commands",
+		title: "DBS: Mini Game Cmd",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 14, 17, 0, 0),
@@ -354,7 +354,7 @@ const Events = [
 			"Join us for the upcoming ACM Officer Elections! Come out to hear and vote for your next ACM board!",
 	},
 	{
-		title: "DBS: Voice Channel Commands",
+		title: "DBS: Voice Channel Cmd",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 21, 17, 0, 0),
@@ -404,7 +404,7 @@ const Events = [
 			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
 	},
 	{
-		title: "DBS: Database with Bots",
+		title: "DBS: Database w/Bots",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 28, 17, 0, 0),
@@ -414,7 +414,7 @@ const Events = [
 			"Discord Bot Series: Join us in understanding databases, the CRUD abilities, and how they can be integrated with discord bots in Golang.",
 	},
 	{
-		title: "Importance of Hardware",
+		title: "Hardware Importance",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 2, 1, 17, 0, 0),
