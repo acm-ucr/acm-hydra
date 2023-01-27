@@ -204,7 +204,7 @@ const Events = [
 			"Join us alongside other CS/DS/STAT students to learn how to use Python, the main data science and ML programming language.",
 	},
 	{
-		title: "Pathways in Computer Science Panel",
+		title: "Pathways in CS Panel",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 0, 18, 17, 0, 0),
@@ -264,7 +264,7 @@ const Events = [
 			"Go in-depth with more advanced data cleaning and data manipulation and use these practices on a different dataset.",
 	},
 	{
-		title: "DBS: Creating Discord Bot",
+		title: "DBS: Creating DB",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 0, 31, 17, 0, 0),
@@ -304,7 +304,7 @@ const Events = [
 			"Join us for our 4th DS workshop, as we learn how to create data visualizations and dashboards from cleaned datasets, including how to present data plots to your audience.",
 	},
 	{
-		title: "DBS: Embed Commands",
+		title: "DBS: Embed Cmds",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 7, 17, 0, 0),
@@ -334,7 +334,7 @@ const Events = [
 			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
 	},
 	{
-		title: "DBS: Mini Game Commands",
+		title: "DBS: Mini Game Cmd",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 14, 17, 0, 0),
@@ -354,16 +354,6 @@ const Events = [
 			"Join us for the upcoming ACM Officer Elections! Come out to hear and vote for your next ACM board!",
 	},
 	{
-		title: "DBS: Voice Channel Commands",
-		location: "WCH 127",
-		type: "Workshops",
-		start: new Date(2023, 1, 21, 17, 0, 0),
-		end: new Date(2023, 1, 21, 19, 0, 0),
-		zoom: "",
-		description:
-			"Discord Bot Series: Join us in learning how to add a voice channel command that could open up the potential for more complex projects like music bots.",
-	},
-	{
 		title: "Food and Mingle!",
 		location: "WCH 127",
 		type: "Socials",
@@ -372,6 +362,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Come to the clubroom to hang out with fellow club members and have lunch!",
+	},
+	{
+		title: "DBS: Voice Channel Cmd",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 21, 17, 0, 0),
+		end: new Date(2023, 1, 21, 19, 0, 0),
+		zoom: "",
+		description:
+			"Discord Bot Series: Join us in learning how to add a voice channel command that could open up the potential for more complex projects like music bots.",
 	},
 	{
 		title: "DSS: Portfolio Project",
@@ -394,17 +394,17 @@ const Events = [
 			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
 	{
-		title: "DSS: Office Hours",
-		location: "WCH 127",
+		title: "DSS: Interview Insight w/ Nick Singh",
+		location: "WCH 205/6",
 		type: "Workshops",
 		start: new Date(2023, 1, 27, 17, 0, 0),
 		end: new Date(2023, 1, 27, 18, 0, 0),
 		zoom: "",
 		description:
-			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
+			"Come to our 7th workshop and join Nick Singh, author of the best-selling book Ace the Data Science Interview, and founder of SQL interview platform DataLemur, and learn tips on how to solve SQL, Statistics, ML, and Data Case interview questions asked by FAANG + Wall Street.",
 	},
 	{
-		title: "DBS: Database with Bots",
+		title: "DBS: Database w/Bots",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 28, 17, 0, 0),
@@ -414,7 +414,7 @@ const Events = [
 			"Discord Bot Series: Join us in understanding databases, the CRUD abilities, and how they can be integrated with discord bots in Golang.",
 	},
 	{
-		title: "Importance of Hardware",
+		title: "Hardware Importance",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 2, 1, 17, 0, 0),
