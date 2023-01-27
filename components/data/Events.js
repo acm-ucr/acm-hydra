@@ -354,16 +354,6 @@ const Events = [
 			"Join us for the upcoming ACM Officer Elections! Come out to hear and vote for your next ACM board!",
 	},
 	{
-		title: "DBS: Voice Channel Cmd",
-		location: "WCH 127",
-		type: "Workshops",
-		start: new Date(2023, 1, 21, 17, 0, 0),
-		end: new Date(2023, 1, 21, 19, 0, 0),
-		zoom: "",
-		description:
-			"Discord Bot Series: Join us in learning how to add a voice channel command that could open up the potential for more complex projects like music bots.",
-	},
-	{
 		title: "Food and Mingle!",
 		location: "WCH 127",
 		type: "Socials",
@@ -372,6 +362,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Come to the clubroom to hang out with fellow club members and have lunch!",
+	},
+	{
+		title: "DBS: Voice Channel Cmd",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 21, 17, 0, 0),
+		end: new Date(2023, 1, 21, 19, 0, 0),
+		zoom: "",
+		description:
+			"Discord Bot Series: Join us in learning how to add a voice channel command that could open up the potential for more complex projects like music bots.",
 	},
 	{
 		title: "DSS: Portfolio Project",
@@ -394,14 +394,14 @@ const Events = [
 			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
 	{
-		title: "DSS: Office Hours",
-		location: "WCH 127",
+		title: "DSS: Interview Insight w/ Nick Singh",
+		location: "WCH 205/6",
 		type: "Workshops",
 		start: new Date(2023, 1, 27, 17, 0, 0),
 		end: new Date(2023, 1, 27, 18, 0, 0),
 		zoom: "",
 		description:
-			"Need help or advice on your(s) data science project. Our 7th workshop will be office hours for anyone needing help on their project.",
+			"Come to our 7th workshop and join Nick Singh, author of the best-selling book Ace the Data Science Interview, and founder of SQL interview platform DataLemur, and learn tips on how to solve SQL, Statistics, ML, and Data Case interview questions asked by FAANG + Wall Street.",
 	},
 	{
 		title: "DBS: Database w/Bots",
