@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Link from "next/link";
 
 const Navigation = () => {
 	return (
@@ -11,52 +12,42 @@ const Navigation = () => {
 			fixed='top'
 		>
 			<Navbar.Brand className='p-0'>
-				<Nav.Link eventKey='1' className='p-0' href='/'>
+				<Link eventKey='1' className='p-0' href='/'>
 					<img
 						src='acm-ucr-logo.png'
 						className='h-[11vh]'
 						alt='ACM at UCR'
 					/>
-				</Nav.Link>
+				</Link>
 			</Navbar.Brand>
-			<Navbar.Toggle aria-controls='navbar-nav' />
-			<Navbar.Collapse id='navbar-nav' className='-mt-2'>
-				<Nav className='mb-2 w-12/12 no-underline ml-auto text-2xl'>
-					<Nav.Link
-						className='m-0 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
-						eventKey='6'
-						href='/'
-					>
-						home
-					</Nav.Link>
-					<Nav.Link
-						className='m-0 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
-						eventKey='2'
-						href='/about'
-					>
-						about
-					</Nav.Link>
-					<Nav.Link
-						className='m-0 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
-						eventKey='3'
-						href='/board'
-					>
-						board
-					</Nav.Link>
-					<Nav.Link
-						className='m-0 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
-						eventKey='4'
-						href='/events'
-					>
-						events
-					</Nav.Link>
-					<Nav.Link
-						className='m-0 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue'
-						eventKey='5'
-						href='/join'
-					>
-						join us
-					</Nav.Link>
+			<Navbar.Toggle aria-controls='navbar-link' />
+			<Navbar.Collapse id='navbar-link' className='-mt-2'>
+				<Nav className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25'>
+					<Link eventKey='6' href='/'>
+						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
+							home
+						</p>
+					</Link>
+					<Link eventKey='2' href='/about'>
+						<span className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
+							about
+						</span>
+					</Link>
+					<Link eventKey='3' href='/board'>
+						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
+							board
+						</p>
+					</Link>
+					<Link eventKey='4' href='/events'>
+						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
+							events
+						</p>
+					</Link>
+					<Link eventKey='5' href='/join'>
+						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
+							join us
+						</p>
+					</Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
