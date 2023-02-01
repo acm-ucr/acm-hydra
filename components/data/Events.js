@@ -384,6 +384,16 @@ const Events = [
 			"Join us for our sixth DS workshop, as you'll be doing a DS portfolio project. Get into groups or go solo, pick a dataset, and find insights to create a great analysis. Finish your project by March 8th to get an ACM certification!",
 	},
 	{
+		title: "Roblox in Metaverse",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 22, 16, 0, 0),
+		end: new Date(2023, 1, 22, 17, 0, 0),
+		zoom: "",
+		description:
+			"Join us as Raymond showcases videogame development in Metaverse through Roblox, what the platform has to offer to programmers, artists, and everyone in between who may be interested in game development; as an alternative to Unity, Unreal Engine, and Godot.",
+	},
+	{
 		title: "Food and Mingle!",
 		location: "WCH 127",
 		type: "Socials",
