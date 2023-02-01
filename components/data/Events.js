@@ -387,8 +387,8 @@ const Events = [
 		title: "Roblox in Metaverse",
 		location: "WCH 127",
 		type: "Workshops",
-		start: new Date(2023, 1, 22, 17, 0, 0),
-		end: new Date(2023, 1, 22, 18, 0, 0),
+		start: new Date(2023, 1, 22, 16, 0, 0),
+		end: new Date(2023, 1, 22, 17, 0, 0),
 		zoom: "",
 		description:
 			"Join us as Raymond showcases videogame development in Metaverse through Roblox, what the platform has to offer to programmers, artists, and everyone in between who may be interested in game development; as an alternative to Unity, Unreal Engine, and Godot.",
