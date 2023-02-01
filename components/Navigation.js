@@ -29,9 +29,9 @@ const Navigation = () => {
 						</p>
 					</Link>
 					<Link eventKey='2' href='/about'>
-						<span className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
+						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							about
-						</span>
+						</p>
 					</Link>
 					<Link eventKey='3' href='/board'>
 						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
