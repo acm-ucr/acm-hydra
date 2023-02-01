@@ -22,7 +22,7 @@ const Navigation = () => {
 			</Navbar.Brand>
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav' className='-mt-2'>
-				<Nav className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25'>
+				<Nav className='mb-2 w-12/12 no-underline ml-auto text-2xl'>
 					<Link eventKey='6' href='/'>
 						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							home
