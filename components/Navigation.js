@@ -23,27 +23,27 @@ const Navigation = () => {
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav' className='-mt-2'>
 				<Nav className='mb-2 w-12/12 no-underline ml-auto text-2xl'>
-					<Link eventKey='6' href='/'>
+					<Link eventKey='6' href='/' className='no-underline'>
 						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							home
 						</p>
 					</Link>
-					<Link eventKey='2' href='/about' classname='no-underline'>
+					<Link eventKey='2' href='/about' className='no-underline'>
 						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							about
 						</p>
 					</Link>
-					<Link eventKey='3' href='/board' classname='no-underline'>
+					<Link eventKey='3' href='/board' className='no-underline'>
 						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							board
 						</p>
 					</Link>
-					<Link eventKey='4' href='/events' classname='no-underline'>
+					<Link eventKey='4' href='/events' className='no-underline'>
 						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							events
 						</p>
 					</Link>
-					<Link eventKey='5' href='/join' classname='no-underline'>
+					<Link eventKey='5' href='/join' className='no-underline'>
 						<p className='mb-2 w-12/12 no-underline ml-auto text-2xl width-25 m-2 whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							join us
 						</p>
