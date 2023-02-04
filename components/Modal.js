@@ -13,7 +13,7 @@ const ListElement = ({ color, innerText }) => {
 };
 
 const Modal = ({ event, setState }) => {
-	if (!event) return null;
+	if (!event) return event && <div>No Event</div>;
 	const startTime = event.start.toLocaleTimeString(navigator.language, {
 		hour: "2-digit",
 		minute: "2-digit",
