@@ -19,7 +19,7 @@ const Introduction = () => {
 				</p>
 			</Col>
 			<Col xs={7} sm={5} md={5} lg={4}>
-				<img alt='acm @ ucr logo' src='acm-ucr-logo.png' />
+				<img alt='acm @ ucr logo' src='acm-ucr-logo.webp' />
 			</Col>
 		</Row>
 	);

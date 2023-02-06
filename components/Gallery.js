@@ -1,6 +1,6 @@
 import React from "react";
-const Col = React.lazy(() => import("react-bootstrap/Col"));
-const Row = React.lazy(() => import("react-bootstrap/Row"));
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 const Gallery = () => {
 	return (
@@ -12,7 +12,7 @@ const Gallery = () => {
 				<Col className='m-0 p-1' md={6} sm={12}>
 					<img
 						alt='group of students gathering in front of rivera library'
-						src='rivera-library.png'
+						src='rivera-library.webp'
 					/>
 				</Col>
 				<Col className='flex justify-center m-0 p-0' md={6} xs={12}>
@@ -20,26 +20,26 @@ const Gallery = () => {
 						<Col className='m-0 p-1' xs={6}>
 							<img
 								alt='students in a classroom listening to a presentation'
-								src='presentation1.jpg'
+								src='presentation1.webp'
 							/>
 						</Col>
 						<Col className='m-0 p-1' xs={6}>
 							<img
 								alt='students in a classroom listening to a presentation'
-								src='presentation4.jpg'
+								src='presentation4.webp'
 							/>
 						</Col>
 
 						<Col className='m-0 p-1' xs={6}>
 							<img
 								alt='students in a classroom listening to a panel'
-								src='panel.png'
+								src='panel.webp'
 							/>
 						</Col>
 						<Col className='m-0 p-1' xs={6}>
 							<img
 								alt='groups of students in discussion sitting around tables'
-								src='discussion.jpg'
+								src='discussion.webp'
 							/>
 						</Col>
 					</Row>
@@ -51,26 +51,26 @@ const Gallery = () => {
 						<Col className='m-0 p-1' xs={6}>
 							<img
 								alt='students in a classroom listening to a presentation'
-								src='presentation6.png'
+								src='presentation6.webp'
 							/>
 						</Col>
 						<Col className='m-0 p-1' xs={6}>
 							<img
 								alt='students in a classroom listening to a presentation'
-								src='presentation7.png'
+								src='presentation7.webp'
 							/>
 						</Col>
 
 						<Col className='m-0 p-1' xs={6}>
 							<img
 								alt='students in a classroom listening to a panel'
-								src='presentation-workflow.png'
+								src='presentation-workflow.webp'
 							/>
 						</Col>
 						<Col className='m-0 p-1' xs={6}>
 							<img
 								alt='groups of students in discussion sitting around tables'
-								src='acm-workshop.jpg'
+								src='acm-workshop.webp'
 							/>
 						</Col>
 					</Row>
@@ -78,7 +78,7 @@ const Gallery = () => {
 				<Col className='m-0 p-1' md={6} xs={12}>
 					<img
 						alt='group of students gathering in front of rivera library'
-						src='discussion-professors.jpg'
+						src='discussion-professors.webp'
 					/>
 				</Col>
 			</Row>
@@ -86,7 +86,7 @@ const Gallery = () => {
 				<img
 					className='m-0 p-1'
 					alt='students paying attention during an acm meeting'
-					src='meeting.png'
+					src='meeting.webp'
 				/>
 			</Row>
 		</div>
