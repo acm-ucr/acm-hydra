@@ -2,20 +2,19 @@ const Questions = [
 	// FaqInfoArray
 	{
 		question: `What is ACM?`,
-		answer: `ACM is UCR's largest computer science club. We focus on 
-		professional and academic development, mentorship, and projects.`,
+		answer: `ACM @ UCR is home to the largest computer science club on campus with over 500 members. We offer many beneficial services such as workshops ranging from a variety of topics, interviews with industry insiders, career advice and resume building, and a close knit community for anyone interested in anything computer related.`,
 	},
 	{
 		question: `How do I join ACM @ UCR?`,
-		answer: `We post all of our announcements primarly on Discord, where you can find new events and opportunities. Join our Slack CS@UCR to stay on track with computer science on campus to learn about even more opportunities and events.`,
+		answer: `Joining ACM @ UCR requires no official process. Instead, visit our clubroom located in WCH 127 to meet your fellow ACM members or join our Discord/Slack servers to stay informed on upcoming events, workshops, and other club activities.`,
 	},
 	{
 		question: `Who is able to join ACM @ UCR?`,
-		answer: `ACM @ UCR is open to all students regardless of major! We have members through BCOE including computer science, computer engineering, data science, and more! Students from outside BCOE are welcome as well!`,
+		answer: `ACM @ UCR is open to all students regardless of major. We have members through BCOE including computer science, computer engineering, data science, and more. Students outside of BCOE are just as welcome to get involved so tell your friends and come on by!`,
 	},
 	{
 		question: `How can I participate in student led projects?`,
-		answer: `For our current ACM projects, you can reach out to Divyank, our project lead, for more information about joining a project. For other student-led projects, we will create more opportunities for you throughout the year. Be sure to stay in touch for any updates.`,
+		answer: `Getting involved in one of our student-lead projects is a great way to get experience in working with a team while building connections with fellow club members. For our current ACM projects, you can reach out to our project lead for more information on how to join. Future projects and their application dates will be announced on our Discord/Slack servers.`,
 	},
 	{
 		question: `When are general meetings, workshops, events, socials?`,
