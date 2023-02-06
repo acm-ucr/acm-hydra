@@ -14,7 +14,7 @@ const Navigation = () => {
 			<Navbar.Brand className='p-0'>
 				<Link eventKey='1' className='p-0' href='/'>
 					<img
-						src='acm-ucr-logo.png'
+						src='acm-ucr-logo.webp'
 						className='h-[11vh]'
 						alt='ACM at UCR'
 					/>

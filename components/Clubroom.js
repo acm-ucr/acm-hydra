@@ -31,7 +31,7 @@ const Clubroom = () => {
 					className='flex justify-center items-center w-full p-4'
 				>
 					<Frame
-						image='presentation4.jpg'
+						image='presentation4.webp'
 						bottomLeft='#c792ea'
 						topRight='#c3e88d'
 						corners='black'

@@ -11,7 +11,7 @@ const What = () => {
 				className='d-none d-lg-inline flex justify-center items-center p-3'
 			>
 				<Frame
-					image='presentation7.png'
+					image='presentation7.webp'
 					topRight={"#ffd700"}
 					bottomLeft={"#ff5370"}
 					corners={"#82aaff"}
@@ -38,7 +38,7 @@ const What = () => {
 				className='d-lg-none flex justify-center items-center p-3'
 			>
 				<Frame
-					image='presentation7.png'
+					image='presentation7.webp'
 					topRight={"#ffd700"}
 					bottomLeft={"#ff5370"}
 					corners={"#82aaff"}
