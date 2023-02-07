@@ -23,7 +23,7 @@ const Upcoming = () => {
 				</p>
 				<br />
 				<Row className='w-11/12'>
-					{events.length ? (
+					{events.length !== 0 ? (
 						events.map((event, index) => (
 							<Col className='p-3' md={6} lg={4} key={index}>
 								<Event
