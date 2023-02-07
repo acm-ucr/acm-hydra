@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
-const Col = React.lazy(() => import("react-bootstrap/Col"));
-const Row = React.lazy(() => import("react-bootstrap/Row"));
-const Profile = React.lazy(() => import("./Profile.js"));
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Profile from "./Profile.js";
 
 import Organizations from "./data/Organizations";
 

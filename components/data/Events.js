@@ -314,6 +314,16 @@ const Events = [
 			"Discord Bot Series: Join us in learning how to add embed commands to our Golang Discord Bot and organize all of our commands.",
 	},
 	{
+		title: "Privacy by DataBanc",
+		location: "Virtual",
+		type: "Workshops",
+		start: new Date(2023, 1, 9, 16, 0, 0),
+		end: new Date(2023, 1, 9, 17, 0, 0),
+		zoom: "https://ucr.zoom.us/j/93199552478",
+		description:
+			"DataBanc will lead a conversation about the basics of data privacy, the growing dialogue around privacy by design/technical privacy, and privacy regulations.",
+	},
+	{
 		title: "Food and Mingle!",
 		location: "WCH 127",
 		type: "Socials",
@@ -382,6 +392,16 @@ const Events = [
 		zoom: "",
 		description:
 			"Join us for our sixth DS workshop, as you'll be doing a DS portfolio project. Get into groups or go solo, pick a dataset, and find insights to create a great analysis. Finish your project by March 8th to get an ACM certification!",
+	},
+	{
+		title: "Roblox in Metaverse",
+		location: "WCH 127",
+		type: "Workshops",
+		start: new Date(2023, 1, 22, 16, 0, 0),
+		end: new Date(2023, 1, 22, 17, 0, 0),
+		zoom: "",
+		description:
+			"Join us as Raymond showcases videogame development in Metaverse through Roblox, what the platform has to offer to programmers, artists, and everyone in between who may be interested in game development; as an alternative to Unity, Unreal Engine, and Godot.",
 	},
 	{
 		title: "Food and Mingle!",
