@@ -334,14 +334,14 @@ const Events = [
 			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
 	{
-		title: "DSS: Machine Learning",
+		title: "DSS: Tableau Dashboards",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 13, 17, 0, 0),
 		end: new Date(2023, 1, 13, 18, 0, 0),
 		zoom: "",
 		description:
-			"Join us for our 5th DS workshop, as we learn how to use basic ML algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
+			"Join us for our 5th data science workshop, as we learn how to effectively design, build, and publish interactive dashboards in Tableau.",
 	},
 	{
 		title: "DBS: Mini Game Cmd",
@@ -384,14 +384,14 @@ const Events = [
 			"Discord Bot Series: Join us in learning how to add a voice channel command that could open up the potential for more complex projects like music bots.",
 	},
 	{
-		title: "DSS: Portfolio Project",
+		title: "DSS: Machine Learning",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 1, 22, 17, 0, 0),
 		end: new Date(2023, 1, 22, 18, 0, 0),
 		zoom: "",
 		description:
-			"Join us for our sixth DS workshop, as you'll be doing a DS portfolio project. Get into groups or go solo, pick a dataset, and find insights to create a great analysis. Finish your project by March 8th to get an ACM certification!",
+			"Join us for our 6th data science workshop, as we learn how to use basic machine learning algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
 	},
 	{
 		title: "Roblox in Metaverse",
@@ -454,24 +454,14 @@ const Events = [
 			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
 	{
-		title: "DSS: Office Hours",
+		title: "DSS: Project Building",
 		location: "WCH 127",
 		type: "Workshops",
 		start: new Date(2023, 2, 6, 17, 0, 0),
 		end: new Date(2023, 2, 6, 18, 0, 0),
 		zoom: "",
 		description:
-			"Need help or advice on your(s) data science project. Our 8th workshop will be office hours for anyone needing help on their project.",
-	},
-	{
-		title: "DSS: Certification",
-		location: "WCH 127",
-		type: "Workshops",
-		start: new Date(2023, 2, 8, 17, 0, 0),
-		end: new Date(2023, 2, 8, 18, 0, 0),
-		zoom: "",
-		description:
-			"Done with your project? Come to our final workshop to get your certification, and get help for uploading your project to GitHub, if needed.",
+			"Come to our last workshop as we'll be giving tips and advice on data science projects that you could potentially look on. We'll also be sharing our DS projects that we've done previously.",
 	},
 	{
 		title: "Food and Mingle!",
