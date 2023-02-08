@@ -54,7 +54,7 @@ const Modal = ({ event, setState }) => {
 				: [
 						event.start.toLocaleDateString(),
 						`${startTime} - ${endTime}`,
-						<Link key={self} href={event.zoom}>
+						<Link key={self} href={event.zoom} class='break-all'>
 							{event.zoom}
 						</Link>,
 				  ].map((line, index) => (
