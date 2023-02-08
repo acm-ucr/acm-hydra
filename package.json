@@ -14,6 +14,7 @@
 		"eslint": "eslint . --ext js --ext jsx --ext ts --ext tsx"
 	},
 	"dependencies": {
+		"@next/font": "^13.1.6",
 		"bootstrap": "^5.2.3",
 		"gapi-script": "^1.2.0",
 		"moment": "^2.29.4",
