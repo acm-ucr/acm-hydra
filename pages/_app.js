@@ -8,7 +8,6 @@ import { Lexend } from "@next/font/google";
 const lexend = Lexend({
 	subsets: ["latin"],
 	variable: "--font-lexend",
-	weight: "500",
 });
 
 function MyApp({ Component, pageProps }) {
