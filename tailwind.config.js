@@ -11,19 +11,23 @@ module.exports = {
 					"3.5rem",
 					{
 						fontWeight: "600",
-						fontFamily: "Lexend",
+						fontFamily: {
+							lexend: ["var(--font-lexend)", "sans-serif"],
+						},
 					},
 				],
 				text: [
 					"1.5rem",
 					{
 						fontWeight: "400",
-						fontFamily: "Lexend",
+						fontFamily: {
+							lexend: ["var(--font-lexend)", "sans-serif"],
+						},
 					},
 				],
 			},
 			fontFamily: {
-				lexend: ["Lexend"],
+				lexend: ["var(--font-lexend)", "sans-serif"],
 			},
 			backgroundImage: {
 				arrow: "url('/chevron.png')",
