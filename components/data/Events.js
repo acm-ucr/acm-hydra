@@ -319,7 +319,7 @@ const Events = [
 		type: "Workshops",
 		start: new Date(2023, 1, 9, 16, 0, 0),
 		end: new Date(2023, 1, 9, 17, 0, 0),
-		zoom: "https://ucr.zoom.us/j/93199552478",
+		zoom: "https://us06web.zoom.us/j/87964610935?pwd=YXJtdS83Z2NpVDE3aGtPU1JDQWg2Zz09",
 		description:
 			"DataBanc will lead a conversation about the basics of data privacy, the growing dialogue around privacy by design/technical privacy, and privacy regulations.",
 	},
