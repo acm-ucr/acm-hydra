@@ -434,14 +434,14 @@ const Events = [
 			"Discord Bot Series: Join us in understanding databases, the CRUD abilities, and how they can be integrated with discord bots in Golang.",
 	},
 	{
-		title: "Hardware Importance",
+		title: "Meet the new ACM Board",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 2, 1, 17, 0, 0),
 		end: new Date(2023, 2, 1, 18, 0, 0),
 		zoom: "",
 		description:
-			"Learn about why it's important to understand hardware from a software engineering perspective, as we talk to industry panelists about the emphasis of hardware in CS.",
+			"Join us for ACM's last general meeting of the quarter where we'll be introducing your new officers for the upcoming year, and their full-scale plan for the future of ACM!",
 	},
 	{
 		title: "Food and Mingle!",
