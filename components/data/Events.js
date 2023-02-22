@@ -387,8 +387,8 @@ const Events = [
 		title: "DSS: Machine Learning",
 		location: "WCH 127",
 		type: "Workshops",
-		start: new Date(2023, 1, 22, 17, 0, 0),
-		end: new Date(2023, 1, 22, 18, 0, 0),
+		start: new Date(2023, 1, 23, 17, 0, 0),
+		end: new Date(2023, 1, 23, 18, 0, 0),
 		zoom: "",
 		description:
 			"Join us for our 6th data science workshop, as we learn how to use basic machine learning algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
@@ -427,8 +427,8 @@ const Events = [
 		title: "DBS: Database w/Bots",
 		location: "WCH 127",
 		type: "Workshops",
-		start: new Date(2023, 1, 28, 17, 0, 0),
-		end: new Date(2023, 1, 28, 19, 0, 0),
+		start: new Date(2023, 2, 7, 17, 0, 0),
+		end: new Date(2023, 2, 7, 19, 0, 0),
 		zoom: "",
 		description:
 			"Discord Bot Series: Join us in understanding databases, the CRUD abilities, and how they can be integrated with discord bots in Golang.",
