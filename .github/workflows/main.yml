@@ -1,4 +1,4 @@
-name: ACM Website
+name: ACM Official Website
 on:
     pull_request:
         branches: [main, dev]
@@ -42,3 +42,17 @@ jobs:
             - run: npm ci
             - run: npm run build
             - run: npm run export
+    testing:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+
+            - name: Run Cypress
+              uses: cypress-io/github-action@v3
+              with:
+                  project: ./
+                  browser: chrome
+                  build: npm run build
+                  start: npm run start
+                  wait-on: "http://localhost:3000"
