@@ -1,4 +1,4 @@
-describe("template spec", () => {
+describe("Learn Section Presence Check", () => {
 	it("passes", () => {
 		cy.visit("http://localhost:3000").scrollTo("0%", "62%");
 		cy.get(".pb-2");
