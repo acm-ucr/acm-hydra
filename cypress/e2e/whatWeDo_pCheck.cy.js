@@ -2,7 +2,6 @@ describe("What We Do and Image Presence Check", () => {
 	it("passes", () => {
 		cy.visit("http://localhost:3000");
 		cy.get(".p-0 > .mb-0").click();
-		cy.get(".__variable_4bc04a > main > :nth-child(3)").scrollIntoView();
 		cy.get(":nth-child(3) > .text-center > .text-heading").contains(
 			"What we do!"
 		);
