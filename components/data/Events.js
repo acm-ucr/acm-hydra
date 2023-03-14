@@ -473,6 +473,66 @@ const Events = [
 		description:
 			"Come to the clubroom to hang out with fellow club members and have lunch!",
 	},
+	{
+		title: "CS10B + CS100 Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 15, 17, 0, 0),
+		end: new Date(2023, 2, 15, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS10C + CS011 Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 16, 17, 0, 0),
+		end: new Date(2023, 2, 16, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS061 + CS011 + CS111 Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 17, 17, 0, 0),
+		end: new Date(2023, 2, 17, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS009A + CS010A + CS010C Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 20, 17, 0, 0),
+		end: new Date(2023, 2, 20, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS061 + CS011 + CS111 Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 21, 17, 0, 0),
+		end: new Date(2023, 2, 21, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS010A + CS10B Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 22, 17, 0, 0),
+		end: new Date(2023, 2, 22, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
 ];
 
 Events.forEach(event => {
