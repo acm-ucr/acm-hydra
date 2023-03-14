@@ -387,8 +387,8 @@ const Events = [
 		title: "DSS: Machine Learning",
 		location: "WCH 127",
 		type: "Workshops",
-		start: new Date(2023, 1, 22, 17, 0, 0),
-		end: new Date(2023, 1, 22, 18, 0, 0),
+		start: new Date(2023, 1, 23, 17, 0, 0),
+		end: new Date(2023, 1, 23, 18, 0, 0),
 		zoom: "",
 		description:
 			"Join us for our 6th data science workshop, as we learn how to use basic machine learning algorithms to create insights from the dataset, using Python ML library Scikit-Learn.",
@@ -427,21 +427,21 @@ const Events = [
 		title: "DBS: Database w/Bots",
 		location: "WCH 127",
 		type: "Workshops",
-		start: new Date(2023, 1, 28, 17, 0, 0),
-		end: new Date(2023, 1, 28, 19, 0, 0),
+		start: new Date(2023, 2, 7, 17, 0, 0),
+		end: new Date(2023, 2, 7, 19, 0, 0),
 		zoom: "",
 		description:
 			"Discord Bot Series: Join us in understanding databases, the CRUD abilities, and how they can be integrated with discord bots in Golang.",
 	},
 	{
-		title: "Hardware Importance",
+		title: "Meet the new ACM Board",
 		location: "WCH 205/6",
 		type: "Meetings",
 		start: new Date(2023, 2, 1, 17, 0, 0),
 		end: new Date(2023, 2, 1, 18, 0, 0),
 		zoom: "",
 		description:
-			"Learn about why it's important to understand hardware from a software engineering perspective, as we talk to industry panelists about the emphasis of hardware in CS.",
+			"Join us for ACM's last general meeting of the quarter where we'll be introducing your new officers for the upcoming year, and their full-scale plan for the future of ACM!",
 	},
 	{
 		title: "Food and Mingle!",
@@ -472,6 +472,66 @@ const Events = [
 		zoom: "",
 		description:
 			"Come to the clubroom to hang out with fellow club members and have lunch!",
+	},
+	{
+		title: "CS10B + CS100 Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 15, 17, 0, 0),
+		end: new Date(2023, 2, 15, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS10C + CS011 Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 16, 17, 0, 0),
+		end: new Date(2023, 2, 16, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS061 + CS011 + CS111 Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 17, 17, 0, 0),
+		end: new Date(2023, 2, 17, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS009A + CS010A + CS010C Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 20, 17, 0, 0),
+		end: new Date(2023, 2, 20, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS061 + CS011 + CS111 Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 21, 17, 0, 0),
+		end: new Date(2023, 2, 21, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
+	},
+	{
+		title: "CS010A + CS10B Group Review",
+		location: "WCH 127",
+		type: "Academic",
+		start: new Date(2023, 2, 22, 17, 0, 0),
+		end: new Date(2023, 2, 22, 20, 0, 0),
+		zoom: "",
+		description:
+			"With finals season here, come study with fellow computer science students to squash those finals!",
 	},
 ];
 

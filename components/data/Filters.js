@@ -27,6 +27,13 @@ const Filters = [
 		shadow: "shadow-acm-orange",
 		border: "border-acm-orange",
 	},
+	{
+		topic: "Academic",
+		color: "!bg-acm-marine",
+		textColor: "text-acm-marine",
+		shadow: "shadow-acm-marine",
+		border: "border-acm-marine",
+	},
 ];
 
 export default Filters;
