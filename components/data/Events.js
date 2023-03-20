@@ -533,6 +533,16 @@ const Events = [
 		description:
 			"With finals season here, come study with fellow computer science students to squash those finals!",
 	},
+	{
+		title: "ACM Fun in the Sun!",
+		location: "Newport Beach",
+		type: "Socials",
+		start: new Date(2023, 3, 8, 11, 0, 0),
+		end: new Date(2023, 3, 8, 17, 0, 0),
+		zoom: "",
+		description:
+			"Come meet and hang out with other ACM members all while basking in the superior SoCal sun. We will provide transportation to and from the beach, for $15. We would prefer for people to carpool with others to the location.",
+	},
 ];
 
 Events.forEach(event => {
