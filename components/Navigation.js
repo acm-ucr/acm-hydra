@@ -12,7 +12,7 @@ const Navigation = () => {
 			fixed='top'
 		>
 			<Navbar.Brand className='p-0'>
-				<Link eventKey='1' className='p-0' href='/'>
+				<Link eventkey='1' className='p-0' href='/'>
 					<img
 						src='acm-ucr-logo.webp'
 						className='h-[11vh]'
@@ -23,13 +23,13 @@ const Navigation = () => {
 			<Navbar.Toggle aria-controls='navbar-nav' />
 			<Navbar.Collapse id='navbar-nav'>
 				<Nav className='mb-2 w-12/12 no-underline ml-auto text-2xl'>
-					<Link eventKey='6' href='/' className='no-underline'>
+					<Link eventkey='6' href='/' className='no-underline'>
 						<p className='mb-0 py-1 px-2 no-underline ml-auto text-2xl whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							home
 						</p>
 					</Link>
 					<Link
-						eventKey='2'
+						eventkey='2'
 						href='/about'
 						className='no-underline p-0 m-0'
 					>
@@ -37,17 +37,17 @@ const Navigation = () => {
 							about
 						</p>
 					</Link>
-					<Link eventKey='3' href='/board' className='no-underline'>
+					<Link eventkey='3' href='/board' className='no-underline'>
 						<p className='mb-0 py-1 px-2 no-underline ml-auto text-2xl whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							board
 						</p>
 					</Link>
-					<Link eventKey='4' href='/events' className='no-underline'>
+					<Link eventkey='4' href='/events' className='no-underline'>
 						<p className='mb-0 py-1 px-2 no-underline ml-auto text-2xl whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							events
 						</p>
 					</Link>
-					<Link eventKey='5' href='/join' className='no-underline'>
+					<Link eventkey='5' href='/join' className='no-underline'>
 						<p className='mb-0 py-1 px-2 no-underline ml-auto text-2xl whitespace-nowrap bg-acm-white w-full text-center !text-acm-black !font-medium hover:!text-acm-blue hover:cursor-pointer'>
 							join us
 						</p>

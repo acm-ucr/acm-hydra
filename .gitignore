@@ -37,3 +37,5 @@ yarn.lock
 
 # robots.txt (This file is created only for the dev site and is stored in the servers directly)
 robots.txt
+
+.env
