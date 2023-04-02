@@ -14,11 +14,14 @@ const ListElement = ({ color, innerText }) => {
 
 const Modal = ({ event, setState }) => {
 	if (!event) return event && <div>No Event</div>;
-	const startTime = event.start.toLocaleTimeString(navigator.language, {
-		hour: "2-digit",
-		minute: "2-digit",
-	});
-	const endTime = event.end.toLocaleTimeString(navigator.language, {
+	const startTime = new Date(event.start).toLocaleTimeString(
+		navigator.language,
+		{
+			hour: "2-digit",
+			minute: "2-digit",
+		}
+	);
+	const endTime = new Date(event.end).toLocaleTimeString(navigator.language, {
 		hour: "2-digit",
 		minute: "2-digit",
 	});
@@ -30,7 +33,7 @@ const Modal = ({ event, setState }) => {
 				<p
 					className={`text-acm-black ${event.color} rounded-full m-0 font-bold py-2 md:py-3 px-3 md:px-4 text-lg md:text-3xl`}
 				>
-					{event.title}
+					{event.summary}
 				</p>
 				<button
 					className='p-0 m-2 text-5xl'
@@ -39,9 +42,9 @@ const Modal = ({ event, setState }) => {
 					<AiOutlinePlus className='text-acm-black rotate-45 p-0 m-0 hover:text-acm-red' />
 				</button>
 			</div>
-			{event.zoom == 0
+			{event.location
 				? [
-						event.start.toLocaleDateString(),
+						new Date(event.start).toLocaleDateString(),
 						`${startTime} - ${endTime}`,
 						event.location,
 				  ].map((line, index) => (
@@ -52,7 +55,7 @@ const Modal = ({ event, setState }) => {
 						/>
 				  ))
 				: [
-						event.start.toLocaleDateString(),
+						new Date(event.start).toLocaleDateString(),
 						`${startTime} - ${endTime}`,
 						<Link key={self} href={event.zoom} class='break-all'>
 							{event.zoom}
@@ -64,7 +67,13 @@ const Modal = ({ event, setState }) => {
 							innerText={line}
 						/>
 				  ))}
-			<div className='md:text-2xl text-lg p-2'> {event.description} </div>
+			<div className='md:text-2xl text-lg p-2'>
+				{" "}
+				{event.description.replace(
+					event.description.split(" ")[0],
+					""
+				)}{" "}
+			</div>
 		</div>
 	);
 };
