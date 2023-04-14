@@ -34,7 +34,7 @@ const Socials = [
 		image: <FaSlack className='text-5xl'></FaSlack>,
 	},
 	{
-		path: "https://medium.com/acm-at-ucr",
+		path: "https://medium.com/@contact.acmucr",
 		title: "Medium",
 		image: <FaMediumM className='text-5xl'></FaMediumM>,
 	},
