@@ -1,4 +1,4 @@
-describe("template spec", () => {
+describe("Footer Presence Check", () => {
 	it("passes", () => {
 		cy.visit("http://localhost:3000");
 		cy.get(".flex-nowrap > :nth-child(1)");
