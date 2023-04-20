@@ -6,7 +6,7 @@ const Questions = [
 	},
 	{
 		question: `How do I join ACM @ UCR?`,
-		answer: `Joining ACM @ UCR requires no official process. Instead, visit our clubroom located in WCH 127 to meet your fellow ACM members or join our Discord/Slack servers to stay informed on upcoming events, workshops, and other club activities.`,
+		answer: `ACM @ UCR now has an official membership application. To access it, join our Discord/Slack server and go to the 'Membership' channel. There you will find more information regarding the benefits of becoming a member and a link to begin the application process.`,
 	},
 	{
 		question: `Who is able to join ACM @ UCR?`,
