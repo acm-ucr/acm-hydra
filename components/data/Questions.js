@@ -6,7 +6,7 @@ const Questions = [
 	},
 	{
 		question: `How do I join ACM @ UCR?`,
-		answer: `ACM @ UCR now has an official membership application. To access it, join our Discord/Slack server and go to the 'Membership' channel. There you will find more information regarding the benefits of becoming a member and a link to begin the application process.`,
+		answer: `ACM @ UCR now has an official membership application. To access it, join our Discord server and go to the 'Membership' channel. There you will find more information regarding the benefits of becoming a member and a link to begin the application process.`,
 	},
 	{
 		question: `Who is able to join ACM @ UCR?`,
@@ -14,7 +14,7 @@ const Questions = [
 	},
 	{
 		question: `How can I participate in student led projects?`,
-		answer: `Getting involved in one of our student-lead projects is a great way to get experience in working with a team while building connections with fellow club members. For our current ACM projects, you can reach out to our project lead for more information on how to join. Future projects and their application dates will be announced on our Discord/Slack servers.`,
+		answer: `Getting involved in one of our student-lead projects is a great way to get experience in working with a team while building connections with fellow club members. For our current ACM projects, you can reach out to our project lead for more information on how to join. Future projects and their application dates will be announced on our Discord server.`,
 	},
 	{
 		question: `When are general meetings, workshops, events, socials?`,
