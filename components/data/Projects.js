@@ -23,11 +23,21 @@ const Projects = [
 		title: "ACM Practice Platform",
 		timeline: "Winter 2023",
 		description:
-			"Our very own online judge where students can learn the fundamentals of programming using Javascript and Python. ",
+			"Our very own online judge where students can learn the fundamentals of programming using Javascript and Python.",
 		github: "",
 		deployed: "",
 		shadowcolor: "shadow-acm-purple",
 		titlecolor: "text-acm-purple",
+	},
+	{
+		title: "R'Mate",
+		timeline: "Winter 2023",
+		description:
+			"A department sponsored project focused on developing the front-end components of a mobile application that will be available for use by all UCR students.",
+		github: "https://github.com/acm-ucr/R-Mate.git",
+		deployed: "",
+		shadowcolor: "shadow-acm-pink",
+		titlecolor: "text-acm-pink",
 	},
 ];
 
