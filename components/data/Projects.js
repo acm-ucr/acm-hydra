@@ -20,7 +20,7 @@ const Projects = [
 		titlecolor: "text-acm-lightblue",
 	},
 	{
-		title: "ACM Practice Platform",
+		title: "BitByBit",
 		timeline: "Winter 2023",
 		description:
 			"Our very own online judge where students can learn the fundamentals of programming using Javascript and Python.",
