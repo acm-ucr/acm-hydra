@@ -52,6 +52,15 @@ const Navigation = () => {
 							join us
 						</p>
 					</Link>
+					<Link
+						eventkey='3'
+						href='https://membership-portal-prod-wyhkctdt6a-uw.a.run.app'
+						className='no-underline'
+					>
+						<p className='mb-0 py-1 px-2 no-underline ml-2 text-2xl whitespace-nowrap bg-acm-blue w-full text-center !text-acm-black !font-medium hover:!text-acm-white hover:cursor-pointer rounded-xl'>
+							login
+						</p>
+					</Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
