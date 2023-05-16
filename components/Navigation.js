@@ -53,7 +53,7 @@ const Navigation = () => {
 						</p>
 					</Link>
 					<Link
-						eventkey='3'
+						eventkey='7'
 						href='https://membership-portal-prod-wyhkctdt6a-uw.a.run.app'
 						className='no-underline'
 					>
