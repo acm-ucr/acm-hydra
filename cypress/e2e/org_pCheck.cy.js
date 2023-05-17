@@ -1,7 +1,7 @@
 describe("Student Organization Presence Check", () => {
 	it("passes", () => {
 		cy.visit("http://localhost:3000");
-		cy.get('[eventkey="5"] > .mb-0').click();
+		cy.get('[eventkey="5"]').click();
 		cy.get(":nth-child(1) > .bg-acm-blue");
 		cy.get(
 			".container > :nth-child(2) > :nth-child(2) > .bg-acm-lightpurple"
