@@ -1,7 +1,7 @@
 describe("board presence check", () => {
 	it("passes", () => {
 		cy.visit("http://localhost:3000");
-		cy.get('[eventkey="3"] > .mb-0').click();
+		cy.get('[eventkey="3"]').click();
 		cy.get(":nth-child(1) > .container").contains("p", "Meet our Board!");
 		cy.get(":nth-child(1) > .bg-acm-blue").contains("Divyank Shah");
 		cy.get(":nth-child(1) > .bg-acm-blue").contains("President");

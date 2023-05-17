@@ -1,7 +1,7 @@
 describe("template spec", () => {
 	it("passes", () => {
 		cy.visit("http://localhost:3000");
-		cy.get('[eventkey="4"] > .mb-0').click();
+		cy.get('[eventkey="4"]').click();
 		cy.get(".pt-4").contains("Calendar of Events");
 		cy.get(".justify-start");
 		cy.get(".col-8 > .m-0 > :nth-child(1) > .w-full").contains("General");
