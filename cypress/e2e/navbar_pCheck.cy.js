@@ -16,5 +16,7 @@ describe("Navigation Bar Presence Check", () => {
 
 		cy.get('[eventkey="5"] > .mb-0').click();
 		cy.location("href").should("eq", "http://localhost:3000/join");
+
+		cy.get('[eventkey="7"] > .mb-0').click();
 	});
 });
