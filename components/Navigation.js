@@ -7,7 +7,7 @@ const Navigation = () => {
 	return (
 		<Navbar
 			collapseOnSelect
-			className=' py-0 font-lexend w-12/12 px-3 m-0 !bg-acm-white h-[10vh] border-acm-blue border-b-4'
+			className=' py-0 font-lexend w-12/12 px-3 m-0 !bg-acm-white h-[8vh] border-acm-blue border-b-4'
 			expand='md'
 			fixed='top'
 		>
@@ -15,7 +15,7 @@ const Navigation = () => {
 				<Link eventkey='1' className='p-0' href='/'>
 					<img
 						src='acm-ucr-logo.webp'
-						className='h-[10vh]'
+						className='h-[6vh]'
 						alt='ACM at UCR'
 					/>
 				</Link>
