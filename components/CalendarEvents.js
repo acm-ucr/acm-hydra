@@ -2,14 +2,10 @@ import React, { useState } from "react";
 import moment from "moment";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-// import Events from "./data/Events.js";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import CustomToolbar from "./CustomToolbar.js";
 import CustomEvent from "./CustomEvent.js";
 import { useContext } from "react";
 
-import Event from "./Event.js";
 import Modal from "./Modal.js";
 import EventsContext from "./EventContext.js";
 
@@ -61,33 +57,6 @@ const CalendarEvents = () => {
 						<Modal event={modalEvent} setState={setModalEvent} />
 					</div>
 				</div>
-
-				<Row className='w-11/12 mb-20 flex justify-center'>
-					<p className='text-center flex justify-center text-heading'>
-						Upcoming Events
-					</p>
-					{events.length ? (
-						events.slice(0, 8).map((event, index) => (
-							<Col className='p-3' md={6} lg={3} key={index}>
-								<Event
-									title={event.summary}
-									location={event.location}
-									shadow={event.shadow}
-									start={event.start}
-									end={event.end}
-									description={event.description.replace(
-										event.description.split(" ")[0],
-										""
-									)}
-								/>
-							</Col>
-						))
-					) : (
-						<Col className='text-text flex justify-center text-center text-acm-black font-lexend p-3'>
-							No upcoming events, please check back later!
-						</Col>
-					)}
-				</Row>
 			</section>
 		)
 	);
