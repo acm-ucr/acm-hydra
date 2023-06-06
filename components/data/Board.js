@@ -92,7 +92,7 @@ const Board = [
 	{
 		name: "Kapilan Ramasamy",
 		// pronoun: "she/her",
-		position: "Marketing",
+		position: "Social Media",
 		image: "kapilan.webp",
 		// email: "akim291@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/kapilan-r-751605201/",
