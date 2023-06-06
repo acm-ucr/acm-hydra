@@ -20,8 +20,10 @@ describe("board presence check", () => {
 		cy.get(".bg-acm-marine").contains("Membership");
 		cy.get(":nth-child(8) > .bg-acm-blue").contains("Joshua Hsu");
 		cy.get(":nth-child(8) > .bg-acm-blue").contains("Industry");
-		cy.get(":nth-child(10) > .bg-acm-purple").contains("Noah Snodgrass");
-		cy.get(":nth-child(10) > .bg-acm-purple").contains("Treasurer");
+		cy.get(":nth-child(10) > .bg-acm-lightpurple").contains(
+			"Noah Snodgrass"
+		);
+		cy.get(":nth-child(10) > .bg-acm-lightpurple").contains("Treasurer");
 		cy.get(":nth-child(11) > .bg-acm-green").contains("Kapilan Ramasamy");
 		cy.get(":nth-child(11) > .bg-acm-green").contains("Marketing");
 	});
