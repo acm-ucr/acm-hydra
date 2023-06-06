@@ -39,6 +39,16 @@ const Projects = [
 		shadowcolor: "shadow-acm-pink",
 		titlecolor: "text-acm-pink",
 	},
+	{
+		title: "IEEE Official Website",
+		timeline: "Winter 2023",
+		description:
+			"Help develop the IEEE website to give UCR students social, technical, and professional development aide in the engineering field.",
+		github: "https://github.com/acm-ucr/ieee-website.git",
+		deployed: "",
+		shadowcolor: "shadow-acm-orange",
+		titlecolor: "text-acm-orange",
+	},
 ];
 
 export default Projects;

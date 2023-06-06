@@ -22,7 +22,7 @@ const IndexPage = () => {
 				<section>
 					<Introduction />
 					<Stats />
-					<Upcoming />
+					<Upcoming size={3} />
 					<Learn />
 					<Inspire />
 				</section>
