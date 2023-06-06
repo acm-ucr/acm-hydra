@@ -72,6 +72,15 @@ const Board = [
 		github: "https://github.com/dragonlinae",
 	},
 	{
+		name: "Sarah Kim",
+		// pronoun: "he/him",
+		position: "Marketing",
+		image: "sarah.webp",
+		email: "skim784@ucr.edu",
+		linkedin: "https://www.linkedin.com/in/sarahkim9",
+		// github:
+	},
+	{
 		name: "Noah Snodgrass",
 		// pronoun: "he/him",
 		position: "Treasurer",
@@ -83,7 +92,7 @@ const Board = [
 	{
 		name: "Kapilan Ramasamy",
 		// pronoun: "she/her",
-		position: "Marketing",
+		position: "Social Media",
 		image: "kapilan.webp",
 		// email: "akim291@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/kapilan-r-751605201/",
