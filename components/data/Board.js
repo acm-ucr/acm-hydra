@@ -72,15 +72,6 @@ const Board = [
 		github: "https://github.com/dragonlinae",
 	},
 	{
-		name: "Justin Yee",
-		// pronoun: "he/him",
-		position: "Alumni",
-		image: "justin.webp",
-		email: "jyee048@ucr.edu",
-		linkedin: "https://www.linkedin.com/in/justinyee8/",
-		github: "https://github.com/Jyro88",
-	},
-	{
 		name: "Noah Snodgrass",
 		// pronoun: "he/him",
 		position: "Treasurer",
