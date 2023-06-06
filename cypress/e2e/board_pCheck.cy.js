@@ -24,7 +24,7 @@ describe("board presence check", () => {
 			"Noah Snodgrass"
 		);
 		cy.get(":nth-child(10) > .bg-acm-lightpurple").contains("Treasurer");
-		cy.get(":nth-child(11) > .bg-acm-green").contains("Kapilan Ramasamy");
-		cy.get(":nth-child(11) > .bg-acm-green").contains("Marketing");
+		cy.get(":nth-child(11) > .bg-acm-yellow").contains("Kapilan Ramasamy");
+		cy.get(":nth-child(11) > .bg-acm-yellow").contains("Marketing");
 	});
 });
