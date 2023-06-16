@@ -24,7 +24,7 @@ const Projects = [
 		timeline: "Winter 2023",
 		description:
 			"Our very own online judge where students can learn the fundamentals of programming using Javascript and Python.",
-		github: "",
+		github: "https://github.com/acm-ucr/bitByBIT",
 		deployed: "",
 		shadowcolor: "shadow-acm-purple",
 		titlecolor: "text-acm-purple",
