@@ -15,7 +15,7 @@ const Projects = [
 		description:
 			"Upcoming project to establish a portal for all ACM members to access special resources and perks.",
 		github: "https://github.com/acm-ucr/membership-portal",
-		deployed: "",
+		deployed: "https://membership-portal-prod-wyhkctdt6a-uw.a.run.app/",
 		shadowcolor: "shadow-acm-lightblue",
 		titlecolor: "text-acm-lightblue",
 	},
