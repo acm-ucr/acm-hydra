@@ -15,7 +15,7 @@ const Projects = [
 		description:
 			"Upcoming project to establish a portal for all ACM members to access special resources and perks.",
 		github: "https://github.com/acm-ucr/membership-portal",
-		deployed: "",
+		deployed: "https://membership-portal-prod-wyhkctdt6a-uw.a.run.app/",
 		shadowcolor: "shadow-acm-lightblue",
 		titlecolor: "text-acm-lightblue",
 	},
@@ -24,7 +24,7 @@ const Projects = [
 		timeline: "Winter 2023",
 		description:
 			"Our very own online judge where students can learn the fundamentals of programming using Javascript and Python.",
-		github: "",
+		github: "https://github.com/acm-ucr/bitByBIT",
 		deployed: "",
 		shadowcolor: "shadow-acm-purple",
 		titlecolor: "text-acm-purple",
