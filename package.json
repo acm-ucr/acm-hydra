@@ -16,16 +16,16 @@
 		"test": "start-server-and-test dev 3000 cypress:open"
 	},
 	"dependencies": {
-		"@next/font": "^13.4.5",
+		"@next/font": "^13.4.6",
 		"bootstrap": "^5.2.3",
 		"gapi-script": "^1.2.0",
 		"moment": "^2.29.4",
-		"next": "^13.4.4",
+		"next": "^13.4.7",
 		"react": "18.2.0",
 		"react-big-calendar": "^1.8.1",
 		"react-bootstrap": "^2.7.2",
 		"react-dom": "18.2.0",
-		"react-icons": "^4.8.0",
+		"react-icons": "^4.9.0",
 		"react-router-bootstrap": "^0.26.2"
 	},
 	"devDependencies": {
@@ -35,9 +35,9 @@
 		"@tailwindcss/typography": "^0.5.9",
 		"autoprefixer": "^10.4.14",
 		"cypress": "^12.14.0",
-		"eslint": "^8.42.0",
+		"eslint": "^8.43.0",
 		"eslint-config-google": "^0.14.0",
-		"eslint-config-next": "13.4.5",
+		"eslint-config-next": "13.4.7",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-react": "^7.32.2",
 		"husky": "^8.0.3",

@@ -7,7 +7,7 @@ const Navigation = () => {
 	return (
 		<Navbar
 			collapseOnSelect
-			className=' py-0 font-lexend w-12/12 px-3 m-0 !bg-acm-white h-[8vh] border-acm-blue border-b-4'
+			className='py-0 font-lexend w-full px-3 m-0 min-h-[8vh] bg-white border-acm-blue border-b-4 flex justify-between items-center'
 			expand='md'
 			fixed='top'
 		>
@@ -61,7 +61,7 @@ const Navigation = () => {
 					<Nav.Link
 						eventkey='7'
 						href='https://membership-portal-prod-wyhkctdt6a-uw.a.run.app'
-						className='mb-0 py-1 px-3 no-underline ml-2 text-2xl whitespace-nowrap bg-acm-blue w-full text-center !text-acm-black !font-medium hover:!text-acm-white hover:cursor-pointer rounded-xl'
+						className='mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap bg-acm-blue w-full text-center !text-acm-black !font-medium hover:!text-acm-white hover:cursor-pointer rounded-xl'
 					>
 						login
 					</Nav.Link>
