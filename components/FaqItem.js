@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import Colors from "./data/Colors";
+import Colors from "../data/Colors";
 
 const FaqItem = ({ index, element }) => {
 	const color = Colors[index % Colors.length];

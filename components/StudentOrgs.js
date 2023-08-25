@@ -2,10 +2,8 @@ import React, { Suspense } from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Profile from "./Profile.js";
-
-import Organizations from "./data/Organizations";
-
-import Colors from "./data/Colors";
+import Organizations from "../data/Organizations";
+import Colors from "../data/Colors";
 
 const StudentOrgs = () => {
 	return (

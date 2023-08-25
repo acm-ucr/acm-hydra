@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import Questions from "./data/Questions";
+import Questions from "../data/Questions";
 import FaqItem from "./FaqItem";
 
 const Faq = () => {

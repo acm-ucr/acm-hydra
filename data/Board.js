@@ -45,15 +45,6 @@ const Board = [
 		github: "https://github.com/skyguy-netizen",
 	},
 	{
-		name: "Jasmita Yechuri",
-		// pronoun: "he/him",
-		position: "Prof Dev",
-		image: "jasmita.webp",
-		email: "jyech001@ucr.edu",
-		linkedin: "https://www.linkedin.com/in/jasmita-yechuri/",
-		github: "https://github.com/JasmitaY",
-	},
-	{
 		name: "Isean Bhanot",
 		// pronoun: "he/him",
 		position: "Membership",
@@ -88,14 +79,6 @@ const Board = [
 		email: "nsnod001@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/noah-snodgrass-502a6a253/",
 		github: "https://github.com/NoahSnod",
-	},
-	{
-		name: "Kapilan Ramasamy",
-		// pronoun: "she/her",
-		position: "Social Media",
-		image: "kapilan.webp",
-		// email: "akim291@ucr.edu",
-		linkedin: "https://www.linkedin.com/in/kapilan-r-751605201/",
 	},
 ];
 

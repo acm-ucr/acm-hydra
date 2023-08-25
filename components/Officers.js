@@ -1,8 +1,8 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Board from "./data/Board";
-import Colors from "./data/Colors";
+import Board from "../data/Board";
+import Colors from "../data/Colors";
 import Profile from "./Profile";
 
 const Officers = () => {
