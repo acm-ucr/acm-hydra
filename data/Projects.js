@@ -6,8 +6,8 @@ const Projects = [
 			"The current ACM @ UCR website hosted on UCR servers built using Next.js and Tailwind. Made for the students by students.",
 		github: "https://github.com/acm-ucr/acm-dev",
 		deployed: "https://acm.cs.ucr.edu",
-		shadowcolor: "shadow-acm-green",
-		titlecolor: "text-acm-green",
+		shadowcolor: "shadow-acm-blue",
+		titlecolor: "text-acm-blue",
 	},
 	{
 		title: "ACM Membership Portal",
@@ -16,8 +16,8 @@ const Projects = [
 			"Upcoming project to establish a portal for all ACM members to access special resources and perks.",
 		github: "https://github.com/acm-ucr/membership-portal",
 		deployed: "https://membership-portal-prod-wyhkctdt6a-uw.a.run.app/",
-		shadowcolor: "shadow-acm-lightblue",
-		titlecolor: "text-acm-lightblue",
+		shadowcolor: "shadow-acm-marine",
+		titlecolor: "text-acm-marine",
 	},
 	{
 		title: "BitByBit",
@@ -26,8 +26,8 @@ const Projects = [
 			"Our very own online judge where students can learn the fundamentals of programming using Javascript and Python.",
 		github: "https://github.com/acm-ucr/bitByBIT",
 		deployed: "",
-		shadowcolor: "shadow-acm-purple",
-		titlecolor: "text-acm-purple",
+		shadowcolor: "shadow-acm-red",
+		titlecolor: "text-acm-red",
 	},
 	{
 		title: "R'Mate",
@@ -36,8 +36,8 @@ const Projects = [
 			"A department sponsored project focused on developing the front-end components of a mobile application that will be available for use by all UCR students.",
 		github: "https://github.com/acm-ucr/R-Mate.git",
 		deployed: "",
-		shadowcolor: "shadow-acm-pink",
-		titlecolor: "text-acm-pink",
+		shadowcolor: "shadow-acm-lightpurple",
+		titlecolor: "text-acm-lightpurple",
 	},
 	{
 		title: "IEEE Official Website",
