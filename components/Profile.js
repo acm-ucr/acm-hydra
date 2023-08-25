@@ -25,6 +25,7 @@ const Profile = ({
 	discord,
 	board,
 }) => {
+	console.log(color);
 	return (
 		<Row
 			className={`${color} w-full p-[0.67rem] m-1 rounded-2xl ${

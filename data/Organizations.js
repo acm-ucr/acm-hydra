@@ -50,14 +50,14 @@ const Organizations = [
 	},
 	{
 		name: "Institute of Electrical and Electronics Engineers (IEEE)",
-		website: "https://ieeeucr.github.io/",
+		website: "https://ieee.ucrhighlanders.org",
 		instagram: "https://www.instagram.com/ieeeucr/?hl=en",
 		discord: "https://discord.com/invite/Ugjp6Us",
 		img: "ieee.webp",
 	},
 	{
 		name: "Solar Car",
-		website: "https://ucrsolarcar.com/",
+		// website: "https://ucrsolarcar.com/",
 		instagram: "https://www.instagram.com/ucrsolarcar/?hl=en",
 		discord: "https://discord.com/invite/eGskEcjNvb",
 		img: "solarcar.webp",
