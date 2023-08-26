@@ -17,6 +17,5 @@ describe("Student Organization Presence Check", () => {
 		cy.get(":nth-child(11) > .bg-acm-green");
 		cy.get(":nth-child(12) > .bg-acm-pink");
 		cy.get(":nth-child(13) > .bg-acm-orange");
-		cy.get(":nth-child(13) > .bg-acm-orange");
 	});
 });
