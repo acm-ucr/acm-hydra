@@ -14,15 +14,11 @@ describe("board presence check", () => {
 		cy.get(":nth-child(3) > .bg-acm-yellow").contains("Menthy Wu");
 		cy.get(".bg-acm-pink").contains("Aarav Sane");
 		cy.get(".bg-acm-pink").contains("Secretary");
-		cy.get(".bg-acm-orange").contains("Jasmita Yechuri");
-		cy.get(".bg-acm-orange").contains("Prof Dev");
-		cy.get(".bg-acm-marine").contains("Isean Bhanot");
-		cy.get(".bg-acm-marine").contains("Membership");
-		cy.get(":nth-child(8) > .bg-acm-blue").contains("Joshua Hsu");
-		cy.get(":nth-child(8) > .bg-acm-blue").contains("Industry");
-		cy.get(":nth-child(10) > .bg-acm-lightpurple").contains(
-			"Noah Snodgrass"
-		);
-		cy.get(":nth-child(10) > .bg-acm-lightpurple").contains("Treasurer");
+		cy.get(".bg-acm-orange").contains("Isean Bhanot");
+		cy.get(".bg-acm-orange").contains("Membership");
+		cy.get(":nth-child(8) > .bg-acm-marine").contains("Joshua Hsu");
+		cy.get(":nth-child(8) > .bg-acm-marine").contains("Industry");
+		cy.get(":nth-child(10) > .bg-acm-blue").contains("Noah Snodgrass");
+		cy.get(":nth-child(10) > .bg-acm-blue").contains("Treasurer");
 	});
 });
