@@ -16,9 +16,9 @@ describe("board presence check", () => {
 		cy.get(".bg-acm-pink").contains("Secretary");
 		cy.get(".bg-acm-orange").contains("Isean Bhanot");
 		cy.get(".bg-acm-orange").contains("Membership");
-		cy.get(":nth-child(8) > .bg-acm-marine").contains("Joshua Hsu");
-		cy.get(":nth-child(8) > .bg-acm-marine").contains("Industry");
-		cy.get(":nth-child(10) > .bg-acm-blue").contains("Noah Snodgrass");
-		cy.get(":nth-child(10) > .bg-acm-blue").contains("Treasurer");
+		cy.get(":nth-child(6) > .bg-acm-marine").contains("Joshua Hsu");
+		cy.get(":nth-child(6) > .bg-acm-marine").contains("Industry");
+		cy.get(":nth-child(7) > .bg-acm-blue").contains("Noah Snodgrass");
+		cy.get(":nth-child(7) > .bg-acm-blue").contains("Treasurer");
 	});
 });
