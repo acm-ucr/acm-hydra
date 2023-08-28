@@ -18,7 +18,5 @@ describe("board presence check", () => {
 		cy.get(".bg-acm-orange").contains("Membership");
 		cy.get(".bg-acm-marine").contains("Joshua Hsu");
 		cy.get(".bg-acm-marine").contains("Industry");
-		cy.get(":nth-child(9) > .bg-acm-blue").contains("Noah Snodgrass");
-		cy.get(":nth-child(9) > .bg-acm-blue").contains("Treasurer");
 	});
 });
