@@ -36,8 +36,8 @@ const Projects = [
 			"A department sponsored project focused on developing the front-end components of a mobile application that will be available for use by all UCR students.",
 		github: "https://github.com/acm-ucr/R-Mate.git",
 		deployed: "",
-		shadowcolor: "shadow-acm-pink",
-		titlecolor: "text-acm-pink",
+		shadowcolor: "shadow-acm-purple",
+		titlecolor: "text-acm-purple",
 	},
 	{
 		title: "IEEE Official Website",

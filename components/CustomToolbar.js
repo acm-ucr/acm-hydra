@@ -3,7 +3,7 @@ import Filter from "./Filter.js";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Filters from "./data/Filters.js";
+import Filters from "../data/Filters.js";
 
 const CustomToolbar = event => {
 	return (

@@ -16,7 +16,7 @@
 		"test": "start-server-and-test dev 3000 cypress:open"
 	},
 	"dependencies": {
-		"@next/font": "^13.4.6",
+		"@next/font": "^13.4.19",
 		"bootstrap": "^5.2.3",
 		"gapi-script": "^1.2.0",
 		"moment": "^2.29.4",
@@ -34,7 +34,7 @@
 		"@tailwindcss/line-clamp": "^0.4.4",
 		"@tailwindcss/typography": "^0.5.9",
 		"autoprefixer": "^10.4.14",
-		"cypress": "^12.14.0",
+		"cypress": "^12.17.4",
 		"eslint": "^8.43.0",
 		"eslint-config-google": "^0.14.0",
 		"eslint-config-next": "13.4.7",

@@ -2,7 +2,7 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Project from "./Project";
-import Projects from "./data/Projects";
+import Projects from "../data/Projects";
 
 const Inspire = () => {
 	return (

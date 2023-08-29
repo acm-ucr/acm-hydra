@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Event from "./Event";
 import EventsContext from "./EventContext";
 import { useContext } from "react";
-// import Events from "./data/Events.js";
 
 const Upcoming = props => {
 	const { events } = useContext(EventsContext);

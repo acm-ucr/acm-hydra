@@ -1,7 +1,6 @@
 const Board = [
 	{
 		name: "Divyank Shah",
-		// pronoun: "he/him",
 		position: "President",
 		image: "divyank.webp",
 		email: "dshah048@ucr.edu",
@@ -10,7 +9,6 @@ const Board = [
 	},
 	{
 		name: "Eliot Lee",
-		// pronoun: "he/him",
 		position: "Vice President",
 		image: "eliot.webp",
 		email: "elee305@ucr.edu",
@@ -19,7 +17,6 @@ const Board = [
 	},
 	{
 		name: "Menthy Wu",
-		// pronoun: "he/him",
 		position: "Projects Director",
 		image: "menthy.webp",
 		email: "mwu171@ucr.edu",
@@ -28,7 +25,6 @@ const Board = [
 	},
 	{
 		name: "Falak Tulsi",
-		// pronoun: "he/him",
 		position: "Event Chair",
 		image: "falak.webp",
 		email: "ftuls001@ucr.edu",
@@ -37,7 +33,6 @@ const Board = [
 	},
 	{
 		name: "Aarav Sane",
-		// pronoun: "he/him",
 		position: "Secretary",
 		image: "aarav.webp",
 		email: "asane003@ucr.edu",
@@ -45,17 +40,7 @@ const Board = [
 		github: "https://github.com/skyguy-netizen",
 	},
 	{
-		name: "Jasmita Yechuri",
-		// pronoun: "he/him",
-		position: "Prof Dev",
-		image: "jasmita.webp",
-		email: "jyech001@ucr.edu",
-		linkedin: "https://www.linkedin.com/in/jasmita-yechuri/",
-		github: "https://github.com/JasmitaY",
-	},
-	{
 		name: "Isean Bhanot",
-		// pronoun: "he/him",
 		position: "Membership",
 		image: "isean.webp",
 		email: "Ibhan003@ucr.edu",
@@ -64,7 +49,6 @@ const Board = [
 	},
 	{
 		name: "Joshua Hsu",
-		// pronoun: "he/him",
 		position: "Industry",
 		image: "joshua.webp",
 		email: "jhsu094@ucr.edu",
@@ -73,7 +57,6 @@ const Board = [
 	},
 	{
 		name: "Sarah Kim",
-		// pronoun: "he/him",
 		position: "Marketing",
 		image: "sarah.webp",
 		email: "skim784@ucr.edu",
@@ -82,20 +65,11 @@ const Board = [
 	},
 	{
 		name: "Noah Snodgrass",
-		// pronoun: "he/him",
 		position: "Treasurer",
 		image: "noah.webp",
 		email: "nsnod001@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/noah-snodgrass-502a6a253/",
 		github: "https://github.com/NoahSnod",
-	},
-	{
-		name: "Kapilan Ramasamy",
-		// pronoun: "she/her",
-		position: "Social Media",
-		image: "kapilan.webp",
-		// email: "akim291@ucr.edu",
-		linkedin: "https://www.linkedin.com/in/kapilan-r-751605201/",
 	},
 ];
 
