@@ -45,63 +45,58 @@ const colorMappingsShadow = {
 };
 
 function MyApp({ Component, pageProps }) {
-	const [events, setEvents] = useState([], {});
+	const [events, setEvents] = useState([]);
 
 	useEffect(() => {
 		axios
 			.get(
-				`https://www.googleapis.com/calendar/v3/calendars/${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL}/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}`
+				`https://www.googleapis.com/calendar/v3/calendars/${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL}/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}&singleEvents=true&orderBy=starttime`
 			)
 			.then(response => {
-				const calendarEvents = response.data.items
-					.filter(a => {
-						a.start = new Date(a.start.dateTime);
-						a.end = new Date(a.end.dateTime);
+				const calendarEvents = response.data.items.filter(a => {
+					a.start = new Date(a.start.dateTime);
+					a.end = new Date(a.end.dateTime);
 
-						a.color =
-							colorMappings[
-								`${a.description
-									.split(" ")[0]
-									.toLowerCase()
-									.replace(":", "")}`
-							];
+					a.color =
+						colorMappings[
+							`${a.description
+								.split(" ")[0]
+								.toLowerCase()
+								.replace(":", "")}`
+						];
 
-						a.textColor =
-							colorMappingsText[
-								`${a.description
-									.split(" ")[0]
-									.toLowerCase()
-									.replace(":", "")}`
-							];
+					a.textColor =
+						colorMappingsText[
+							`${a.description
+								.split(" ")[0]
+								.toLowerCase()
+								.replace(":", "")}`
+						];
 
-						a.border =
-							colorMappingsBorder[
-								`${a.description
-									.split(" ")[0]
-									.toLowerCase()
-									.replace(":", "")}`
-							];
+					a.border =
+						colorMappingsBorder[
+							`${a.description
+								.split(" ")[0]
+								.toLowerCase()
+								.replace(":", "")}`
+						];
 
-						a.shadow =
-							colorMappingsShadow[
-								`${a.description
-									.split(" ")[0]
-									.toLowerCase()
-									.replace(":", "")}`
-							];
+					a.shadow =
+						colorMappingsShadow[
+							`${a.description
+								.split(" ")[0]
+								.toLowerCase()
+								.replace(":", "")}`
+						];
 
-						return (
-							(a.description.startsWith("General:") ||
-								a.description.startsWith("Technical:") ||
-								a.description.startsWith("Social:") ||
-								a.description.startsWith("Career:") ||
-								a.description.startsWith("Academic:")) &&
-							new Date(a.start) > new Date()
-						);
-					})
-					.sort((a, b) => {
-						return new Date(a.start) - new Date(b.start);
-					});
+					return (
+						a.description.startsWith("General:") ||
+						a.description.startsWith("Technical:") ||
+						a.description.startsWith("Social:") ||
+						a.description.startsWith("Career:") ||
+						a.description.startsWith("Academic:")
+					);
+				});
 				setEvents(calendarEvents);
 			})
 			.catch(error => {

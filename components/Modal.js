@@ -68,11 +68,7 @@ const Modal = ({ event, setState }) => {
 						/>
 				  ))}
 			<div className='md:text-2xl text-lg p-2'>
-				{" "}
-				{event.description.replace(
-					event.description.split(" ")[0],
-					""
-				)}{" "}
+				{event.description.replace(event.description.split(" ")[0], "")}
 			</div>
 		</div>
 	);
