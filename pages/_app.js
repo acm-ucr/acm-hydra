@@ -54,6 +54,7 @@ function MyApp({ Component, pageProps }) {
 			)
 			.then(response => {
 				const calendarEvents = response.data.items.filter(a => {
+					console.log(a);
 					a.start = new Date(a.start.dateTime);
 					a.end = new Date(a.end.dateTime);
 
