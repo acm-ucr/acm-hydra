@@ -5,7 +5,7 @@ import Event from "./Event";
 import EventsContext from "./EventContext";
 import { useContext } from "react";
 
-const Upcoming = props => {
+const Upcoming = ({ size }) => {
 	const { events } = useContext(EventsContext);
 
 	return (
@@ -16,7 +16,7 @@ const Upcoming = props => {
 			<br />
 			<Row className='w-11/12 flex justify-center items-stretch'>
 				{events.length !== 0 ? (
-					events.slice(0, props.size).map((event, index) => (
+					events.slice(0, size).map((event, index) => (
 						<Col className='p-3' md={6} lg={4} key={index}>
 							<Event
 								title={event.summary}

@@ -45,7 +45,7 @@ const colorMappingsShadow = {
 };
 
 function MyApp({ Component, pageProps }) {
-	const [events, setEvents] = useState([], {});
+	const [events, setEvents] = useState([]);
 
 	useEffect(() => {
 		axios
@@ -54,10 +54,11 @@ function MyApp({ Component, pageProps }) {
 			)
 			.then(response => {
 				const calendarEvents = response.data.items.filter(a => {
-					console.log(a);
+					console.log("START: ", a);
 					a.start = new Date(a.start.dateTime);
 					a.end = new Date(a.end.dateTime);
 
+					console.log("COLORS: ", a);
 					a.color =
 						colorMappings[
 							`${a.description
@@ -65,7 +66,7 @@ function MyApp({ Component, pageProps }) {
 								.toLowerCase()
 								.replace(":", "")}`
 						];
-
+					console.log("TEXT: ", a);
 					a.textColor =
 						colorMappingsText[
 							`${a.description
@@ -73,7 +74,7 @@ function MyApp({ Component, pageProps }) {
 								.toLowerCase()
 								.replace(":", "")}`
 						];
-
+					console.log("BORDERS: ", a);
 					a.border =
 						colorMappingsBorder[
 							`${a.description
@@ -81,7 +82,7 @@ function MyApp({ Component, pageProps }) {
 								.toLowerCase()
 								.replace(":", "")}`
 						];
-
+					console.log("SHADOWS: ", a);
 					a.shadow =
 						colorMappingsShadow[
 							`${a.description
@@ -89,14 +90,13 @@ function MyApp({ Component, pageProps }) {
 								.toLowerCase()
 								.replace(":", "")}`
 						];
-
+					console.log("FILTERS: ", a);
 					return (
-						(a.description.startsWith("General:") ||
-							a.description.startsWith("Technical:") ||
-							a.description.startsWith("Social:") ||
-							a.description.startsWith("Career:") ||
-							a.description.startsWith("Academic:")) &&
-						new Date(a.start) > new Date()
+						a.description.startsWith("General:") ||
+						a.description.startsWith("Technical:") ||
+						a.description.startsWith("Social:") ||
+						a.description.startsWith("Career:") ||
+						a.description.startsWith("Academic:")
 					);
 				});
 				setEvents(calendarEvents);
