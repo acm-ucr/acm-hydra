@@ -50,7 +50,15 @@ function MyApp({ Component, pageProps }) {
 	useEffect(() => {
 		axios
 			.get(
-				`https://www.googleapis.com/calendar/v3/calendars/${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL}/events?key=${process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY}&singleEvents=true&orderBy=starttime`
+				`https://www.googleapis.com/calendar/v3/calendars/${
+					process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL
+				}/events?key=${
+					process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY
+				}&timeMin=${new Date(
+					new Date().getTime() - 60 * 60 * 24 * 7 * 10 * 1000
+				).toISOString()}&timeMax=${new Date(
+					new Date().getTime() + 60 * 60 * 24 * 7 * 10 * 1000
+				).toISOString()}&singleEvents=true&orderBy=starttime`
 			)
 			.then(response => {
 				const calendarEvents = response.data.items.filter(a => {
