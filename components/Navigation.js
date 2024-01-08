@@ -63,14 +63,6 @@ const Navigation = () => {
 					>
 						join us
 					</Nav.Link>
-					<Nav.Link
-						as={Link}
-						eventkey='7'
-						href='https://membership-portal-prod-wyhkctdt6a-uw.a.run.app'
-						className='mb-0 py-1 px-3 no-underline ml-auto text-2xl whitespace-nowrap !bg-acm-blue w-full text-center !text-acm-black !font-medium hover:!text-acm-white hover:cursor-pointer rounded-xl'
-					>
-						login
-					</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
