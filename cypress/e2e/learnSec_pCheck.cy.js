@@ -5,13 +5,13 @@ describe("Learn Section Presence Check", () => {
 		cy.get(".pb-2 > .text-heading").contains("Learn");
 		cy.get(".items-start > .text-center").contains("professional");
 		cy.get(".items-start > .text-center > :nth-child(1)").contains(
-			"resume"
+			"resume",
 		);
 		cy.get(".items-start > .text-center > :nth-child(2)").contains(
-			"interviews"
+			"interviews",
 		);
 		cy.get(".items-start > .text-center > :nth-child(3)").contains(
-			"internship opportunities"
+			"internship opportunities",
 		);
 		cy.get(".justify-centers").contains("technical");
 		cy.get(".justify-centers > :nth-child(1)").contains("web dev");
@@ -19,13 +19,13 @@ describe("Learn Section Presence Check", () => {
 		cy.get(".justify-centers > :nth-child(3)").contains("data science");
 		cy.get(".items-start > :nth-child(3)").contains("academic");
 		cy.get(".items-start > :nth-child(3) > :nth-child(1)").contains(
-			"graduate studies"
+			"graduate studies",
 		);
 		cy.get(".items-start > :nth-child(3) > :nth-child(2)").contains(
-			"research"
+			"research",
 		);
 		cy.get(".items-start > :nth-child(3) > :nth-child(3)").contains(
-			"course planning"
+			"course planning",
 		);
 	});
 });

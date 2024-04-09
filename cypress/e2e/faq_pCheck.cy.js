@@ -4,7 +4,7 @@ describe("FAQ Presence Check", () => {
 
 		cy.get('[eventkey="5"]').click();
 		cy.get(".mb-5 > .text-acm-black").contains(
-			"Frequently Asked Questions"
+			"Frequently Asked Questions",
 		);
 	});
 });

@@ -7,7 +7,7 @@ describe("board presence check", () => {
 		cy.get(":nth-child(1) > .bg-acm-blue").contains("President");
 		cy.get(":nth-child(2) > .bg-acm-lightpurple").contains("Eliot Lee");
 		cy.get(":nth-child(2) > .bg-acm-lightpurple").contains(
-			"Vice President"
+			"Vice President",
 		);
 		cy.get(":nth-child(3) > .bg-acm-yellow").contains("Menthy Wu");
 		cy.get(":nth-child(3) > .bg-acm-yellow").contains("Projects Director");
