@@ -46,7 +46,7 @@ const Upcoming = ({ size }) => {
 					process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_EMAIL
 				}/events?key=${
 					process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_API_KEY
-				}&singleEvents=true&orderBy=starttime&timeMin=${new Date().toISOString()}&maxResults=${size}`
+				}&singleEvents=true&orderBy=starttime&timeMin=${new Date().toISOString()}&maxResults=${size}`,
 			)
 			.then(response => {
 				const calendarEvents = response.data.items.filter(a => {
@@ -116,7 +116,7 @@ const Upcoming = ({ size }) => {
 								end={event.end}
 								description={event.description.replace(
 									event.description.split(" ")[0],
-									""
+									"",
 								)}
 							/>
 						</Col>
