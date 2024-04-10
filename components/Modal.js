@@ -19,7 +19,7 @@ const Modal = ({ event, setState }) => {
 		{
 			hour: "2-digit",
 			minute: "2-digit",
-		}
+		},
 	);
 	const endTime = new Date(event.end).toLocaleTimeString(navigator.language, {
 		hour: "2-digit",
@@ -47,26 +47,26 @@ const Modal = ({ event, setState }) => {
 						new Date(event.start).toLocaleDateString(),
 						`${startTime} - ${endTime}`,
 						event.location,
-				  ].map((line, index) => (
+					].map((line, index) => (
 						<ListElement
 							key={index}
 							color={event.textColor}
 							innerText={line}
 						/>
-				  ))
+					))
 				: [
 						new Date(event.start).toLocaleDateString(),
 						`${startTime} - ${endTime}`,
 						<Link key={self} href={event.zoom} class='break-all'>
 							{event.zoom}
 						</Link>,
-				  ].map((line, index) => (
+					].map((line, index) => (
 						<ListElement
 							key={index}
 							color={event.textColor}
 							innerText={line}
 						/>
-				  ))}
+					))}
 			<div className='md:text-2xl text-lg p-2'>
 				{event.description.replace(event.description.split(" ")[0], "")}
 			</div>
