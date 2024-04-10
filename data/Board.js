@@ -1,7 +1,7 @@
 const Board = [
 	{
 		name: "Jonathan Trujillo",
-		position: "Co-President",
+		position: "President",
 		image: "jonathan2024.webp",
 		email: "jtruj056@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/jonathan-trujillo-854b00223/",
@@ -9,7 +9,7 @@ const Board = [
 	},
 	{
 		name: "Jerry Li",
-		position: "Co-President",
+		position: "Vice President",
 		image: "jerry2024.webp",
 		email: "jli793@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/jerryli2025/",
