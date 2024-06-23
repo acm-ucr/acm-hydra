@@ -97,6 +97,20 @@ const Organizations = [
 		discord: "",
 		img: "citrushack.webp",
 	},
+	{
+		name: "Bear Hack",
+		website: "https://www.bearhack.com/",
+		instagram: "https://www.instagram.com/bearhackucr/",
+		discord: "",
+		img: "bearhack.webp",
+	},
+	{
+		name: "Designverse",
+		website: "https://www.designverseucr.org/",
+		instagram: "https://www.instagram.com/designverseucr/",
+		discord: "",
+		img: "designverse.webp",
+	},
 ];
 
 export default Organizations;
