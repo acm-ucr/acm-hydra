@@ -8,7 +8,7 @@ const Inspire = () => {
 	return (
 		<div className='flex justify-content items-center flex-col mb-20'>
 			<p className='text-center flex justify-center font-lexend text-heading text-acm-black m-0 p-0'>
-				ACM @ UCR Projects
+				Featured ACM @ UCR Projects
 			</p>
 			<br />
 			<Row className='w-11/12'>
