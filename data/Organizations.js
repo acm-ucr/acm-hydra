@@ -78,7 +78,7 @@ const Organizations = [
 	},
 	{
 		name: "Cutie Hack",
-		website: "https://www.cutiehack.io/",
+		website: "https://www.cutiehack.com",
 		instagram: "https://www.instagram.com/cutiehack_ucr/?hl=en",
 		discord: "",
 		img: "cutiehack.webp",

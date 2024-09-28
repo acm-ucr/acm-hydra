@@ -80,6 +80,22 @@ const Board = [
 		linkedin: "https://www.linkedin.com/in/suryateja-duvvuri-22b377162/",
 		github: "https://github.com/SuryatejaDuvvuri",
 	},
+	{
+		name: "Taaha Sayed",
+		position: "Computing Director",
+		image: "taaha2024.webp",
+		email: "msaye007@ucr.edu",
+		linkedin: "https://linkedin.com/in/taaha-sayed",
+		github: "https://github.com/Taahh",
+	},
+	{
+		name: "Wasim Khan",
+		position: "Data Science Director",
+		image: "wasim2024.webp",
+		email: "wkhan010@ucr.edu",
+		linkedin: "https://www.linkedin.com/in/wasimkhan034/",
+		github: "https://github.com/WasimKhan034",
+	},
 ];
 
 export default Board;

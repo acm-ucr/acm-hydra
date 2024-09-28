@@ -1,55 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ACM Hydra
 
-## Our Setup
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+<br/>
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
-In the repository there are two main branches, `prod` and `dev`. The `prod` branch is where we push changes to the live website
-that are ready to be seen and utilized by people who visit it. However, because the website is live and can be viewed at anytime,
-a separate branch where we can work on and test these changes without disrupting the users experience is necessary.
-This separate branch is the `dev` branch and serves as our developmental playground. Put together, these two branches allow us
-to make effective changes and present our product, the website, as we envision it.
+## Figma
 
-## Getting Started
+[ACM Hydra Figma Design File](https://www.figma.com/design/wgXW6z9UXk2Rkh5Uve5Tp9/ACM-WEBSITE?node-id=0-1&t=VipkSDEEnHEbmbmN-1)
 
-Clone the repository so that there is a local version on your machine with the following command.
+## Node.js
 
-`git clone https://github.com/acm-ucr/acm-hydra.git`
+The ACM Hydra Official Website runs on Node.js Version 16.17.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
-Once installed, run `npm i` to install all nessecary dependencies for the project.
+## Next.js
 
-Next, install the following plug ins.
+This project is built using [Next.js](https://nextjs.org), a React framework. Next.js is automatically installed when you install all dependencies for this project.
 
--   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - [Documentation](https://prettier.io/docs/en/index.html)
--   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - [Documentation](https://eslint.org/docs/latest/)
--   [Tailwind CSS](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - [Documentation](https://tailwindcss.com/docs/installation)
+## Environment Variables
 
-When combined, these two extensions ensure that all code conforms to the style being used in other files while also making debugging and error catching easier.
+The following environment variables are required and must be stored in an `.env` file:
 
-## Development Commands
+```env
+N/A
+```
 
-Use the following command to format code with Prettier.
+## Commands
 
-`npm run format`
+### Dependencies
 
-To check if a file has already been formatted, enter the following.
+```bash
+# Install dependencies
+npm i
 
-`npm run check`
+# Add dependency
+npm i <dependency>
 
-These two commands replace `npx prettier --write .` and `npx prettier --check .` through the use of scripts in the `package.json` file.
-Similar shortcuts can be found for different commands besides Prettier commands in this file.
+# Remove dependency
+npm un <dependency>
+```
 
-The following command runs ESLint.
+### Running the Website Locally
 
-`npm run eslint`
+```bash
+# Open a browser at localhost:3000
+npm run dev
+```
 
-As with Prettier, this and all later commands are shortcuts whose original commands can be found in the `package.json` file.
+### Formatting Code via Prettier
 
-For building and exporting, use the following commands.
+```bash
+# Rewrite code recursively with proper formatting
+npm run format
 
-`npm run build` and `npm run export`
+# Show formatting differences recursively
+npm run check
+```
 
-Because the website is made up of multiple JS and CSS files, having to load each page on the site and their respective files
-each time a user wants to visit them would be very impractical. To circumvent this, we use the build command to make the site run more efficiently
-by combining all JS and CSS files into one JS file and one CSS file, reducing the number of files that need loading to two.
+### Linting Code via Eslint
 
-The export command lets us export the pages in the website to static HTML files. We do this as the website is currently being
-hosted on UCR servers, and in order to follow security guidelines given to us by the university, the website must be static and not dynamic.
+```bash
+npm run eslint
+```
+
+### Build the Website
+
+```bash
+npm run build
+```
