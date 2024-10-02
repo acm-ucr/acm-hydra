@@ -37,7 +37,7 @@ const Board = [
 		image: "allison2024.webp",
 		email: "apham213@ucr.edu",
 		linkedin: "https://www.linkedin.com/in/imallison/",
-		github: "https://github.com/imallison",
+		github: "https://github.com/allison-pham",
 	},
 	{
 		name: "Isabelle Celo",
