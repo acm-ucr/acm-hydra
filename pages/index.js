@@ -6,7 +6,7 @@ import Upcoming from "../components/Upcoming";
 import Learn from "../components/Learn";
 import Inspire from "../components/Inspire";
 import Head from "next/head";
-
+import Opportunities from "../components/Opportunities";
 const IndexPage = () => {
 	return (
 		<div className='overflow-y-auto overflow-x-auto'>
@@ -22,6 +22,7 @@ const IndexPage = () => {
 				<section>
 					<Introduction />
 					<Stats />
+					<Opportunities />
 					<Upcoming size={3} />
 					<Learn />
 					<Inspire />
