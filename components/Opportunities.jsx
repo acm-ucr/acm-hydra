@@ -25,6 +25,15 @@ const Opportunities = () => {
 					</div>
 				</Link>
 			</div>
+			<Link
+				href='https://tinyurl.com/acmforgewinter25'
+				className='no-underline pt-4'
+				target='_blank'
+			>
+				<div className='bg-gradient-to-br from-acm-green to-acm-blue hover:opacity-85 text-acm-white text-[4vw] md:text-[2vw] px-8 py-4 rounded-xl shadow-xl text-center font-bold'>
+					ACM Forge Winter&apos;25 Application
+				</div>
+			</Link>
 		</div>
 	);
 };
