@@ -12,7 +12,7 @@ const Opportunities = () => {
 					target='_blank'
 				>
 					<div className='bg-gradient-to-br from-acm-lightblue to-acm-lightpurple hover:opacity-85 text-acm-white text-[4vw] md:text-[2vw] px-8 py-4 rounded-xl shadow-xl text-center font-bold'>
-						ACM Ignite Winter&apos;25 Application
+						ACM Spark Winter&apos;25 Application
 					</div>
 				</Link>
 				<Link
