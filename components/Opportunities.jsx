@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 const Opportunities = () => {
 	return (
 		<div className='flex flex-col justify-center items-center pb-[5vh]'>
