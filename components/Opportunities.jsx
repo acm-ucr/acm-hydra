@@ -7,7 +7,7 @@ const Opportunities = () => {
 			</p>
 			<div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
 				<Link
-					href='https://tinyurl.com/acmignitespring25'
+					href='https://tinyurl.com/acmsparkspring25'
 					className='no-underline'
 					target='_blank'
 				>
